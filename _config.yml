@@ -35,7 +35,13 @@ plugins:
 auto: false
 server: false
 lsi: false
-pygments: true
+safe: true
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 permalink: /:title
 paginate: 15
 category_dir: topics
