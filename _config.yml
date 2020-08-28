@@ -23,7 +23,7 @@ email: automationhacks@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Musings about testing, automation and coding
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://automationhacks.io" 
 twitter_username: automationhacks
 github_username: automationhacks
 
@@ -31,6 +31,7 @@ github_username: automationhacks
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 auto: false
 server: false
@@ -42,7 +43,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-permalink: /:title
+permalink: /:year/:month/:day/:title/
 paginate: 15
 category_dir: topics
 category_title_prefix:
