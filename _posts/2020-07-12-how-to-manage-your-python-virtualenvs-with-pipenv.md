@@ -3,9 +3,10 @@ id: 669
 title: How to manage your python virtualenvs with Pipenv
 date: 2020-07-12T02:33:53+00:00
 author: Gaurav
-excerpt: 'Working with virtualenvs in python can be a bit tricky initially, Luckily we have pipenv now, which makes it quite easy to create, edit, delete and manage your virtualenv and dependencies. '
+excerpt:
+  "Working with virtualenvs in python can be a bit tricky initially, Luckily we have pipenv now,
+  which makes it quite easy to create, edit, delete and manage your virtualenv and dependencies. "
 layout: post
-guid: http://automationhacks.blog/?p=669
 permalink: /2020/07/12/how-to-manage-your-python-virtualenvs-with-pipenv/
 jabber_published:
   - "1594521234"
@@ -17,40 +18,46 @@ email_notification:
   - "1594521238"
 timeline_notification:
   - "1594521239"
-image: /wp-content/uploads/2020/07/python_plus_pipenv.png
+image: /assets/images/wp-content/uploads/2020/07/python_plus_pipenv.png
 categories:
   - Programming
   - Python
   - Tools and tricks
 ---
-<figure class="wp-block-image size-large"><img loading="lazy" width="750" height="346" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/07/python_plus_pipenv-1.png?resize=750%2C346&#038;ssl=1" alt="" class="wp-image-918" data-recalc-dims="1" /><figcaption>Attribution: [Python logo](https://www.python.org/community/logos/) and [pipenv logo](https://pipenv-fork.readthedocs.io/en/latest/#)</figcaption></figure> 
 
-If you are already aware of what **<a rel="noopener" href="https://virtualenv.pypa.io/en/stable/" target="_blank">virtualenv</a>**, **[virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)** and **<a rel="noopener" href="https://pip.pypa.io/en/stable/" target="_blank">pip</a>** is in the python ecosystem and have also heard or used **<a rel="noopener" href="https://realpython.com/pipenv-guide/" target="_blank">pipenv</a>** and are just grepping for the commands to use to quickly set up and run an environment, then just refer to below:
+![Python and pipenv](/assets/images/wp-content/uploads/2020/07/python_plus_pipenv-1.png)
 
-**TL;DR 😉**
+Attribution: [Python logo](https://www.python.org/community/logos/) and
+[pipenv logo](https://pipenv-fork.readthedocs.io/en/latest/#)
 
-<figure class="wp-block-embed is-type-rich">
+If you are already aware of what [virtualenv](https://virtualenv.pypa.io/en/stable/),
+[virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) and
+[pip](https://pip.pypa.io/en/stable/) is in the python ecosystem and have also heard or used
+[pipenv](https://realpython.com/pipenv-guide/) and are just grepping for the commands to use to
+quickly set up and run an environment, then just refer to below:
 
-<div class="wp-block-embed__wrapper">
-  <div class="gist-oembed" data-gist="bd22377389d2c30077502c7af54bac8d.json" data-ts="8">
-  </div>
-</div><figcaption>How to create a virtualenv with pipenv</figcaption></figure> 
+### TL;DR 😉
 
-If you thinking something along the lines of 
+{% gist bd22377389d2c30077502c7af54bac8d %}
 
-<blockquote class="wp-block-quote">
-  <p>
-    I am aware of how to use <strong>requirements.txt </strong>file in python and have used virtualenvs previously, it works fine for my needs, frankly what is this pipenv module and why should I care? 🤷🏻‍♂️
-  </p>
-</blockquote>
+How to create a virtualenv with pipenv
+
+If you thinking something along the lines of
+
+> I am aware of how to use **requirements.txt** file in python and have used virtualenvs previously,
+> it works fine for my needs, frankly what is this pipenv module and why should I care? 🤷🏻‍♂️
 
 Then do read on further for a bit of a long winding story 🍷
 
 ## First, A bit of context 🤓
 
-In python, the packaging story has had lots of options. Just take a look <a rel="noopener" href="https://packaging.python.org/guides/tool-recommendations/" target="_blank">here</a> if you want to understand what all options are available.
+In python, the packaging story has had lots of options. Just take a look
+<a rel="noopener" href="https://packaging.python.org/guides/tool-recommendations/" target="_blank">here</a>
+if you want to understand what all options are available.
 
-A tried and tested approach to quickly create a reproducible env for you app has been to use **virtualenv **module and install all the modules required using **pip **and then capture them with pinned dependencies versions using **requirements.txt**
+A tried and tested approach to quickly create a reproducible env for you app has been to use
+**virtualenv **module and install all the modules required using **pip **and then capture them with
+pinned dependencies versions using **requirements.txt**
 
 Below is a sample requirements.txt file with pinned dependencies
 
@@ -60,19 +67,24 @@ idna==2.10
 requests==2.24.0
 urllib3==1.25.9</pre>
 
-### Why do we need virtualenvs? Can&#8217;t I just install the modules on my base python installation?
+### Why do we need virtualenvs? Can't I just install the modules on my base python installation?
 
 This is a beginner question which every person new to Python and its ecosystem asks.
 
-Well, The short answer is you can absolutely do that. However it&#8217;s not the recommended option. 
+Well, The short answer is you can absolutely do that. However it's not the recommended option.
 
 Why? You might ask, Let me give you an example.
 
-Let&#8217;s say I use **Python 3.8** for my personal projects and want to use `requests` module version of 1.2.0.
+Let's say I use **Python 3.8** for my personal projects and want to use `requests` module version of
+1.2.0.
 
-But at work, we as a team have still have not shifted to the latest version and are using **Python 3.5 **with another version of `requests = 1.0.2` (example)
+But at work, we as a team have still have not shifted to the latest version and are using **Python
+3.5 ** with another version of `requests = 1.0.2` (example)
 
-Supporting this workflow is possible by creating two different **virtualenvs** with different python versions and I can quickly activate the required environment for use. It&#8217;s also quite trivial to destroy this environment and rebuild it again in case the environment is polluted or some dependency is breaking your app.
+Supporting this workflow is possible by creating two different **virtualenvs** with different python
+versions and I can quickly activate the required environment for use. It's also quite trivial to
+destroy this environment and rebuild it again in case the environment is polluted or some dependency
+is breaking your app.
 
 <blockquote class="wp-block-quote is-style-large">
   <p>
@@ -80,7 +92,13 @@ Supporting this workflow is possible by creating two different **virtualenvs** w
   </p>
 </blockquote>
 
-Also, There are already <a rel="noopener" href="https://virtualenv.pypa.io/en/stable/#useful-links" target="_blank">abstractions built over </a>**<a rel="noopener" href="https://virtualenv.pypa.io/en/stable/#useful-links" target="_blank">virtualenv</a>&nbsp;**such as **virtualenvwrapper&nbsp;**and **tox&nbsp;**that make it a bit more convenient to use the&nbsp;**venv&nbsp;**(module for virtualenv). Diving into how they work is probably a story for another time. 🤔
+Also, There are already
+<a rel="noopener" href="https://virtualenv.pypa.io/en/stable/#useful-links" target="_blank">abstractions
+built over
+</a>**<a rel="noopener" href="https://virtualenv.pypa.io/en/stable/#useful-links" target="_blank">virtualenv</a>&nbsp;**such
+as **virtualenvwrapper&nbsp;**and **tox&nbsp;**that make it a bit more convenient to use
+the&nbsp;**venv&nbsp;**(module for virtualenv). Diving into how they work is probably a story for
+another time. 🤔
 
 ## A new hope ☀️
 
@@ -88,9 +106,15 @@ Also, There are already <a rel="noopener" href="https://virtualenv.pypa.io/en/st
   <strong>Pipenv</strong> is the new solution to this packaging story and it wraps over pip, virtualenv and provides a lot of virtualenvwrapper like capabilities while makes it super convenient to set up dependencies for your project.
 </p>
 
-It is written by <a rel="noopener" href="https://github.com/kennethreitz" target="_blank">Kenneth Reitz</a> of **requests** module fame and is actively maintained by the python community. This tool has very quickly risen to become the recommended tool for Application dependency management by python. This is higher level tool than pip and can make it very easy for multiple contributors to work/manage dependencies in a large project
+It is written by <a rel="noopener" href="https://github.com/kennethreitz" target="_blank">Kenneth
+Reitz</a> of **requests** module fame and is actively maintained by the python community. This tool
+has very quickly risen to become the recommended tool for Application dependency management by
+python. This is higher level tool than pip and can make it very easy for multiple contributors to
+work/manage dependencies in a large project
 
-Let&#8217;s see how to install, setup and create a virtualenv for a project all via pipenv. We would use terminal commands and see how to work with pipenv. However if you are using an editor like Pycharm, we will also see how to set it up there.
+Let's see how to install, setup and create a virtualenv for a project all via pipenv. We would use
+terminal commands and see how to work with pipenv. However if you are using an editor like Pycharm,
+we will also see how to set it up there.
 
 ## Installation 🖥
 
@@ -98,15 +122,18 @@ To install pipenv, you can use homebrew on mac/linux
 
 <pre class="wp-block-syntaxhighlighter-code">brew install pipenv</pre>
 
-Or, Alternatively, You can also use pip directly with a [user installation](https://pip.pypa.io/en/stable/user_guide/#user-installs) to install pipenv
+Or, Alternatively, You can also use pip directly with a
+[user installation](https://pip.pypa.io/en/stable/user_guide/#user-installs) to install pipenv
 
 <pre class="wp-block-syntaxhighlighter-code">pip install --user pipenv</pre>
 
 ## Pre-requisites
 
-If you work with multiple python projects on your machine, it is a good practice to store the virtualenvs in a central directory which you can easily refer to later on.
+If you work with multiple python projects on your machine, it is a good practice to store the
+virtualenvs in a central directory which you can easily refer to later on.
 
-To enable that, we need to add an environment variable `WORKON_HOME` in a shell configuration file of your choice (`.zshrc`, or `.bash_profile`)
+To enable that, we need to add an environment variable `WORKON_HOME` in a shell configuration file
+of your choice (`.zshrc`, or `.bash_profile`)
 
 <blockquote class="wp-block-quote">
   <p>
@@ -126,7 +153,9 @@ Go to the project for which you want to create a virtualenv for, and then execut
 <pre class="wp-block-syntaxhighlighter-code">cd test_project
 pipenv --three </pre>
 
-Executing the above command would give an output like below, notice it **creates a virtualenv** in `<strong>WORKON_HOME</strong>` directory with the name of the project followed by a string. (`test_project-UdkZ3s0t`)
+Executing the above command would give an output like below, notice it **creates a virtualenv** in
+`<strong>WORKON_HOME</strong>` directory with the name of the project followed by a string.
+(`test_project-UdkZ3s0t`)
 
 <pre class="wp-block-syntaxhighlighter-code">Creating a virtualenv for this project…
 Pipfile: /Users/gaurav/test_project/Pipfile
@@ -144,7 +173,9 @@ Virtualenv location: /Users/gaurav/virtualenvs/test_project-UdkZ3s0t</pre>
 
 To open a shell with the already created virtualenv
 
-<pre class="wp-block-syntaxhighlighter-code">pipenv shell</pre>
+```zsh
+pipenv shell
+```
 
 You would see something like below:
 
@@ -153,17 +184,19 @@ You would see something like below:
 ➜  test_project  . /Users/gaurav/virtualenvs/test_project-UdkZ3s0t/bin/activate
 (test_project) ➜  test_project</pre>
 
-Notice that pipenv is invoking `<strong>/bin/activate</strong>` inside our created virtualenv just as you manually would if you were not using a higher level tool like `virtualenvwrapper`
+Notice that pipenv is invoking `<strong>/bin/activate</strong>` inside our created virtualenv just
+as you manually would if you were not using a higher level tool like `virtualenvwrapper`
 
 ## Installing package
 
-To install any module in this newly created environment, type the module name from [PyPi](https://pypi.org/). 
+To install any module in this newly created environment, type the module name from
+[PyPi](https://pypi.org/).
 
 Below, we are installing `requests` module
 
 <pre class="wp-block-code"><code>pipenv install requests</code></pre>
 
-The above command outputs below. 
+The above command outputs below.
 
 <pre class="wp-block-syntaxhighlighter-code">Installing requests…
 Adding requests to Pipfile's [packages]…
@@ -180,13 +213,14 @@ Installing dependencies from Pipfile.lock (fbd99e)…
 
 Couple of things to note:
 
-  1. **pipenv** creates a `Pipfile.lock` file (if it does not exist already)
-  2. Once the module is installed it updates `Pipfile.lock` file
-  3. Finally using the lock file it installs the dependencies
+1. **pipenv** creates a `Pipfile.lock` file (if it does not exist already)
+2. Once the module is installed it updates `Pipfile.lock` file
+3. Finally using the lock file it installs the dependencies
 
 ## The Pipfile
 
-Pipenv creates a `Pipfile` to keep all the required information about your dependencies. Let&#8217;s inspect it&#8217;s contents
+Pipenv creates a `Pipfile` to keep all the required information about your dependencies. Let's
+inspect it's contents
 
 <pre class="wp-block-syntaxhighlighter-code">[[source]]
 name = "pypi"
@@ -201,9 +235,13 @@ requests = "*"
 [requires]
 python_version = "3.8"</pre>
 
-Pipfile mentions the version of python required by this project under `[requires]` and has also specified `requests = "*"` under `[packages]`, notice, the `*` wildcard means we don&#8217;t care about a specific version of `requests` as long as the latest version is installed. 
+Pipfile mentions the version of python required by this project under `[requires]` and has also
+specified `requests = "*"` under `[packages]`, notice, the `*` wildcard means we don't care about a
+specific version of `requests` as long as the latest version is installed.
 
-This is different from pinning the dependency to a specific version like: `requests = 2.24.0` and offers more flexibility since pipenv would figure out the dependency graph and ensure that all the required dependencies of `requests` module are automatically updated.
+This is different from pinning the dependency to a specific version like: `requests = 2.24.0` and
+offers more flexibility since pipenv would figure out the dependency graph and ensure that all the
+required dependencies of `requests` module are automatically updated.
 
 <blockquote class="wp-block-quote is-style-large">
   <p>
@@ -213,13 +251,17 @@ This is different from pinning the dependency to a specific version like: `reque
 
 ## Pipfile.lock
 
-In addition to Pipfile, pipenv creates a `Pipfile.lock` as well which has finer level details about the specific version of packages that are installed in the virtualenv. 
+In addition to Pipfile, pipenv creates a `Pipfile.lock` as well which has finer level details about
+the specific version of packages that are installed in the virtualenv.
 
-Notice, any changes made manually to this can be overwritten if you update pipfile (with some new package) and then run `pipenv update`
+Notice, any changes made manually to this can be overwritten if you update pipfile (with some new
+package) and then run `pipenv update`
 
-If you check the content of `Pipfile.lock`, you can notice that it maintains the version of the module and its **direct**, **transitive dependencies**, This ensures pipenv is able to reproduce the exact runtime environment every time
+If you check the content of `Pipfile.lock`, you can notice that it maintains the version of the
+module and its **direct**, **transitive dependencies**, This ensures pipenv is able to reproduce the
+exact runtime environment every time
 
-<pre class="wp-block-syntaxhighlighter-code">{
+```json
     "_meta": {
         "hash": {
             "sha256": "acbc8c4e7f2f98f1059b2a93d581ef43f4aa0c9741e64e6253adff8e35fbd99e"
@@ -256,11 +298,12 @@ If you check the content of `Pipfile.lock`, you can notice that it maintains the
         }
     },
     "develop": {}
-}</pre>
+```
 
 ## Compatibility with requirements.txt
 
-If you use `requirements.txt` file extensively with your project. You can easily generate a file using pipenv.
+If you use `requirements.txt` file extensively with your project. You can easily generate a file
+using pipenv.
 
 <pre class="wp-block-syntaxhighlighter-code">pipenv lock -r &gt; requirements.txt</pre>
 
@@ -283,32 +326,39 @@ Pycharm provides a convenient way to use/and create a pipenv
 
 ### Select an env
 
-  1. Open settings
-  2. Go to project interpreter 
-  3. If you have a pipenv that you want to share across multiple projects then select it from the drop down
-  4. Else, Tap on the `...` button on top right and click on **Add new**<figure class="wp-block-image size-large">
+1. Open settings
+2. Go to project interpreter
+3. If you have a pipenv that you want to share across multiple projects then select it from the drop
+   down
+4. Else, Tap on the `...` button on top right and click on **Add new**
 
-<img loading="lazy" width="750" height="536" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/07/pycharm_project_interpretor.png?resize=750%2C536&#038;ssl=1" alt="" class="wp-image-930" data-recalc-dims="1" /> </figure> 
+![Pycharm project interpretor](/assets/images/wp-content/uploads/2020/07/pycharm_project_interpretor.png)
 
 ### Create a pipenv
 
-If you want to create a fresh env then click on Pipenv environment and select the base interpreter as the desired version to use.<figure class="wp-block-image size-large">
+If you want to create a fresh env then click on Pipenv environment and select the base interpreter
+as the desired version to use.
 
-<img loading="lazy" width="750" height="539" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/07/create_pipenv.png?resize=750%2C539&#038;ssl=1" alt="" class="wp-image-931" data-recalc-dims="1" /> </figure> 
+![Create pipenv](/assets/images/wp-content/uploads/2020/07/create_pipenv.png)
 
 ### Select an existing env
 
-Alternatively, If you have already created a **pipenv** via command line, then you can select it by clicking on **Virtualenv environment** and under **Existing environment**, navigating till the path where your virtualenv resides and select `/bin/python`<figure class="wp-block-image size-large">
+Alternatively, If you have already created a **pipenv** via command line, then you can select it by
+clicking on **Virtualenv environment** and under **Existing environment**, navigating till the path
+where your virtualenv resides and select `/bin/python`
 
-<img loading="lazy" width="750" height="502" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/07/select_existing_virtualenv.png?resize=750%2C502&#038;ssl=1" alt="" class="wp-image-932" data-recalc-dims="1" /> </figure> 
+![Select existing virtualenv](/assets/images/wp-content/uploads/2020/07/select_existing_virtualenv.png)
 
 ## Conclusion
 
-Pipenv is a **really** powerful tool that makes working with virtualenvs and dependencies a breeze. If you have not yet tried it out, I would highly recommend you to check it out. 
+Pipenv is a **really** powerful tool that makes working with virtualenvs and dependencies a breeze.
+If you have not yet tried it out, I would highly recommend you to check it out.
 
-If you found this post useful, Do share it with a friend or colleague. Until next time. Happy coding. 
+If you found this post useful, Do share it with a friend or colleague. Until next time. Happy
+coding.
 
 ## Further References
 
-  * [Managing application dependencies](https://packaging.python.org/tutorials/managing-dependencies/) on python.org
-  * [Pipenv docs](https://pipenv.pypa.io/en/latest/)
+- [Managing application dependencies](https://packaging.python.org/tutorials/managing-dependencies/)
+  on python.org
+- [Pipenv docs](https://pipenv.pypa.io/en/latest/)

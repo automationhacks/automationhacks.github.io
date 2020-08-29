@@ -8,7 +8,6 @@ excerpt:
   engineering stakeholders. We discuss on what makes a good bug report and I also provide a template
   that I use. "
 layout: post
-guid: http://automationhacks.blog/?p=957
 permalink: /2020/07/25/writing-clear-bug-reports/
 jabber_published:
   - "1595689433"
@@ -21,7 +20,7 @@ categories:
   - Testing theory
 ---
 
-![Created by Katerina Limpitsouni on unDraw.io](/assets/images/wp_content/uploads/2020/07/undraw_bug_fixing_oc7a.png)
+![Created by Katerina Limpitsouni on unDraw.io](/assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png)
 
 Title art created by Katerina Limpitsouni on unDraw.io
 
@@ -46,7 +45,7 @@ If you see most of the bugs logged in a system, they are often written in a hurr
 attention to the details, In most cases probably with a **one liner title**
 
 This can lead to a lot of frustration for the person who looks at it next because they don't know
-some of the important details and then have to put their **sherlock holmes** hat and search for
+some of the important details and then have to put their **Sherlock Holmes** hat and search for
 answers and this often a lot of back and forth between Dev/Test/PM to figure out the area where the
 issue is present
 
@@ -65,7 +64,7 @@ consumer/business facing app for web/mobile/backend system are mostly along the 
 - **Screenshot** with a **marked up area** which is buggy?
 - **Video** showing the steps to arrive at the bug?
 - Application/Server logs?
-- Any specific feature toggle/configuration that was in play when the bug occured?
+- Any specific feature toggle/configuration that was in play when the bug occurred?
 
 and many more depending on the context
 
