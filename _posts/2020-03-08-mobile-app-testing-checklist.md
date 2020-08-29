@@ -22,13 +22,13 @@ categories:
 ---
 A checklist of things to test on a mobile app
 
-A tester&#8217;s mind is typically filled with lots of heuristics developed over years of learning and interacting with different applications and situations.
+A tester's mind is typically filled with lots of heuristics developed over years of learning and interacting with different applications and situations.
 
 Developing an understanding of what breaks the flow of an application, what mistakes Developers/PMs/Designers typically make takes time and in many cases learning things hard way.
 
 During the past couple of years, I have been heavily involved in testing mobile apps on Android and IOS for my current employer Gojek and during this time have developed a keen sense of what are some of the areas where bugs lie in mobile apps.
 
-Wouldn&#8217;t it be nice if we have a checklist to go through to **serve as a lens** with which we can inspect the app from different angles to evaluate if it indeed does its job and does it well?
+Wouldn't it be nice if we have a checklist to go through to **serve as a lens** with which we can inspect the app from different angles to evaluate if it indeed does its job and does it well?
 
 I got inspired to come up with this checklist after reading a <a href="https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality" target="_blank" rel="noopener">blog post on the ministry of testing dojo site by the wonderful Lena Pejgan Wiberg,</a> Would highly recommend reading this if you want to improve your testing skills on web pages.
 

@@ -29,7 +29,7 @@ Hello there,
 
 As an engineer working in tech, one of the most important habits to develop over time is your knowledge base. With each passing month, your skills would improve and you would constantly learn new technologies or frameworks. 
 
-It&#8217;s important to commit the important ones to some permanent store which is easily searchable, and can act as a easy point of reference for you in the future.
+It's important to commit the important ones to some permanent store which is easily searchable, and can act as a easy point of reference for you in the future.
 
 ## Existing note taking apps
 
@@ -58,9 +58,9 @@ There are many advantages of using markdown for your note taking requirements.
 
   1. Your **data is future proof**: Plain text has been around since decades and would probably continue to be so regardless of how many tools arrive.
   2. It is **machine readable and is truly cross platform**. Notes written are accurately formatted and represented in the same way across all your different platforms
-  3. **Writing in plain text takes away all the distractions** and let&#8217;s you focus on the core activity of writing, no unnecessary time is wasted on trivial formatting gimmicks and templates.
+  3. **Writing in plain text takes away all the distractions** and let's you focus on the core activity of writing, no unnecessary time is wasted on trivial formatting gimmicks and templates.
   4. The note **can be easily published on the web as HTML or to a PDF** if it needs to be shared with others. 
-  5. Using a cloud storage provider like Dropbox or Google Drive, you can easily sync your notes across different devices and that&#8217;s pretty much all you need. There is no need to spend on extra subscriptions etc. You own your data.
+  5. Using a cloud storage provider like Dropbox or Google Drive, you can easily sync your notes across different devices and that's pretty much all you need. There is no need to spend on extra subscriptions etc. You own your data.
 
 ## The workflow:
 
@@ -68,27 +68,27 @@ So how does my workflow look like after switching to plain text note taking?<fig
 
 <img loading="lazy" width="750" height="357" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image.png?resize=750%2C357&#038;ssl=1" alt="" class="wp-image-330" data-recalc-dims="1" /> <figcaption>Snapshot of my notes structure. Opened in VSCode with markdown preview on the side.</figcaption></figure> 
 
-It&#8217;s quite simple really.
+It's quite simple really.
 
 ### Markdown files in well organized folder structures inside a Git repo
 
-  * I have a private GitHub repo which is synced to my notes dir where I have the notes arranged as different folders and subfolders of relevant categories. **Why git?** Well, it helps me have a reference of when certain changes were made in the form of well defined commit messages and I always have the ability to go back to a change in case that&#8217;s needed.
+  * I have a private GitHub repo which is synced to my notes dir where I have the notes arranged as different folders and subfolders of relevant categories. **Why git?** Well, it helps me have a reference of when certain changes were made in the form of well defined commit messages and I always have the ability to go back to a change in case that's needed.
 
 ### Edit files in VS Code (PC)/Jotterpad (android). Synced with Dropbox
 
   * [VSCode](https://code.visualstudio.com/) is a amazing cross platform editor from microsoft and has a good level of inbuilt markdown support and also a preview option to see how your changes look like. It has a **markdown lint inbuilt** that ensures you write correct markdown syntax. 
   * Markdown code formatted blocks are amazing to store code snippets in.
-  * Additionally these notes are synced with Dropbox and the remote GitHub repo, this means, I always have a way of getting at my notes via either web in case i don&#8217;t have a personal laptop handy
-  * In case, I need to make edits to certain files on a mobile device, all that&#8217;s needed is an app which has the option to sync with the cloud storage of your choice. I have recently started using Jotterpad and it works quite well for my needs.
+  * Additionally these notes are synced with Dropbox and the remote GitHub repo, this means, I always have a way of getting at my notes via either web in case i don't have a personal laptop handy
+  * In case, I need to make edits to certain files on a mobile device, all that's needed is an app which has the option to sync with the cloud storage of your choice. I have recently started using Jotterpad and it works quite well for my needs.
 
 ### First class search experience
 
-  * Searching for some file is as simple as opening the folder in VS code and doing a file search based on some keyword or use `find` or equivalent command on the terminal. It&#8217;s blazing fast with zero latency.
-  * If needed, I can always make use of GitHub or cloud storage&#8217;s search capabilities as well.
+  * Searching for some file is as simple as opening the folder in VS code and doing a file search based on some keyword or use `find` or equivalent command on the terminal. It's blazing fast with zero latency.
+  * If needed, I can always make use of GitHub or cloud storage's search capabilities as well.
 
 In conclusion, If you are facing similar issues with your current note taking apps, You might want to consider taking the plunge into the world of plain text note taking.
 
-I&#8217;m sure you will not regret it. The freedom, speed and flexibility is amazing and more than makes up for the lack of fancy features. It&#8217;s a bit of work initially but has amazing payoffs.
+I'm sure you will not regret it. The freedom, speed and flexibility is amazing and more than makes up for the lack of fancy features. It's a bit of work initially but has amazing payoffs.
 
 Are you convinced? 
 

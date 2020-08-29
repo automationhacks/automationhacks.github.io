@@ -56,14 +56,14 @@ People with all these different titles essentially do **similar** activities on 
 
 Yes, the scope or nature of work changes a bit based on how experienced you are and the project and team requirements. But they are roughly in the same ballpark.
 
-There are some titles that add gravitas to a person based on their experience level and the organization&#8217;s hierarchy but for the sake of arguments lets just divide them into two broad roles.
+There are some titles that add gravitas to a person based on their experience level and the organization's hierarchy but for the sake of arguments lets just divide them into two broad roles.
 
   * Engineers (Gets work done)
   * Managers (Supports engineers careers and helps break any roadblocks)
 
 <blockquote class="wp-block-quote">
   <p>
-    Titles don&#8217;t matter &#8211; Alan page
+    Titles don't matter &#8211; Alan page
   </p>
 </blockquote>
 
@@ -73,7 +73,7 @@ If you are a person who is chasing after the next suffix or prefix in your title
 
 If you are someone who is looking for a testing role in any organization. Go ahead and apply to any of these titles (if you have the **relevant experience and skills**) and do not pay much attention to the innumerable no of suffixes and prefixes that come with it. Chances are this title confusion is present even in the organization with everyone having a different understanding of the terms based on their current or past thought models.
 
-You&#8217;re on the ground role would be dynamic and as per team/project/company requirements and would _anyways_ change as the company evolves.
+You're on the ground role would be dynamic and as per team/project/company requirements and would _anyways_ change as the company evolves.
 
 ## What does a tester really do?
 
@@ -103,7 +103,7 @@ Broadly a person with tester role does the following.
   * **Risk analysis and Data** &#8211; Assesses risk, Uses data and telemetry to assess: 
       * if the product is _built as per spec_?
       * but more importantly, _are we building the right product for our users?_ 
-  * **User advocate &#8211; **Tester **tries** to think like a user, Thinks of user journey flows,  Questions the product on whether it does meet the user&#8217;s need.
+  * **User advocate &#8211; **Tester **tries** to think like a user, Thinks of user journey flows,  Questions the product on whether it does meet the user's need.
   * **Coaching and Mentoring** &#8211; Coaches the team (Dev/PM and other testers) on testing practices/mindset, Whole team quality, Encourages retrospection to improve the team over time.
   * **Planning/Strategy &#8211; **Figures out the appropriate test strategy and the correct tools and ensures it happens (by any team member (Dev/PM/Sales) regardless of roles)
   * **Coding** &#8211; Automates **essential** tests (when required), Writes and maintains frameworks, Reviews pull requests (Dev/Test automation) and suggests or make changes
@@ -111,9 +111,9 @@ Broadly a person with tester role does the following.
 
 ## Conclusion
 
-_Phew. That&#8217;s a lot for a single individual to accomplish in a given timeline right?._ 
+_Phew. That's a lot for a single individual to accomplish in a given timeline right?._ 
 
-So naturally, we need people to specialize in a few of these areas while generalizing in others and that&#8217;s fine.
+So naturally, we need people to specialize in a few of these areas while generalizing in others and that's fine.
 
 Expecting a title to be the clean separation between these activities might not be the best idea. The lines are always going to be a bit blurry.
 

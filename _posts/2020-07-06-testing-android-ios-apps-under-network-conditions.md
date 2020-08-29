@@ -21,7 +21,7 @@ categories:
 ---
 <figure class="wp-block-image size-large"><img loading="lazy" width="750" height="500" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/07/leon-seibert-2m71l9fa6mg-unsplash.jpg?resize=750%2C500&#038;ssl=1" alt="" class="wp-image-856" data-recalc-dims="1" /><figcaption>Photo by [Leon Seibert](https://unsplash.com/@yapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/slow-internet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</figcaption></figure> 
 
-It&#8217;s 2020 and mobile phones are ubiquitous. Everyone has it and uses it constantly. Most of times as testers, we test our mobile apps in office Wifi conditions with a ideal high quality internet connections in terms of app performance.
+It's 2020 and mobile phones are ubiquitous. Everyone has it and uses it constantly. Most of times as testers, we test our mobile apps in office Wifi conditions with a ideal high quality internet connections in terms of app performance.
 
 However, we all know real life network is far from this ideal. We/our consumers mostly use our apps on the Go (travelling in a bus, sometimes even when walking) and the network conditions will rarely be the conditions that we test under.
 
@@ -29,9 +29,9 @@ In such cases, a carefully thought out and tailored UX can be the difference bet
 
 So hopefully, by now you must feel convinced that it is quite **important** to get _feedback about your apps quality under different network conditions_. 
 
-However, since we can&#8217;t really travel to different parts of the office/home/city in search of such pockets of bad network areas every time we want to test right?
+However, since we can't really travel to different parts of the office/home/city in search of such pockets of bad network areas every time we want to test right?
 
-Luckily both Apple/Google gives us ways to simulate these network conditions. Let&#8217;s take a look at how:
+Luckily both Apple/Google gives us ways to simulate these network conditions. Let's take a look at how:
 
 ## Simulate network conditions on IOS
 

@@ -16,7 +16,7 @@ categories:
   </p>
 </blockquote>
 
-Let&#8217;s take a simple code example as below:<figure class="wp-block-embed is-type-rich">
+Let's take a simple code example as below:<figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <div class="gist-oembed" data-gist="f82126b921e80519c9fb19d95f6556e7.json" data-ts="8">

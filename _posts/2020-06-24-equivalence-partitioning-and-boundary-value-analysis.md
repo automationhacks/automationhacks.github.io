@@ -35,7 +35,7 @@ Every budding tester should be aware of these. This is a first post in a series 
 
 Boundary value analysis and equivalence partitioning are test design techniques and often go hand in hand. They are applicable in a wide variety of different situations, most commonly used when you have to design test cases for an app or component that can have a large set of possible inputs.
 
-Let&#8217;s break it down and understand what they mean.
+Let's break it down and understand what they mean.
 
 ## An example
 
@@ -45,7 +45,7 @@ Think about this situation:
 
 What if you had to design test cases for a Text box which is used to enter a phone no.
 
-Let&#8217;s say you have following business rules to validate:
+Let's say you have following business rules to validate:
 
   * Phone nos must be between 10 to 13 digits
   * Phone nos must have positive integers (0 &#8211; 9)
@@ -54,7 +54,7 @@ How would you think about designing test cases for this field?
 
 <blockquote class="wp-block-quote">
   <p>
-    It&#8217;s often useful to think about <strong>&#8220;What if</strong> <strong>I do X or Y or Z</strong>, <strong>How should my app respond</strong>&#8221; and understand more about how the app work/should work and form a <strong>model</strong> in your mind that helps you explore and then later design cases.
+    It's often useful to think about <strong>&#8220;What if</strong> <strong>I do X or Y or Z</strong>, <strong>How should my app respond</strong>&#8221; and understand more about how the app work/should work and form a <strong>model</strong> in your mind that helps you explore and then later design cases.
   </p>
 </blockquote>
 
@@ -66,7 +66,7 @@ Here are some cases that we can think about:
   * What happens if we try a phone no less than 10 digit? Or more than 13 digits? Well, that should be invalid as per our said business rules. 
   * Can I enter negative nos? In some countries we have **spaces and hyphens** as valid delimiters for phone no.
   * Can I enter a string here? Again a violation of the business rules. 
-  * What if I don&#8217;t enter anything? 
+  * What if I don't enter anything? 
 
 Good, with those questions we have a good idea of some paths we can take to test this field. 
 

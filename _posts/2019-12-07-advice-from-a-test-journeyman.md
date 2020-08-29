@@ -105,13 +105,13 @@ The good news is you **do NOT need** to know everything, take it slow and start 
       </li>
       
       <li>
-        <strong>Write blogs</strong>, I&#8217;ve found that just the <strong>act of explaining something that I have learned to others</strong> makes it <strong>clearer</strong> to me since I am forced to think about it more deeply. You can follow more of what I write on <a href="https://automationhacks.blog/" target="_blank" rel="noopener">automation hacks</a> or cross-posts on <a href="https://medium.com/automation-hacks/archive" target="_blank" rel="noopener">medium</a> or <a href="https://dev.to/automationhacks">dev.to</a>
+        <strong>Write blogs</strong>, I've found that just the <strong>act of explaining something that I have learned to others</strong> makes it <strong>clearer</strong> to me since I am forced to think about it more deeply. You can follow more of what I write on <a href="https://automationhacks.blog/" target="_blank" rel="noopener">automation hacks</a> or cross-posts on <a href="https://medium.com/automation-hacks/archive" target="_blank" rel="noopener">medium</a> or <a href="https://dev.to/automationhacks">dev.to</a>
       </li>
       <li>
         <strong>Give tech talks</strong> at my workplace or <strong>attend conferences</strong>. Public speaking while sometimes being intimidating <strong>really really</strong> makes you understand the topic at a deeper level.
       </li>
       <li>
-        <strong>Read books, </strong>Reading exposes your mind to a variety of different approaches out there and really helps in discovering stuff that you don&#8217;t know and should understand well enough. The trick is to not limit yourself to just books on testing but generalize into an array of topics than aim to specialize. Here are a couple of reading lists that I am currently attempting to go through: <a href="https://blog.gojekengineering.com/the-go-jek-reading-list-1088712ccc14" target="_blank" rel="noopener">The Gojek essential reading list</a>, <a href="https://blog.codinghorror.com/recommended-reading-for-developers/" target="_blank" rel="noopener">Recommended reading for developers</a>
+        <strong>Read books, </strong>Reading exposes your mind to a variety of different approaches out there and really helps in discovering stuff that you don't know and should understand well enough. The trick is to not limit yourself to just books on testing but generalize into an array of topics than aim to specialize. Here are a couple of reading lists that I am currently attempting to go through: <a href="https://blog.gojekengineering.com/the-go-jek-reading-list-1088712ccc14" target="_blank" rel="noopener">The Gojek essential reading list</a>, <a href="https://blog.codinghorror.com/recommended-reading-for-developers/" target="_blank" rel="noopener">Recommended reading for developers</a>
       </li>
     </ul>
     
@@ -146,7 +146,7 @@ The good news is you **do NOT need** to know everything, take it slow and start 
     </p>
     
     <p>
-      However, a large chunk of our time goes into executing large volumes of tests/regressions. Running them manually all the time can quickly turn into an exercise in pain and nightmare killing many budding tester&#8217;s love for the craft.
+      However, a large chunk of our time goes into executing large volumes of tests/regressions. Running them manually all the time can quickly turn into an exercise in pain and nightmare killing many budding tester's love for the craft.
     </p>
     
     <p>
@@ -228,7 +228,7 @@ The good news is you **do NOT need** to know everything, take it slow and start 
         Convince devs/PM/Business of the value of test automation and building testability into the app right from the start
       </li>
       <li>
-        Getting involved in Feature discussions and identify gaps by bringing in the user&#8217;s perspective and communicate them back in a respectful manner
+        Getting involved in Feature discussions and identify gaps by bringing in the user's perspective and communicate them back in a respectful manner
       </li>
       <li>
         Be able to collaborate and pair in an empathetic and neutral way with devs when you tell them about the bugs that you just found in their code and negotiate for time to get priority fixes in sooner

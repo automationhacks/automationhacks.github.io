@@ -33,7 +33,7 @@ This is easy if you have access to the source code and friendly developers aroun
 
 Turns out its possible to get this info entirely using `adb`.
 
-Let&#8217;s see how.
+Let's see how.
 
 ## Ensure adb is set up and on path
 
@@ -69,7 +69,7 @@ While the above command gets you to name of the current activity, It might not b
 
 How can we work around this?
 
-We can use `adb` and `aapt` tools to figure this out. Let&#8217;s see how to do this.
+We can use `adb` and `aapt` tools to figure this out. Let's see how to do this.
 
 ### Get a list of installed packages and path to base apk
 

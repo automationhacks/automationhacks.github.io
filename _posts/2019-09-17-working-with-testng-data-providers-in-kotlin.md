@@ -38,7 +38,7 @@ When I switched to using Kotlin to write my tests in, I decided to use TestNG as
 
 ## A simple problem with data providers:
 
-Let&#8217;s assume that you want to write tests for a simple method `add()`in a `Calculator` class which takes 2 nos, adds them up and verifies the result is equal to an expected value.
+Let's assume that you want to write tests for a simple method `add()`in a `Calculator` class which takes 2 nos, adds them up and verifies the result is equal to an expected value.
 
 Below code represents the `Calculator` class.<figure class="wp-block-embed is-type-rich">
 
@@ -47,14 +47,14 @@ Below code represents the `Calculator` class.<figure class="wp-block-embed is-ty
   </div>
 </div></figure> 
 
-Let&#8217;s see a basic test for this class:<figure class="wp-block-embed is-type-rich">
+Let's see a basic test for this class:<figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <div class="gist-oembed" data-gist="e3967cb8ed9b18fba899ea861b606e1a.json" data-ts="8">
   </div>
 </div></figure> 
 
-The above test works and passes. What if we want to test if our calculator is able to perform addition operation for multiple different sets of data. Well that&#8217;s where a data provider comes in picture.<figure class="wp-block-embed is-type-rich">
+The above test works and passes. What if we want to test if our calculator is able to perform addition operation for multiple different sets of data. Well that's where a data provider comes in picture.<figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <div class="gist-oembed" data-gist="ca161826f3df02319a4fe777bf28807b.json" data-ts="8">
@@ -77,7 +77,7 @@ Couple of things to note:
   2. We need to pass an array nested inside another array such that each nested array acts as a row of data for the test method
   3. Thus for above example, we create a variable `testData` of type `ArrayList<Array<Int>>` to hold this required data. Note: _Int could be any primitive or complex data type (for instance even objects of a required type)_
   4. We add the required rows of data as `arrays of Int` and keep on adding it to `testData` arrayList
-  5. Finally, It&#8217;s important to return a `MutableIterator` of these arrays in order for this to work. We can get this by applying `.iterator()` method on the arrayList.
+  5. Finally, It's important to return a `MutableIterator` of these arrays in order for this to work. We can get this by applying `.iterator()` method on the arrayList.
 
 Now when we run this test, we observe below tests are generated in IntelliJ.<figure class="wp-block-image">
 
@@ -99,9 +99,9 @@ Below are some rules which are used for discovering data providers by TestNG:
   <cite>TestNG docs</cite>
 </blockquote>
 
-Cool. Let&#8217;s see an example of this.
+Cool. Let's see an example of this.
 
-Let&#8217;s assume we want to use the same data provider for a new `sub()` method of calculator class which subtracts the two nos.
+Let's assume we want to use the same data provider for a new `sub()` method of calculator class which subtracts the two nos.
 
 We can define a new `CalculatorBaseTest` class (remember to mark it with `open` keyword to allow it to be extended) and move this method there and ensure that our `CalculatorTests` inherits from this class as below:
 
@@ -130,7 +130,7 @@ And the updated Test class:<figure class="wp-block-embed is-type-rich">
 
 ## Moving data providers in a dedicated class
 
-What if we don&#8217;t want to create an inheritance hierarchy and want all the related data providers to be in a single file. Turns out this can also be achieved easily in Kotlin.
+What if we don't want to create an inheritance hierarchy and want all the related data providers to be in a single file. Turns out this can also be achieved easily in Kotlin.
 
 As per docs:
 
@@ -158,7 +158,7 @@ And the test method which picks up the values from the above specified data prov
 
 With this, we can organize our data providers in desired files.
 
-## Sequential is so boring. Let&#8217;s parallelize:
+## Sequential is so boring. Let's parallelize:
 
 With all the above examples, TestNG would execute all the generated test methods in a single thread and depending on how much time each method takes, this can greatly increase your test execution time.
 
@@ -185,4 +185,4 @@ And the updated Test:<figure class="wp-block-embed is-type-rich">
 
 This small change can greatly add parallel super powers to your tests. However do ensure you use this carefully. Multithreading and concurrency are niche topics in itself and it helps to understand how the nuts and bolts work to ensure you avoid yourself some debugging pain. More on this in a future post.
 
-And that&#8217;s it for this post folks. If you found this useful, Do share it with your friends and colleagues and I would like to hear in the comments in case you have suggestions.
+And that's it for this post folks. If you found this useful, Do share it with your friends and colleagues and I would like to hear in the comments in case you have suggestions.

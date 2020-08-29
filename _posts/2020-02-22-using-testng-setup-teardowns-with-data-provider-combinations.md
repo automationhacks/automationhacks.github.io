@@ -44,7 +44,7 @@ However what if I want to do both setup/teardown for the test based on the data 
 
 ## How do we test this behavior?
 
-Let&#8217;s come back to our test cases.&nbsp;
+Let's come back to our test cases.&nbsp;
 
 We would want to check that a booking can be made successfully for a vehicle type.
 
@@ -76,13 +76,13 @@ If we run the test then it would work fine.
 
 However, we already knew that data providers are awesome and can be used from this previous [post](https://automationhacks.blog/2019/09/17/working-with-testng-data-providers-in-kotlin/)
 
-## Let&#8217;s expand the problem:
+## Let's expand the problem:
 
 Now that the booking creation test looks fine. What if we want to test the cancellation flow? i.e.
 
 > As a user I should be able to cancel the created booking
 
-Let&#8217;s add a test for the cancel flow:
+Let's add a test for the cancel flow:
 
 The test follows below flow:
 
@@ -101,13 +101,13 @@ I copied the code from booking creation and then added the code for the cancella
 While this works, this certainly violates the **DRY** principle. We have the same code in two different test methods and added a bunch of more problems for ourselves.
 
   * What if there is a change in the Booking class? We would now have to make the same change in multiple places.
-  * Also, the test methods&#8217; size has just gone up to 15 LOC. While this is manageable now. It can quickly turn bad if we do this 10, 20 or 50 times. After that welcome to 2 hours of debugging every morning when something fails and heaven forbid if you have to update these tests.
+  * Also, the test methods' size has just gone up to 15 LOC. While this is manageable now. It can quickly turn bad if we do this 10, 20 or 50 times. After that welcome to 2 hours of debugging every morning when something fails and heaven forbid if you have to update these tests.
 
 ## Using setup/teardown blocks
 
 If you notice, both the test methods need the booking to be created as a pre-requisite right?
 
-Let&#8217;s refactor these methods to make use of Setup `@Before`feature of TestNG
+Let's refactor these methods to make use of Setup `@Before`feature of TestNG
 
 Here are the changes I have made:
 
@@ -120,7 +120,7 @@ Here are the changes I have made:
 <div class="gist-oembed" data-gist="8a5defa1f6c49c939570be6ba3b0dd5f.json" data-ts="8">
 </div>
 
-The code looks much better now. Let&#8217;s run it.
+The code looks much better now. Let's run it.
 
 ## Oops!&nbsp;
 
@@ -128,7 +128,7 @@ In typical developer fashion. The code rarely works the first time. 🙂 Plus we
 
 <img loading="lazy" class="alignnone size-full wp-image-514" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/02/before_method_failure.png?resize=750%2C178&#038;ssl=1" alt="before_method_failure.png" width="750" height="178"  data-recalc-dims="1" /> 
 
-Let&#8217;s take a look at the exception:
+Let's take a look at the exception:
 
 > org.testng.TestNGException:  
 > **Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult>** into a **@BeforeMethod** annotated givenBookingIsCreated.  
@@ -141,20 +141,20 @@ Hmm.
 Lets back up a bit.&nbsp;
 
   * Our original requirement was that we want to set up different types of bookings such that the booking and cancellation test can verify that those flows are working fine
-  * We want to use data providers so that we don&#8217;t have to write the same test for different sets of data.
+  * We want to use data providers so that we don't have to write the same test for different sets of data.
 
 Turns out the culprit very rightly is that **we thought we could pass around any parameters used in the test method to before method as well**.
 
 <pre>fun givenBookingIsCreated(vehicleType: VehicleType)</pre>
 
-## Let&#8217;s fix this:
+## Let's fix this:
 
 I have replaced the parameter with an **Object[]&nbsp;**which can be represented as **Array<Any>&nbsp;**in kotlin, additionally, we need to extract the param that we care about and cast it to the desired type
 
 <div class="gist-oembed" data-gist="b092015a4c9f89232cd39c6da7403e8f.json" data-ts="8">
 </div>
 
-Let&#8217;s run the tests again:
+Let's run the tests again:
 
 This is what I was looking for. All tests passed. Time for some well-deserved coffee.
 

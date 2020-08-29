@@ -31,7 +31,7 @@ I use them heavily in my automation code to define constant values and they work
 
 One common use case for me is when I want to do **enum constant lookup using its value**. For example, I might declare different configurations for my tests and based on these values, I might want to take different actions, trigger some flows or perform some assertions
 
-Let&#8217;s understand this with an example
+Let's understand this with an example
 
 <div class="gist-oembed" data-gist="7d7c10f16e207006786dc43cd5d4f3c0.json" data-ts="8">
 </div>
@@ -53,7 +53,7 @@ Below is the updated code
 <div class="gist-oembed" data-gist="60259d002899666c563bd066de609c48.json" data-ts="8">
 </div>
 
-Let&#8217;s understand this:
+Let's understand this:
 
 Ln 10 &#8211; 13, we have declared a `<a href="https://kotlinlang.org/docs/tutorials/kotlin-for-py/objects-and-companion-objects.html">companion object</a>` block to tie a member and a function to the enum class itself rather than its instance
 
@@ -69,6 +69,6 @@ Finally, we have a `fromValue()` method which accepts the enum constant value an
 
 Now we can easily call this `fromValue` method on the enum constant and get the associated constant (Ln 18)
 
-And that&#8217;s it. This has already made my code look much more concise and made it easier for me to use enums. Hopefully, you found this useful.
+And that's it. This has already made my code look much more concise and made it easier for me to use enums. Hopefully, you found this useful.
 
 Until next time. Happy coding.

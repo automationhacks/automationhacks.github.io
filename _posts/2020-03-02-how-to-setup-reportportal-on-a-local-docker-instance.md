@@ -22,7 +22,7 @@ Report portal is one of the new reporting solutions available. It supports multi
 
 This post is the first in a series of posts on how to set up report portal effectively and leverage the best use out of it.
 
-Let&#8217;s get started.
+Let's get started.
 
 ## Setup with Docker
 
@@ -41,7 +41,7 @@ The instructions that I am describing here can also be found on <a href="https:/
 
 <pre class="wp-block-preformatted">docker-compose -p reportportal up -d --force-recreate</pre>
 
-Report portal recommends you use allocate at least 3 GB of ram and this could be set up via the Docker desktop console. There are a bunch of other configurations we can make but let&#8217;s go with a minimal setup first
+Report portal recommends you use allocate at least 3 GB of ram and this could be set up via the Docker desktop console. There are a bunch of other configurations we can make but let's go with a minimal setup first
 
 We would revisit these in a future post.
 
@@ -67,7 +67,7 @@ superadmin\erebus</pre>
 
 ## Create a blank project
 
-After logging in as admin, Let&#8217;s create a blank project for our test setup
+After logging in as admin, Let's create a blank project for our test setup
 
 Go to the top-right icon, select Administrate and then create a new project. I have created a dummy project by the name of **test_project**
 
@@ -107,9 +107,9 @@ I have a verify basic TestNG test setup in the test folder which should always f
 
 <img loading="lazy" width="750" height="324" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/calc_test.png?resize=750%2C324&#038;ssl=1" alt="calc_test.png" class="wp-image-572" data-recalc-dims="1" /> </figure> 
 
-## Let&#8217;s run
+## Let's run
 
-Now, let&#8217;s run the suite. Execute below command:
+Now, let's run the suite. Execute below command:
 
 <pre class="wp-block-preformatted">./gradlew clean runTests</pre>
 

@@ -1,6 +1,6 @@
 ---
 id: 128
-title: 'How I&#8217;ve set up my dev environment and workflow'
+title: 'How I've set up my dev environment and workflow'
 date: 2020-03-09T16:09:43+00:00
 author: Gaurav
 excerpt: Thoughts on how I have set up my dev environment on MacBook Pro and settings that could be modified to increase productivity and developer happiness.
@@ -21,14 +21,14 @@ _This post shows how I prefer to set up my dev environment on Mac OS and setting
 
 As a programmer, we spend most of the hours of our waking life staring at that laptop/desktop screen working with Terminal, IDE/Editors or sometimes out of necessity with docs and spreadsheets. Thus we owe it to ourselves as developers to care about these tools and use them to their fullest extent with settings that work for us.
 
-Most of these apps come out of the box with settings and default values and while they work and get the job done, it&#8217;s always nice to make **these your own** by personalizing them to your tastes and aesthetic values.
+Most of these apps come out of the box with settings and default values and while they work and get the job done, it's always nice to make **these your own** by personalizing them to your tastes and aesthetic values.
 
 In this post, I wanted to share how I like my workstation to be set up and the settings which work for me.
 
   
 Some of these settings might be more relevant to the macOS context since that is the primary dev machine I use, however, these features are available in one form or the other in even Windows/Linux.
 
-Let&#8217;s dig into it.
+Let's dig into it.
 
 ## System-wide preferences
 
@@ -40,7 +40,7 @@ I have a 15&#8242; 2017 MacBook Pro provided by my company as a laptop. The defa
 
 <img loading="lazy" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-9.png?resize=504%2C379&#038;ssl=1" alt="" class="wp-image-389" width="504" height="379" data-recalc-dims="1" /> </figure> 
 
-To do a favor to my eyes, I like to have the resolution set to 1440 X 900. At this resolution, honestly, the fonts are way more readable and you can appreciate the OS UI&#8217;s or icons a bit more than usual. 😉
+To do a favor to my eyes, I like to have the resolution set to 1440 X 900. At this resolution, honestly, the fonts are way more readable and you can appreciate the OS UI's or icons a bit more than usual. 😉
 
 #### How to setup:
 
@@ -53,9 +53,9 @@ To do a favor to my eyes, I like to have the resolution set to 1440 X 900. At th
 
 ### Night Shift
 
-Typically most desktop and mobile OS&#8217;es these days have the option to set a **night mode**, this is intended to make the screen a tinge warmer in tone and reduce the amount of blue light emitted which makes it easier on the eyes.
+Typically most desktop and mobile OS'es these days have the option to set a **night mode**, this is intended to make the screen a tinge warmer in tone and reduce the amount of blue light emitted which makes it easier on the eyes.
 
-I like to have the Custom schedule selected and ensure, its always On. It&#8217;s so much more comfortable to see the screen for extended periods with this setting and is truly a lifesaver.
+I like to have the Custom schedule selected and ensure, its always On. It's so much more comfortable to see the screen for extended periods with this setting and is truly a lifesaver.
 
 #### How to setup:
 
@@ -94,9 +94,9 @@ There are a couple of distinct benefits IMHO:
 
 [Apple 4th gen redesign of the MacBook pro](https://en.wikipedia.org/wiki/MacBook_Pro#Fourth_generation_(Touch_Bar_and_USB-C)) brought with it the much-hated and underutilized feature called touch bar.
 
-It&#8217;s a neat concept and if used correctly does provide you a host of benefits by having interactive controls based on different app screens.
+It's a neat concept and if used correctly does provide you a host of benefits by having interactive controls based on different app screens.
 
-However, it also meant that they had to do away with the physical function keys which are crucial to any dev workflow. I have seen many Dev&#8217;s struggle with the additional use of **Fn** key to get the function keys on their dev tools and go with crazy key combinations like **Ctrl + Shift + Fn + F9** just to debug the code. Crazy!
+However, it also meant that they had to do away with the physical function keys which are crucial to any dev workflow. I have seen many Dev's struggle with the additional use of **Fn** key to get the function keys on their dev tools and go with crazy key combinations like **Ctrl + Shift + Fn + F9** just to debug the code. Crazy!
 
 However, there is an easier workaround in place.
 
@@ -108,13 +108,13 @@ We can tell apple certain apps, where we want the Function keys like F1 .. F12 t
   2. Select Keyboard
   3. Select Shortcuts
   4. Select Function Keys
-  5. Add all the editors or IDE&#8217;s that need the Fn keys to be displayed by default.<figure class="wp-block-image size-large">
+  5. Add all the editors or IDE's that need the Fn keys to be displayed by default.<figure class="wp-block-image size-large">
 
 <img loading="lazy" width="750" height="647" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-13.png?resize=750%2C647&#038;ssl=1" alt="" class="wp-image-400" data-recalc-dims="1" /> </figure> 
 
 ### Switching Esc to Caps lock
 
-I use vim bindings in most of the IDE&#8217;s or Editors that I use on a day to day basis.
+I use vim bindings in most of the IDE's or Editors that I use on a day to day basis.
 
 As such **Esc** becomes a crucial key to press all day long to switch between Insert and Command mode. Having your pinky finger do this job is awfully straining and inefficient in the interest of time.
 
@@ -153,7 +153,7 @@ Again, I use the Atom One Light color scheme with power line fonts for iterm spe
   
 
 
-It&#8217;s no secret that I am a big fan of the JetBrains suite of IDEs for my test automation development. Wrote a [blog post about IntelliJ Idea features](http://automationhacks.blog/2020/01/26/using-intellij-to-speed-up-your-dev-workflow/) some time back.
+It's no secret that I am a big fan of the JetBrains suite of IDEs for my test automation development. Wrote a [blog post about IntelliJ Idea features](http://automationhacks.blog/2020/01/26/using-intellij-to-speed-up-your-dev-workflow/) some time back.
 
 Quite simply I now prefer below visual settings on most of the Jetbrains editors at hand.
 
@@ -177,7 +177,7 @@ I have since settled on using Menlo font and avoid spending the mandatory 15 min
 
 While the general dev world around is a big fan of multiple monitors in a variety of portrait and landscape modes and I have used and experimented with my fair share of such setups
 
-Over time what I&#8217;ve found is that for me a single monitor with a good resolution is very good for the single-threaded focus (Read **inside the zone**) that I need to accomplish a task, Be it churning out some code, or create documentation and whatnot.
+Over time what I've found is that for me a single monitor with a good resolution is very good for the single-threaded focus (Read **inside the zone**) that I need to accomplish a task, Be it churning out some code, or create documentation and whatnot.
 
 I lack multiple ways of distraction (open IM clients like Slack, WhatsApp, etc) and have just a single editor screen is amazing to work with focus.  
   
@@ -214,7 +214,7 @@ This technique worldwide is used as the <a href="https://francescocirillo.com/pa
 This allows me to be able to get more done without feeling overly tired and overall allows me to be much more relaxed at work. Apart from this. I have started planning my day by blocking time slots in Google calendar, Allowing me visibility into the tasks I need to get done within a typical workday instead of zoning from one to another without a plan.
 
 > <p class="b-qt qt_165865">
->   If you don&#8217;t know where you are going, any road will get you there.
+>   If you don't know where you are going, any road will get you there.
 > </p>
 > 
 > <p class="bq_fq_a">

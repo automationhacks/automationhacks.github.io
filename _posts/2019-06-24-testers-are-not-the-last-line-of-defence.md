@@ -36,12 +36,12 @@ Throughout my career i have seen the same thing play out numerous times often wi
 Does the below scenario sound familiar in any way?
 
   1. Product managers/Business analysts comes up with a set of user stories/requirements for a problem business wants solved **(most of the time urgently or on a deadline)**
-  2. Developers gets involved from the start along with UX designer&#8217;s/PMs and come up with ideas/implementation on what and how to build.
+  2. Developers gets involved from the start along with UX designer's/PMs and come up with ideas/implementation on what and how to build.
   3. Testers are busy with either other deliverables (automating a mountain of backlog of tests) and are generally involved late in the game when product/feature is already built
   4. Testers believing that they are the only champions **of quality** take a look at the app and find design issues and bugs (sometimes even in basic app flows and often times in negative flows or edge conditions)
   5. Dev team is pleased and amazed to have such quality gatekeepers and fix these bugs and mostly ignore design issues as feature misses or differ them to a future release and hand over another build to the testers
   6. Testers take another look and find most of the issues are fixed, however there are still regression bugs and report it back. (They get feeling of being validated at this stage and happy)
-  7. Dev&#8217;s are either happy or annoyed that such bugs are being uncovered this late, though without having a real choice they work on fixing these issues.
+  7. Dev's are either happy or annoyed that such bugs are being uncovered this late, though without having a real choice they work on fixing these issues.
 
 &#8230;&#8230; And so the cycle continues on and on and on. . This is akin to a game of table tennis or ping pong.
 
@@ -59,7 +59,7 @@ This most often than not results in below anti patterns:
   2. Dev are mostly happy with basic sanity instead of rigorously exercising the build.
   3. Test often acts as an enabler of this ping pong cycle and are mostly engrossed in multiple cycles of executions (in most cases manually in the interest of urgency to ship the feature or bug fix)
   4. Very less automated tests are written leading to the mountain of test automation backlog.
-  5. Designers/PM&#8217;s often are baffled as to why so many edge and negative scenarios are not thought of earlier
+  5. Designers/PM's often are baffled as to why so many edge and negative scenarios are not thought of earlier
   6. The whole process as such becomes an excercise in inefficiency.
 
 <hr class="wp-block-separator" />
@@ -108,7 +108,7 @@ Testers looks into the customer usage patterns along with UX/PM/Devs to understa
 
 <hr class="wp-block-separator" />
 
-_Isn&#8217;t above a much better use of a testers time and creativity._
+_Isn't above a much better use of a testers time and creativity._
 
 What we all need to realise at the end of the day is that two brains are better than one and every human (whatever role he/she plays on an engineering team) is **inherently curious** and capable of figuring out how stuff works or breaks.
 

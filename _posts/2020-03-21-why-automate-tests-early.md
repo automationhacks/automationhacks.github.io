@@ -29,18 +29,18 @@ Notice when I mention these phases, I am not calling out **manual vs automation*
 
 In an uncertain product development environment often things move fast and features/spec changes as more folks (product, design, sales, business, devs) get involved in the process and there is _almost always a hard deadline_ _to chase_ and an **apparent** shortage of time to ship.
 
-## Let&#8217;s not automate till the feature is <span style="text-decoration:underline;">well tested</span> and <span style="text-decoration:underline;">stable</span>
+## Let's not automate till the feature is <span style="text-decoration:underline;">well tested</span> and <span style="text-decoration:underline;">stable</span>
 
 One of the classic arguments on why to **NOT** automate tests **early** in such an environment is that:
 
-  * It&#8217;s _way_ easier to write and modify these test cases in a test management tool manually as the specs change around us and adjust to these changes or worst still, let&#8217;s not write any tests for now and use spreadsheets or docs to track.
+  * It's _way_ easier to write and modify these test cases in a test management tool manually as the specs change around us and adjust to these changes or worst still, let's not write any tests for now and use spreadsheets or docs to track.
   * You might also say, that since the specs are not completely frozen, any automation code that I may write <span style="text-decoration:underline;"><em>might</em></span> get thrown away at the end of the day.
-  * Developing the basic framework code to enable writing these tests or the actual tests will take a lot of time which we don&#8217;t have now.
+  * Developing the basic framework code to enable writing these tests or the actual tests will take a lot of time which we don't have now.
   * We will be stuck with maintenance early on before the feature is really baked.
 
 Fair enough.
 
-While all these are valid concerns on their own right and do reflect a certain reality on the ground. However, let&#8217;s not give up on automation _just yet.&nbsp;_😉
+While all these are valid concerns on their own right and do reflect a certain reality on the ground. However, let's not give up on automation _just yet.&nbsp;_😉
 
 ## The problem with just manual testing
 
@@ -60,7 +60,7 @@ Yes, I know what you as a tester are thinking 😞
 
 <blockquote class="wp-block-quote">
   <p>
-    Tester: Did I just <strong>waste</strong> spending all this time checking this build against a moving target?, o_O Well can&#8217;t do much now since the feature has to ship fast,
+    Tester: Did I just <strong>waste</strong> spending all this time checking this build against a moving target?, o_O Well can't do much now since the feature has to ship fast,
   </p>
   
   <p>
@@ -70,7 +70,7 @@ Yes, I know what you as a tester are thinking 😞
 
 While you might discover a new bug in this new code, often times the real killer is regression bugs. Areas in the app which you have already tested and might have grown slightly bored testing of as well.
 
-Your biases play against you and you might not want to repeat the whole effort from scratch again and might skip some areas believing that they don&#8217;t have any bugs.
+Your biases play against you and you might not want to repeat the whole effort from scratch again and might skip some areas believing that they don't have any bugs.
 
 The consequence.
 
@@ -86,7 +86,7 @@ Yes, multiple cycles of testing do highlight many of these issues early. But it 
 
 ## Catching up with automation
 
-Let&#8217;s occupy the most optimistic viewpoint and _assume_ this feature does go live with fewer issues and you **now start automating** these cases which are supposedly stable.
+Let's occupy the most optimistic viewpoint and _assume_ this feature does go live with fewer issues and you **now start automating** these cases which are supposedly stable.
 
 We still land into another problem.
 
@@ -102,7 +102,7 @@ This whole story that we just walked through might get started from the beginnin
 
 ## So what is the solution?
 
-Let&#8217;s take a step back and think through (_retrospect_) on what could we as testers do differently.
+Let's take a step back and think through (_retrospect_) on what could we as testers do differently.
 
 ## Estimate and plan well
 
@@ -151,7 +151,7 @@ These cases do not involve any of the complexity of a UI while still giving you 
 
 You can quickly prototype the APIs in postman and then write an API test for the same. Its easier to even run them in parallel further reducing the execution time.
 
-It&#8217;s a no brainer that any such cases should be automated first. Again do not bother covering all cases but target the cases which can mitigate the maximum risk and have higher priority.
+It's a no brainer that any such cases should be automated first. Again do not bother covering all cases but target the cases which can mitigate the maximum risk and have higher priority.
 
 ## Automation high priority UI cases
 
@@ -179,13 +179,13 @@ The more you follow approaches of automating early, the better the amount of reg
 
 Machines are very good at following instructions and they do not tire. While the automated tests do their job, you **are freed up** to do exploratory testing activities to figure out those hard to find edge cases while resting assured that all the major functional flows are working fine.
 
-Surely this can be an improvement over the initial scenario, however, let&#8217;s not forget that automation is hard work and stable and fast automation is an even uphill task.
+Surely this can be an improvement over the initial scenario, however, let's not forget that automation is hard work and stable and fast automation is an even uphill task.
 
 There would be a requirement to modify this automation as features change or specs are modified and there could be maintenance requirements in case of test failures.
 
 If you are a single tester on an agile team then the only real option you have at success is to ensure **more bandwidth&nbsp;**and some ways of doing that are:
 
-  * B_ring in developers to also write some of this functional automation,_ For this purpose, it&#8217;s a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
+  * B_ring in developers to also write some of this functional automation,_ For this purpose, it's a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
   * Augment a couple of dedicated testers to share this load and ensure the team can deliver on time.
 
 ## Conclusion:

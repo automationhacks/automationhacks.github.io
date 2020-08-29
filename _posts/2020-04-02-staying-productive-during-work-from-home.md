@@ -57,7 +57,7 @@ To get into focus mode (aka the zone), I listen to some relaxing ambient music o
 
 ## Effective communication/collaboration with the team 🗣
 
-While working remotely, It&#8217;s very important to have clear communication lines with your colleagues
+While working remotely, It's very important to have clear communication lines with your colleagues
 
 ### Try to keep web camera _on_&nbsp;during remote calls 👨🏻‍💻
 
@@ -65,7 +65,7 @@ In the absence of physical face to face contact, It helps to have a video on dur
 
 ### Overcommunicate about what you will be working on 🤓
 
-With remote working, It&#8217;s very important to stay **accountable** for our work items.
+With remote working, It's very important to stay **accountable** for our work items.
 
 I try to call out the items that _I plan to work on and any roadblocks_ during the day _explicitly_ during daily stand-ups and ensure the team is aware of them. This could also help them understand where we can collaborate remotely on items or cases where I can help or need help.
 
@@ -85,7 +85,7 @@ Also, try to block any planned meetings on the calendar so that your colleagues 
 
 ### Summarize and document decisions aggressively 📄
 
-While working remotely, It&#8217;s important to ensure the required people on the team know about any decisions/discussions that have taken place while you are collaborating with few teammates.
+While working remotely, It's important to ensure the required people on the team know about any decisions/discussions that have taken place while you are collaborating with few teammates.
 
 I try to summarize any decisions being taken as meeting notes in either _Google docs, Slack post or Confluence items_ so that the general team is aware of these discussions (and can add their opinion on possible solution approaches)
 
@@ -101,7 +101,7 @@ I try to maintain a strict balance between office work and regular house life by
 
 Its a balancing scale at the end of the day and too much of work while neglecting your personal space will just cause problems like burnout or stress down the road.
 
-It&#8217;s important to **maintain a healthy routine** while working from home to signal the **switch between work mode and personal life.&nbsp;**This could be as simple as dedicating a place around the house to work from and let your family know that you are not to be disturbed during this time
+It's important to **maintain a healthy routine** while working from home to signal the **switch between work mode and personal life.&nbsp;**This could be as simple as dedicating a place around the house to work from and let your family know that you are not to be disturbed during this time
 
 <blockquote class="wp-block-quote">
   <p>
@@ -113,7 +113,7 @@ Once I log off work, I try to not look at emails/slack until the next workday.
 
 ## Take care of your health, hydrate well, and exercise 🙆🏻‍♂️
 
-While WFH it&#8217;s very important to move around and ensure you are **well hydrated** throughout the day. Ensure you keep a water bottle around and set targets for yourself to finish at least 2-3 liters during the day.
+While WFH it's very important to move around and ensure you are **well hydrated** throughout the day. Ensure you keep a water bottle around and set targets for yourself to finish at least 2-3 liters during the day.
 
 Also, Make some time to exercise in the evening, Do some cardio exercises or meditate and do Yoga, whatever works best for you and helps you stay relaxed.
 
@@ -123,7 +123,7 @@ Many of these practices are something that you can use even if not working remot
 
 There are a ton of resources from other folks around this top. Feel free to browse them at your convenience. If this helped you feel free to share with other folks/colleagues.
 
-  * A cool post on some of the [WFH best practices](https://blog.gojekengineering.com/gojeks-best-practices-to-work-from-home-beta-83132cbeef62) written by Gojek&#8217;s Co-CEO Kevin.
+  * A cool post on some of the [WFH best practices](https://blog.gojekengineering.com/gojeks-best-practices-to-work-from-home-beta-83132cbeef62) written by Gojek's Co-CEO Kevin.
   * <a href="https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f" target="_blank" rel="noopener">Remote work wiki by notion</a>
 
 Also, I made a video on this topic for <a href="https://testproject.io/" target="_blank" rel="noopener">TestProject</a>. Check it out below:<figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">

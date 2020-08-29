@@ -39,7 +39,7 @@ Apache Jmeter is heralded as the most obvious choice while setting up load tests
 
 So which one did I decide to go with?
 
-It&#8217;s no secret that I am an ardent fan of Python language and so while researching on this topic when I came across [Locust](https://locust.io/), I was already well motivated to try it out. While visiting the locust website, I could see it being highly praised by amazing leaders in the python community and since language was not a barrier, I was confident that this was something I could easily work with.<figure class="wp-block-image">
+It's no secret that I am an ardent fan of Python language and so while researching on this topic when I came across [Locust](https://locust.io/), I was already well motivated to try it out. While visiting the locust website, I could see it being highly praised by amazing leaders in the python community and since language was not a barrier, I was confident that this was something I could easily work with.<figure class="wp-block-image">
 
 <img loading="lazy" width="750" height="144" class="wp-image-155" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/07/image-1.png?resize=750%2C144&#038;ssl=1" alt="" data-recalc-dims="1" /> <figcaption><https://locust.io/></figcaption></figure> 
 
@@ -47,7 +47,7 @@ It&#8217;s no secret that I am an ardent fan of Python language and so while res
 
 For this post, we would work with a simple mocked API since testing a live API has its own set of rate-limiting constraints.
 
-Let&#8217;s see if we can set up a simple mock server to return us an expected response which we could use demo how to create a perf test with locust.
+Let's see if we can set up a simple mock server to return us an expected response which we could use demo how to create a perf test with locust.
 
 We could have used any of the available mock server libraries but I will be using [Mock server](http://www.mock-server.com/) by James D Bloom which is quite easy to set up and work with any of the available JVM language or JS.
 
@@ -69,7 +69,7 @@ Cool. So we have a local mock server running. To verify if it is indeed working 
 
 So, now, Lets set up a simple expectation on this mock server. We can do this in a [variety of different ways](http://www.mock-server.com/mock_server/creating_expectations.html). Either using JSON, or Rest API or clients (Java/JS)
 
-Since code is easily the most simple way to set this up, Let&#8217;s go ahead with that.
+Since code is easily the most simple way to set this up, Let's go ahead with that.
 
 Using any Java project setup with a maven or Gradle setup, we need to include below dependencies:
 
@@ -79,7 +79,7 @@ We can add below in the dependencies section of the `build.gradle` file.
 
 implementation 'org.mock-server:mockserver-netty:5.6.1'</pre>
 
-Let&#8217;s create a simple `MockServer.kt` file with the code to set this up:<figure class="wp-block-embed is-type-rich">
+Let's create a simple `MockServer.kt` file with the code to set this up:<figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <a href="https://gist.github.com/gaurav-singh/bfcb8a48a1b80bdda9edbdc63a107703" rel="nofollow">https://gist.github.com/gaurav-singh/bfcb8a48a1b80bdda9edbdc63a107703</a>
@@ -89,7 +89,7 @@ With this code, we are essentially registering an expectation with the mock serv
 
 This sample response is taken from [JSON placeholder](https://jsonplaceholder.typicode.com/) site
 
-Let&#8217;s run this file either via IntelliJ or via command line. You should see output like below on the same terminal where mock server is running which tells that our expectation has been registered successfully.
+Let's run this file either via IntelliJ or via command line. You should see output like below on the same terminal where mock server is running which tells that our expectation has been registered successfully.
 
 <pre class="wp-block-syntaxhighlighter-code">2019-07-28 21:53:32,880 INFO o.m.m.HttpStateHandler creating expectation:
 
@@ -151,7 +151,7 @@ Once you run this, You should see a log like below:
 
 If you navigate to <a href="http://localhost:8089" rel="nofollow">http://localhost:8089</a>, You can see a nice Web UI like below:
 
-Let&#8217;s say we want to simulate 1000 concurrent users with 500 users spawned per second.<figure class="wp-block-image">
+Let's say we want to simulate 1000 concurrent users with 500 users spawned per second.<figure class="wp-block-image">
 
 <img loading="lazy" width="750" height="267" class="wp-image-174" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/07/image-2.png?resize=750%2C267&#038;ssl=1" alt="" data-recalc-dims="1" /> </figure> 
 
@@ -175,4 +175,4 @@ So much of useful functionality available with so much ease. Locust was a breeze
 
 We did discover few issues around the responsiveness of the API, timeouts and overall our understanding of the limits of our API before production deploy was much better than if we had just relied on functional tests.
 
-That&#8217;s it for this one. In case you found this useful, Do share with your friends or colleagues. Till next time! Cheers.
+That's it for this one. In case you found this useful, Do share with your friends or colleagues. Till next time! Cheers.

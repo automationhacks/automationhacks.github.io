@@ -23,9 +23,9 @@ _Give your development experience superpowers!_
 
 I do the bulk of my test automation development in Kotlin/Java or Python languages. After the programming language, a very important component for the dev workflow is a good IDE.
 
-While the purists generally rave about the use of Editors like Sublime, VSCode or even use of Vim/Emacs over full-fledged IDE&#8217;s like Jetbrains IntelliJ, Pycharm or Eclipse. The truth is most modern devs in this day and age use/prefer IDE&#8217;s for the host of convenience features and speed and flexibility they provide.
+While the purists generally rave about the use of Editors like Sublime, VSCode or even use of Vim/Emacs over full-fledged IDE's like Jetbrains IntelliJ, Pycharm or Eclipse. The truth is most modern devs in this day and age use/prefer IDE's for the host of convenience features and speed and flexibility they provide.
 
-Personally, I am a big fan of IDE&#8217;s provided by [Jetbrains](https://www.jetbrains.com/), they are uber cool and they are generally my tools of choice and quite easily save me a ton of time while performing refactoring and greatly decrease the development time. Don&#8217;t believe it?
+Personally, I am a big fan of IDE's provided by [Jetbrains](https://www.jetbrains.com/), they are uber cool and they are generally my tools of choice and quite easily save me a ton of time while performing refactoring and greatly decrease the development time. Don't believe it?
 
 If you already use it, then Open up `IntelliJ > Help > Productivity Guide` and see how much time it really has saved me as of writing this in the past 2 years alone. 🙂
 
@@ -34,7 +34,7 @@ If you already use it, then Open up `IntelliJ > Help > Productivity Guide` and s
 However,
 
   * Do we really extract the maximum juice out of these tools?
-  * How many of the IDE&#8217;s features do we really use on a day to day basis?
+  * How many of the IDE's features do we really use on a day to day basis?
 
 Well, fret not. This post will share some of the awesome tips that you can also follow to become more productive with your editors. I got to know some of these features when the prolific Dev evangelist <a href="https://hadihariri.com/" target="_blank" rel="noopener">Hadi Hariri</a> from Jetbrains visited [Gojek](https://www.gojek.io/) Bengaluru and shared these over a meetup talk.
 
@@ -44,9 +44,9 @@ To demonstrate these features, I would be using appium [Java client](https://git
 
 To start with, did you know all Jetbrains editors come with a very good VIM support via IdeaVim plugin? Vim commands are amazing.
 
-Once you get used to them, your editing and code navigation speed is easily multiplied 2X and it&#8217;s so easy to use it within IntelliJ. If you want to know VIM basics, I did write a [post](https://automationhacks.blog/2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/) on it some time back.
+Once you get used to them, your editing and code navigation speed is easily multiplied 2X and it's so easy to use it within IntelliJ. If you want to know VIM basics, I did write a [post](https://automationhacks.blog/2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/) on it some time back.
 
-To install this plugin, either opt for it when freshly installing IntelliJ or `Go to preferences > Plugins and search for IdeaVim in marketplace`, don&#8217;t worry, you can always temporarily disable it and practice first before starting to use it in your day to day workflow.<figure class="wp-block-image size-large">
+To install this plugin, either opt for it when freshly installing IntelliJ or `Go to preferences > Plugins and search for IdeaVim in marketplace`, don't worry, you can always temporarily disable it and practice first before starting to use it in your day to day workflow.<figure class="wp-block-image size-large">
 
 <img loading="lazy" width="750" height="262" class="wp-image-373" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-2.png?resize=750%2C262&#038;ssl=1" alt="" data-recalc-dims="1" /> </figure> 
 
@@ -76,7 +76,7 @@ You can also easily learn the keyboard shortcuts for the common operations withi
 
 While trying to find a file, often we just know the name vaguely by memory. In Search, It is sufficient to just mention the Initials of the file and IntelliJ would list out all the files which match that criteria
 
-Let&#8217;s say, for example, I want to search for all test files which start with `A` and have Test suffix, I can just enter `ATes` and see all the file names which match this.<figure class="wp-block-image size-large">
+Let's say, for example, I want to search for all test files which start with `A` and have Test suffix, I can just enter `ATes` and see all the file names which match this.<figure class="wp-block-image size-large">
 
 <img loading="lazy" width="750" height="299" class="wp-image-380" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-6.png?resize=750%2C299&#038;ssl=1" alt="" data-recalc-dims="1" /> </figure> 
 
@@ -160,13 +160,13 @@ To open these templates and maybe even add your own, open `Preferences > Editor 
 
 IntelliJ allows us to insert the context of a particular language and allows to work with it within another file. Seems confusing? Let me explain why this is a super neat feature in IntelliJ. 
 
-Let&#8217;s assume you want to store JSON string inside a Java file. Typically Java 8 does not have support for multi-line string (Added in [Java 12 though](https://dzone.com/articles/jdk-12-raw-string-literals))
+Let's assume you want to store JSON string inside a Java file. Typically Java 8 does not have support for multi-line string (Added in [Java 12 though](https://dzone.com/articles/jdk-12-raw-string-literals))
 
 You can start with a simple string variable.  Press `Option + Enter` and select `Inject language or reference`
 
 <img loading="lazy" class="alignnone size-full wp-image-488" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.57.48-pm-1.png?resize=750%2C205&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.57.48 PM.png" width="750" height="205" data-recalc-dims="1" /> 
 
-And then select the file type. Let&#8217;s say JSON
+And then select the file type. Let's say JSON
 
 <img loading="lazy" class="alignnone size-full wp-image-487" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.58.00-pm-1.png?resize=750%2C196&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.58.00 PM.png" width="750" height="196" data-recalc-dims="1" /> 
 
@@ -196,7 +196,7 @@ Enter test strings and IntelliJ would automatically test whether the sample stri
   
 
 
-While developing it&#8217;s very important to be good at debugging. IntelliJ allows a very rich set of inspection features to know the state of variables/classes at a given point in the code.
+While developing it's very important to be good at debugging. IntelliJ allows a very rich set of inspection features to know the state of variables/classes at a given point in the code.
 
 In this below example, we have a simple `fooBar()` method which is a wrapper over `foo` and `bar` methods where `foo` has a debug point.
 
@@ -204,12 +204,12 @@ In this below example, we have a simple `fooBar()` method which is a wrapper ove
 
 What if we want to move a step back from the current frame? It turns out we can select the current frame and select `Drop frame` and that would move the debug flow back to `foo` method.
 
-It&#8217;s amazing how much time this saves since we do not need to rewire the debugging session from scratch.
+It's amazing how much time this saves since we do not need to rewire the debugging session from scratch.
 
 <img loading="lazy" class="alignnone size-full wp-image-498" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.59.34-pm.png?resize=624%2C252&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.59.34 PM.png" width="624" height="252" data-recalc-dims="1" /> 
 
-And that&#8217;s it for this post.
+And that's it for this post.
 
-Hopefully, this would encourage you to also explore the feature-rich IDE&#8217;s that Jetbrains provide and give your automation development a literal nitro boost. (NFS reference anyone?)
+Hopefully, this would encourage you to also explore the feature-rich IDE's that Jetbrains provide and give your automation development a literal nitro boost. (NFS reference anyone?)
 
 What other IDE tricks that you are aware of? Let me know in the comments. If you found this useful, do share it with a friend or colleague and check out other articles in the [blog](https://automationhacks.blog/)

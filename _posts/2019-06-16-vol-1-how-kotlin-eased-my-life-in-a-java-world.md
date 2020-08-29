@@ -202,7 +202,7 @@ This looks good right? We are using **top level functions,** however we can impr
 
 If you observe `extractFunction()`function is only being used inside the extension function on `Element` so its a good candidate to make it local.
 
-Let&#8217;s move it as a local or inner function and also move out `StringBuilder` and make it a local variable.<figure class="wp-block-embed is-type-rich">
+Let's move it as a local or inner function and also move out `StringBuilder` and make it a local variable.<figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <div class="gist-oembed" data-gist="749a37e569b83e47d8470bdcf3fbf9c1.json" data-ts="8">

@@ -52,7 +52,7 @@ If you are running other demanding applications like IntelliJ, Pycharm and possi
 
 <img loading="lazy" width="750" height="267" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/06/logcat.png?resize=750%2C267&#038;ssl=1" alt="" class="wp-image-796" data-recalc-dims="1" /> </figure> 
 
-Well we don&#8217;t want that to happen to us do we?
+Well we don't want that to happen to us do we?
 
 As testers, we owe it to ourselves to solve some of these pains or to make it easy. Turns out after a little bit of digging and some pointers from friendly android devs in my current team, I was able to figure out some easy workarounds to accomplish all these tasks _All via command line and adb&#8230;_ 👨🏻‍💻
 

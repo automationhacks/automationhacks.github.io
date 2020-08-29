@@ -127,7 +127,7 @@ In below class, we create a class `RedisHandler` which accepts a host and port (
   </div>
 </div><figcaption>Simple Kotlin file with an abstraction over jedis (JVM support library for redis)</figcaption></figure> 
 
-And that&#8217;s a wrap 🥳. Hopefully you would find creative use cases to use redis augment your automated tests. If you found this useful, do share with a friend or colleague. Until next time. Happy testing and automating! 
+And that's a wrap 🥳. Hopefully you would find creative use cases to use redis augment your automated tests. If you found this useful, do share with a friend or colleague. Until next time. Happy testing and automating! 
 
 ## Related articles
 

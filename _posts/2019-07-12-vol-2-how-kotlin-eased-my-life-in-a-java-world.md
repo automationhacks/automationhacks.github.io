@@ -113,14 +113,14 @@ The above code can be idiomatically written in kotlin by lifting the assignment 
 
 Just like if else, we have the powerful `when` clause as a highly powered switch case statement.
 
-Let&#8217;s assume you have a simple function which depending on different status codes returns what those status code&#8217;s mean actually. <figure class="wp-block-embed is-type-rich">
+Let's assume you have a simple function which depending on different status codes returns what those status code's mean actually. <figure class="wp-block-embed is-type-rich">
 
 <div class="wp-block-embed__wrapper">
   <div class="gist-oembed" data-gist="b39d689e147df2392751b2b57cef2469.json" data-ts="8">
   </div>
 </div></figure> 
 
-Now while this code works, It&#8217;s quite noisy on the eyes and by now you might have got an idea that there is a much better way of representing this idea in kotlin. We can lift the return out of when in order to avoid typing this all the time for every case and also group related conditions together like below:
+Now while this code works, It's quite noisy on the eyes and by now you might have got an idea that there is a much better way of representing this idea in kotlin. We can lift the return out of when in order to avoid typing this all the time for every case and also group related conditions together like below:
 
 <pre class="wp-block-syntaxhighlighter-code brush: java; notranslate">fun apiResponsesIdiomatic(response : Response) : String {
     return when(response.statusCode) {
@@ -173,7 +173,7 @@ This is a big topic and can lead to a bit of initial discomfort while understand
 
 Kotlin is a multi paradigm language and supports a really nice functional style of writing code.
 
-Let&#8217;s see an example of this below:
+Let's see an example of this below:
 
 We have a simple function which takes nos from 1 to 100 and then if the no is divisible by 16 then prints hex value of the same.<figure class="wp-block-embed is-type-rich">
 
@@ -231,8 +231,8 @@ Does this list end here?
 
 Well no, Kotlin has lot of goodness hidden which is left to be explored and this series is probably just the tip of the iceberg.
 
-If you are still a skeptic after reading this. I would just encourage you to take a leap of faith and try it out. It&#8217;s so much fun! I promise. 
+If you are still a skeptic after reading this. I would just encourage you to take a leap of faith and try it out. It's so much fun! I promise. 
 
-I have so far not encountered even a single Dev who is criticising Kotlin&#8217;s feature and for most of us it brings a breath of fresh air as a multi paradigm language in the JVM universe with modern languages. 
+I have so far not encountered even a single Dev who is criticising Kotlin's feature and for most of us it brings a breath of fresh air as a multi paradigm language in the JVM universe with modern languages. 
 
 And this wraps up the two part series. If you found this useful. Why not share it with a friend or colleague. Until next time. Happy coding. Cheers!
