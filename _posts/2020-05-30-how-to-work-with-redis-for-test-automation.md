@@ -122,10 +122,10 @@ Add below line in your `build.gradle` file
 
 In below class, we create a class `RedisHandler` which accepts a host and port (where your redis server is running) and then has simple `get(key)` and `put(key, value)` methods to work with redis (quite similar to how we used the `cli` above)<figure class="wp-block-embed is-type-rich">
 
-<div class="wp-block-embed__wrapper">
-  <div class="gist-oembed" data-gist="38a345e245585904f27b9d5f67377e5f.json" data-ts="8">
-  </div>
-</div><figcaption>Simple Kotlin file with an abstraction over jedis (JVM support library for redis)</figcaption></figure> 
+{% gist 38a345e245585904f27b9d5f67377e5f %}
+
+Simple Kotlin file with an abstraction over jedis (JVM support library for redis)
+
 
 And that's a wrap 🥳. Hopefully you would find creative use cases to use redis augment your automated tests. If you found this useful, do share with a friend or colleague. Until next time. Happy testing and automating! 
 

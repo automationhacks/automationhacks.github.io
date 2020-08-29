@@ -16,6 +16,7 @@ Fixes to make
 
 - Search for `<figure> or <img>` tag and replace it with `![image alt text](path_to_assets)`
 - Search for `<pre>` tag and replace with code-block in order to get syntax highlighting using jekyll rouge
+- Replace `!&nbsp` with ``
 - Replace `/assets/images/wp-content` to all image URLs beginning with `/wp-content`
 - Update canonical_url in dev.to or medium.com if the blog was cross posted
 - Finally check local site if all looks good at `http://127.0.0.1:4000/`
