@@ -32,6 +32,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist
 
 auto: false
 server: false
