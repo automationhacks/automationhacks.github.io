@@ -6,6 +6,7 @@ Fixes to make
 
 ```zsh
 &#8217; '
+&nbsp; <space>
 ```
 
 - Find html code blocks with data-gist and replace with below liquid tag

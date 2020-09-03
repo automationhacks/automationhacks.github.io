@@ -177,7 +177,16 @@ I use iTerm and Zsh as my terminal and shell combination of choice.
 To really go over the power of both these at hand would require a dedicated blog post, however below
 is a quick snippet of the plugins I use currently with zsh in my `.zshrc` file
 
-<pre>plugins=(<br />git<br />zsh-syntax-highlighting<br />zsh-autosuggestions<br />brew<br />osx<br />extract<br />)</pre>
+```zsh
+plugins=(
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  brew
+  osx
+  extract
+)
+```
 
 Again, I use the Atom One Light color scheme with power line fonts for iterm specifically Meslo LG M
 DZ for power line which is essentially Menlo font with power line support.
@@ -234,8 +243,6 @@ Better still, this allows for better posture while working than the bent neck.
     <a href="https://twitter.com/automationhacks/status/1222374221893881856?ref_src=twsrc%5Etfw">January 29, 2020</a>
   </blockquote>
 </div>
-
-
 
 ## Vimium:
 

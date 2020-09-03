@@ -172,7 +172,9 @@ Lets back up a bit.&nbsp;
 Turns out the culprit very rightly is that **we thought we could pass around any parameters used in
 the test method to before method as well**.
 
-<pre>fun givenBookingIsCreated(vehicleType: VehicleType)</pre>
+```kotlin
+fun givenBookingIsCreated(vehicleType: VehicleType)
+```
 
 ## Let's fix this:
 

@@ -18,7 +18,7 @@ Some of the common use cases could be:
   * A business API that needs approx 5 seconds to show a transaction
   * A flaky third party API that might return a 500 occasionally but is usually up within a few seconds
 
-## Let&#8217;s wait. 🤷🏻‍♂️
+## Let's wait. 🤷🏻‍♂️
 
 What are some of the ways we can work around this:
 

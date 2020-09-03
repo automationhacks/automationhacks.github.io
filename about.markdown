@@ -12,11 +12,11 @@ permalink: /about/
 
 Hello there.
 
-I&#8217;m Gaurav Singh. I live in Bangalore, India with my wife and with my other love, Computers
+I'm Gaurav Singh. I live in Bangalore, India with my wife and with my other love, Computers
 what else? I am a self-proclaimed geek. My first PC was an Intel 80386 running Windows 3.1 and the
 earliest programming language I remember working with was BASIC.
 
-Over the years, I have been testing and **automating** a lot of Web apps, API&#8217;s and Mobile
+Over the years, I have been testing and **automating** a lot of Web apps, API's and Mobile
 Apps (Android/IOS) in different domains.
 
 I consider myself a reasonably experienced tester and have spent a significant amount of time

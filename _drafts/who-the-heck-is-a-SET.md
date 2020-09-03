@@ -25,7 +25,7 @@ We know from common discussions that this placeholder is a person who can write 
 
 What do we mean by technical?
 
-Let&#8217;s just say that this person has a very good understanding of the stack that he is working in whether it be a web app mobile app for a backend system.
+Let's just say that this person has a very good understanding of the stack that he is working in whether it be a web app mobile app for a backend system.
 
 The primary expectation from an SET is to be able to write concise, well maintainable and scalable test automation frameworks obviously for the domain that he wants to contribute towards
 

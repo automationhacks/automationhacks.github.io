@@ -19,7 +19,7 @@ categories:
 
 <div class="wp-block-embed__wrapper">
   <blockquote class="wp-embedded-content" data-secret="ywBWjMmif5">
-    <a href="https://www.developsense.com/blog/2020/08/why-didnt-we-catch-this-in-qa/">&#8220;Why Didn&#8217;t We Catch This in QA?&#8221;</a>
+    <a href="https://www.developsense.com/blog/2020/08/why-didnt-we-catch-this-in-qa/">&#8220;Why Didn't We Catch This in QA?&#8221;</a>
   </blockquote>
 </div></figure> 
 

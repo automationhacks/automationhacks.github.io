@@ -75,7 +75,9 @@ Finally, we have a `fromValue()` method which accepts the enum constant value an
 associated constant from the mapping variable. If for some reason the value does not match an
 existing constant, then we raise an exception **like below (Ln 19)** with the name of the class
 
-<pre>java.lang.IllegalStateException: Look up failed for class experiments.MousesV1</pre>
+```text
+java.lang.IllegalStateException: Look up failed for class experiments.MousesV1
+```
 
 Now we can easily call this `fromValue` method on the enum constant and get the associated constant
 (Ln 18)
