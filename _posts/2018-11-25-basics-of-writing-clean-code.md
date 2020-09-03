@@ -4,7 +4,6 @@ title: 'Basics of writing Clean code:'
 date: 2018-11-25T14:44:56+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/2018/11/25/basics-of-writing-clean-code/
 permalink: /2018/11/25/basics-of-writing-clean-code/
 publicize_twitter_user:
   - __gaurav_singh

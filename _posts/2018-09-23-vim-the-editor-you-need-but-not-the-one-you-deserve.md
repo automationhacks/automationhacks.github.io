@@ -4,7 +4,6 @@ title: "Vim: The editor you need, but not the one you deserve"
 date: 2018-09-23T13:48:49+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/
 permalink: /2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/
 publicize_twitter_user:
   - __gaurav_singh

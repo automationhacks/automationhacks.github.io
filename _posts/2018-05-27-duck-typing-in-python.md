@@ -4,7 +4,6 @@ title: Duck Typing in python
 date: 2018-05-27T05:55:17+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/2018/05/27/duck-typing-in-python/
 permalink: /2018/05/27/duck-typing-in-python/
 categories:
   - Programming

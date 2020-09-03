@@ -4,7 +4,6 @@ title: Sensible page objects
 date: 2020-04-23T14:19:07+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=748
 permalink: /?p=748
 categories:
   - Uncategorized

@@ -4,7 +4,6 @@ title: 'Code reviews: The hidden weapon in automation engineers arsenal'
 date: 2020-04-23T14:22:20+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=755
 permalink: /?p=755
 categories:
   - Uncategorized

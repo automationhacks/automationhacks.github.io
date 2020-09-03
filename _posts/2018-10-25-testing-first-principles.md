@@ -4,7 +4,6 @@ title: 'Testing: First principles'
 date: 2018-10-25T16:29:43+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/2018/10/25/testing-first-principles/
 permalink: /2018/10/25/testing-first-principles/
 publicize_twitter_user:
   - __gaurav_singh
@@ -13,7 +12,8 @@ publicize_linkedin_url:
 categories:
   - Testing theory
 ---
-<figure class="wp-caption"><img data-width="1754" data-height="1240" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2018/10/39f67-0xev6ecbq4wvei1u4.jpg?w=750&#038;ssl=1" data-recalc-dims="1" /><figcaption class="wp-caption-text">Source: <a href="https://commons.wikimedia.org/wiki/File:Continous_Delivery_Automated_Acceptance_Testing.jpg" target="_blank">Wikimedia Commons</a></figcaption></figure> 
+
+![Wikimedia Commons](/assets/images/wp-content/uploads/2018/10/39f67-0xev6ecbq4wvei1u4.jpg)
 
 Hi there!
 

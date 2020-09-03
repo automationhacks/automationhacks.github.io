@@ -4,7 +4,6 @@ title: Remembering GIT commands
 date: 2018-05-27T06:27:25+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/2018/05/27/remembering-git-commands/
 permalink: /2018/05/27/remembering-git-commands/
 publicize_twitter_user:
   - __gaurav_singh

@@ -21,6 +21,8 @@ categories:
   - Tools and tricks
 ---
 
+![Conditional breakpoints](/assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png)
+
 Hi there, I recently became aware of an amazing debugging feature in
 **[Jetbrains IDE's](https://www.jetbrains.com/)** that has made my debugging workflows so much
 easier and fast. They are called as **Conditional breakpoints**

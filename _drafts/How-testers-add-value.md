@@ -4,7 +4,6 @@ title: How testers add value
 date: 2020-08-17T04:53:42+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=1003
 permalink: /?p=1003
 categories:
   - Uncategorized

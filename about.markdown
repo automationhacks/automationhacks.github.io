@@ -4,11 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<hr class="wp-block-separator is-style-wide" />
-
-<div class="wp-block-image">
-  <figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/09/dsc_0107-1.jpg?resize=467%2C460&#038;ssl=1" alt="" class="wp-image-252" width="467" height="460" data-recalc-dims="1" /></figure>
-</div>
+![](/assets/images/wp-content/uploads/2019/09/dsc_0107-1.jpg)
 
 Hello there.
 

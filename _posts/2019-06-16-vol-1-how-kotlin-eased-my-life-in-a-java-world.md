@@ -10,19 +10,14 @@ categories:
   - Programming
 ---
 
-_Part 1 of a series of posts on why coding in kotlin makes so much sense over
-java._<figure class="wp-block-image wp-caption">
+\_Part 1 of a series of posts on why coding in kotlin makes so much sense over java.
 
-<img src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/06/c11a8-1vapfvieh667oaspz5f3noq.png?w=750&#038;ssl=1" alt="" data-recalc-dims="1" />
-<figcaption>A Kotlin&nbsp;function</figcaption></figure>
+![A kotlin function](../assets/images/wp-content/uploads/2019/06/c11a8-1vapfvieh667oaspz5f3noq.png)
 
 Hello wonderful people,
 
-<blockquote class="wp-block-quote">
-  <p>
-    Over my 8 years of experience as a coder/Quality engineer the language which gave me the comfort of feeling at home <em>was and still is</em> “<strong>Python</strong>” 🐍 till&nbsp;date.
-  </p>
-</blockquote>
+> Over my 8 years of experience as a coder/Quality engineer the language which gave me the comfort
+> of feeling at home was and still is **“Python”** 🐍 till date.
 
 It allowed me to truly solidify concepts in programming as well as gave me the freedom to write
 concise code quickly to turn my ideas into executable logic and it was a ton of fun.

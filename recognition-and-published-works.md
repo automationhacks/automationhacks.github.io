@@ -8,7 +8,6 @@ excerpt: |
   
   This page is to hold these memories together
 layout: page
-guid: http://automationhacks.blog/?page_id=542
 jabber_published:
   - "1582802190"
 ---

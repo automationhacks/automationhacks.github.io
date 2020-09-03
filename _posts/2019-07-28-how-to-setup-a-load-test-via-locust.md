@@ -4,7 +4,6 @@ title: How to setup a load test via Locust
 date: 2019-07-28T17:08:21+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=118
 permalink: /2019/07/28/how-to-setup-a-load-test-via-locust/
 jabber_published:
   - "1564333703"
@@ -23,7 +22,7 @@ categories:
 ---
 _Walkthrough of how we can use Locust to set up a simple test for a mocked API_<figure class="wp-block-image">
 
-<img loading="lazy" width="750" height="223" class="wp-image-187" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/07/image-6.png?resize=750%2C223&#038;ssl=1" alt="" data-recalc-dims="1" /> <figcaption>Locust.io website</figcaption></figure> 
+![](/assets/images/wp-content/uploads/2019/07/image-6.png)
 
 Hello there,
 
@@ -42,6 +41,8 @@ So which one did I decide to go with?
 It's no secret that I am an ardent fan of Python language and so while researching on this topic when I came across [Locust](https://locust.io/), I was already well motivated to try it out. While visiting the locust website, I could see it being highly praised by amazing leaders in the python community and since language was not a barrier, I was confident that this was something I could easily work with.<figure class="wp-block-image">
 
 <img loading="lazy" width="750" height="144" class="wp-image-155" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/07/image-1.png?resize=750%2C144&#038;ssl=1" alt="" data-recalc-dims="1" /> <figcaption><https://locust.io/></figcaption></figure> 
+
+![](/assets/images/wp-content/uploads/2019/06/image-1.png)
 
 ## Setting up a simple mocked API via mock server
 

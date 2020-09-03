@@ -4,7 +4,6 @@ title: Talks and Conferences
 date: 2019-10-20T14:15:33+00:00
 author: Gaurav
 layout: page
-guid: http://automationhacks.blog/?page_id=363
 advanced_seo_description:
   - ""
 amp_status:

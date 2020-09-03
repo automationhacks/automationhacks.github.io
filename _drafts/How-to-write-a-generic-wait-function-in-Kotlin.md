@@ -4,7 +4,6 @@ title: How to write a generic wait function in Kotlin
 date: 2020-08-08T03:26:30+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=991
 permalink: /?p=991
 categories:
   - Uncategorized

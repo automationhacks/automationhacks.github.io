@@ -4,7 +4,6 @@ title: who the heck is a SET
 date: 2020-02-27T06:39:06+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=541
 permalink: /?p=541
 categories:
   - Uncategorized

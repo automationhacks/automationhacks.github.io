@@ -4,7 +4,6 @@ title: "Vol 2: How Kotlin eased my life in a Java world"
 date: 2019-07-12T15:19:46+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=112
 permalink: /2019/07/12/vol-2-how-kotlin-eased-my-life-in-a-java-world/
 jabber_published:
   - "1562944788"
@@ -19,9 +18,8 @@ categories:
   - Programming
 ---
 
-_2nd part in a series on how to write idiomatic Kotlin. Read the_
-<a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://automationhacks.blog/2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/" target="_blank"><em>1st
-part here</em></a>_._
+\_2nd part in a series on how to write idiomatic Kotlin, First part
+[here](https://automationhacks.io/2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/)
 
 ## Mutable (var) and Immutable types (val) in&nbsp;Kotlin
 

@@ -4,7 +4,6 @@ title: Roadmap for a tester
 date: 2020-04-16T03:01:18+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=529
 permalink: /?p=529
 categories:
   - Uncategorized
