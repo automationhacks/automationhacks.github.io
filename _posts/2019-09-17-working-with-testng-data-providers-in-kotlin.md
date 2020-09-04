@@ -4,7 +4,6 @@ title: Working with TestNG data providers in Kotlin
 date: 2019-09-17T16:59:56+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=203
 permalink: /2019/09/17/working-with-testng-data-providers-in-kotlin/
 jabber_published:
   - "1568739598"
@@ -23,9 +22,9 @@ categories:
   - Testng
 ---
 
-<div class="wp-block-image">
-  <figure class="aligncenter is-resized"><img loading="lazy" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/09/juan-gomez-kt-wa0gdfq8-unsplash.jpg?resize=510%2C337&#038;ssl=1" alt="" class="wp-image-217" width="510" height="337" data-recalc-dims="1" /><figcaption>Photo by&nbsp;<a href="https://unsplash.com/@nosoylasonia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juan Gomez</a>&nbsp;on&nbsp;<a href="https://unsplash.com/search/photos/keyboard?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption></figure>
-</div>
+![](/assets/images/wp-content/uploads/2019/09/juan-gomez-kt-wa0gdfq8-unsplash.jpg)
+
+Photo on [Unsplash](https://unsplash.com/search/photos/keyboard?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) by Juan Gomez
 
 Hello there,
 
@@ -85,10 +84,9 @@ Couple of things to note:
    We can get this by applying `.iterator()` method on the arrayList.
 
 Now when we run this test, we observe below tests are generated in
-IntelliJ.<figure class="wp-block-image">
+IntelliJ.
 
-<img loading="lazy" width="750" height="108" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/09/image.png?resize=750%2C108&#038;ssl=1" alt="" class="wp-image-209" data-recalc-dims="1" />
-</figure>
+![Test runner](/assets/images/wp-content/uploads/2019/09/image.png)
 
 Awesome. The same pattern can be repeated for any required data provider.
 
@@ -118,7 +116,7 @@ class as below:
 
 `class CalculatorTests : CalculatorBaseTest()`
 
-Here is the complete base class.<figure class="wp-block-embed is-type-rich">
+Here is the complete base class.
 
 {% gist 5c933f38e2371b9b3bd21c7442847434 %}
 
@@ -154,7 +152,7 @@ Here is the standalone file with the data provider in it:
 
 And the test method which picks up the values from the above specified data provider, Note: The
 `@Test` annotation needs a argument `dataProviderClass` to be passed with a reference of `KClass`
-and thus it needs to be `<NameOfTheClass>::class`<figure class="wp-block-embed is-type-rich">
+and thus it needs to be `<NameOfTheClass>::class`
 
 {% gist 70e50e52d9248f0b31a735da4aed818c %}
 

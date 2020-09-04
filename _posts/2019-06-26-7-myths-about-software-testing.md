@@ -13,12 +13,9 @@ categories:
   - Testing theory
 ---
 
-_Common misconceptions about testing and the people who perform it._<figure class="wp-block-image">
+_Common misconceptions about testing and the people who perform it._
 
-![](https://cdn-images-1.medium.com/max/1600/0*I-e-cxWuRvRbct55) <figcaption>Source:
-Unsplash</figcaption></figure>
-
-<hr class="wp-block-separator" />
+![myths](https://cdn-images-1.medium.com/max/1600/0*I-e-cxWuRvRbct55)
 
 Hello there!
 
@@ -31,30 +28,30 @@ below profound thought to share.
 
 <blockquote class="wp-block-quote">
   <p>
-    A tester is a cross between a developer and a product manager with a healthy dose of paranoia — <a href="https://medium.com/@ponnappa" target="_blank" rel="noreferrer noopener">Sidu&nbsp;Ponnappa</a>
+    A tester is a cross between a developer and a product manager with a healthy dose of paranoia — <a href="https://medium.com/@ponnappa" target="_blank" rel="noreferrer noopener">Sidu Ponnappa</a>
   </p>
 </blockquote>
 
-### 1. Manual testing is non technical and&nbsp;easy {#90cd}
+### 1. Manual testing is non technical and easy
 
-As harsh as it sounds, this is where most of the&nbsp;**stigma**&nbsp;comes within testing as a
+As harsh as it sounds, this is where most of the **stigma** comes within testing as a
 skill. People who are doing manual testing are thought of as less technical as they are in most
 cases are required to black box test the application using the UI like an end user would do.
 
 Is this true?
 
-Well, Yes and no. Testing can be&nbsp;\_as technical as the individual so desires&nbsp;\_given a
-simple fact, If he has the&nbsp;**right mindset to look**.
+Well, Yes and no. Testing can be \_as technical as the individual so desires \_given a
+simple fact, If he has the **right mindset to look**.
 
 A person doing testing need not restrict himself to just UI testing. There are many different areas
 where a tester can add value to app development
 (API/DB/Contracts/Integration/Unit/Performance/Security) and so on. All of these areas requires
 someone to go in, understand how the nuts and bolts work and then find ways of identifying the gaps
-and&nbsp;**_“break” the system_**
+and **_“break” the system_**
 
 Obviously the above requires a lot of technical skills and tool knowledge and are quite tedious.
 
-### 2. A tester is born with special skills and is the “ONLY” one who owns&nbsp;quality {#37c4}
+### 2. A tester is born with special skills and is the “ONLY” one who owns quality {#37c4}
 
 This one bums me out not as much when it comes from devs but rather from testers themselves.
 
@@ -68,7 +65,7 @@ special snowflakes. Anyone who believes this is just wasting his and his peers t
 
 <blockquote class="wp-block-quote">
   <p>
-    <em>Developers can test code, PM can test and so can a tester. Anyone who has the right testing mindset and is curious about how stuff works/breaks can contribute to this&nbsp;effort.</em>
+    <em>Developers can test code, PM can test and so can a tester. Anyone who has the right testing mindset and is curious about how stuff works/breaks can contribute to this effort.</em>
   </p>
 </blockquote>
 
@@ -79,7 +76,7 @@ is the testers who own quality.
 Now if both dev/testers would do each other a big favor and get their heads out of their asses and
 work together we would have a much better team and quality product at the end of the day.
 
-### 3. Testing is just verifying the app from the&nbsp;UI {#4ffe}
+### 3. Testing is just verifying the app from the UI {#4ffe}
 
 <blockquote class="wp-block-quote">
   <p>
@@ -103,8 +100,8 @@ Well for starter,
 - It completely inverts the automation pyramid. The intent for testing something should be to get as
   quick of a feedback as possible and UI tests completely beat that intent
 - Also this creates a dysfunctional scenario wherein someone has to maintain and debug all these
-  1000+ long running tests that&nbsp;**_oddly_**_sometimes fail.
-  Gosh!_<figure class="wp-block-image">
+  1000+ long running tests that **_oddly_**_sometimes fail.
+  Gosh!_
 
 ![](/assets/images/wp-content/uploads/2019/06/1d5f3-0qx6agf7s7ucpucxl.png)
 
@@ -115,7 +112,7 @@ indeed a very challenging task with low ROI in most cases.
 Instead if more API, Contract tests, Integration, Unit tests are written with only a cherry pick of
 UI tests on top it would be a win win for everyone.
 
-### 4. Manual testing and test automation are two separate&nbsp;entities {#23ec}
+### 4. Manual testing and test automation are two separate entities {#23ec}
 
 There is a bit of a great divide in the testing space where folks identify themselves largely as
 either a Test automation engineer (a.k.a SDET) or a manual tester and generally automation skills
@@ -148,7 +145,7 @@ In essence manual testing and automation are really ally’s fighting the same w
 
 Lots of testers believe they need to understand just the basics of programming to be able to succeed
 with test automation. As long as tester can write crummy code that does the job
-and&nbsp;**works**&nbsp;it is acceptable.
+and **works** it is acceptable.
 
 _We don’t need patterns or clean code. A test function which is 100 LOC long is perfectly fine since
 we are not “real” developers anyways_
@@ -182,7 +179,7 @@ need to understand sensible dev practices and patterns if the framework/harness 
 
 <blockquote class="wp-block-quote">
   <p>
-    <strong>Everyone is a developer and should aim have the same set of technical design/coding skills&nbsp;</strong>to be efficient.
+    <strong>Everyone is a developer and should aim have the same set of technical design/coding skills </strong>to be efficient.
   </p>
 </blockquote>
 
@@ -192,8 +189,8 @@ This is a common misbelief among people who do not understand testing enough tha
 cases asserting your app then every last one of them needs to be automated.
 
 What people learn from experience is that every new test that is added adds its own maintenance
-costs. Experienced people who have got their hands down in the trenches know that&nbsp;**Test
-selection and prioritization**&nbsp;i.e choosing what to automate and when is an essential skill and
+costs. Experienced people who have got their hands down in the trenches know that **Test
+selection and prioritization** i.e choosing what to automate and when is an essential skill and
 can make all the difference between successful or failed automation projects.
 
 ### 7. As a tester, we should be isolated from devs and should not look at dev code/PRs/Unit tests {#f4e8}
@@ -202,7 +199,7 @@ Have you seen cases like this?
 
 - _Tester will ask the dev if he is writing enough unit tests for the feature and would be satisfied
   with just a verbal response?_
-- _Tester would&nbsp;\_rarely_&nbsp;take a look at created code in different pull requests?\_
+- _Tester would \_rarely_ take a look at created code in different pull requests?\_
 - _Testing is treated as a separate discipline and feel they should test everything from outside the
   box_
 
@@ -210,17 +207,17 @@ All of these are in some shape or form myths or old practices which does not hav
 the modern software engineering world.
 
 Agile as a core tenant advocates for “Whole team” approach wherein teams really are cross functional
-and&nbsp;**can and should**&nbsp;collaborate on code
+and **can and should** collaborate on code
 
 As a tester. There is really nothing wrong in getting code access to the app that you are testing
 day in and out to get an insider perspective of how it really works. Or giving comments on PRs. It
 is acts like this that help bridge the gap between dev and test. You might not understand each and
 every component but you might be surprised by the value you can bring to the table with
-your&nbsp;**systems thinking mindset&nbsp;**and ability to see impacts beyond the immediate code,
+your **systems thinking mindset **and ability to see impacts beyond the immediate code,
 Often times a dev deep in his act of creation misses basic or edge conditions which are often better
 captured as a unit/integration test.
 
-Well, you as a tester can help identify and&nbsp;**even fix**&nbsp;these issues.
+Well, you as a tester can help identify and **even fix** these issues.
 
 <hr class="wp-block-separator" />
 

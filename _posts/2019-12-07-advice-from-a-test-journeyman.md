@@ -15,7 +15,10 @@ email_notification:
 categories:
   - Testing theory
 ---
-<figure id="attachment_media-5" aria-describedby="caption-attachment-media-5" style="width: 4928px" class="wp-caption alignnone"><img loading="lazy" class="alignnone size-full wp-image-427" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/12/johann-siemens-epy0gbjzzzu-unsplash.jpg?resize=750%2C497&#038;ssl=1" alt="johann-siemens-EPy0gBJzzZU-unsplash.jpg" width="750" height="497" data-recalc-dims="1" /><figcaption id="caption-attachment-media-5" class="wp-caption-text">Photo by [Johann Siemens](https://unsplash.com/@johannsiemens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</figcaption></figure>
+
+![](/assets/images/wp-content/uploads/2019/12/johann-siemens-epy0gbjzzzu-unsplash.jpg)
+
+Photo by [Johann Siemens](https://unsplash.com/@johannsiemens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Hello there,
 

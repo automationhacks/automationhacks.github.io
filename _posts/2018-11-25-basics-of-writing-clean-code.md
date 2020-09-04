@@ -12,7 +12,10 @@ publicize_linkedin_url:
 categories:
   - Programming
 ---
-<figure class="wp-caption"><img data-width="1980" data-height="1238" src="https://cdn-images-1.medium.com/max/800/0*bPi6O9LvzPGB8CGo" /><figcaption class="wp-caption-text">A python flask program. Source:&nbsp;Pexels</figcaption></figure> 
+
+![A python flask program](https://cdn-images-1.medium.com/max/800/0*bPi6O9LvzPGB8CGo)
+
+A python flask program
 
 I recently read my first iteration of <a href="https://www.amazon.in/dp/B001GSTOAM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" target="_blank">Clean Code</a>, the famous book by the prolific Uncle bob martin and it was one of the most delightful and eye opening experiences of my life as a programmer. There were lots of amazing takeaways from that book and personally would _highly recommend_ it to folks who want to improve their craft in coding.
 

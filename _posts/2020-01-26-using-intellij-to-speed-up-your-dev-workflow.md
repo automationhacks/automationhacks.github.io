@@ -31,13 +31,13 @@ modern devs in this day and age use/prefer IDE's for the host of convenience fea
 flexibility they provide.
 
 Personally, I am a big fan of IDE's provided by [Jetbrains](https://www.jetbrains.com/), they are
-uber cool and they are generally my tools of choice and quite easily save me a ton of time while
+Uber cool and they are generally my tools of choice and quite easily save me a ton of time while
 performing refactoring and greatly decrease the development time. Don't believe it?
 
 If you already use it, then Open up `IntelliJ > Help > Productivity Guide` and see how much time it
 really has saved me as of writing this in the past 2 years alone. 🙂
 
-<img loading="lazy" class="alignnone size-full wp-image-475" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.41.51-pm.png?resize=750%2C550&#038;ssl=1" alt="Screenshot 2020-01-24 at 10.41.51 PM.png" width="750" height="550" data-recalc-dims="1" />
+![Productivity guide](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.41.51-pm.png)
 
 However,
 
@@ -53,7 +53,7 @@ To demonstrate these features, I would be using appium
 [Java client](https://github.com/appium/java-client) project but the same features can be applied in
 any **Java/Kotlin (IntelliJ IDEA)** project of your choice or **Python project (In Pycharm)**
 
-# IdeaVim
+## IdeaVim
 
 To start with, did you know all Jetbrains editors come with a very good VIM support via IdeaVim
 plugin? Vim commands are amazing.
@@ -65,29 +65,26 @@ on it some time back.
 
 To install this plugin, either opt for it when freshly installing IntelliJ or
 `Go to preferences > Plugins and search for IdeaVim in marketplace`, don't worry, you can always
-temporarily disable it and practice first before starting to use it in your day to day
-workflow.<figure class="wp-block-image size-large">
+temporarily disable it and practice first before starting to use it in your day to day workflow.
 
-<img loading="lazy" width="750" height="262" class="wp-image-373" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-2.png?resize=750%2C262&#038;ssl=1" alt="" data-recalc-dims="1" />
-</figure>
+![Idea vim in plugins](/assets/images/wp-content/uploads/2019/10/image-2.png)
 
-# Search and Go to files
+## Search and Go to files
 
 The most common commands that you should be aware of are ironically mentioned right when you open
 it.
 
 I use the IntelliJ IDEA classic keybindings, however, you should be able to quickly find the short
-cuts for these operations in the binding of your choice
-(`Look into Preferences > Keymap`)<figure class="wp-block-image size-large is-resized">
+cuts for these operations in the binding of your choice (`Look into Preferences > Keymap`)
 
-<img loading="lazy" class="wp-image-376" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-3.png?resize=354%2C221&#038;ssl=1" alt="" width="354" height="221" data-recalc-dims="1" />
-<figcaption>  
+![Keymap](/assets/images/wp-content/uploads/2019/10/image-3.png)
+
 One of the most useful commands to be used is
 <span style="text-decoration:underline;"><code>refactor</code></span>. To launch the actions menu
 type `Cmd + Shift + A` and then type the action that you want to use. In this case, refactor to
-launch a bunch of context-specific refactorings.
+launch a bunch of context-specific refactoring.
 
-</figcaption></figure> <figure class="wp-block-image size-large is-resized"><img loading="lazy" class="wp-image-377" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-4.png?resize=569%2C376&#038;ssl=1" alt="" width="569" height="376" data-recalc-dims="1" /></figure>
+![search for actions](/assets/images/wp-content/uploads/2019/10/image-4.png)
 
 ## Search Shortcuts
 
@@ -111,11 +108,9 @@ sufficient to just mention the Initials of the file and IntelliJ would list out 
 match that criteria
 
 Let's say, for example, I want to search for all test files which start with `A` and have Test
-suffix, I can just enter `ATes` and see all the file names which match
-this.<figure class="wp-block-image size-large">
+suffix, I can just enter `ATes` and see all the file names which match this.
 
-<img loading="lazy" width="750" height="299" class="wp-image-380" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-6.png?resize=750%2C299&#038;ssl=1" alt="" data-recalc-dims="1" />
-</figure>
+![Search by file initials](/assets/images/wp-content/uploads/2019/10/image-6.png)
 
 ### Search method inside a file matching a pattern
 
@@ -124,11 +119,9 @@ What if I want to search for all methods having`find` keyword inside test files 
 Well you just use a `dot .` in these search queries and you can easily search for even methods
 inside classes based on partial pattern search.
 
-In this case, `AndTest.find` would show all the methods with `find` keyword in them. Neat
-huh?<figure class="wp-block-image size-large">
+In this case, `AndTest.find` would show all the methods with `find` keyword in them. Neat huh?
 
-<img loading="lazy" width="750" height="315" class="wp-image-383" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-8.png?resize=750%2C315&#038;ssl=1" alt="" data-recalc-dims="1" />
-</figure>
+![Search by file matching a pattern](/assets/images/wp-content/uploads/2019/10/image-8.png)
 
 ### Search for file names inside a particular folder
 
@@ -152,7 +145,7 @@ You can quickly find out usages of a given function, class, interface, etc by hi
 This saves a ton of time than manually searching for code. You can either navigate right inside the
 result pop up or open it in dedicated window by selecting `Open in find window`
 
-<img loading="lazy" class="alignnone size-full wp-image-495" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.52.51-pm.png?resize=750%2C366&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.52.51 PM.png" width="750" height="366" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.52.51-pm.png)
 
 # A glance at the structure
 
@@ -162,11 +155,9 @@ We can open the **Structure** tab **(Cmd + 7)** and glance at all the available 
 to even show **anonymous classes/lambdas** inside the class.
 
 Now, this could be very useful when you have a long class and want to see all the methods and then
-quickly navigate to them. Too many methods might hint at a potential refactoring
-candidate.<figure class="wp-block-image size-large is-resized">
+quickly navigate to them. Too many methods might hint at a potential refactoring candidate.
 
-<img loading="lazy" class="wp-image-381" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-7.png?resize=387%2C478&#038;ssl=1" alt="" width="387" height="478" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-7.png)
 
 # Navigation features
 
@@ -180,14 +171,14 @@ Use `Ctrl + Tab` and then to move down continue pressing `Ctrl + Tab` and to mov
 This is a useful way to quickly navigate among files and menu options again without using mouse or
 trackpad
 
-##<img loading="lazy" class="alignnone size-full wp-image-479" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/01/switcher.png?resize=750%2C413&#038;ssl=1" alt="switcher.png" width="750" height="413" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/switcher.png)
 
 ## Recent files
 
 You do not need to remember what files were recently opened. To view recent files accessed, execute
 `Cmd + E`
 
-<img loading="lazy" class="alignnone size-full wp-image-481" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.35.41-pm.png?resize=750%2C387&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.35.41 PM.png" width="750" height="387" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.35.41-pm.png)
 
 ## Navigation bar
 
@@ -197,7 +188,7 @@ file? Before observing this, I know I kept on doing this again and again.
 However, IntelliJ has a navigation bar on top of the editor which can be used to very quickly
 navigate up the project tree.
 
-<img loading="lazy" class="alignnone size-full wp-image-482" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.36.24-pm.png?resize=750%2C29&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.36.24 PM.png" width="750" height="29" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.36.24-pm.png)
 
 # Live templates
 
@@ -209,7 +200,7 @@ It is also aware of what type of file is currently opened and can show available
 
 To open these templates and maybe even add your own, open `Preferences > Editor > Live Templates`
 
-<img loading="lazy" class="alignnone size-full wp-image-483" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.44.40-pm.png?resize=750%2C466&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.44.40 PM.png" width="750" height="466" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.44.40-pm.png)
 
 # Inject language reference
 

@@ -37,7 +37,7 @@ capture traffic on an IOS real device.
 
 - Open `Settings > Wifi > <your_wifi_name> > Tap on Configure proxy under HTTP proxy`
 - Select `manual` and enter the mac machines IP address in Server and default port as `8080`. For
-  now leave `Authentication` turned off<figure>
+  now leave `Authentication` turned off
 
 ![Configure proxy](/assets/images/wp-content/uploads/2018/09/56f52-1jb1p2scv7g2trj3qgsassa.png)
 
@@ -45,12 +45,12 @@ capture traffic on an IOS real device.
   couple of times to install `mitmproxy certificate` on the device
 - After setup verify certificate profile is setup by navigating to
   `Settings > Profile and Device Management` and verifying `MITM proxy` is listed in list of
-  certificates<figure>
+  certificates
 
 ![Profile and device management](/assets/images/wp-content/uploads/2018/09/4ee92-1ydo2blcajvc6a-hjfk0c7w.png)
 
 - Finally ensure for MITM proxy, Full trust is enabled for root certificate the installed
-  certificate by navigating to `About > Certificate Trust Settings`<figure>
+  certificate by navigating to `About > Certificate Trust Settings`
 
 ![About certificate trust settings](/assets/images/wp-content/uploads/2018/09/3c118-1jcqnjz0dp9t6geffwxixxw.png)
 
