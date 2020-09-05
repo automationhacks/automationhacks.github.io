@@ -130,14 +130,14 @@ separating them with a forward slash `/`
 
 `nativekey/KeyE`
 
-<img loading="lazy" class="alignnone size-full wp-image-476" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.54.14-pm.png?resize=750%2C485&#038;ssl=1" alt="Screenshot 2020-01-24 at 10.54.14 PM.png" width="750" height="485" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.54.14-pm.png)
 
 ### Navigating options all within the search
 
 If you type a forward slash in `/`  you can see different IDE actions that you can take right from
 the search bar
 
-<img loading="lazy" class="alignnone size-full wp-image-477" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.59.31-pm.png?resize=750%2C374&#038;ssl=1" alt="Screenshot 2020-01-24 at 10.59.31 PM.png" width="750" height="374" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-24-at-10.59.31-pm.png)
 
 ## Find usages
 
@@ -214,17 +214,17 @@ support for multi-line string (Added in
 You can start with a simple string variable.  Press `Option + Enter` and select
 `Inject language or reference`
 
-<img loading="lazy" class="alignnone size-full wp-image-488" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.57.48-pm-1.png?resize=750%2C205&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.57.48 PM.png" width="750" height="205" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.57.48-pm-1.png)
 
 And then select the file type. Let's say JSON
 
-<img loading="lazy" class="alignnone size-full wp-image-487" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.58.00-pm-1.png?resize=750%2C196&#038;ssl=1" alt="Screenshot 2020-01-25 at 9.58.00 PM.png" width="750" height="196" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-9.58.00-pm-1.png)
 
 Now that we have provided the context, You can again press `Option + Enter`  and then select
 `Edit JSON fragment` . This opens up a new window where you can create and edit JSON freely and the
 corresponding concatenated string is automagically inserted.
 
-<img loading="lazy" class="alignnone size-full wp-image-489" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.19.57-pm.png?resize=750%2C939&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.19.57 PM.png" width="750" height="939" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.19.57-pm.png)
 
 # Validate regex inside the editor
 
@@ -247,12 +247,12 @@ class Scratch {
 
 IntelliJ makes this even easier. Given a regex, enter `Option + Enter`  and select **Check RegExp**
 
-<img loading="lazy" class="alignnone size-full wp-image-492" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.48.21-pm.png?resize=750%2C267&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.48.21 PM.png" width="750" height="267" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.48.21-pm.png)
 
 Enter test strings and IntelliJ would automatically test whether the sample string is a match or
 not. Neat right?
 
-<img loading="lazy" class="alignnone size-full wp-image-494" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.48.47-pm.png?resize=750%2C356&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.48.47 PM.png" width="750" height="356" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.48.47-pm.png)
 
 # Drop frames while debugging
 
@@ -262,7 +262,7 @@ inspection features to know the state of variables/classes at a given point in t
 In this below example, we have a simple `fooBar()` method which is a wrapper over `foo` and `bar`
 methods where `foo` has a debug point.
 
-<img loading="lazy" class="alignnone size-full wp-image-497" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.59.25-pm.png?resize=750%2C1066&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.59.25 PM.png" width="750" height="1066" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.59.25-pm.png)
 
 What if we want to move a step back from the current frame? It turns out we can select the current
 frame and select `Drop frame` and that would move the debug flow back to `foo` method.
@@ -270,7 +270,7 @@ frame and select `Drop frame` and that would move the debug flow back to `foo` m
 It's amazing how much time this saves since we do not need to rewire the debugging session from
 scratch.
 
-<img loading="lazy" class="alignnone size-full wp-image-498" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.59.34-pm.png?resize=624%2C252&#038;ssl=1" alt="Screenshot 2020-01-25 at 10.59.34 PM.png" width="624" height="252" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/01/screenshot-2020-01-25-at-10.59.34-pm.png)
 
 And that's it for this post.
 

@@ -5,7 +5,6 @@ date: 2020-04-02T02:37:53+00:00
 author: Gaurav
 excerpt: How do I stay productive while working remotely or from home? This post is a collection of some practices that work well for me.
 layout: post
-guid: http://automationhacks.blog/?p=647
 permalink: /2020/04/02/staying-productive-during-work-from-home/
 jabber_published:
   - "1585795075"
@@ -17,11 +16,12 @@ publicize_twitter_user:
   - automationhacks
 publicize_linkedin_url:
   - null
-image: /wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg
+image: /assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg
 categories:
   - Productivity
 ---
-<figure class="wp-block-image"><img loading="lazy" width="750" height="500" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg?resize=750%2C500&#038;ssl=1" alt="andrew-neel-cckf4TsHAuw-unsplash.jpg" class="wp-image-665" data-recalc-dims="1" /></figure> 
+
+![](/assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg)
 
 Photo by&nbsp;[Andrew Neel](https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)&nbsp;on&nbsp;[Unsplash](https://unsplash.com/s/photos/remote-work?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -126,8 +126,6 @@ There are a ton of resources from other folks around this top. Feel free to brow
   * A cool post on some of the [WFH best practices](https://blog.gojekengineering.com/gojeks-best-practices-to-work-from-home-beta-83132cbeef62) written by Gojek's Co-CEO Kevin.
   * <a href="https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f" target="_blank" rel="noopener">Remote work wiki by notion</a>
 
-Also, I made a video on this topic for <a href="https://testproject.io/" target="_blank" rel="noopener">TestProject</a>. Check it out below:<figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+Also, I made a video on this topic for <a href="https://testproject.io/" target="_blank" rel="noopener">TestProject</a>. Check it out below:
 
-<div class="wp-block-embed__wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"></span>
-</div></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XdGasWJBw6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

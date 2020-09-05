@@ -76,11 +76,14 @@ We would revisit these in a future post.
 With the above steps, report portal containers are already spun up.
 
 To verify, it is running fine. You can navigate to
-<a href="http://localhost:8080/ui/#login" target="_blank" rel="noopener">http://localhost:8080</a>,
-you should be able to see the login screen.<figure class="wp-block-image">
 
-<img loading="lazy" width="750" height="501" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/report_portal_login.png?resize=750%2C501&#038;ssl=1" alt="report_portal_login.png" class="wp-image-567" data-recalc-dims="1" />
-</figure>
+```text
+http://localhost:8080/ui/#login
+```
+
+you should be able to see the login screen.
+
+![Report portal login](/assets/images/wp-content/uploads/2020/03/report_portal_login.png)
 
 You can log in with the default user or admin passwords below:
 
@@ -102,10 +105,9 @@ Go to the top-right icon, select Administrate and then create a new project. I h
 project by the name of **test_project**
 
 Once created, select the project from the drop-down list and then again click on the login
-information section and select Profile.<figure class="wp-block-image">
+information section and select Profile.
 
-<img loading="lazy" width="750" height="99" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/03/rp_project_selection.png?resize=750%2C99&#038;ssl=1" alt="rp_project_selection.png" class="wp-image-570" data-recalc-dims="1" />
-</figure>
+![Select project in report portal](/assets/images/wp-content/uploads/2020/03/rp_project_selection.png)
 
 Make a note of the **information in the Profile section**, we are going to need it later on
 
@@ -117,8 +119,7 @@ In this example, we are going to use Gradle and then set up the required depende
 portal listener which would be able to capture the test execution events and send them in real-time
 to our dashboard
 
-Below is the basic configuration to set up the required agent and listener via
-gradle<figure class="wp-block-embed is-type-rich">
+Below is the basic configuration to set up the required agent and listener via gradle
 
 {% gist 4c58cb3c7054af57f4c52400368bfc3d %}
 
@@ -139,10 +140,9 @@ content from the **profile** section of your created project
 ## A simple test
 
 I have a verify basic TestNG test setup in the test folder which should always fail (for demo
-purposes)<figure class="wp-block-image">
+purposes)
 
-<img loading="lazy" width="750" height="324" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/calc_test.png?resize=750%2C324&#038;ssl=1" alt="calc_test.png" class="wp-image-572" data-recalc-dims="1" />
-</figure>
+![Calculator test](assets/images/wp-content/uploads/2020/03/calc_test.png)
 
 ## Let's run
 
@@ -157,24 +157,20 @@ Once the suite executes, we can observe the failure in the report portal as a la
 Every unique test run is called a launch in the report portal.
 
 We can now select the launch to see an overview of the run. We can also see that our suite failed as
-expected.<figure class="wp-block-image">
+expected.
 
-<img loading="lazy" width="750" height="211" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/03/result_1-1.png?resize=750%2C211&#038;ssl=1" alt="result_1.png" class="wp-image-575" data-recalc-dims="1" />
-</figure>
+![Launches](/assets/images/wp-content/uploads/2020/03/result_1-1.png)
 
 We can select the failure to see more details and mark each test under different categories (Product
-bug, automation bug, system issue). By default, every test is marked as **To
-investigate**<figure class="wp-block-image">
+bug, automation bug, system issue). By default, every test is marked as **To investigate**
 
-<img loading="lazy" width="750" height="265" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/03/result_2.png?resize=750%2C265&#038;ssl=1" alt="result_2.png" class="wp-image-574" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2020/03/result_2.png)
 
 Also, we can click on the test and see the full stack trace of the failure similar to the Gradle
 report. However, as more tests are run, we are able to easily see a historical snapshot of the same
-test and how it behaved in different launches.<figure class="wp-block-image">
+test and how it behaved in different launches.
 
-<img loading="lazy" width="750" height="346" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/03/resullt_3.png?resize=750%2C346&#038;ssl=1" alt="resullt_3.png" class="wp-image-576" data-recalc-dims="1" />
-</figure>
+![](../assets/images/wp-content/uploads/2020/03/resullt_3.png)
 
 ## Conclusion
 

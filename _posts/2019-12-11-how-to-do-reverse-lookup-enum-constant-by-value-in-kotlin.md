@@ -69,7 +69,7 @@ constants with their values. This is done by using `associateBy()` which is cal
 if we peek into the code for this function, we can see that it returns a `Map<K, T>`, where K is the
 value of the enum constant and T is the actual constant itself
 
-<img loading="lazy" class="alignnone size-full wp-image-441" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/12/screenshot-2019-12-11-at-10.33.57-pm.png?resize=750%2C204&#038;ssl=1" alt="Screenshot 2019-12-11 at 10.33.57 PM.png" width="750" height="204" data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2019/12/screenshot-2019-12-11-at-10.33.57-pm.png)
 
 Finally, we have a `fromValue()` method which accepts the enum constant value and returns the
 associated constant from the mapping variable. If for some reason the value does not match an

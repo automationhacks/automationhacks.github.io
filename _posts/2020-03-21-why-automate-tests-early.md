@@ -5,7 +5,6 @@ date: 2020-03-21T11:17:12+00:00
 author: Gaurav
 excerpt: A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?
 layout: post
-guid: http://automationhacks.blog/?p=622
 permalink: /2020/03/21/why-automate-tests-early/
 jabber_published:
   - "1584789434"
@@ -13,13 +12,13 @@ timeline_notification:
   - "1584789436"
 email_notification:
   - "1584789436"
-image: /wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg
+image: /assets/images/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg
 categories:
   - Testing theory
 ---
-A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?<figure class="wp-block-image">
+A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?
 
-<img loading="lazy" width="750" height="546" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg?resize=750%2C546&#038;ssl=1" alt="chris-liverani-HUJDz6CJEaM-unsplash.jpg" class="wp-image-635" data-recalc-dims="1" /> </figure> 
+![](/assets/images/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg)
 
 Photo by&nbsp;[Chris Liverani](https://unsplash.com/@chrisliverani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)&nbsp;on&nbsp;[Unsplash](https://unsplash.com/s/photos/fast?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -185,7 +184,7 @@ There would be a requirement to modify this automation as features change or spe
 
 If you are a single tester on an agile team then the only real option you have at success is to ensure **more bandwidth&nbsp;**and some ways of doing that are:
 
-  * B_ring in developers to also write some of this functional automation,_ For this purpose, it's a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
+  * Bring in developers to also write some of this functional automation,_ For this purpose, it's a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
   * Augment a couple of dedicated testers to share this load and ensure the team can deliver on time.
 
 ## Conclusion:

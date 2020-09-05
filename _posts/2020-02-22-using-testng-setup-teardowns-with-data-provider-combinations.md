@@ -85,7 +85,8 @@ look like.
 
 If we run the test then it would work fine.
 
-<img loading="lazy" class="alignnone size-full wp-image-512" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/02/testwithdataprovider.png?resize=750%2C103&#038;ssl=1" alt="testWithDataProvider.png" width="750" height="103"  data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/02/testwithdataprovider.png)
+
 
 However, we already knew that data providers are awesome and can be used from this previous
 [post](https://automationhacks.blog/2019/09/17/working-with-testng-data-providers-in-kotlin/)
@@ -146,7 +147,7 @@ The code looks much better now. Let's run it.
 In typical developer fashion. The code rarely works the first time. 🙂 Plus we were able to bomb all
 our tests!&nbsp;
 
-<img loading="lazy" class="alignnone size-full wp-image-514" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/02/before_method_failure.png?resize=750%2C178&#038;ssl=1" alt="before_method_failure.png" width="750" height="178"  data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/02/before_method_failure.png)
 
 Let's take a look at the exception:
 
@@ -188,7 +189,7 @@ Let's run the tests again:
 
 This is what I was looking for. All tests passed. Time for some well-deserved coffee.
 
-<img loading="lazy" class="alignnone size-full wp-image-516" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/02/final_test_run.png?resize=750%2C149&#038;ssl=1" alt="final_test_run.png" width="750" height="149"  data-recalc-dims="1" />
+![](/assets/images/wp-content/uploads/2020/02/final_test_run.png)
 
 ## Key takeaways:
 

@@ -47,11 +47,10 @@ Let's dig into it.
 ### Resolution
 
 I have a 15&#8242; 2017 MacBook Pro provided by my company as a laptop. The default display
-resolution is approx 1680 X 1050 and honestly at that resolution the text in finder and other system
-apps is abysmally small.<figure class="wp-block-image size-large is-resized">
+resolution is approx. 1680 X 1050 and honestly at that resolution the text in finder and other system
+apps is abysmally small.
 
-<img loading="lazy" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-9.png?resize=504%2C379&#038;ssl=1" alt="" class="wp-image-389" width="504" height="379" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-9.png)
 
 To do a favor to my eyes, I like to have the resolution set to 1440 X 900. At this resolution,
 honestly, the fonts are way more readable and you can appreciate the OS UI's or icons a bit more
@@ -62,10 +61,9 @@ than usual. 😉
 1. Go to System preferences
 2. Select Displays
 3. Select Scaled under resolution
-4. Select resolution as 1440 X 900<figure class="wp-block-image size-large">
+4. Select resolution as 1440 X 900
 
-<img loading="lazy" width="750" height="564" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-10.png?resize=750%2C564&#038;ssl=1" alt="" class="wp-image-390" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-10.png)
 
 ### Night Shift
 
@@ -82,10 +80,9 @@ to see the screen for extended periods with this setting and is truly a lifesave
 2. Select Displays
 3. Select Night Shift
 4. Select Schedule as Custom with From 12:00 AM to 11:59 PM
-5. Choose the appropriate color temperature.<figure class="wp-block-image size-large">
+5. Choose the appropriate color temperature.
 
-<img loading="lazy" width="750" height="332" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-11.png?resize=750%2C332&#038;ssl=1" alt="" class="wp-image-391" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-11.png)
 
 ### Theme
 
@@ -111,10 +108,9 @@ There are a couple of distinct benefits IMHO:
 
 1. Go to System preferences
 2. General
-3. Select Appearance as Light<figure class="wp-block-image size-large">
+3. Select Appearance as Light
 
-<img loading="lazy" width="750" height="753" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-12.png?resize=750%2C753&#038;ssl=1" alt="" class="wp-image-395" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-12.png)
 
 ## Keyboard
 
@@ -142,10 +138,9 @@ We can tell apple certain apps, where we want the Function keys like F1 .. F12 t
 3. Select Shortcuts
 4. Select Function Keys
 5. Add all the editors or IDE's that need the Fn keys to be displayed by
-   default.<figure class="wp-block-image size-large">
+   default.
 
-<img loading="lazy" width="750" height="647" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2019/10/image-13.png?resize=750%2C647&#038;ssl=1" alt="" class="wp-image-400" data-recalc-dims="1" />
-</figure>
+![](/assets/images/wp-content/uploads/2019/10/image-13.png)
 
 ### Switching Esc to Caps lock
 
@@ -168,7 +163,8 @@ Windows.</br>
 Well, you might ask what about my Caps Lock operation. Turns out, I rarely use it. And also not
 having _all caps in your sentences might just make you appear a much nicer person on the web_. 😉
 
-<img loading="lazy" class="alignnone size-full wp-image-406" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png?resize=750%2C602&#038;ssl=1" alt="Screenshot 2019-10-29 at 5.43.18 PM.png" width="750" height="602" data-recalc-dims="1" />
+![modifier keys](/assets/images/wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png)
+
 
 ## iTerm
 
@@ -205,7 +201,7 @@ Quite simply I now prefer below visual settings on most of the Jetbrains editors
 - **Size:** 14
 - **Line spacing:** 1.1
 
-- <img loading="lazy" class="alignnone size-full wp-image-608" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/03/ide_font_config.png?resize=750%2C445&#038;ssl=1" alt="ide_font_config.png" width="750" height="445" data-recalc-dims="1" />
+![Font config](../assets/images/wp-content/uploads/2020/03/ide_font_config.png)
 
 Over time, I have tried a variety of font faces like Fira code, Inconsolata, IBM Plex mono,
 Jetbrains mono, Roboto mono, However, no font comes even close to Menlo in terms of the comfort

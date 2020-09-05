@@ -5,10 +5,9 @@ date: 2020-03-08T17:31:48+00:00
 author: Gaurav
 excerpt: |
   A testers brain requires a lot of creativity and the no of scenarios that we test on a day to day basis are innumerable. Expecting the brain to remember all the ways of testing an application whether it be from a mobile, a web or an API interface is tough and an overhead.
-  
+
   This mobile testing checklist is a brain dump of the different ways that I approach and think about testing apps in different conditions and hopefully reduces the cognitive load to remember these.
 layout: post
-guid: http://automationhacks.blog/?p=580
 permalink: /2020/03/08/mobile-app-testing-checklist/
 jabber_published:
   - "1583688710"
@@ -16,23 +15,35 @@ timeline_notification:
   - "1583688713"
 email_notification:
   - "1583688713"
-image: /wp-content/uploads/2020/03/page1.png
+image: /assets/images/wp-content/uploads/2020/03/page1.png
 categories:
   - Testing theory
 ---
+
 A checklist of things to test on a mobile app
 
-A tester's mind is typically filled with lots of heuristics developed over years of learning and interacting with different applications and situations.
+A tester's mind is typically filled with lots of heuristics developed over years of learning and
+interacting with different applications and situations.
 
-Developing an understanding of what breaks the flow of an application, what mistakes Developers/PMs/Designers typically make takes time and in many cases learning things hard way.
+Developing an understanding of what breaks the flow of an application, what mistakes
+Developers/PMs/Designers typically make takes time and in many cases learning things hard way.
 
-During the past couple of years, I have been heavily involved in testing mobile apps on Android and IOS for my current employer Gojek and during this time have developed a keen sense of what are some of the areas where bugs lie in mobile apps.
+During the past couple of years, I have been heavily involved in testing mobile apps on Android and
+IOS for my current employer Gojek and during this time have developed a keen sense of what are some
+of the areas where bugs lie in mobile apps.
 
-Wouldn't it be nice if we have a checklist to go through to **serve as a lens** with which we can inspect the app from different angles to evaluate if it indeed does its job and does it well?
+Wouldn't it be nice if we have a checklist to go through to **serve as a lens** with which we can
+inspect the app from different angles to evaluate if it indeed does its job and does it well?
 
-I got inspired to come up with this checklist after reading a <a href="https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality" target="_blank" rel="noopener">blog post on the ministry of testing dojo site by the wonderful Lena Pejgan Wiberg,</a> Would highly recommend reading this if you want to improve your testing skills on web pages.
+I got inspired to come up with this checklist after reading a
+<a href="https://www.ministryoftesting.com/dojo/lessons/checklist-for-testing-web-page-functionality" target="_blank" rel="noopener">blog
+post on the ministry of testing dojo site by the wonderful Lena Pejgan Wiberg,</a> Would highly
+recommend reading this if you want to improve your testing skills on web pages.
 
-Without any further adieu, here is the full checklist. Obviously, I think we can do better as a community and hence have created a Github repo where these would be updated as my knowledge and experiences increase. You can check it out on <a href="https://github.com/gaurav-singh/testing-checklists/blob/master/mobile_testing.md" target="_blank" rel="noopener">testing-checklists</a>
+Without any further adieu, here is the full checklist. Obviously, I think we can do better as a
+community and hence have created a Github repo where these would be updated as my knowledge and
+experiences increase. You can check it out on
+<a href="https://github.com/gaurav-singh/testing-checklists/blob/master/mobile_testing.md" target="_blank" rel="noopener">testing-checklists</a>
 
 ## App gestures
 
@@ -388,7 +399,8 @@ How easy and friendly is the UI for use?
 
 ## <a id="user-content-accessibility" class="anchor" href="https://github.com/gaurav-singh/testing-checklists/blob/master/mobile_testing.md#accessibility" aria-hidden="true"></a>Accessibility
 
-Think about how the app can be friendly to people with deficiencies (Blind, deaf, dumb, vision-related issues)
+Think about how the app can be friendly to people with deficiencies (Blind, deaf, dumb,
+vision-related issues)
 
 <ul class="contains-task-list">
   <li class="task-list-item">
@@ -420,24 +432,12 @@ Think about how the app can be friendly to people with deficiencies (Blind, deaf
   </li>
 </ul>
 
-Below is the original checklist created on notability app:<figure class="wp-block-gallery columns-3 is-cropped">
+Below is the original checklist created on notability app:
 
-<ul class="blocks-gallery-grid">
-  <li class="blocks-gallery-item">
-    <figure><img loading="lazy" width="750" height="970" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/page1-2.png?resize=750%2C970&#038;ssl=1" alt="" data-id="597" class="wp-image-597" data-recalc-dims="1" /></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><img loading="lazy" width="750" height="970" src="https://i0.wp.com/automationhacks.blog/wp-content/uploads/2020/03/page2-1.png?resize=750%2C970&#038;ssl=1" alt="" data-id="598" class="wp-image-598" data-recalc-dims="1" /></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><img loading="lazy" width="750" height="970" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/page3-1.png?resize=750%2C970&#038;ssl=1" alt="" data-id="599" class="wp-image-599" data-recalc-dims="1" /></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><img loading="lazy" width="750" height="970" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/page4-1.png?resize=750%2C970&#038;ssl=1" alt="" data-id="600" class="wp-image-600" data-recalc-dims="1" /></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><img loading="lazy" width="750" height="970" src="https://i1.wp.com/automationhacks.blog/wp-content/uploads/2020/03/page5-1.png?resize=750%2C970&#038;ssl=1" alt="" data-id="601" class="wp-image-601" data-recalc-dims="1" /></figure>
-  </li>
-</ul></figure> 
+![](/assets/images/wp-content/uploads/2020/03/page1-2.png)
+![](/assets/images/wp-content/uploads/2020/03/page2-1.png)
+![](/assets/images/wp-content/uploads/2020/03/page3-1.png)
+![](/assets/images/wp-content/uploads/2020/03/page4-1.png)
+![](/assets/images/wp-content/uploads/2020/03/page5-1.png)
 
 If you found this useful. Do share with a friend or colleague. Until next time Cheers!

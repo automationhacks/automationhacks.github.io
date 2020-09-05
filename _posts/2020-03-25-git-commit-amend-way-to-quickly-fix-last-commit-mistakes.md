@@ -5,7 +5,6 @@ date: 2020-03-25T06:52:13+00:00
 author: Gaurav
 excerpt: A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 layout: post
-guid: http://automationhacks.blog/?p=641
 permalink: /2020/03/25/git-commit-amend-way-to-quickly-fix-last-commit-mistakes/
 jabber_published:
   - "1585119140"
@@ -17,13 +16,13 @@ publicize_twitter_user:
   - automationhacks
 publicize_linkedin_url:
   - null
-image: /wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg
+image: /assets/images/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg
 categories:
   - Git
 ---
-A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.<figure class="wp-block-image">
+A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 
-<img loading="lazy" width="750" height="536" src="https://i2.wp.com/automationhacks.blog/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg?resize=750%2C536&#038;ssl=1" alt="jelleke-vanooteghem-kabtmcdcAbk-unsplash.jpg" class="wp-image-645" data-recalc-dims="1" /> </figure> 
+![](/assets/images/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg)
 
 Photo by&nbsp;[Jelleke Vanooteghem](https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)&nbsp;on&nbsp;[Unsplash](https://unsplash.com/s/photos/oops?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

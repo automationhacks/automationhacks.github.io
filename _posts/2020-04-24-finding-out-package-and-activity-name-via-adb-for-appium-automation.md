@@ -23,7 +23,8 @@ categories:
   - Mobile Testing
   - Uncategorized
 ---
- <figure class="wp-block-image alignnone">![File:Android robot head.svg - Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/1280px-Android_robot_head.svg.png)<figcaption>Android head image by <a href="https://commons.wikimedia.org/wiki/File:Android_robot_head.svg" target="_blank" rel="noopener">Wikimedia commons</a></figcaption></figure> 
+
+ ![Android head image by Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/1280px-Android_robot_head.svg.png)
 
 Hey there,
 

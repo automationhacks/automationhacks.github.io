@@ -26,7 +26,9 @@ spay_email:
 categories:
   - Framework development
 ---
-<figure class="wp-block-image is-style-rounded">![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)<figcaption>Source: <https://en.wikipedia.org/wiki/Redis></figcaption></figure> 
+
+![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)
+
 
 <a rel="noopener" href="https://redis.io/" target="_blank">Redis</a> is an in-memory data structure store which can be used as a database cache and supports different <a rel="noopener" href="https://redis.io/topics/data-types-intro" target="_blank">data types</a>, most notably a simple key, value pair (aka dict), lists, etc.
 
@@ -120,7 +122,7 @@ Add below line in your `build.gradle` file
 
 <pre class="wp-block-syntaxhighlighter-code">compile group: 'redis.clients', name: 'jedis', version: '2.9.0'</pre>
 
-In below class, we create a class `RedisHandler` which accepts a host and port (where your redis server is running) and then has simple `get(key)` and `put(key, value)` methods to work with redis (quite similar to how we used the `cli` above)<figure class="wp-block-embed is-type-rich">
+In below class, we create a class `RedisHandler` which accepts a host and port (where your redis server is running) and then has simple `get(key)` and `put(key, value)` methods to work with redis (quite similar to how we used the `cli` above)
 
 {% gist 38a345e245585904f27b9d5f67377e5f %}
 
