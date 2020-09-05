@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![](/assets/images/wp-content/uploads/2019/09/dsc_0107-1.jpg)
+![Gaurav Singh](/assets/images/wp-content/uploads/2019/09/dsc_0107-1.jpg)
 
 Hello there.
 
@@ -28,7 +28,7 @@ debate and discussion are **very** valuable to me. That is how we all grow and l
 I also consider myself to be a reasonable person overall and am always keen to listen and understand
 all viewpoints for something under discussion before coming to my own conclusions.
 
-## Why do you blog?
+## Why do you blog
 
 My reasons are mostly selfish. I needed a repository of solutions to common problems in test
 automation/programming and also a way to keep track of my journey through the world of Software
@@ -41,11 +41,12 @@ To me, testing is a wholistic field in itself with its own set of **nuances** an
 for me express it to the larger community. Hopefully, this is useful, relevant or interesting to
 other people as well.
 
-## How can I contact you?
+## How can I contact you
 
 Please feel free to drop in your thoughts via any of the below channels:
 
-- [Email](mailto:automationhacks@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/gauravsingh55/)
-- [Twitter](https://twitter.com/__gaurav_singh)
-- [Github](https://github.com/automationhacks)
+- Email at gaurav.singh55@gmail.com
+- [Blog](https://automationhacks.io/)
+- [Twitter](https://twitter.com/automationhacks)
+- [LinkedIn](https://www.linkedin.com/in/automationhacks/)
+- [Stack overflow](https://stackoverflow.com/users/5336432/gaurav-singh)
