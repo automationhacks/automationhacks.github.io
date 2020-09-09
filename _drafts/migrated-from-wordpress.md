@@ -1,5 +1,38 @@
 # Migrated from word press
 
+## Install ruby and gems
+
+Ensures that the gems/plugins that are installed are from `Gemfile`
+
+```zsh
+jekyll new <yourname.github.io>
+```
+
+
+```zsh
+bundle exec jekyll serve
+```
+
+To view drafts in your local served Jekyll website
+
+```zsh
+jekyll serve --draft
+```
+
+
+```zsh
+gem <theme_name>
+```
+
+Will install all the gems specified in Gemfile
+
+```zsh
+bundle install
+```
+
+Then modify it in `_config.yml`
+
+
 Fixes to make
 
 - Replace below patterns with character listed next:
@@ -31,3 +64,5 @@ Fixes to make
 - [Setting up domains in Github pages](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages)
 - [4 steps to migrate from Wordpress to Jekyll](https://blog.webjeda.com/wordpress-to-jekyll-migration/)
 - [Migrating from WordPress.com to Jekyll](https://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/)
+
+To learn more about Jekyll, Check out [Mike danes videos on YouTube](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)

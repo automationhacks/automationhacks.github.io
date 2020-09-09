@@ -18,7 +18,7 @@ categories:
   - Programming
 ---
 
-\_2nd part in a series on how to write idiomatic Kotlin, First part
+2nd part in a series on how to write idiomatic Kotlin, Read first part
 [here](https://automationhacks.io/2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/)
 
 ## Mutable (var) and Immutable types (val) in&nbsp;Kotlin

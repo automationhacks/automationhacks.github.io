@@ -10,9 +10,9 @@ categories:
   - Programming
 ---
 
-\_Part 1 of a series of posts on why coding in kotlin makes so much sense over java.
+Part 1 of a series of posts on why coding in kotlin makes so much sense over java.
 
-![A kotlin function](../assets/images/wp-content/uploads/2019/06/c11a8-1vapfvieh667oaspz5f3noq.png)
+![A kotlin function](/assets/images/wp-content/uploads/2019/06/c11a8-1vapfvieh667oaspz5f3noq.png)
 
 Hello wonderful people,
 
