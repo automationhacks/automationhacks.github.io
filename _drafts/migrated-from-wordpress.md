@@ -68,3 +68,4 @@ Fixes to make
 To learn more about Jekyll, Check out [Mike danes videos on YouTube](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
 
 https://desiredpersona.com/google-analytics-jekyll/
+https://desiredpersona.com/disqus-comments-jekyll/

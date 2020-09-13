@@ -44,6 +44,7 @@ defaults:
     values:
       layout: "post"
       author: Gaurav
+      comments: true
 
 auto: false
 server: false
@@ -63,6 +64,12 @@ exclude: ["lib", "blog.rb", "Capfile", "config", "log", "Rakefile", "tmp"]
 
 # Google Analytics
 google_analytics: UA-177852015-1
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: automationhacks 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
