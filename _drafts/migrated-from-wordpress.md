@@ -66,3 +66,5 @@ Fixes to make
 - [Migrating from WordPress.com to Jekyll](https://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/)
 
 To learn more about Jekyll, Check out [Mike danes videos on YouTube](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+
+https://desiredpersona.com/google-analytics-jekyll/

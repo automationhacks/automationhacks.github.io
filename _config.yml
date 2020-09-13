@@ -36,6 +36,15 @@ plugins:
   - jekyll-gist
   - jekyll-twitter-plugin
 
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: Gaurav
+
 auto: false
 server: false
 lsi: false
@@ -51,6 +60,9 @@ paginate: 15
 category_dir: topics
 category_title_prefix:
 exclude: ["lib", "blog.rb", "Capfile", "config", "log", "Rakefile", "tmp"]
+
+# Google Analytics
+google_analytics: UA-177852015-1
 
 # Exclude from processing.
 # The following items will not be processed, by default.
