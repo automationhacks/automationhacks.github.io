@@ -16,10 +16,8 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Kotlin
   - Programming
-  - Test frameworks
-  - Testng
+  - Frameworks
 ---
 
 ![](/assets/images/wp-content/uploads/2019/09/juan-gomez-kt-wa0gdfq8-unsplash.jpg)

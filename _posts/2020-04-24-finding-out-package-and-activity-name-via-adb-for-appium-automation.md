@@ -18,10 +18,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Android
-  - Appium
-  - Mobile Testing
-  - Uncategorized
+  - Mobile
 ---
 
  ![Android head image by Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/1280px-Android_robot_head.svg.png)

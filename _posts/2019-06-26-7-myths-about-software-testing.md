@@ -10,7 +10,7 @@ jabber_published:
 timeline_notification:
   - "1561560267"
 categories:
-  - Testing theory
+  - Testing
 ---
 
 _Common misconceptions about testing and the people who perform it._

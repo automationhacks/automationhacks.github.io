@@ -21,8 +21,6 @@ timeline_notification:
 image: /assets/images/wp-content/uploads/2020/07/python_plus_pipenv.png
 categories:
   - Programming
-  - Python
-  - Tools and tricks
 ---
 
 ![Python and pipenv](/assets/images/wp-content/uploads/2020/07/python_plus_pipenv-1.png)

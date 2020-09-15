@@ -11,9 +11,7 @@ timeline_notification:
 email_notification:
   - "1576084014"
 categories:
-  - "Kotlin"
   - "Programming"
-  - "Tools and tricks"
 ---
 
 This is a neat trick I discovered recently

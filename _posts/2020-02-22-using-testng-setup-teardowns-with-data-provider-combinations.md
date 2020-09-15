@@ -17,11 +17,8 @@ timeline_notification:
 email_notification:
   - "1582343889"
 categories:
-  - Framework development
-  - Kotlin
   - Programming
-  - Test frameworks
-  - Testng
+  - Frameworks
 ---
 
 <p class="has-drop-cap">

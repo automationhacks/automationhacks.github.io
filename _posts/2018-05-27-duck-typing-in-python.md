@@ -7,7 +7,6 @@ layout: post
 permalink: /2018/05/27/duck-typing-in-python/
 categories:
   - Programming
-  - Python
 ---
 
 > Quite simply put, Duck typing gives a programmer the ability to not worry about the type of a

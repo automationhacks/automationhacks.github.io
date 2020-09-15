@@ -10,7 +10,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - "Talks &amp; Conferences"
+  - "Conferences"
 ---
 
 ![Pycon india website](/assets/images/wp-content/uploads/2018/10/24e58-0qa2jeiwzh_ivzp25.png)

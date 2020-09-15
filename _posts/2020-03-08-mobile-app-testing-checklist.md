@@ -17,7 +17,7 @@ email_notification:
   - "1583688713"
 image: /assets/images/wp-content/uploads/2020/03/page1.png
 categories:
-  - Testing theory
+  - Testing
 ---
 
 A checklist of things to test on a mobile app

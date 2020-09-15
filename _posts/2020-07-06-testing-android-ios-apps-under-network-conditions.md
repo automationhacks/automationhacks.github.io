@@ -17,9 +17,7 @@ timeline_notification:
   - "1594057240"
 image: /assets/images/wp-content/uploads/2020/07/leon-seibert-2m71l9fa6mg-unsplash.jpg
 categories:
-  - Android
-  - iOS
-  - Mobile Testing
+  - Mobile
 ---
 
 ![](/assets/images/wp-content/uploads/2020/07/leon-seibert-2m71l9fa6mg-unsplash.jpg)

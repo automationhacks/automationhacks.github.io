@@ -10,9 +10,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Appium
-  - Mobile Testing
-  - "Talks and Conferences"
+  - Conferences
 ---
 
 _My Experience as a first time speaker in a test automation conference and the awesome talks and

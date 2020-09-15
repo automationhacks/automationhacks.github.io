@@ -10,7 +10,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Mobile Testing
+  - Mobile
 ---
 
 ### Getting Started

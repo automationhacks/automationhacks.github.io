@@ -24,7 +24,7 @@ amp_status:
 spay_email:
   - ""
 categories:
-  - Framework development
+  - Frameworks
 ---
 
 ![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)

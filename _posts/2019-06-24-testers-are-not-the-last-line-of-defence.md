@@ -10,7 +10,7 @@ jabber_published:
 timeline_notification:
   - "1561395319"
 categories:
-  - Testing theory
+  - Testing
 ---
 
 Thoughts on why testers need to think beyond their role and evolve to become quality coaches for the

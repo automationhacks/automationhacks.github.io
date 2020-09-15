@@ -28,9 +28,7 @@ publicize_linkedin_url:
   - null
 image: /assets/images/wp-content/uploads/2020/06/android_phone-1.jpg
 categories:
-  - Android
-  - Mobile Testing
-  - Tools and tricks
+  - Mobile
 ---
 
 ![Android phone](/assets/images/wp-content/uploads/2020/06/android_phone.jpg)

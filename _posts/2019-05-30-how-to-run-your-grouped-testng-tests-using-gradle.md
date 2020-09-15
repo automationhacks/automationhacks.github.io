@@ -10,10 +10,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Kotlin
-  - Programming
-  - Test frameworks
-  - Testng
+  - Frameworks
 ---
 
 Walking through how to group and run your testNG tests via gradle and to avoid common pitfalls.

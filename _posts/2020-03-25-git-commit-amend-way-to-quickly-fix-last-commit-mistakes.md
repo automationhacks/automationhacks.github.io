@@ -18,7 +18,7 @@ publicize_linkedin_url:
   - null
 image: /assets/images/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg
 categories:
-  - Git
+  - Programming
 ---
 A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 

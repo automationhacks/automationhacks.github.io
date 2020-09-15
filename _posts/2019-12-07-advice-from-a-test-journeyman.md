@@ -13,7 +13,7 @@ timeline_notification:
 email_notification:
   - "1575733565"
 categories:
-  - Testing theory
+  - Testing
 ---
 
 ![](/assets/images/wp-content/uploads/2019/12/johann-siemens-epy0gbjzzzu-unsplash.jpg)

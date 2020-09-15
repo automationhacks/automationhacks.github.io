@@ -17,7 +17,7 @@ email_notification:
   - "1595689437"
 image: /assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png
 categories:
-  - Testing theory
+  - Testing
 ---
 
 ![Created by Katerina Limpitsouni on unDraw.io](/assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png)

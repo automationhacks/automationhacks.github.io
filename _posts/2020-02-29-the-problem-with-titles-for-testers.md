@@ -18,7 +18,7 @@ email_notification:
   - "1582955552"
 image: /wp-content/uploads/2020/02/activities_that_a_tester_does-1.png
 categories:
-  - Testing theory
+  - Testing
 ---
 
 Why focussing on titles is an anti-pattern that should stop in the Testing world.

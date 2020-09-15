@@ -16,9 +16,7 @@ email_notification:
   - "1595123955"
 image: /assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png
 categories:
-  - Kotlin
   - Programming
-  - Tools and tricks
 ---
 
 ![Conditional breakpoints](/assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png)

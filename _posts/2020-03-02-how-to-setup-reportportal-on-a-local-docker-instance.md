@@ -18,8 +18,7 @@ email_notification:
   - "1583116225"
 image: /wp-content/uploads/2020/03/report_portal_login.png
 categories:
-  - Framework development
-  - Testng
+  - Frameworks
 ---
 
 Report portal is one of the new reporting solutions available. It supports multiple different test

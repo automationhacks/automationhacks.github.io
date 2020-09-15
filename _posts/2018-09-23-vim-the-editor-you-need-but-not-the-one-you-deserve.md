@@ -11,7 +11,6 @@ publicize_linkedin_url:
   - null
 categories:
   - Programming
-  - Tools and tricks
 ---
 
 Hi there! So apart from the obvious reference to the Dark knight trilogy, I think this is quote in a
@@ -160,12 +159,9 @@ start typing away.
 Below are few other variations of these commands. I would encourage you to try it out. Having these
 in mind makes it super easy to start editing you files.
 
-i - insert before current cursor position
-I - insert at start of line (similar to Ctrl + Left arrow key)
-a - insert after current cursor position
-A - insert at end of line
-o - opens a new line after current line
-O - opens a new line before current line
+i - insert before current cursor position I - insert at start of line (similar to Ctrl + Left arrow
+key) a - insert after current cursor position A - insert at end of line o - opens a new line after
+current line O - opens a new line before current line
 
 > Tip: Typically in vim every command has a **Caps** version as well which does similar operation
 > but mostly for a line or some other scope.
@@ -187,24 +183,18 @@ Below is vims way of doing copy or paste. However usually if you want to copy so
 in visual mode `v` and then select the word/sentence that you want to copy using moving around
 commands `hjkl` or `wWbBeE` and then just press `y`
 
-y - yank a.k.a copy
-Y - yank current line
-p - paste (after the cursor)
-P - paste (before the cursor)
+y - yank a.k.a copy Y - yank current line p - paste (after the cursor) P - paste (before the cursor)
 
 #### **Cut (Ctrl +&nbsp;X)**
 
 Thats great, so you can copy and paste now, but if you want to delete some word or line? Use below
 commands.
 
-x - delete single character (equivalent to DELETE)
-X - deletes single character before current cursor position (equivalent to BACKSPACE)
+x - delete single character (equivalent to DELETE) X - deletes single character before current
+cursor position (equivalent to BACKSPACE)
 
-d - delete based on some more modifiers (some variations below)
-dw - delete word
-de - delete till end of word
-dE - delete excluding symbols 
-dW - delete to next word excluding symbolds
+d - delete based on some more modifiers (some variations below) dw - delete word de - delete till
+end of word dE - delete excluding symbols dW - delete to next word excluding symbolds
 
 D or dd - delete current line
 
@@ -219,18 +209,17 @@ just press `u` to **UNDO** your last action.
 
 If you want to just edit a single char or sentence, use below.
 
-r - replace single character
-R - replace all following characters (Enter insert mode, instead of insert it basically modifies what even is present)
+r - replace single character R - replace all following characters (Enter insert mode, instead of
+insert it basically modifies what even is present)
 
 ### Saving files/Exiting:
 
 So till now you have been able to move in a file, able to insert or cut/paste texts and so on… How
 do you make sure your work is saved? 😉
 
-:w &lt;file_name&gt; - save untitled file to specified name
-:w - write the changes to the file
-:q - quit, if there are changes since last write we would get an error.
- To override this error and still quit without saving, type :q! (with exclamation)
+:w &lt;file_name&gt; - save untitled file to specified name :w - write the changes to the file :q -
+quit, if there are changes since last write we would get an error. To override this error and still
+quit without saving, type :q! (with exclamation)
 
 > Tip: Commands can always be combined so to quit the file with also write changes use&nbsp;`:wq!`
 

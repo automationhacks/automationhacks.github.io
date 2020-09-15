@@ -14,7 +14,6 @@ publicize_linkedin_url:
 timeline_notification:
   - "1562944791"
 categories:
-  - Kotlin
   - Programming
 ---
 

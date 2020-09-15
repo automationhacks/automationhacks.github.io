@@ -14,7 +14,7 @@ email_notification:
   - "1584789436"
 image: /assets/images/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg
 categories:
-  - Testing theory
+  - Testing
 ---
 A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?
 

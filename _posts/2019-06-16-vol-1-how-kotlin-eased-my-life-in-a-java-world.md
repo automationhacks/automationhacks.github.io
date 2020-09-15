@@ -6,7 +6,6 @@ author: Gaurav
 layout: post
 permalink: /2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/
 categories:
-  - Kotlin
   - Programming
 ---
 

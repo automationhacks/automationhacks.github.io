@@ -26,7 +26,7 @@ timeline_notification:
   - "1592966171"
 image: /assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg
 categories:
-  - Testing theory
+  - Testing
 ---
 
 ![](/assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg)

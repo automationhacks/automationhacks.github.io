@@ -16,9 +16,7 @@ publicize_twitter_user:
 publicize_linkedin_url:
   - null
 categories:
-  - Performance Testing
-  - Programming
-  - Python
+  - Performance
 ---
 
 Walkthrough of how we can use Locust to set up a simple test for a mocked API

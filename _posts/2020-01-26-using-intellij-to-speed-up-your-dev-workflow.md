@@ -13,11 +13,7 @@ timeline_notification:
 email_notification:
   - "1580033145"
 categories:
-  - Kotlin
-  - Productivity
   - Programming
-  - Python
-  - Tools and tricks
 ---
 
 _Give your development experience superpowers!_
