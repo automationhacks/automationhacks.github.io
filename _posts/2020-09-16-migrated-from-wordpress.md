@@ -197,8 +197,10 @@ large enough site you might want to automate some of these
   like ID for gists to be rendered
 
 ```text
-{% gist d366955370d58dc2ca40c185b62cd829 %}
+gist d366955370d58dc2ca40c185b62cd829
 ```
+
+Enclosed with liquid tags
 
 ### Fix images
 
