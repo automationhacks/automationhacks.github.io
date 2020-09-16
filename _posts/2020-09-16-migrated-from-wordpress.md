@@ -29,7 +29,7 @@ without any consideration of the technical setup needed and it was quite easy to
 featured blog within minutes
 
 However over time, the overall experience felt a bit bloated and what i realized is that I do not
-really make use of all the capability that Wordpress as platform offered.
+really make use of all the capability that Wordpress as a platform offered.
 
 Also, For any new functionality that I might need, I had to **add Wordpress plugins** (and that
 requires a business plan at the least)
@@ -122,11 +122,15 @@ To setup your own domain, create a file `CNAME` in folder root and add your doma
 automationhacks.io
 ```
 
+#### Modify Github settings
+
 You also would need to add this domain in your repositories settings
 
 Add this domain in **Custom domain** and also select Enforce HTTPS if your domain supports SSL. Read
 more about how to do this on
 [Github docs](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
+
+### Update DNS provider
 
 You can very easily buy a domain of whatever provider you want. I use namecheap for my site and you
 need to setup `A record` in your Advanced DNS settings. Note the IP address of Github servers might
@@ -151,7 +155,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.6"
   gem "jekyll-gist"
-  gem "jekyll-archives"
 end
 ```
 
@@ -170,7 +173,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-twitter-plugin
-  - jekyll-archives
 ```
 
 ## Some manual fixes to be made
@@ -224,70 +226,6 @@ Some steps for the same can be:
 > Note: There would be lot of HTML mixed with markdown in the blog and while you can certainly fix
 > them into a markdown syntax, it would take a long time. I decided to let it be as long as the
 > URLs/Images were fine
-
-## Setup archives
-
-You can setup different categories or tags to show up on the Home page and allow users to browse
-posts under a specific tag or category. Note that in Jekyll, there is a
-[difference](https://jekyllrb.com/docs/posts/#tags-and-categories) between the two
-
-You can set it up via the [Jekyll archives plugin](https://github.com/jekyll/jekyll-archives)
-
-Add below to your `Gemfile` and run `bundle install`
-
-```ruby
-gem "jekyll-archives"
-```
-
-Setup `_config.yml` with the plugin
-
-```yml
-plugins:
-  - jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-slug_mode: lati
-```
-
-And create a folder called `_layouts`, put the below html in it, what this ensures is that you have
-all the categories show up on your home page title bar and can see all the posts in it.
-
-> Note: I first copied the html for the posts.html from the minima theme and then added the relevant
-> liquid tags and html to get the page to my liking. You can explore the Jekyll-archives plugin
-> Github and figure out the config that suits to your needs
-
-```text
----
-layout: default
----
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">Posts on '{{ page.title }}'
-        </h1>
-        <p class="post-meta">
-        <ul class="posts">
-            {% for post in page.posts %}
-            <li>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-
-        {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-                itemprop="name">{{ page.author }}</span></span>
-        {%- endif -%}</p>
-    </header>
-
-    <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
-    </div>
-
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
-```
 
 ## Comments
 
