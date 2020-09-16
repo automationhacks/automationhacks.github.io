@@ -1,6 +1,6 @@
 ---
 id: 728
-title: books
+title: Books
 date: 2020-04-13T03:28:08+00:00
 author: Gaurav
 layout: page

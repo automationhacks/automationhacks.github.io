@@ -257,7 +257,7 @@ all the categories show up on your home page title bar and can see all the posts
 > liquid tags and html to get the page to my liking. You can explore the Jekyll-archives plugin
 > Github and figure out the config that suits to your needs
 
-```html
+```text
 ---
 layout: default
 ---
