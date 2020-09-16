@@ -196,7 +196,7 @@ large enough site you might want to automate some of these
   The cool thing here is that since its your own Github account, you only need to specify the UUID
   like ID for gists to be rendered
 
-```ruby
+```text
 {% gist d366955370d58dc2ca40c185b62cd829 %}
 ```
 
