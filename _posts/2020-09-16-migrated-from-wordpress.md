@@ -284,7 +284,7 @@ Voila, You have a fully customizable site up and running. I will be posting more
 future as I learn more about Jekyll.
 
 If you found this post useful, Do share it with a friend or colleague. Until next time. Happy
-coding.
+testing.
 
 ## References
 
