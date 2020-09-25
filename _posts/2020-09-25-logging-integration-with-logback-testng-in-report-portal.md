@@ -77,7 +77,7 @@ where we have added the listener classes path
 ```groovy
 task runTests(type: Test) {
     useTestNG {
-        testLogging.showStandardStreams = true
+        testLogging.showSt)ndardStreams = true
         useDefaultListeners = false
         listeners << 'com.epam.reportportal.testng.ReportPortalTestNGListener'
         listeners << 'listeners.ExtentReporterNG'
@@ -107,7 +107,7 @@ This has 3 appenders defined
 - ReportPortalAppender which pushes logs to the Report portal
 
 To understand how logback works in detail, refer to this excellent guide on
-[Baeldung][https://www.baeldung.com/logback]
+[Baeldung](https://www.baeldung.com/logback)
 
 ## Add some loggers
 
