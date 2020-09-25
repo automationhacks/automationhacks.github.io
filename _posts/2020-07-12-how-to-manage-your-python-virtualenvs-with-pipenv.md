@@ -1,26 +1,16 @@
 ---
-id: 669
 title: How to manage your python virtualenvs with Pipenv
-date: 2020-07-12T02:33:53+00:00
 author: Gaurav
 excerpt:
   "Working with virtualenvs in python can be a bit tricky initially, Luckily we have pipenv now,
   which makes it quite easy to create, edit, delete and manage your virtualenv and dependencies. "
 layout: post
 permalink: /2020/07/12/how-to-manage-your-python-virtualenvs-with-pipenv/
-jabber_published:
-  - "1594521234"
-publicize_twitter_user:
-  - automationhacks
-publicize_linkedin_url:
-  - null
-email_notification:
-  - "1594521238"
-timeline_notification:
-  - "1594521239"
 image: /assets/images/wp-content/uploads/2020/07/python_plus_pipenv.png
 categories:
-  - Programming
+  - Coding
+tags:
+  - Python
 ---
 
 ![Python and pipenv](/assets/images/wp-content/uploads/2020/07/python_plus_pipenv-1.png)

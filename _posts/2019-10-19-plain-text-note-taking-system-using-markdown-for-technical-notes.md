@@ -1,27 +1,8 @@
 ---
-id: 322
 title: Plain text note taking system using markdown for technical notes
-date: 2019-10-19T17:12:01+00:00
-author: Gaurav
 layout: post
 guid: http://automationhacks.blog/?p=322
 permalink: /2019/10/19/plain-text-note-taking-system-using-markdown-for-technical-notes/
-jabber_published:
-  - "1571505122"
-timeline_notification:
-  - "1571505124"
-email_notification:
-  - "1571505125"
-advanced_seo_description:
-  - ""
-amp_status:
-  - ""
-publicize_twitter_user:
-  - __gaurav_singh
-spay_email:
-  - ""
-publicize_linkedin_url:
-  - null
 categories:
   - Productivity
 ---

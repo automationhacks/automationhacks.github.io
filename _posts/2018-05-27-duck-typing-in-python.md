@@ -1,12 +1,11 @@
 ---
-id: 43
 title: Duck Typing in python
-date: 2018-05-27T05:55:17+00:00
-author: Gaurav
 layout: post
 permalink: /2018/05/27/duck-typing-in-python/
 categories:
-  - Programming
+  - Coding
+tags:
+  - Python
 ---
 
 > Quite simply put, Duck typing gives a programmer the ability to not worry about the type of a

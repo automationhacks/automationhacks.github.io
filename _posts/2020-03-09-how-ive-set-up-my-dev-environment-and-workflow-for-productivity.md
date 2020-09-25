@@ -1,20 +1,11 @@
 ---
-id: 128
 title: "How I have set up my dev environment and workflow"
-date: 2020-03-09T16:09:43+00:00
 author: Gaurav
 excerpt:
   Thoughts on how I have set up my dev environment on MacBook Pro and settings that could be
   modified to increase productivity and developer happiness.
 layout: post
-guid: http://automationhacks.blog/?p=128
 permalink: /2020/03/09/how-ive-set-up-my-dev-environment-and-workflow-for-productivity/
-jabber_published:
-  - "1583770185"
-timeline_notification:
-  - "1583770187"
-email_notification:
-  - "1583770188"
 image: /wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png
 categories:
   - Productivity

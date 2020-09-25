@@ -1,23 +1,13 @@
 ---
-id: 203
 title: Working with TestNG data providers in Kotlin
-date: 2019-09-17T16:59:56+00:00
-author: Gaurav
 layout: post
 permalink: /2019/09/17/working-with-testng-data-providers-in-kotlin/
-jabber_published:
-  - "1568739598"
-timeline_notification:
-  - "1568739600"
-email_notification:
-  - "1568739600"
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Programming
-  - Frameworks
+  - Coding
+  - "Test automation"
+tags:
+  - Kotlin
+  - TestNG
 ---
 
 ![](/assets/images/wp-content/uploads/2019/09/juan-gomez-kt-wa0gdfq8-unsplash.jpg)

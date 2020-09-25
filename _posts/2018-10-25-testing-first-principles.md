@@ -1,14 +1,7 @@
 ---
-id: 55
 title: "Testing: First principles"
-date: 2018-10-25T16:29:43+00:00
-author: Gaurav
 layout: post
 permalink: /2018/10/25/testing-first-principles/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
   - Testing
 ---

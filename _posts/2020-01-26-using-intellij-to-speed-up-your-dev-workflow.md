@@ -1,19 +1,10 @@
 ---
-id: 197
 title: Using IntelliJ to speed up your dev workflow
-date: 2020-01-26T10:05:33+00:00
-author: Gaurav
 layout: post
 guid: http://automationhacks.blog/?p=197
 permalink: /2020/01/26/using-intellij-to-speed-up-your-dev-workflow/
-jabber_published:
-  - "1580033142"
-timeline_notification:
-  - "1580033144"
-email_notification:
-  - "1580033145"
 categories:
-  - Programming
+  - Coding
 ---
 
 _Give your development experience superpowers!_

@@ -1,16 +1,12 @@
 ---
-id: 56
 title: Viewing network traffic calls on IOS real device using MITM Proxy
-date: 2018-09-07T05:10:04+00:00
-author: Gaurav
 layout: post
 permalink: /2018/09/07/viewing-network-traffic-calls-on-ios-real-device-using-mitm-proxy/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
+  - Testing
+tags:
   - Mobile
+  - Proxy
 ---
 
 ### Getting Started

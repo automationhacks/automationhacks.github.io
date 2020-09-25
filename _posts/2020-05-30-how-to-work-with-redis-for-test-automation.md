@@ -1,30 +1,12 @@
 ---
-id: 710
 title: How to work with redis for test automation
-date: 2020-05-30T02:12:15+00:00
-author: Gaurav
 excerpt: Redis is a powerful in-memory data store that could be used for a variety of test automation use cases. In this post, we setup a redis server on an ubuntu VM and see how we can use redis-cli and a simple Kotlin class to interact with our server.
 layout: post
-guid: http://automationhacks.blog/?p=710
 permalink: /2020/05/30/how-to-work-with-redis-for-test-automation/
-jabber_published:
-  - "1590804736"
-timeline_notification:
-  - "1590804738"
-email_notification:
-  - "1590804738"
-publicize_twitter_user:
-  - automationhacks
-publicize_linkedin_url:
-  - null
-advanced_seo_description:
-  - ""
-amp_status:
-  - ""
-spay_email:
-  - ""
 categories:
-  - Frameworks
+  - "Test automation"
+tags:
+  - Redis
 ---
 
 ![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)

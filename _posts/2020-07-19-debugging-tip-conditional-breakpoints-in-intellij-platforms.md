@@ -1,22 +1,14 @@
 ---
-id: 942
 title: "Debugging tip: Conditional breakpoints in IntelliJ platforms"
-date: 2020-07-19T01:59:11+00:00
 author: Gaurav
 excerpt:
   "Useful debugging feature in IntelliJ based IDEs: Put a breakpoint which stops only when a certain
   condition matches."
 layout: post
 permalink: /2020/07/19/debugging-tip-conditional-breakpoints-in-intellij-platforms/
-jabber_published:
-  - "1595123953"
-timeline_notification:
-  - "1595123955"
-email_notification:
-  - "1595123955"
 image: /assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png
 categories:
-  - Programming
+  - Coding
 ---
 
 ![Conditional breakpoints](/assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png)

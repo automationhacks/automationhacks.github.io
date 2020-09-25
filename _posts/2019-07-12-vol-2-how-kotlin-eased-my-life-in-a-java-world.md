@@ -1,20 +1,12 @@
 ---
-id: 112
 title: "Vol 2: How Kotlin eased my life in a Java world"
-date: 2019-07-12T15:19:46+00:00
 author: Gaurav
 layout: post
 permalink: /2019/07/12/vol-2-how-kotlin-eased-my-life-in-a-java-world/
-jabber_published:
-  - "1562944788"
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
-timeline_notification:
-  - "1562944791"
 categories:
-  - Programming
+  - Coding
+tags:
+  - Kotlin
 ---
 
 2nd part in a series on how to write idiomatic Kotlin, Read first part

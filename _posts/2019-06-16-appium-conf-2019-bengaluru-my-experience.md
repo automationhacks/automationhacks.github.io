@@ -1,16 +1,12 @@
 ---
-id: 49
 title: "Appium Conf 2019 Bengaluru : My experience"
-date: 2019-06-16T11:45:36+00:00
 author: Gaurav
 layout: post
 permalink: /2019/06/16/appium-conf-2019-bengaluru-my-experience/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
   - Conferences
+tags:
+  - "Mobile"
 ---
 
 _My Experience as a first time speaker in a test automation conference and the awesome talks and

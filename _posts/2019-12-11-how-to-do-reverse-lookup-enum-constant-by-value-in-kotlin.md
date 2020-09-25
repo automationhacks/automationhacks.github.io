@@ -1,17 +1,9 @@
 ---
 title: How to do reverse lookup enum constant by value in Kotlin
-date: 2019-12-11T17:04:57+00:00
-author: Gaurav
 layout: post
 permalink: /2019/12/11/how-to-do-reverse-lookup-enum-constant-by-value-in-kotlin/
-jabber_published:
-  - "1576083935"
-timeline_notification:
-  - "1576083937"
-email_notification:
-  - "1576084014"
 categories:
-  - "Programming"
+  - "Coding"
 ---
 
 This is a neat trick I discovered recently

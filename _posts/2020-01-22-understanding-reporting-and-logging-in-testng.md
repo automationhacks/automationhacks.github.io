@@ -1,20 +1,14 @@
 ---
-id: 451
 title: Understanding reporting and logging in TestNG
-date: 2020-01-22T01:42:44+00:00
 author: Gaurav
 layout: post
-guid: http://automationhacks.blog/?p=451
 permalink: /2020/01/22/understanding-reporting-and-logging-in-testng/
-jabber_published:
-  - "1579657370"
-email_notification:
-  - "1579657373"
-timeline_notification:
-  - "1579657373"
 image: /wp-content/uploads/2020/01/screenshot-2020-01-09-at-6.13.52-am.png
 categories:
-  - Frameworks
+  - "Test automation"
+tags:
+  - TestNG
+  - Reporting
 ---
 TestNG is a popular test framework that needs no introduction in the JVM (Java virtual machine) ecosystem and can be used for automating your tests regardless of their size. For example: Large (functional) or medium/small level tests (Integration/Unit). It is a highly customizable framework and provides great flexibility around how you want to structure your tests and run them.
 

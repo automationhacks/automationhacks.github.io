@@ -1,16 +1,10 @@
 ---
-id: 47
-title: 'Basics of writing Clean code:'
-date: 2018-11-25T14:44:56+00:00
+title: 'Basics of writing Clean code'
 author: Gaurav
 layout: post
 permalink: /2018/11/25/basics-of-writing-clean-code/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Programming
+  - Coding
 ---
 
 ![A python flask program](https://cdn-images-1.medium.com/max/800/0*bPi6O9LvzPGB8CGo)

@@ -1,16 +1,12 @@
 ---
-id: 51
 title: How to run your grouped testNG tests using Gradle
-date: 2019-05-30T17:20:10+00:00
 author: Gaurav
 layout: post
 permalink: /2019/05/30/how-to-run-your-grouped-testng-tests-using-gradle/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Frameworks
+  - "Test automation"
+tags:
+  - "TestNG"
 ---
 
 Walking through how to group and run your testNG tests via gradle and to avoid common pitfalls.

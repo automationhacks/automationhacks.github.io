@@ -29,13 +29,21 @@ github_username: automationhacks
 
 # Build settings
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-twitter-plugin
-  - jekyll-archives
+
+header_pages:
+  - about.md
+  - categories.md
+  - tags.md
+  - talks.md
+  - books.md
+  - courses.md
 
 defaults:
   - 

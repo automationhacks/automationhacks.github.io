@@ -1,21 +1,12 @@
 ---
-id: 530
 title: The problem with titles for testers
-date: 2020-02-29T05:52:26+00:00
 author: Gaurav
 excerpt:
   An opinionated post on Why focussing on titles is an anti-pattern that should stop in the Testing
   world and how much better the industry if we all focussed a bit more on learning the
   activities/practices and what are some of these activities that a tester does.
 layout: post
-guid: http://automationhacks.blog/?p=530
 permalink: /2020/02/29/the-problem-with-titles-for-testers/
-jabber_published:
-  - "1582955550"
-timeline_notification:
-  - "1582955552"
-email_notification:
-  - "1582955552"
 image: /wp-content/uploads/2020/02/activities_that_a_tester_does-1.png
 categories:
   - Testing

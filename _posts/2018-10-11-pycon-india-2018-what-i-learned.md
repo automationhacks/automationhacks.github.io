@@ -1,16 +1,11 @@
 ---
-id: 46
 title: "Pycon India 2018: What i learned?"
-date: 2018-10-11T16:59:17+00:00
-author: Gaurav
 layout: post
 permalink: /2018/10/11/pycon-india-2018-what-i-learned/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - "Conferences"
+  - Conferences
+tags:
+  - Python
 ---
 
 ![Pycon india website](/assets/images/wp-content/uploads/2018/10/24e58-0qa2jeiwzh_ivzp25.png)

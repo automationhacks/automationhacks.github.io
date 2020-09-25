@@ -1,16 +1,10 @@
 ---
-id: 45
 title: "Vim: The editor you need, but not the one you deserve"
-date: 2018-09-23T13:48:49+00:00
 author: Gaurav
 layout: post
 permalink: /2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Programming
+  - Coding
 ---
 
 Hi there! So apart from the obvious reference to the Dark knight trilogy, I think this is quote in a

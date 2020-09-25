@@ -1,11 +1,14 @@
 ---
 title: How to do logging integration with logback and testng in report portal
-excerpt: "How to do logging integration with logback and testng in report portal"
+excerpt: "How to push logs into report portal using logback in a Kotlin/TestNG/Gradle project"
 layout: post
 permalink: /2020/09/25/logging-integration-with-logback-testng-in-report-portal/
 image: /assets/images/2020/09/rp_logback_images.png
 categories:
-  - Programming, Testing
+  - "Test automation"
+  - Testing
+tags:
+  - Reporting
 ---
 
 ![Report portal logback main image](/assets/images/2020/09/rp_logback_images.png)
@@ -22,8 +25,8 @@ with the test runner of youR choice
 I've been using Report portal in my current company and have quite recently started looking into its
 features in more detail.
 
-If you new to Report portal and want to get started with setting up a basic instance
-on docker and play around then you might find my earlier post on this topic useful
+If you new to Report portal and want to get started with setting up a basic instance on docker and
+play around then you might find my earlier post on this topic useful
 
 Check out: [How to setup ReportPortal on a local docker
 instance]({% link _posts/2020-03-02-how-to-setup-reportportal-on-a-local-docker-instance.md %})

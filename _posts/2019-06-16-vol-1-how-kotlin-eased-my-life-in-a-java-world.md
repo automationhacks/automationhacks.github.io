@@ -1,12 +1,11 @@
 ---
-id: 48
 title: "Vol 1: How Kotlin eased my life in a Java world"
-date: 2019-06-16T12:47:33+00:00
-author: Gaurav
 layout: post
 permalink: /2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/
 categories:
-  - Programming
+  - Coding
+tags:
+  - Kotlin
 ---
 
 Part 1 of a series of posts on why coding in kotlin makes so much sense over java.

@@ -1,20 +1,9 @@
 ---
-id: 580
 title: Mobile app testing checklist
-date: 2020-03-08T17:31:48+00:00
-author: Gaurav
 excerpt: |
-  A testers brain requires a lot of creativity and the no of scenarios that we test on a day to day basis are innumerable. Expecting the brain to remember all the ways of testing an application whether it be from a mobile, a web or an API interface is tough and an overhead.
-
-  This mobile testing checklist is a brain dump of the different ways that I approach and think about testing apps in different conditions and hopefully reduces the cognitive load to remember these.
+  A testers brain requires a lot of creativity and the no of scenarios that we test on a day to day basis are innumerable. Expecting the brain to remember all the ways of testing an application whether it be from a mobile, a web or an API interface is tough and an overhead. This mobile testing checklist is a brain dump of the different ways that I approach and think about testing apps in different conditions and hopefully reduces the cognitive load to remember these.
 layout: post
 permalink: /2020/03/08/mobile-app-testing-checklist/
-jabber_published:
-  - "1583688710"
-timeline_notification:
-  - "1583688713"
-email_notification:
-  - "1583688713"
 image: /assets/images/wp-content/uploads/2020/03/page1.png
 categories:
   - Testing

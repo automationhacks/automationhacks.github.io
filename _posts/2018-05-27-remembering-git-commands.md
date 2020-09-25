@@ -1,16 +1,11 @@
 ---
-id: 44
 title: Remembering GIT commands
-date: 2018-05-27T06:27:25+00:00
-author: Gaurav
 layout: post
 permalink: /2018/05/27/remembering-git-commands/
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Programming
+  - Coding
+tags:
+  - Git
 ---
 
 GIT is one of the most popular SCM tools being used these days, and even though there are lot of UI

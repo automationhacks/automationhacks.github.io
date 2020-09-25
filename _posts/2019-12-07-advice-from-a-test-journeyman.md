@@ -1,17 +1,8 @@
 ---
-id: 194
 title: Advice from a test journeyman
-date: 2019-12-07T15:45:59+00:00
-author: Gaurav
 layout: post
 guid: http://automationhacks.blog/?p=194
 permalink: /2019/12/07/advice-from-a-test-journeyman/
-jabber_published:
-  - "1575733561"
-timeline_notification:
-  - "1575733565"
-email_notification:
-  - "1575733565"
 categories:
   - Testing
 ---

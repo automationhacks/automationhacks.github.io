@@ -1,29 +1,10 @@
 ---
-id: 819
 title: "Musings on Equivalence partitioning and  boundary value analysis"
-date: 2020-06-24T02:36:05+00:00
-author: Gaurav
 excerpt:
   What are boundary value analysis and equivalence partitioning testing techniques? In this post we
   would understand these with an example.
 layout: post
 permalink: /2020/06/24/equivalence-partitioning-and-boundary-value-analysis/
-jabber_published:
-  - "1592966167"
-publicize_twitter_user:
-  - automationhacks
-advanced_seo_description:
-  - ""
-amp_status:
-  - ""
-spay_email:
-  - ""
-email_notification:
-  - "1592966171"
-publicize_linkedin_url:
-  - null
-timeline_notification:
-  - "1592966171"
 image: /assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg
 categories:
   - Testing

@@ -1,24 +1,17 @@
 ---
-id: 449
 title: Using TestNG setup/teardowns with data provider combinations
-date: 2020-02-22T03:58:01+00:00
 author: Gaurav
 excerpt:
   Sometime back, I tried to update my Kotlin test code using TestNG to use data providers and
   Before/After annotations and it did not work immediately. After some research I found the
   solution. Here is a post, explaining how to use these constructs well with an example.
 layout: post
-guid: http://automationhacks.blog/?p=449
 permalink: /2020/02/22/using-testng-setup-teardowns-with-data-provider-combinations/
-jabber_published:
-  - "1582343887"
-timeline_notification:
-  - "1582343889"
-email_notification:
-  - "1582343889"
 categories:
-  - Programming
-  - Frameworks
+  - Coding
+  - "Test automation"
+tags:
+  - TestNG
 ---
 
 <p class="has-drop-cap">

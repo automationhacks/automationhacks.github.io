@@ -1,23 +1,11 @@
 ---
-id: 761
 title: Finding out package and activity name via adb for appium automation
-date: 2020-04-24T04:12:46+00:00
-author: Gaurav
 excerpt: A post on how to use adb and aapt tools in android sdk to figure out the package and activity names for use in Appium desired capabilities.
 layout: post
-guid: http://automationhacks.blog/?p=761
 permalink: /2020/04/24/finding-out-package-and-activity-name-via-adb-for-appium-automation/
-jabber_published:
-  - "1587701568"
-email_notification:
-  - "1587701571"
-timeline_notification:
-  - "1587701571"
-publicize_twitter_user:
-  - automationhacks
-publicize_linkedin_url:
-  - null
-categories:
+Categories:
+  - Testing
+tags:
   - Mobile
 ---
 

@@ -1,22 +1,14 @@
 ---
-id: 118
 title: How to setup a load test via Locust
-date: 2019-07-28T17:08:21+00:00
-author: Gaurav
 layout: post
 permalink: /2019/07/28/how-to-setup-a-load-test-via-locust/
-jabber_published:
-  - "1564333703"
-timeline_notification:
-  - "1564333705"
-email_notification:
-  - "1564333706"
-publicize_twitter_user:
-  - __gaurav_singh
-publicize_linkedin_url:
-  - null
 categories:
-  - Performance
+  - "Test automation"
+tags:
+  - Python
+  - Locust
+  - "Load testing"
+
 ---
 
 Walkthrough of how we can use Locust to set up a simple test for a mocked API

@@ -1,7 +1,5 @@
 ---
-id: 957
 title: Writing clear bug reports
-date: 2020-07-25T15:03:51+00:00
 author: Gaurav
 excerpt:
   "Writing clear and concise bug reports can greatly reduce the back and forth between different
@@ -9,12 +7,6 @@ excerpt:
   that I use. "
 layout: post
 permalink: /2020/07/25/writing-clear-bug-reports/
-jabber_published:
-  - "1595689433"
-timeline_notification:
-  - "1595689437"
-email_notification:
-  - "1595689437"
 image: /assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png
 categories:
   - Testing

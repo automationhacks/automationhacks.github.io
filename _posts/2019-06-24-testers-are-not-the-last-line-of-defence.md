@@ -1,14 +1,7 @@
 ---
-id: 25
 title: Testers are not the last line of defence
-date: 2019-06-24T16:55:18+00:00
-author: Gaurav
 layout: post
 permalink: /2019/06/24/testers-are-not-the-last-line-of-defence/
-jabber_published:
-  - "1561395317"
-timeline_notification:
-  - "1561395319"
 categories:
   - Testing
 ---

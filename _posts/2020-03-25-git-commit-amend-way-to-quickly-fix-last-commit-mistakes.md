@@ -1,24 +1,14 @@
 ---
-id: 641
 title: 'Git commit amend: Way to quickly fix last commit mistakes'
-date: 2020-03-25T06:52:13+00:00
 author: Gaurav
 excerpt: A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 layout: post
 permalink: /2020/03/25/git-commit-amend-way-to-quickly-fix-last-commit-mistakes/
-jabber_published:
-  - "1585119140"
-timeline_notification:
-  - "1585119142"
-email_notification:
-  - "1585119142"
-publicize_twitter_user:
-  - automationhacks
-publicize_linkedin_url:
-  - null
 image: /assets/images/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg
 categories:
-  - Programming
+  - Coding
+tags:
+  - Git
 ---
 A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 

@@ -1,14 +1,7 @@
 ---
-id: 105
 title: 7 Myths about software testing
-date: 2019-06-26T14:44:22+00:00
-author: Gaurav
 layout: post
 permalink: /2019/06/26/7-myths-about-software-testing/
-jabber_published:
-  - "1561560264"
-timeline_notification:
-  - "1561560267"
 categories:
   - Testing
 ---
