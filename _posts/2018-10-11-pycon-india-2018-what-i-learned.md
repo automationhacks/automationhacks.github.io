@@ -1,6 +1,7 @@
 ---
 title: "Pycon India 2018: What i learned?"
 layout: post
+excerpt: "I attended my first pycon in 2018 in hyderabad. Here are my key learnings from the different talks" 
 permalink: /2018/10/11/pycon-india-2018-what-i-learned/
 categories:
   - Conferences

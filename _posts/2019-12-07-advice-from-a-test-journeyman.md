@@ -1,7 +1,7 @@
 ---
 title: Advice from a test journeyman
 layout: post
-guid: http://automationhacks.blog/?p=194
+excerpt: "In this post, I want to share some of my mental models as a test journeyman with the hope that it gives some insight to people who are a bit new to the field around what behaviors can help them in their journey."
 permalink: /2019/12/07/advice-from-a-test-journeyman/
 categories:
   - Testing

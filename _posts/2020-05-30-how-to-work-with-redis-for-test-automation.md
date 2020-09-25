@@ -5,8 +5,6 @@ layout: post
 permalink: /2020/05/30/how-to-work-with-redis-for-test-automation/
 categories:
   - "Test automation"
-tags:
-  - Redis
 ---
 
 ![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)

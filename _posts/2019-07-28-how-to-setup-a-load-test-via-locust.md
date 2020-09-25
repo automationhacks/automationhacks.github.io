@@ -6,7 +6,6 @@ categories:
   - "Test automation"
 tags:
   - Python
-  - Locust
   - "Load testing"
 
 ---
