@@ -29,7 +29,7 @@ phenomenon faced by humans in different industries though more common in tech an
 
 ### As a tester 🕵️‍♂️
 
-As a tester, you are _"supposed"_ to be the product expect right?. You should be knowing the in's
+As a tester, you are _"supposed"_ to be the product expert right?. You should be knowing the in's
 and out's of the system and should be able to explain what everything in the system does instantly
 no?
 
