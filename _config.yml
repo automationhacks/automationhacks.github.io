@@ -44,6 +44,7 @@ header_pages:
   - talks.md
   - books.md
   - courses.md
+  - hire_me.md
 
 defaults:
   - 

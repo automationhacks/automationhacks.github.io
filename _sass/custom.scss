@@ -1,0 +1,38 @@
+#Iframe-Liason-Sheet {
+  max-width: 720px;
+  max-height: 2000;
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0; /* gets height from padding-bottom setting */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as a % */
+.responsive-wrapper-wxh-720x2000 {
+  padding-bottom: 363.6364%;
+}
+
+.iframe-border {
+  border: 1px solid #000;
+}
+
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
