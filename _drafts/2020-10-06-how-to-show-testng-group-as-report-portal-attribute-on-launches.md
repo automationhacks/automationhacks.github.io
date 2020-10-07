@@ -41,3 +41,6 @@ fun testAddition(first: Int, second: Int, expected: Int) {
 ```groovy
 systemProperty "rp.attributes", System.getProperty("tag")
 ```
+
+https://stackoverflow.com/questions/23689054/problems-passing-system-properties-and-parameters-when-running-java-class-via-gr
+https://docs.gradle.org/current/dsl/org.gradle.api.tasks.JavaExec.html

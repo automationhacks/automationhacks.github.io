@@ -11,3 +11,9 @@ tags:
   - Reporting
 ---
 
+
+Kotlin
+
+https://kotlinlang.org/docs/reference/coroutines/shared-mutable-state-and-concurrency.html
+https://code.tutsplus.com/tutorials/concurrency-and-coroutines-in-kotlin--cms-29877
+https://proandroiddev.com/synchronization-and-thread-safety-techniques-in-java-and-kotlin-f63506370e6d
