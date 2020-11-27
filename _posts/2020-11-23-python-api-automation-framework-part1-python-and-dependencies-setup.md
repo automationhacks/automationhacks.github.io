@@ -134,10 +134,10 @@ Let's install `requests` which we would use to actually make HTTP requests.
 pipenv install requests
 ```
 
-We can always check the package is installed by executing below
+We can always check the package is installed by executing below (while inside the virtualenv)
 
 ```zsh
-pipenv freeze
+pip freeze
 ```
 
 We will also use pytest as the test framework of choice
