@@ -40,6 +40,12 @@ To setup clone people-api repo from github and then activate the pipenv by runni
 pipenv shell
 ```
 
+Ensure all the dependencies are installed in the pipenv by executing:
+
+```zsh
+pipenv install
+```
+
 Once done, Init the database by executing
 
 ```zsh
