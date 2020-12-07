@@ -4,7 +4,7 @@ excerpt:
   "Learn how to make http requests in python using requests and pytest for a locally hosted Flask
   API"
 layout: post
-permalink: /2020/11/27/python-api-automation-framework-part1-python-and-dependencies-setup
+permalink: /2020/11/27/python-api-automation-framework-part2-making-http-requests
 image: /assets/images/2020/11/api_course_header_2.png
 categories:
   - "Test automation"
