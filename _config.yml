@@ -45,6 +45,7 @@ header_pages:
   - books.md
   - courses.md
   - hire_me.md
+  - ama.md
 
 defaults:
   - 
