@@ -46,6 +46,7 @@ header_pages:
   - courses.md
   - hire_me.md
   - ama.md
+  - patreon.md
 
 defaults:
   - 

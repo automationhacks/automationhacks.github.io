@@ -1,11 +1,7 @@
 ---
-id: 728
-title: Books
-date: 2020-04-13T03:28:08+00:00
+title: Books 📚
 author: Gaurav
 layout: page
-jabber_published:
-  - "1586748489"
 ---
 
 This page holds a collection of bookings that are simply too good to ignore and teach valuable

@@ -1,17 +1,7 @@
 ---
-id: 363
-title: Talks
-date: 2019-10-20T14:15:33+00:00
+title: Talks 🙊
 author: Gaurav
 layout: page
-advanced_seo_description:
-  - ""
-amp_status:
-  - ""
-spay_email:
-  - ""
-jabber_published:
-  - "1571580934"
 ---
 
 I try to regularly share my knowledge with the test community over at conference talks and meetups.

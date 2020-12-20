@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hire me
+title: Hire me 👨🏻‍💻
 permalink: /hireme/
 ---
 
