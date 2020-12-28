@@ -4,9 +4,11 @@ author: Gaurav
 layout: page
 ---
 
-I try to regularly share my knowledge with the test community over at conference talks and meetups.
-I will include links to the talk videos and slides wherever I can. Enjoy! Also in case you have
-feedback on any of these, do reach out.
+I try to regularly share my knowledge with the test and automation community over at conference
+talks and will include links to the talk videos and slides wherever I can. Enjoy! Also in
+case you have feedback on any of these, do reach out.
+
+Also, I have recently switched to using markdown and static site generators for all conference slides. You can view all of them on [https://automationhacks.io/slides/](https://automationhacks.io/slides/)
 
 ## Upcoming
 
@@ -18,7 +20,7 @@ feedback on any of these, do reach out.
 
 Selenium Conference | Bengaluru | September 11 2020 |
 [Proposal](https://confengine.com/selenium-conf-2020/proposal/13303/how-to-build-an-automation-framework-with-selenium-patterns-and-practices)
-| [slides](https://automationhacks.io/slides/docs/ui_automation_framework/index.html)
+| [slides](https://automationhacks.io/slides/automation_frameworks/frontend/00_about/)
 
 ### Contract testing: Beyond Functional API tests
 

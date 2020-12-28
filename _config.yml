@@ -47,6 +47,7 @@ header_pages:
   - hire_me.md
   - ama.md
   - patreon.md
+  - learn_test_automation.md
 
 defaults:
   - 
