@@ -33,6 +33,8 @@ You can read previous parts below:
 - [Python API test automation framework (Part 3) Writing Fluent assertions]({% link
   _posts/2020-12-07-python-api-automation-framework-part3-adding-fluent-assertions.md %})
 
+---
+
 Any API framework would be incomplete without having the ability to deal with XML responses and
 requests.
 

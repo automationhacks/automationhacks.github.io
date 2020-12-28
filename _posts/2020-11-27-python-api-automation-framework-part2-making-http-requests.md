@@ -26,6 +26,8 @@ This is second post in a series on how to build an API framework using python.
 Read part 1 [here]({% link
 _posts/2020-11-23-python-api-automation-framework-part1-python-and-dependencies-setup.md %})
 
+---
+
 ## Understanding API under test
 
 Let’s understand the API that we will be using in this tutorial a bit better.

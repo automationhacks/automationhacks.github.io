@@ -30,6 +30,8 @@ You can read previous parts below:
 - [Python API test automation framework (Part 2) Making HTTP requests]({% link
   _posts/2020-11-27-python-api-automation-framework-part2-making-http-requests.md %})
 
+---
+
 An integral part of any test automation framework is how you perform assertions ✅ 🔴. You can also
 argue that it's the essential bread and butter of test automation. Ever seen a test that does not
 assert anything? 🤔
