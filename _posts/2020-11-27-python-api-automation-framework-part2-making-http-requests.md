@@ -229,6 +229,9 @@ provides please read [requests docs](https://requests.readthedocs.io/en/master/u
 I hope this gives you a good idea on how to use requests to make HTTP calls. In the next post we
 would discuss more on working with JSON/XML data types and assertions. Stay tuned. ⏰
 
+You can find the complete code for this course on Github at
+[automationhacks/course-api-framework-python](https://github.com/automationhacks/course-api-framework-python)
+
 And here are reads from MDN on
 [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) and
 [Accept](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) headers

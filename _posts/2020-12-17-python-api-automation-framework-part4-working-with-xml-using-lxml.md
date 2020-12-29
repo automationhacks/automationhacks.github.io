@@ -282,3 +282,6 @@ There are many other use cases which the lxml library can support. Discussing th
 result in a very long post. I would encourage you to get into the very well written
 [lxml docs](https://lxml.de/xpathxslt.html#xpath) when in doubt, for more details on your specific
 use cases.
+
+You can find the complete code for this course on Github at
+[automationhacks/course-api-framework-python](https://github.com/automationhacks/course-api-framework-python)

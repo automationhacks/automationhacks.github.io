@@ -206,6 +206,9 @@ you have a basic understanding of how to use a tool like Cerberus to achieve thi
 understanding, all the nuances of this approach feel free to dig deep into Cerberus docs which lists
 a lot of the functionality that is available.
 
+You can find the complete code for this course on Github at
+[automationhacks/course-api-framework-python](https://github.com/automationhacks/course-api-framework-python)
+
 If you found this post useful, Do share it with a friend or colleague and if you have thoughts, I'd
 be more than happy to chat over at twitter or comments. Until next time. Happy Testing.
 

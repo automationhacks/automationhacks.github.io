@@ -185,5 +185,8 @@ I hope you have a better sense of how a dedicated fluent assertion library makes
 better and I hope you would use them going forwards. That's it for this post. We shall see how to
 work with XML and JSON data types in the next posts in the series
 
+You can find the complete code for this course on Github at
+[automationhacks/course-api-framework-python](https://github.com/automationhacks/course-api-framework-python)
+
 If you found this post useful, Do share it with a friend or colleague and if you have thoughts, I'd
 be more than happy to chat over at twitter or comments. Until next time. Happy Testing and Coding.
