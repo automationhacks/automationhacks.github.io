@@ -36,9 +36,12 @@ We will be using [people-api](https://github.com/automationhacks/people-api) whi
 HTTP operations developed using Python Flask, SQLAlchemy and uses sqlite as the database and
 represents a list of persons with first name, last name and an id
 
-To setup clone people-api repo from github and then activate the pipenv by running below:
+To setup clone people-api repo from github, `cd` to the newly cloned repo and then activate the
+pipenv by running below commands:
 
 ```zsh
+git clone git@github.com:automationhacks/course-api-framework-python.git
+cd people-api
 pipenv shell
 ```
 
