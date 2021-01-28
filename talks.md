@@ -20,7 +20,7 @@ Also, I have recently switched to using markdown and static site generators for 
 
 Selenium Conference | Bengaluru | September 11 2020 |
 [Proposal](https://confengine.com/selenium-conf-2020/proposal/13303/how-to-build-an-automation-framework-with-selenium-patterns-and-practices)
-| [slides](https://automationhacks.io/slides/automation_frameworks/frontend/00_about/)
+| [slides](https://automationhacks.io/slides/2020/se-conf/how-to-build-an-automation-framework-with-selenium/01-introduction/)
 
 ### Contract testing: Beyond Functional API tests
 
