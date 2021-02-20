@@ -3,9 +3,9 @@
 // Define defaults for each variable.
 
 // Made roboto as the default font
-$base-font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI",
+$base-font-family: Lato, Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI",
 	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size: 17px !default;
+$base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -31,7 +31,7 @@ code {
 
 $spacing-unit: 30px !default;
 
-$text-color: #111 !default;
+$text-color: #444 !default;
 $background-color: #fdfdfd !default;
 $brand-color: #2a7ae2 !default;
 
