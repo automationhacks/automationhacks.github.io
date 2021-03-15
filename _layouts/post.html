@@ -20,9 +20,20 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&#9194; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}"> {{page.next.title}} &#9193;</a>
+    {% endif %}
+  </div>
+
+
   {%- if site.disqus.shortname -%}
   {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
 </article>
