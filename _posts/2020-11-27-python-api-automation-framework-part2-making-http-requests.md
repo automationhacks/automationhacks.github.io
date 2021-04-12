@@ -81,9 +81,14 @@ made to the server
  * Debugger PIN: 105-008-664
 ```
 
-Let’s navigate to `http://0.0.0.0:5000` to see the application,
+Let’s navigate to the default host and port printed in flask logs `http://0.0.0.0:5000` to see the
+application,
 
 > Note: To see the swagger spec for this API we can navigate to `http://0.0.0.0:5000/api/ui/#/`
+
+> Important Note 📕: On a windows machine, you may want to replace `0.0.0.0` with `127.0.0.1`. Read
+> [this post on How-To Geek](https://www.howtogeek.com/225487/what-is-the-difference-between-127.0.0.1-and-0.0.0.0/)
+> to understand this is needed
 
 As you can see this API supports basic CRUD operations (CREATE, READ, UPDATE, DELETE)
 

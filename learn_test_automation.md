@@ -23,5 +23,5 @@ Interested in knowing more?
 Checkout [how-to-learn-test-automation/](https://automationhacks.io/how-to-learn-test-automation/)
 which is a community driven reference guide towards that goal with curated list of resources
 
-PS: You can be a contributor and share your unique learning path and resources with the whole
-community. Feel free to raise a PR
+> PS: You can be a contributor and share your unique learning path and resources with the whole
+> community. Feel free to raise a PR
