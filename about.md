@@ -16,19 +16,20 @@ Over the years, I have been testing and **automating** a lot of Web apps, API's 
 (Android/IOS) in different domains.
 
 I consider myself a reasonably experienced tester and have spent a significant amount of time
-writing automation frameworks and utilities in Python and Java and now more recently in Kotlin.
+writing automation frameworks and utilities in Python, Java and now more recently in Kotlin. I also
+dabble with a bit of JavaScript occasionally
 
 My work and experience have made me quite _opinionated_ on how _testing should happen_ and I do
 **NOT** believe a tester is a sole person responsible for Quality but rather in a whole team testing
 approach.
 
-My general motto in life is to _Have strong opinions weakly held_ and thus healthy debate and
-discussion are **very** valuable to me. That is how we all grow and learn IMHO.
+One of my core principles in life is to _Have strong opinions weakly held_ and thus healthy debate
+and discussion are **very** valuable to me. That is how we all grow and learn IMHO.
 
 I also consider myself to be a reasonable person overall and am always keen to listen and understand
 all viewpoints for something under discussion before coming to my own conclusions.
 
-## Why do you blog
+## Why do you blog?
 
 My reasons are mostly selfish. I needed a repository of solutions to common problems in test
 automation/programming and also a way to keep track of my journey through the world of Software
@@ -40,6 +41,14 @@ breadcrumbs which I could go back and refer.
 To me, testing is a wholistic field in itself with its own set of **nuances** and this blog is a way
 for me express it to the larger community. Hopefully, this is useful, relevant or interesting to
 other people as well.
+
+## Are these cross posted?
+
+Yes, some of these blogs are cross posted on below, however mostly keep the original site updated
+with any changes
+
+- [Dev.to](https://dev.to/automationhacks)
+- [Medium](https://automationhacks.medium.com/)
 
 ## How can I contact you
 
