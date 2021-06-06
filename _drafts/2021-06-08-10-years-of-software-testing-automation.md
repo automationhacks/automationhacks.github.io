@@ -181,5 +181,53 @@ and had an in house dashboard to present these test results while using Jenkins 
 rich framework built from scratch and contributing hands on was a dream come true
 
 I still remember, the India head come over to my desk early morning and calling out the importance
-of treating yourself as a Software craftsmen and taking pride in building these reusable solutions.
-Coming to office every day and coding till evening while building automation was very addictive
+of treating oneself as a Software craftsmen and taking pride in being a solid engineer and building
+these reusable solutions to make QE more efficient. Coming to office every day and coding till
+evening while building automation was very addictive and I believe everyone needs to go through an
+experience like this
+
+> Learning: 💡 Working in small teams and companies can really challenge you and ensure you learn
+> and grow way faster than in enterprises
+
+We also built a custom test framework to use SOAP, REST based APIs and check integrations between
+different Planview and Projectplace products as well as external tools like JIRA, Rally etc.
+
+I also got the chance to travel to Austin, Texas USA for a couple of weeks to understand more about
+the product as well as conduct trainings for the QE team there on using and contributing to the API
+automation solution that we had built in bangalore
+
+### Building UI automation framework from scratch
+
+After spending a considerable amount of time building API frameworks, I did a POC to build a
+Selenium Python based framework for web automation. It was a challenge since I had never worked with
+Selenium before and I read the code from another team and tailored their framework for Planview
+team.
+
+The learning experience was immense. I got to implement Page object pattern and learn Pytest as the
+test runner of choice while also setting up CI on Jenkins and a local Selenium Grid setup on docker.
+Taking on this E2E undertaking really gave me confidence in my skills as an Automation engineer and
+I then mentored and on boarded couple of other engineers onto this framework
+
+> Learning 💡: Using/contributing existing frameworks is great but you should really challenge
+> yourself to understand how the different framework pieces work together and build stuff. The more
+> you do this, the better you get with passing time
+
+### Attending my first ever Automation conference
+
+I also attended my first ever Testing conference, Selenium Conference, Bangalore in 2016 and felt
+awestruck seeing such amazing and knowledgeable speakers, it was a great learning experience and I
+wondered how it would feel like to know enough to deliver a talk in front of so many people
+
+## Working in a Start up product company
+
+It was 2018 now and I saw one of my college friend post messages on facebook promoting his current
+employer `Gojek`, while things at my current employer were excellent and I was a valued member of
+the team, I wondered how would it be like to work in a Hyper scale product company that creates so
+much social impact in the lives of South east asian people
+
+I got a referral and after interviewing with them, realized that Gojek could be my next home. Also I
+was to join a rapidly growing product team which had only a Single QA consultant. Gojek mostly had
+consumer facing apps on Android and iOS and a primary Java based automation stack.
+
+I saw this as a opportunity to learn and grow myself more by understanding the challenges with
+mobile automation
