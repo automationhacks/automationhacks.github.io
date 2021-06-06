@@ -117,9 +117,69 @@ learning from them and enjoying countless team lunches and outings.
 
 ## Changing jobs
 
-After 3 years 3 months with Accenture I decided it was time to change jobs and see how other
-projects and teams were solving similar problems.
+After 3 years 3 months with Accenture I decided it was time to move on and change jobs and see how
+other projects and teams were solving similar or new problems.
 
-I had an offer from an early stage startup and an enterprise company and decided to join Aricent
-(now altran) as my next employer. I joined as part of the Itron Analytics team which was responsible
-for building analytic dashboards
+## Testing an analytics product
+
+I had an offer from an early stage startup and a more stable enterprise company and decided to join
+Aricent (now Altran) as my next employer in September 2014.
+
+I joined Aricent as a Senior Engineer - Testing in the Itron Analytics team which was responsible
+for building analytic dashboards for Gas, Water, Electricity meter for a big utilities company in
+US. When I joined the QA team size was 4 including a people manager.
+
+It was exciting since I had previously not worked with analytics product and I got to understand how
+complex ETL processes would take data and seed and aggregate Data ware house tables. Pretty soon one
+of my seniors left the job and I became to most senior IC on this team.
+
+I learned how to design test strategies for this complex product and also participate actively in
+all Agile ceremonies between a cross functional team across India and US. Understanding how a tester
+can effectively help shape product direction by calling out missing requirements, clarifying
+acceptance criteria and help team improve by bringing up process inefficiencies in Team wide retro
+was a lot of fun
+
+### Building UI automation with Microsoft Coded UI
+
+One of the biggest challenges in this team was when we decided to rewrite old legacy Flash based
+dashboards with rich modern graphs using D3 and HTML5. The test manager on the team also decided for
+us to use `Microsoft CodedUI` as the UI automation framework since we were heavily into Microsoft
+stack (Visual studio, C#, TFS (Team foundation server), and MTM (Microsoft test manager)). I also
+got a chance to travel to USA to San Francisco, California and Spokane, Washington along with a
+colleague to help test and deliver this migration feature
+
+Coming from my QTP/UFT background, it was a challenge to understand `C#`, `CodedUI` technology
+however I was able to learn these and become a productive IC on the team under a more experienced
+Lead. `CodedUI` heavily encouraged use of Hand coding while building the framework and I remember
+making use of `Hexawise` tool to generate lot of data combinations which formed the basis of our
+regression suite
+
+> Learning: 💡 Don't be bounded with the Tech stack that you are used to, learning a new automation
+> stack helps you to become a more well rounded Automation engineer
+
+## Working in a small sized company
+
+After contributing to this teams success, I wanted to move on to a more challenging role and
+switched jobs to **Projectplace India** which later was acquired by **Planview USA**. We had a team
+of 3 Automation engineers in India that grew to 8 people in some months time.
+
+This role required to learn `Python` for test automation and looking back joining this company was
+one of the best decisions I took.
+
+My colleagues were all 10+ years experienced and I learned so much from their existing knowledge
+while being challenged on an individual level.
+
+### Building API automation frameworks with scratch
+
+We liked to call ourselves the `Jedi` team, a name i proposed driven from my fondness for Star Wars
+trilogy and we augmented a largely manual QE team in USA by building automation tools and frameworks
+
+I got a chance to contribute to building a framework that used Microsoft PICT tool for generating
+pairwise combinations to test SSRS (SQL Server Reporting Services) analytics reports and performed
+XML comparisons against a set baseline. This also stored these test results in SQL Server database
+and had an in house dashboard to present these test results while using Jenkins for CI. Seeing a
+rich framework built from scratch and contributing hands on was a dream come true
+
+I still remember, the India head come over to my desk early morning and calling out the importance
+of treating yourself as a Software craftsmen and taking pride in building these reusable solutions.
+Coming to office every day and coding till evening while building automation was very addictive
