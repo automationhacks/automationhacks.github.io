@@ -1,11 +1,12 @@
 ---
 title: 10 years of Software testing and automation
 excerpt:
-  "I started my career in Software testing and test automation 10 years ago on this day. This post
-  is a reflection of how this decade went and some of my mental models around Software testing"
+  "I started my career in Software testing and test automation 10 years ago on this very day. This
+  post is me reflecting on how this decade went and some of my learnings and experiences along the
+  way"
 layout: post
 permalink: /2021/06/08/10-years-of-software-testing-automation
-image: /assets/images/2021/04/tau-course.png
+image: /assets/images/2021/06/undraw_career_progress_ivdb.png
 categories:
   - "Test automation"
   - Testing
@@ -14,110 +15,129 @@ tags:
   - "Advice"
 ---
 
-Today, June 8th is a special day. It's the day that I complete 10 years as a Software tester and
-automation engineer. This post is a trip down memory lane as well as calling out some of my key
-learnings (both personal as well as technical) along the way
+![Career progress](../assets/images/2021/06/undraw_career_progress_ivdb.png)
 
-> Disclaimer: This is a pretty long article, since 10 years is no short time! 😉
+Source: Illustration created by Katerina Limpitsouni on [Undraw](https://undraw.co/)
 
-## I fell into Software testing
+Today, 8th June is a special day for me. It's the day that I complete 10 years as a Professional
+Software tester and automation engineer.
 
-It was a bright rainy day in 2011 when I joined Accenture, my first company fresh out of college.
-The vivid memories of that day are still quite fresh in my mind.
+This long post is a trip down memory lane where I call out some of my key personal and technical
+learnings, experiences, challenges and career highlights.
+
+> Disclaimer: This is a gonna be a pretty long one, since 10 years is no short time! Grab a drink or
+> popcorn 😉
+
+## How I got into Software testing
+
+It was a bright day in 2011 when I joined Accenture, my first Tech company fresh out of college with
+an engineering degree in Information Technology. The vivid memories of that day are still quite
+fresh in my mind as I remember going through the onboarding process.
 
 I had no clue about which role, team or skill i'll work on in my career. Ever since college I wanted
-to be a **Software developer** and had built simple MS .NET and Java websites as part of my college
-projects. I liked to code and felt a certain charm towards the role, even thinking of it as an elite
-role at that point
+to be a **Developer** and had built simple MS .NET and Java websites as part of my college projects.
 
-However my employer did a random skill allocation on joining and I saw my skill was going to be
+I liked to code and felt a certain charm towards the role, even thinking of it as an elite role to
+have at that point
+
+My employer did a random skill allocation upon joining and I saw my skill was going to be
 **Functional testing**. With no clue about what kind of career could be made in Software testing, I
 was honestly a bit disappointed at that point and inquired on whether I can change my skill, I got
-to know however that I can change the skill only after spending 18 months 😲
+to know however that I can change the skill only after spending 18 months with the company/project
+that I get enrolled in 😲
 
-### A first taste of testing
+### A first taste of Software testing
 
 Accenture had a green field training program where freshers would be trained on their allocated
-skill and I was trained in HP Quality center (later becoming HP ALM), HP QTP (Quick test
+skills and I was trained for a couple of months on HP QC (Quality center), HP QTP (Quick test
 professional) using VB Script, Load testing using HP LoadRunner and a foundational knowledge of
 different types of testing
 
-At that point I was surprised to see that "Okay, even Software testers code?" 🤷 There is something
-called as **Automated testing** and that allows testers to automate away bulk of their testing. I
-came to know that testing is not just clicking some buttons around but involves different flavours
-like **Functional, Non Functional, Security, Accessibility, Usability**
+At that point I was surprised to see that `"Okay, even Software testers code?"` 🤷 There is
+something called as **Automated testing** that provided testers a way to automate away bulk of their
+testing. I came to learn that testing is not about clicking some buttons around but involves
+different flavours like **Functional, Non Functional, Security, Accessibility, Usability** and you
+can go deeply into any of these topics
 
-I said to myself, hey, this looks really interesting, Are you telling me that i get to do all that
-on a project 😆, seems like quite a challenge. After completing my training successfully I joined
-the ARISTOS DSL team within accenture that consulted in building solutions for a major US Telecom
-client.
+I remember saying to myself, **"hey, this looks really interesting, Are you telling me that i get to
+do all that on a project 😆, seems like quite a challenge"**.
 
-> Learning: 💡 Software testing is not just clicking some buttons, but a holistic field involved in
-> checking if the application works at all the different layers thats possible. It involves not just
-> understanding the system deeply but also writing cool automation to make this whole process faster
+After completing my training successfully I joined the ARISTOS DSL team within accenture that built
+solutions for a major US Telecom client.
 
-## Test planning, execution and automation
+> Learning: 💡 Software testing is not just clicking some buttons (as is commonly misunderstood),
+> but a holistic field involved in checking if the system works at all of its different layers. It
+> involves not just understanding the system deeply but also writing cool automation to make this
+> whole process faster
 
-I was fortunate to have really good mentors who took me under their wing and showed me how the
-process, of designing a Test strategy happened, Writing detailed test plans with expected scenarios,
-conditions and results, How a scripted test is written covering the application and the tracking
-entire execution/defect cycle on a test management tool
+## Hands on Test planning, execution and automation
 
-### Raising bugs
+I was fortunate to have really good and inclusive mentors who took me under their wing and showed me
+how the process, of designing a Test strategy happened, How to write detailed test plans with
+expected scenarios, conditions and results, How a scripted test is written covering the application
+and the tracking entire execution/defect cycle on a test management tool
+
+### Experiencing the thrill of becoming a bug hunter
 
 I really started to enjoy the process of investigating the application and the underlying database
-structure, infrastructure and initially following and then creating these Test plans on my own. And
-finding good bugs in the system.
+structure, infrastructure and while initially followed test plans created by senior engineers,
+pretty soon ended up creating Test plans of my own.
 
-Finding a bug and then getting it fixed gave me a kick, knowing that the product is better off and
-I'm directly contributing to customer satisfaction 👍
+Finding a bug and then getting it fixed by talking with Devs gave me a kick, knowing that the
+product is better off and I'm directly contributing to increased customer satisfaction 👍
 
-I also learned how Developers, Testers and Technical/Business Architects, Design and other
-functions, work all together to deliver quality software
+I also learned first hand how Developers, Testers and Technical/Business Architects, Design and
+other functions, work all together to deliver quality software. Those were the days of long running
+projects and structured change requests.
 
 ### Automating tests in QTP
 
-I also realized that while the process of exploratory testing was very interesting it took me long
-times to run these cycles manually. Even my Test lead and manager wanted to see if this could be
+I also realized that while the process of exploratory testing was very interesting it took me a long
+time to run these cycles manually. My Test lead and manager wanted to see if this could be
 automated.
 
-I started to write **Test automation using QTP**, initially using record and playback, using the
-tools features to write data driven E2E scenarios on the application. They were flaky as hell since
-every time the website changed, I had to go back and modify the identifiers in the **Object
-repository**, it was painful to do this and I wondered if this could be done better?
+I started to write **Test automation using QTP**, initially using record and playback feature of the
+tool to write data driven E2E scenarios on the application. They were flaky as hell since every time
+the website changed, I had to go back and modify the identifiers in the **Object repository**, it
+was painful to do this and I wondered if this could be done in a better way?
 
-We had a senior engineer on the team who was more into VB Scripting and had written a keyword driven
-framework wherein instead of using record and playback, each component was **Hand-coded**, after
-learning and trying this for my own project I found this to be very efficient as managing tests was
-much easier
+We had a senior engineer on another team who was more into VB Scripting and had written a keyword
+driven framework wherein instead of using record and playback, each component was **Hand-coded in
+VBScript**
 
-> Learning 💡: While record playback is good to understand the application and generate scripts
-> quickly, its not maintainable and its better to take that awareness and hand craft the automated
-> suite
+After learning and trying this for my own project I found this to be very efficient as managing
+tests was much easier.
+
+> Learning 💡: While record playback technologies are good to understand the application and
+> generate scripts quickly, its not maintainable in the long run and its better to take that
+> knowledge and hand craft the automated suite
 
 ### Services and Load testing
 
-After spending an year writing UI automation, I moved more towards using SOAP UI for Web, services
-testing and again this was very interesting since there was no UI to play with, I found out that
-these enterprise apps make use of API to get data or do changes in the system and it was fascinating
-to play with them.
+After spending an year writing UI automation, I moved more towards using **SOAP UI for Web, services
+testing** by hand and again it was fascinating to learn since there was no UI to play with and you
+can run functional tests quite quickly using them
 
 > Learning: 💡 API testing is another way to verify functional and non functional aspects of the
-> system works and is often faster and more reliable to conduct than UI testing
+> system and is much faster and more reliable to conduct than UI testing
 
 I also got a chance to transition to a team that was running load tests on the application using
-**Apache Jmeter** and I realized this was a quite different aspect of testing. I mostly ran these
-tests and collected metrics while working with an experienced Performance engineer and infra teams
-to ensure once the System test phase was done, that our application also performed well under load
+**Apache Jmeter** and I realized this was a quite different aspect of testing.
 
-## Becoming a mentor
+I mostly ran these tests and collected metrics while assisting an experienced Performance engineer
+and communicating with infra teams to ensure once the System test phase was done, that our
+application also performed well under expected load parameters
+
+### Becoming a mentor
 
 Towards the end of my time with Accenture, I had transitioned from a fresher to a more experienced
-engineer and mentored multiple people who joined the team, I found the whole aspect of teaching
-someone on the team made myself learn things a lot better and I had lot of fun talking with them,
-learning from them and enjoying countless team lunches and outings.
+engineer and mentored multiple people who joined the team
 
-## Changing jobs
+I found the whole aspect of teaching someone on the team made myself learn things a lot better and I
+had lot of fun talking with them, learning from them and enjoying countless team lunches and
+outings.
+
+## First Job change
 
 After 3 years 3 months with Accenture I decided it was time to move on and change jobs and see how
 other projects and teams were solving similar or new problems.
@@ -290,9 +310,81 @@ this regression cycle
 
 ### Building API automation using Kotlin, TestNG
 
+After an year of working on mobile automation, I had another colleague join from a consulting
+company and I on-boarded him on the mobile framework and wanted to set out and build the API
+automation framework for the product group that I was working in.
 
+We had an existing test suite that covered few E2E tests however these tests were coupled together
+heavily and it was very difficult to follow the code. Also the tests often would fail and made it
+very difficult to find the problem at hand.
 
-## Blogging, Conference talks and Video Tutorials
+We had an existing framework in Gojek over rest assured that many different teams were using, and
+while initially I thought to write my own python based test suite, I realized after a week of effort
+that integrating my tests/utilities for other teams would be very difficult since they were mostly
+using Java based stack and I would have to write lot of bridge code using Jython or the like.
+
+At this point, there were few developers who also wanted to contribute to the framework and
+automated test suite and suggested to try using Kotlin as an alternative.
+
+Kotlin at that point was already the most popular language for Android development and had already
+been blessed by Google as so, After researching and learning the language I found, that not only
+writing code in Kotlin was faster, but it also was a lot more concise and expressive than Java
+
+I decided to use it as the language for my team and convinced my teammates of the same. It learned
+it from Kotlin Koans and other courses on Udacity and more so on the job. Also, wrote a lot of blogs
+on using Kotlin along with TestNG. I later extended this test suite to run for all geographies that
+Gojek was in as part of an App unification project and reduced the suite execution runtime from 1.5
+hrs or so to 25 mins by implementing concurrency via TestNG and Kotlin synchronization blocks.
+
+### From Lone QA to becoming a lead and then an Engineering manager
+
+For the first two years of my career at Gojek, I was mostly a **Senior IC (Individual
+contributor)**, designing test plans and automation myself, as well as directly mentoring one
+colleague.
+
+Infact for some 6-8 months I was the only automation engineer on the team.
+
+How did I manage to accomplish what i did with such people crunch?
+
+Well, I mainly ensured testing happened in the team regardless of who did it. On our team developers
+tested lot of their own features and were very supportive
+
+I would usually pair with Devs on the most critical features, helping to brainstorm possible
+coverage gaps while planning and building automation solutions and this simple model led us to
+deliver many features to our customers with high quality
+
+> Learning: 💡: Learn to trust people around you (in general) and more so if you are the only
+> QA/Automation engineer on the team, You won't be able to gate keep every change, but can surely
+> sensibly automate flows that add maximum value and give Devs the insights and tools to do more
+> effective testing.
+
+#### Becoming a lead
+
+With Covid and work from home, our team had to ramp up to adjust to growing needs of the business
+and the business decided to hire 2 more automation engineers, managing the hiring and then
+onboarding process was tough but I along with another senior colleague were able to achieve this by
+setting up well defined process, setting proper expectations as well depending heavily on
+documenting the system. We did lots of pair programming and code review sessions to help the new
+joiners become comfortable with the team
+
+Being the senior person on the team, I was also asked to manage these colleagues directly, This was
+a slight shift since while I had lot of experience mentoring and working with team members, I was
+never really done direct people management before. I mostly managed this by setting shared vision,
+setting up processes and offering an empathetic ear during 1:1's
+
+#### Becoming a manager
+
+Within 8 months of me directly managing a couple of engineers, I got promoted to being the Quality
+engineering manager of the entire logistics product group. I must admit I had my doubts about
+whether I should continue to pursue the path of Staff engineer or engineering management and though
+the Jury is still out on what I would really like
+
+I still felt that learning to be an Engineering manager could add more dimensions to my personality
+as well as skills. The key difference that I feel is that now I can take a more active role in
+shaping up the quality of the product by using multiple tools at my disposal all the while helping
+my colleagues excel in their interest areas
+
+## Becoming a blogger, Conference speaker and Technical course instructor
 
 ### Started blogging
 
@@ -373,3 +465,33 @@ During the actual talk and post talk slido questions, I heard about a lot of int
 and they also helped me understand what aspect of CDC I needed to learn more
 
 > Learning: 💡: One of the best ways of learning something is to teach it to someone else
+
+### More talks and courses
+
+I later on went to give another talk during Selenium Conf Online 2020 on "How to build an automation
+framework with Selenium: Patterns and practices" and built another course on API testing in python
+for Test automation university
+
+## Any regrets?
+
+## So whats next?
+
+Where do I see myself going next from here?
+
+TBH, I am not the type of person who would plan out next 5 years. I usually do planning for no more
+than the next 3 - 6 months and a vague idea of the sort of things I want to try out.
+
+Even though its been 10 years for me, I still feel like a beginner with a hunger to learn and
+understand how different technologies work and what patterns could scale products as well as teams,
+so I guess i'm just going to keep moving on in this journey.
+
+Who knows, I might even start a YouTube channel, podcast or write a book. I know for sure that its
+going to be exciting one.
+
+The end... Or a new beginning 😉!
+
+PS: If you read this whole post, I hope you could gather something useful from it. Do share your
+experience in the comments as well.
+
+As always, Do share this with your friends or colleagues and if you have thoughts or feedback, I'd
+be more than happy to chat over at twitter or comments. Until next time. Happy Testing and coding.
