@@ -125,13 +125,13 @@ I also got a chance to transition to a team that was running load tests on the a
 **Apache Jmeter** and I realized this was a quite different aspect of testing.
 
 I mostly ran these tests and collected metrics while assisting an experienced Performance engineer
-and communicating with infra teams to ensure once the System test phase was done, that our
-application also performed well under expected load parameters
+and helping to communicate with infra teams to ensure once the System test phase was done, that our
+app also performed well under expected load parameters
 
 ### Becoming a mentor
 
 Towards the end of my time with Accenture, I had transitioned from a fresher to a more experienced
-engineer and mentored multiple people who joined the team
+engineer and mentored multiple engineers who joined the team
 
 I found the whole aspect of teaching someone on the team made myself learn things a lot better and I
 had lot of fun talking with them, learning from them and enjoying countless team lunches and
@@ -142,101 +142,125 @@ outings.
 After 3 years 3 months with Accenture I decided it was time to move on and change jobs and see how
 other projects and teams were solving similar or new problems.
 
-## Testing an analytics product
-
 I had an offer from an early stage startup and a more stable enterprise company and decided to join
 Aricent (now Altran) as my next employer in September 2014.
 
-I joined Aricent as a Senior Engineer - Testing in the Itron Analytics team which was responsible
-for building analytic dashboards for Gas, Water, Electricity meter for a big utilities company in
-US. When I joined the QA team size was 4 including a people manager.
+## Testing an analytics product
+
+I joined Aricent as a Senior Engineer - Testing as a consultant in the Itron Analytics team which
+was responsible for building analytics dashboards for Gas, Water, Electricity meter for a big
+utilities company in US. When I joined the QA team size was 4 including a people manager.
 
 It was exciting since I had previously not worked with analytics product and I got to understand how
-complex ETL processes would take data and seed and aggregate Data ware house tables. Pretty soon one
-of my seniors left the job and I became to most senior IC on this team.
+complex ETL processes would take data and seed and store aggregated results into Data ware house
+tables. After joining this team, the senior engineer moved on I became to most senior IC on this
+team.
 
-I learned how to design test strategies for this complex product and also participate actively in
-all Agile ceremonies between a cross functional team across India and US. Understanding how a tester
-can effectively help shape product direction by calling out missing requirements, clarifying
-acceptance criteria and help team improve by bringing up process inefficiencies in Team wide retro
-was a lot of fun
+I specifically learned how to design test strategies for this complex product and also participate
+actively in all Agile ceremonies working with a cross functional team spread across India and US.
+
+Understanding how a tester can effectively help shape product direction by calling out missing
+requirements, clarifying acceptance criteria and help team improve by bringing up process
+inefficiencies in Team wide retro was a lot of fun
 
 ### Building UI automation with Microsoft Coded UI
 
-One of the biggest challenges in this team was when we decided to rewrite old legacy Flash based
-dashboards with rich modern graphs using D3 and HTML5. The test manager on the team also decided for
-us to use `Microsoft CodedUI` as the UI automation framework since we were heavily into Microsoft
-stack (Visual studio, C#, TFS (Team foundation server), and MTM (Microsoft test manager)). I also
-got a chance to travel to USA to San Francisco, California and Spokane, Washington along with a
-colleague to help test and deliver this migration feature
+One of the biggest challenges in this team was when the client management decided to undertake
+rewrite of old Flash based dashboards to more rich modern graphs using D3 and HTML5.
 
-Coming from my QTP/UFT background, it was a challenge to understand `C#`, `CodedUI` technology
-however I was able to learn these and become a productive IC on the team under a more experienced
-Lead. `CodedUI` heavily encouraged use of Hand coding while building the framework and I remember
-making use of `Hexawise` tool to generate lot of data combinations which formed the basis of our
+The test manager on the team also decided for us to use `Microsoft CodedUI` as the UI automation
+framework of choice since we were heavily into Microsoft stack (Visual studio, C#, TFS (Team
+foundation server), and MTM (Microsoft test manager)).
+
+Coming from my QTP/UFT background, it was a challenge to understand `C#` and `CodedUI` technology
+however I was able to learn these and become a productive contributor on the team under a more
+experienced Lead's guidance.
+
+`CodedUI` heavily encouraged use of Hand coding while building the framework and I remember making
+use of `Hexawise` tool to generate lot of data combinations which formed the basis of our automated
 regression suite
 
+### First onsite to USA
+
+I also got a chance to travel to USA to San Francisco, California and Spokane, Washington along with
+a colleague to help test and deliver this migration feature under a time bound project
+
 > Learning: 💡 Don't be bounded with the Tech stack that you are used to, learning a new automation
-> stack helps you to become a more well rounded Automation engineer
+> stack helps you to become a more well rounded Automation engineer since you see new patterns or
+> new ways of using existing patterns
 
 ## Working in a small sized company
 
-After contributing to this teams success, I wanted to move on to a more challenging role and
-switched jobs to **Projectplace India** which later was acquired by **Planview USA**. We had a team
-of 3 Automation engineers in India that grew to 8 people in some months time.
+After contributing to this teams success, I wanted to move on to a more challenging role and work
+with a small team/company and switched jobs to **Projectplace India** which was recently acquired by
+**Planview USA** in 2016. When I joined this company, We had a team of 3 Automation engineers in
+India that grew to 8 people in some months time.
 
-This role required to learn `Python` for test automation and looking back joining this company was
-one of the best decisions I took.
+This role required me to learn `Python` for test automation and looking back joining this company
+was one of the best decisions I took.
 
-My colleagues were all 10+ years experienced and I learned so much from their existing knowledge
-while being challenged on an individual level.
+My colleagues were all seasoned automation engineers with 10+ years of experience and I learned so
+much from their existing knowledge while being challenged on an individual level to build framework
+components and utilities
 
 ### Building API automation frameworks with scratch
 
-We liked to call ourselves the `Jedi` team, a name i proposed driven from my fondness for Star Wars
-trilogy and we augmented a largely manual QE team in USA by building automation tools and frameworks
+We liked to call ourselves the `Jedi` team, (a name i proposed driven from my fondness for Star Wars
+trilogy) and we augmented a largely manual QE team in USA by building automation tools and
+frameworks
 
-I got a chance to contribute to building a framework that used Microsoft PICT tool for generating
-pairwise combinations to test SSRS (SQL Server Reporting Services) analytics reports and performed
-XML comparisons against a set baseline. This also stored these test results in SQL Server database
-and had an in house dashboard to present these test results while using Jenkins for CI. Seeing a
-rich framework built from scratch and contributing hands on was a dream come true
+#### Pairwise testing
 
-I still remember, the India head come over to my desk early morning and calling out the importance
-of treating oneself as a Software craftsmen and taking pride in being a solid engineer and building
-these reusable solutions to make QE more efficient. Coming to office every day and coding till
-evening while building automation was very addictive and I believe everyone needs to go through an
-experience like this
+I got a chance to contribute to building a framework that used **Microsoft PICT** tool for
+generating pairwise test combinations to test SSRS (SQL Server Reporting Services) analytics reports
+and performed XML comparisons against a set baseline.
+
+This solution also stored these test results in SQL Server database and had an in house dashboard to
+present these test results using Jenkins for CI. I got to see and learn how to build a rich
+framework from scratch and contributing hands on was a really good learning experience
+
+I still remember, when the **India head** came over to my desk one early morning and called out the
+importance of treating oneself as a Software craftsmen and taking pride in being a solid engineer
+and building these reusable solutions to make QE more efficient.
+
+Coming to office every day and coding till evening while building automation was very addictive and
+I believe everyone should go through an experience like this.
 
 > Learning: 💡 Working in small teams and companies can really challenge you and ensure you learn
 > and grow way faster than in enterprises
 
 We also built a custom test framework to use SOAP, REST based APIs and check integrations between
-different Planview and Projectplace products as well as external tools like JIRA, Rally etc.
+different Planview and Projectplace products as well as external tools like JIRA, Rally etc. One
+other great part of this role was continuos pairing on different features which ensured a very short
+learning loop for new engineers onboarding
+
+### Second travel to USA
 
 I also got the chance to travel to Austin, Texas USA for a couple of weeks to understand more about
 the product as well as conduct trainings for the QE team there on using and contributing to the API
-automation solution that we had built in bangalore
+automation solution that we had built in bangalore.
 
 ### Building Web UI automation framework from scratch
 
-After spending a considerable amount of time building API frameworks, I did a POC to build a
-Selenium Python based framework for web automation. It was a challenge since I had never worked with
-Selenium before and I read the code from another team and tailored their framework for Planview
-team.
+After spending a considerable amount of time building API frameworks, I took ownership of doing a
+POC to build a `Selenium Python` based framework for `web automation`. It was a challenge since I
+had never worked with Selenium before and I read the code from another team and tailored their
+framework for Planview team.
 
 The learning experience was immense. I got to implement Page object pattern and learn Pytest as the
 test runner of choice while also setting up CI on Jenkins and a local Selenium Grid setup on docker.
+It took me around 2 weeks to setup this POC
+
+> Learning: 💡: Reading others code is a quick way to improve your craft as a Software engineer, the
+> insights that you gather are invaluable
+
 Taking on this E2E undertaking while learning how these technologies worked really gave me
 confidence in my skills as an Automation engineer, I then mentored and on-boarded couple of other
 engineers onto this framework
 
-> Learning 💡: Using/contributing existing frameworks is great but you should really challenge
+> Learning 💡: Using/contributing to existing frameworks is great but you should really challenge
 > yourself to understand how the different framework pieces work together and build stuff. The more
 > you do this, the better you get with passing time
-
-> Learning: 💡: Also, reading others code is a quick way to improve your craft as a Software
-> engineer, the insights that you gather are invaluable
 
 ### Taking notes
 
@@ -253,75 +277,88 @@ files
 ### Attending my first ever Automation conference
 
 I remember attending my first ever Testing conference, Selenium Conference, Bangalore in 2016 and
-was awestruck seeing such amazing and knowledgeable speakers including Simon Steward, Dave haeffner,
-it was a great learning experience and I wondered how it would feel like to know enough to deliver a
-talk in front of so many people
+was awestruck seeing and hearing amazing and knowledgeable speakers including Simon Stewart, Dave
+Haeffner among many others. It was a great learning experience and I wondered how it would feel like
+to know enough to deliver a talk in front of so many people
 
 > Learning: 💡: Try and attend tech conferences, you often would learn about lot of new tips,
 > approaches, tools and techniques, thought patterns about things that you either know currently or
-> that did not know
+> that you do not know at all
 
 ## Working in a Start up product company
 
 It was 2018 now and I saw one of my college friend post messages on facebook promoting his current
-employer `Gojek`, while things at my current employer were excellent, I was a valued member of the
-team and still had lots to learn, I wondered how would it be like to work in a Hyper scale product
-company that creates so much social impact in the lives of South east asian people
+employer `Gojek`
 
-I got a referral and after interviewing with them, realized that Gojek could be my next home. Gojek
-had consumer facing apps on Android and iOS and a primary Java based automation stack using Appium,
-Cucumber, TestNG and RestAssured.
+While things at my current employer were excellent, I was a valued member of the team and still had
+lots to learn, I wondered how would it be like to work in a Hyper scale product company that created
+so much social impact in the lives of South east asian people
+
+I got a referral and after interviewing with them, realized that Gojek could be my next home.
+
+Gojek had native mobile apps on Android and iOS and primary a JVM based automation stack using
+Appium, Cucumber, TestNG and RestAssured.
 
 I saw this as a opportunity to learn and grow myself more by understanding the challenges with
-mobile automation and well as learn a popular static language like Java and joined Gojek in Feb 2018
+mobile automation and well as getting to learn a popular static language like Java and joined Gojek
+in Feb 2018
 
 ### The challenges of working in a small team
 
 When I joined gojek, I could instantly sense a change in pace, we had Bi-Weekly mobile releases that
 required regression runs on consumer apps to ensure nothing broke for our customers and my team had
-only a single QA consultant from consulting company. There was 0 app automation and the API
-automation done by another engineer (who had left the team) was not managed and broken. We also had
-a very less QA's as Full time employee and I was the 3rd QA in the bangalore office. 🤯, we did have
-a large QA consultant team taking care of quality and automation in different teams though
+only a single QA consultant from consulting company.
 
-The team was also going through the process of redesigning the app based on latest design language.
-I remember thinking to myself, Wow, there is so much that I can do here. I started building context
-about the team, the apps, backend architecture as well as existing automation frameworks
+There was zero app automation and the API automation done by another engineer (who had left the
+team) was not managed and broken.
+
+We also had a very less QA's as Full time employee and I was the 3rd QA in the bangalore office. 🤯,
+we did have a large QA consultant team taking care of quality and automation across different teams
+though
+
+The GoSend team was also going through the process of redesigning the app based on latest design
+language. I remember thinking to myself, **"Wow, there is so much that I can do here."** I started
+building context about the team, the apps, backend architecture as well as existing automation
+frameworks
 
 ### Building Mobile Android UI automation
 
 I first decided to improve upon the bottleneck of having to do slow manual testing cycles on mobile
-apps for the Bi-Weekly FCT (Full cycle test) and started exploring the `optimus` framework which was
-built by a consulting company called Test Vagrant. This was good since I got to read code from other
-seasoned automation engineers and since I was grokking Java at the time, having this structure be in
-place really helped
+apps for the Bi-Weekly FCT (Full cycle test) and started exploring the existing `optimus` framework
+which was built by a consulting company called Test Vagrant.
 
-It was also quite a lot of fun to learn Appium's API with which I found myself quite comfortable
-since it resembles the Selenium API quite closely due to it following the W3C WebDriver Spec quite
-closely.
+This was a good experience since I got to read code from other seasoned automation engineers and
+since I was grokking Java at the time, having this structure already in place really helped
 
-Learning this framework architecture as well use of Cucumber feature files was an interesting
+Learning this framework architecture, Appium API, Cucumber feature files was an interesting
 challenge, and within a month or two I had a test suite in place to run against the Consumer Android
-app on mac mini's with Gitlab CI runners, I did this in parallel to ensuring that the app redesign
+app on mac mini's with Gitlab CI runners
+
+I did this automation in parallel to manual exploratory testing to ensure that the app redesign
 release went fine and this suite reduced a lot of the manual testing effort that I had to put in for
 this regression cycle
 
-> Learning: 💡: If its boring and repetitive, automate it 😉
+> Learning: 💡: If it's boring and repetitive, automate it 😉
 
 ### Building API automation using Kotlin, TestNG
 
 After an year of working on mobile automation, I had another colleague join from a consulting
 company and I on-boarded him on the mobile framework and wanted to set out and build the API
-automation framework for the product group that I was working in.
+automation framework for the team
 
 We had an existing test suite that covered few E2E tests however these tests were coupled together
-heavily and it was very difficult to follow the code. Also the tests often would fail and made it
-very difficult to find the problem at hand.
+heavily and it was very difficult to follow the code or modify to add new features/tests. Also the
+tests often would fail and made it very difficult to find the problem at hand. After analysing the
+codebase I decided it was a lost cause to try to refactor this and not to give into Sunk cost
+fallacy, A rewrite was in order
 
 We had an existing framework in Gojek over rest assured that many different teams were using, and
-while initially I thought to write my own python based test suite, I realized after a week of effort
-that integrating my tests/utilities for other teams would be very difficult since they were mostly
-using Java based stack and I would have to write lot of bridge code using Jython or the like.
+while initially I thought to write my own python based test suite, I realized after a week of POC
+effort that integrating my tests/utilities for other teams would be very difficult since they were
+mostly using Java based stack and I would have to write lot of bridge code using Jython or implement
+lot of APIs.
+
+#### Learning Kotlin
 
 At this point, there were few developers who also wanted to contribute to the framework and
 automated test suite and suggested to try using Kotlin as an alternative.
@@ -342,12 +379,13 @@ For the first two years of my career at Gojek, I was mostly a **Senior IC (Indiv
 contributor)**, designing test plans and automation myself, as well as directly mentoring one
 colleague.
 
-Infact for some 6-8 months I was the only automation engineer on the team.
+In fact for some 6-8 months I was the only automation engineer on the team.
 
 How did I manage to accomplish what i did with such people crunch?
 
 Well, I mainly ensured testing happened in the team regardless of who did it. On our team developers
-tested lot of their own features and were very supportive
+tested lot of their own features and were very supportive of me. It involved understanding them and
+building a good relationship based on trust and mutual respect.
 
 I would usually pair with Devs on the most critical features, helping to brainstorm possible
 coverage gaps while planning and building automation solutions and this simple model led us to
