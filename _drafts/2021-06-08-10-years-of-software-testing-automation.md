@@ -16,7 +16,9 @@ tags:
 
 Today, June 8th is a special day. It's the day that I complete 10 years as a Software tester and
 automation engineer. This post is a trip down memory lane as well as calling out some of my key
-learnings along the way
+learnings (both personal as well as technical) along the way
+
+> Disclaimer: This is a pretty long article, since 10 years is no short time! 😉
 
 ## I fell into Software testing
 
@@ -196,7 +198,7 @@ I also got the chance to travel to Austin, Texas USA for a couple of weeks to un
 the product as well as conduct trainings for the QE team there on using and contributing to the API
 automation solution that we had built in bangalore
 
-### Building UI automation framework from scratch
+### Building Web UI automation framework from scratch
 
 After spending a considerable amount of time building API frameworks, I did a POC to build a
 Selenium Python based framework for web automation. It was a challenge since I had never worked with
@@ -205,29 +207,169 @@ team.
 
 The learning experience was immense. I got to implement Page object pattern and learn Pytest as the
 test runner of choice while also setting up CI on Jenkins and a local Selenium Grid setup on docker.
-Taking on this E2E undertaking really gave me confidence in my skills as an Automation engineer and
-I then mentored and on boarded couple of other engineers onto this framework
+Taking on this E2E undertaking while learning how these technologies worked really gave me
+confidence in my skills as an Automation engineer, I then mentored and on-boarded couple of other
+engineers onto this framework
 
 > Learning 💡: Using/contributing existing frameworks is great but you should really challenge
 > yourself to understand how the different framework pieces work together and build stuff. The more
 > you do this, the better you get with passing time
 
+> Learning: 💡: Also, reading others code is a quick way to improve your craft as a Software
+> engineer, the insights that you gather are invaluable
+
+### Taking notes
+
+I saw one of my senior colleagues had this practice of taking notes, whether it be tidbits to solve
+a problem, snippets or even more varied notes. He was able to access these notes on demand easily
+and this inspired me to maintain a healthy note taking habit myself. I experimented with different
+tools like Evernote, MS OneNote, Notion before finally landing on Plain text note taking in Markdown
+files
+
+> Learning: 💡: Being able to take detailed notes and maintaining a second brain is very important
+> for an engineer as it ensures that no solution approach is lost. Our brains are meant for creative
+> thinking and not really information retrieval.
+
 ### Attending my first ever Automation conference
 
-I also attended my first ever Testing conference, Selenium Conference, Bangalore in 2016 and felt
-awestruck seeing such amazing and knowledgeable speakers, it was a great learning experience and I
-wondered how it would feel like to know enough to deliver a talk in front of so many people
+I remember attending my first ever Testing conference, Selenium Conference, Bangalore in 2016 and
+was awestruck seeing such amazing and knowledgeable speakers including Simon Steward, Dave haeffner,
+it was a great learning experience and I wondered how it would feel like to know enough to deliver a
+talk in front of so many people
+
+> Learning: 💡: Try and attend tech conferences, you often would learn about lot of new tips,
+> approaches, tools and techniques, thought patterns about things that you either know currently or
+> that did not know
 
 ## Working in a Start up product company
 
 It was 2018 now and I saw one of my college friend post messages on facebook promoting his current
-employer `Gojek`, while things at my current employer were excellent and I was a valued member of
-the team, I wondered how would it be like to work in a Hyper scale product company that creates so
-much social impact in the lives of South east asian people
+employer `Gojek`, while things at my current employer were excellent, I was a valued member of the
+team and still had lots to learn, I wondered how would it be like to work in a Hyper scale product
+company that creates so much social impact in the lives of South east asian people
 
-I got a referral and after interviewing with them, realized that Gojek could be my next home. Also I
-was to join a rapidly growing product team which had only a Single QA consultant. Gojek mostly had
-consumer facing apps on Android and iOS and a primary Java based automation stack.
+I got a referral and after interviewing with them, realized that Gojek could be my next home. Gojek
+had consumer facing apps on Android and iOS and a primary Java based automation stack using Appium,
+Cucumber, TestNG and RestAssured.
 
 I saw this as a opportunity to learn and grow myself more by understanding the challenges with
-mobile automation
+mobile automation and well as learn a popular static language like Java and joined Gojek in Feb 2018
+
+### The challenges of working in a small team
+
+When I joined gojek, I could instantly sense a change in pace, we had Bi-Weekly mobile releases that
+required regression runs on consumer apps to ensure nothing broke for our customers and my team had
+only a single QA consultant from consulting company. There was 0 app automation and the API
+automation done by another engineer (who had left the team) was not managed and broken. We also had
+a very less QA's as Full time employee and I was the 3rd QA in the bangalore office. 🤯, we did have
+a large QA consultant team taking care of quality and automation in different teams though
+
+The team was also going through the process of redesigning the app based on latest design language.
+I remember thinking to myself, Wow, there is so much that I can do here. I started building context
+about the team, the apps, backend architecture as well as existing automation frameworks
+
+### Building Mobile Android UI automation
+
+I first decided to improve upon the bottleneck of having to do slow manual testing cycles on mobile
+apps for the Bi-Weekly FCT (Full cycle test) and started exploring the `optimus` framework which was
+built by a consulting company called Test Vagrant. This was good since I got to read code from other
+seasoned automation engineers and since I was grokking Java at the time, having this structure be in
+place really helped
+
+It was also quite a lot of fun to learn Appium's API with which I found myself quite comfortable
+since it resembles the Selenium API quite closely due to it following the W3C WebDriver Spec quite
+closely.
+
+Learning this framework architecture as well use of Cucumber feature files was an interesting
+challenge, and within a month or two I had a test suite in place to run against the Consumer Android
+app on mac mini's with Gitlab CI runners, I did this in parallel to ensuring that the app redesign
+release went fine and this suite reduced a lot of the manual testing effort that I had to put in for
+this regression cycle
+
+> Learning: 💡: If its boring and repetitive, automate it 😉
+
+### Building API automation using Kotlin, TestNG
+
+
+
+## Blogging, Conference talks and Video Tutorials
+
+### Started blogging
+
+Around May 2018, I picked up another habit of listening to multiple podcasts on the bike ride to
+office and I started with
+[The stack overflow podcast with Jeff Atwood and Joel Spolsky](https://stackoverflow.blog/podcast/)
+and really enjoyed their conversations around how Jeff was building stack overflow and the
+challenges in scaling it.
+
+I also started following and reading their blogs and felt an immediate connection with Jeff's
+writing. There were many engineers in Gojek who had their own personal blogs as well as blogged
+heavily on the company blog site. I thought to myself, blogging seems really interesting, maybe I
+should give it a shot.
+
+There were many inhibitions that I had in my mind, whether anyone would read it?, what kind of blogs
+would i write? Jeff calls some of these fears out in
+[Fear of writing](https://blog.codinghorror.com/fear-of-writing/)
+
+Though, Instead of overthinking it, I just started with it. Setting up a blog on Wordpress was
+really not that tedious, I decided on **automationhacks** as a name, since at that time I was
+reading some blogs on **life hacks** and found that interesting tidbits and insights into solving
+problems really saved a lot of time. Also, I wanted this blog to capture a breadcrumb trail of all
+my learnings over the years while solving different problems.
+
+> Learning: 💡: Blogging about your learnings is a really cool way of firstly understanding it
+> better yourself, plus you other people benefit a lot by hearing different perspectives about
+> solving similar or different problems. If you are in doubt, don't overthink, Just start 🏃
+
+### My first conference talk at Appium Conf
+
+It was around Jan 2019, and I saw the CFP (Call for papers) for Appium conf open. As I mentioned
+before I had one goal of delivering a technical talk at a conference. I spinned up a CFP not knowing
+whether it would be selected, but still by now I had realized its better to try and fail rather than
+not try at all. To my surprise, my CFP was selected and I delivered my first ever talk in-person in
+Appium Conf, Bengaluru. Wow! I had a great experience and met world renowned engineers like Angie
+Jones, Jonathan lipps, Wim Selles, Jason Huggins in person. These people are regarded as legends in
+Test automation space and I was a speaker along with them. 🙌🏼
+
+### My first tutorial course: Visual validation using Applitools
+
+I had heard about Test automation university and got a chance to talk to Angie Jones in person
+during AppiumConf, I asked how can I help with this awesome initiative? Based on my python
+background, Angie mentioned they needed a course on Applitools Python SDK. To be honest, at that
+time I had not tried visual testing hands on but I signed up, knowing fully well that I could learn
+on the go. 😉
+
+> Learning: 💡: When someone says, can you do something? Say yes! And then get busy figuring out how
+> you can do that. In other words. Fake it till you make it!
+
+I followed Angie's tutorial on Applitools with Java and extrapolated it to Python language by
+reading the Python SDK docs and created the course. The recording for this happened in the Gojek
+office in early office hours over simple Sennheiser headphones with mic and with QuickTime and
+iMovie as editing software (since I did not have a quite environment at home). I got useful feedback
+from Angie during the production process and I learned so much about producing video content.
+
+After finishing this course and seeing my name live on the site among many other world renowned
+instructors . I could not have felt more proud of myself.
+
+> Learning: 💡: Most of the things that you want in life, could be achieved when you put yourself
+> into uncomfortable situations and by talking and working with other people
+
+### Speaking at Online Automation Guild conference on Contract testing
+
+Coming fresh from my first talk, I wanted to try my hands at different conferences and I saw CFP for
+Automation Guild being run by Joe Colantonio, I had been a big fan of Joes podcast **Test talks**,
+now called **Test guild automation podcast** and decided to try that.
+
+I remember hearing from someone in a ministry of testing podcast that one of the best ways to learn
+something new is to give a talk on it. I had heard about **Consumer Driven Contract testing** but
+really wanted to learn it and see if thats something I could use in my own team and company
+
+I proposed this as my topic and again to my surprise was accepted as a speaker. I prepared and
+recorded this talk while learning and building knowledge on **CDC using PACT** in gojek offices on
+weekends and my recent experience with building a course really helped since I was familiar with the
+process.
+
+During the actual talk and post talk slido questions, I heard about a lot of interesting questions
+and they also helped me understand what aspect of CDC I needed to learn more
+
+> Learning: 💡: One of the best ways of learning something is to teach it to someone else
