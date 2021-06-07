@@ -393,49 +393,55 @@ deliver many features to our customers with high quality
 
 > Learning: 💡: Learn to trust people around you (in general) and more so if you are the only
 > QA/Automation engineer on the team, You won't be able to gate keep every change, but can surely
-> sensibly automate flows that add maximum value and give Devs the insights and tools to do more
+> sensibly automate flows that add maximum value and give dev's the insights and tools to do more
 > effective testing.
 
 #### Becoming a lead
 
 With Covid and work from home, our team had to ramp up to adjust to growing needs of the business
 and the business decided to hire 2 more automation engineers, managing the hiring and then
-onboarding process was tough but I along with another senior colleague were able to achieve this by
-setting up well defined process, setting proper expectations as well depending heavily on
-documenting the system. We did lots of pair programming and code review sessions to help the new
-joiners become comfortable with the team
+onboarding process was a tough process but I along with another senior colleague were able to
+achieve this by setting up well defined process, setting proper expectations as well depending
+heavily on documenting the system.
+
+We did lots of pair programming and code review sessions to help the new joiners become comfortable
+with the team
 
 Being the senior person on the team, I was also asked to manage these colleagues directly, This was
-a slight shift since while I had lot of experience mentoring and working with team members, I was
-never really done direct people management before. I mostly managed this by setting shared vision,
-setting up processes and offering an empathetic ear during 1:1's
+a shift in my approach and mentality since while I had lot of experience mentoring and working with
+team members, I had never really done direct people management before. I mostly managed this by
+setting shared vision, setting up processes and offering an empathetic ear during 1:1's
 
 #### Becoming a manager
 
-Within 8 months of me directly managing a couple of engineers, I got promoted to being the Quality
-engineering manager of the entire logistics product group. I must admit I had my doubts about
+Within 8 months of me directly managing a couple of engineers, I got promoted to being the **Quality
+engineering manager** of the entire logistics product group. I must admit I had my doubts about
 whether I should continue to pursue the path of Staff engineer or engineering management and though
 the Jury is still out on what I would really like
 
-I still felt that learning to be an Engineering manager could add more dimensions to my personality
-as well as skills. The key difference that I feel is that now I can take a more active role in
-shaping up the quality of the product by using multiple tools at my disposal all the while helping
-my colleagues excel in their interest areas
+I feel that learning to be an Engineering manager could add more dimensions to my personality as
+well as skills.
+
+The key difference that I feel is that now I can take a more active role in shaping up the quality
+of the product by using multiple tools at my disposal all the while helping my colleagues excel in
+their interest areas. Stay tuned for more thoughts on this topic in the coming months
 
 ## Becoming a blogger, Conference speaker and Technical course instructor
 
-### Started blogging
+### Setting up a personal tech blog
 
 Around May 2018, I picked up another habit of listening to multiple podcasts on the bike ride to
 office and I started with
 [The stack overflow podcast with Jeff Atwood and Joel Spolsky](https://stackoverflow.blog/podcast/)
-and really enjoyed their conversations around how Jeff was building stack overflow and the
-challenges in scaling it.
+
+I really enjoyed their conversations around how Jeff was building stack overflow and the challenges
+in scaling it.
 
 I also started following and reading their blogs and felt an immediate connection with Jeff's
 writing. There were many engineers in Gojek who had their own personal blogs as well as blogged
-heavily on the company blog site. I thought to myself, blogging seems really interesting, maybe I
-should give it a shot.
+heavily on the company blog site.
+
+I thought to myself, blogging seems really interesting, maybe I should give it a shot.
 
 There were many inhibitions that I had in my mind, whether anyone would read it?, what kind of blogs
 would i write? Jeff calls some of these fears out in
