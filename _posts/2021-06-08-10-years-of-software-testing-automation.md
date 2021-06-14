@@ -159,7 +159,8 @@ projects and teams were solving similar or new problems.
 
 I had an offer from an early stage startup and a more stable enterprise company and decided to join
 Aricent (now [Altran](https://www.linkedin.com/company/altran/)) as my next employer in
-September 2014.
+September 2014. Aricent was primarily a consulting company similar to Accenture but had around
+15000+ employees at the time
 
 ## Testing an analytics product
 
@@ -182,13 +183,25 @@ Understanding how a tester can effectively help shape product direction by calli
 requirements, clarifying acceptance criteria and help team improve by bringing up process
 inefficiencies in Team wide retro was a lot of fun
 
+### Early Insights into management 🕴️
+
+My manager was quite technical. I remember how quick he was with keyboard shortcuts and had setup a
+lot of the test infra for the team. He was also well spoken and very easy to talk to with no micro
+management. Everyone under him felt psychologically safe and this translated to a very good work
+culture in the team. I learned a lot by observing how he carried himself in his day to day work. I
+clearly remember thinking to myself that _if a day comes when I become a leader of a team, this
+would be the type of person I would also want to be_
+
+> Learning: 💡 Remember to always be kind to yourself and others! ☮️
+
 ### Building UI automation with Microsoft Coded UI
 
 One of the biggest challenges in this team was when the client management decided to undertake
 rewrite of old Flash based dashboards to more rich modern graphs using D3 and HTML5.
 
-The test manager on the team also decided for us to use `Microsoft CodedUI` as the UI automation
-framework of choice since we were heavily into
+The test manager on the team also decided for us to use
+[`Microsoft CodedUI`](https://docs.microsoft.com/en-us/visualstudio/test/use-ui-automation-to-test-your-code?view=vs-2019)
+as the UI automation framework of choice since we were heavily into
 `Microsoft stack (Visual studio, C#, TFS (Team foundation server), and MTM (Microsoft test manager))`.
 
 Coming from my QTP/UFT background, it was a challenge to understand `C#` and `CodedUI` technology
@@ -196,8 +209,8 @@ however I was able to learn these and become a productive contributor on the tea
 experienced Lead's guidance.
 
 `CodedUI` heavily encouraged use of Hand coding while building the framework and I remember making
-use of `Hexawise` tool to generate lot of test combinations which formed the basis of our automated
-regression suite
+use of [`Hexawise`](https://hexawise.com/) tool to generate lot of test combinations which formed
+the basis of our automated regression suite
 
 > Learning: 💡 Don't be bounded with the Tech stack that you are used to, learning a new automation
 > stack helps you to become a more well rounded Automation engineer since you either see new
@@ -206,14 +219,18 @@ regression suite
 ### First onsite to USA
 
 I also got a chance to travel to USA to San Francisco, California and Spokane, Washington along with
-a colleague to help test and deliver this migration feature under a time bound project
+a colleague to help test and deliver this migration feature under a time bound project. This was a
+special moment for me to get a chance to travel oversees and observe how the work culture differed.
+Needless to say, this is a trip that I would never forget. 😌
 
 ## Working in a small sized company
 
 After contributing to this teams success, I wanted to move on to a more challenging role and work
 with a small team/company and switched jobs to **Projectplace India** which was recently acquired by
-**Planview USA** in 2016. When I joined this company, We had a team of 3 Automation engineers in
-India that grew to 8 people in some months time.
+**Planview USA** in 2016.
+
+When I joined this company, We had a team of 2 Automation engineers in India that grew to 8 people
+in some months time.
 
 This role required me to learn `Python` 🐍 for test automation and looking back now joining this
 company was one of the best decisions I took because:
@@ -221,20 +238,23 @@ company was one of the best decisions I took because:
 - My colleagues were all seasoned automation engineers with 10+ years of experience and I learned so
   much from their existing knowledge
 - I was challenged on an individual level to build framework components and utilities daily
+- I saw as well as contributed to building this team and its culture from the ground up with support
+  and help from other senior engineers
 
 I really learned a lot from this experience
 
 ### Building API automation frameworks with scratch
 
-We liked to call ourselves the `Jedi` team, (a name i proposed driven from my fondness for Star Wars
-trilogy) and we augmented a largely manual QE team in USA by building automation tools and
-frameworks
+We liked to call ourselves the `Jedi` team, (a name i proposed driven from my fondness for
+[Star Wars universe](https://en.wikipedia.org/wiki/Star_Wars)) and we augmented a largely manual QE
+team in USA by building automation tools and frameworks
 
 #### Pairwise testing
 
-I got a chance to contribute to building a framework that used **Microsoft PICT** tool for
-generating pairwise test combinations to test **SSRS (SQL Server Reporting Services) analytics
-reports** and performed XML comparisons against a set baseline.
+I got a chance to contribute to building a framework that used
+[**Microsoft PICT**](https://github.com/microsoft/pict) tool for generating pairwise test
+combinations to test **SSRS (SQL Server Reporting Services) analytics reports** and performed XML
+comparisons against a set baseline.
 
 This solution also stored these test results in SQL Server database and had an in house dashboard to
 present these test results using Jenkins for CI.
@@ -298,13 +318,16 @@ files. You can read more about my
 
 > Learning: 💡: Being able to take detailed notes and maintaining a second brain is very important
 > for an engineer as it ensures that no solution approach is lost. Our brains are meant for creative
-> thinking and not really information storage and retrieval.
+> thinking and not really information storage and retrieval. Don't be lazy. The ability to put your
+> thoughts on paper/editor is one of the most underrated skills out there but very important for an
+> engineer
 
 ### Attending my first ever Automation conference
 
 I remember attending my first ever Testing conference, **Selenium Conference, Bangalore** in 2016
-and was awestruck seeing and hearing amazing and knowledgeable speakers including Simon Stewart,
-Dave Haeffner among many others.
+and was awestruck seeing and hearing amazing and knowledgeable speakers including
+[Simon Stewart](https://confengine.com/user/simon-stewart) (Selenium Webdriver project lead),
+[Dave Haeffner (Elemental Selenium)](https://elementalselenium.com/) among many others.
 
 It was a great learning experience and I wondered how it would feel like to know enough about
 something to deliver a talk in front of so many people
@@ -369,6 +392,14 @@ this regression cycle
 
 > Learning: 💡: If it's boring and repetitive, automate it 😉
 
+### Travel to Jakarta, Bali, in Indonesia
+
+Gojek encouraged frequent travels to the Jakarta headquarters and I along with the mobile devs in
+our team and my QE colleague got a chance to also travel. We had lots of meetings interfacing with
+business teams, bouncing ideas on how could tech help business better and explored lots of places in
+Jakarta. We also took a break post this business trip and travelled as a group to Bali for vacation.
+Ah, was bali a beautiful place to be. I'll definitely like to visit this place again.
+
 ### Building API automation using Kotlin, TestNG
 
 After an year of working on mobile automation, I had another colleague join from a consulting
@@ -417,65 +448,79 @@ I later extended this test suite to run for all geographies that Gojek was in as
 unification project** and reduced the suite execution runtime from 1.5 hrs or so to 25 mins by
 implementing concurrency via TestNG and Kotlin synchronization blocks.
 
-### From Lone QA to becoming a lead and then an Engineering manager
+### From Lone SDET/QE to becoming a lead and then an Engineering manager
+
+> If you are wondering about these titles, SDET : Software developer engineer in Test, QE : Quality
+> engineer. I wrote a post earlier on how these titles don't matter much. You can read more
+> [here]({% link _posts/2020-02-29-the-problem-with-titles-for-testers.md%})
 
 For the first two years of my career at Gojek, I was mostly a **Senior IC (Individual
-contributor)**, designing test plans and automation myself, as well as directly mentoring one
+contributor)**, designing test plans and Test automation myself, as well as directly mentoring few
 colleague.
 
-#### Lone QA
+#### Lone SDET/QE
 
 In fact for some 6-8 months I was the only automation engineer on the team.
 
 How did I manage to accomplish what i did with such people crunch?
 
 Well, I mainly ensured testing happened in the team regardless of who did it. On our team developers
-tested lot of their own features and were very supportive of me. It involved understanding them and
-building a good relationship based on trust and mutual respect.
+tested lot of their own features and were very supportive of me.
 
-I would usually pair with Devs on the most critical features, helping to brainstorm possible
+It also involved spending time with them and understanding how they worked while building a good
+relationship based on trust and mutual respect. I made sure they understood, that I can't be the
+gatekeeper for every change and they would have to help out heavily while I took a higher level and
+made sure we were doing the right things for Quality and automation
+
+I would usually pair with Dev's on the most critical features, helping to brainstorm possible
 coverage gaps while planning and building automation solutions and this simple model led us to
 deliver many features to our customers with high quality
 
 > Learning: 💡: Learn to trust people around you (in general) and more so if you are the `only`
-> QA/Automation engineer on the team, You won't be able to gate keep every change, but can surely
-> sensibly automate flows that add maximum value and give dev's the insights and tools to do more
-> effective testing.
+> SDET/QE on the team, You won't be able to gate keep every change, but can surely sensibly automate
+> flows that add maximum value and give Dev's the insights and build tools to do more effective
+> testing and unblock yourself
 
-#### Becoming a lead
+#### Becoming a Lead SDET
 
-Come 2020, With Covid pandemic and work from home, our team had to ramp up to adjust to growing
-needs of the logistics business and the we decided to hire 2 more automation engineers
+Come 2020, With Covid pandemic and work from home becoming the norm, our team had to ramp up to
+adjust to growing needs of the logistics business and the we decided to hire 2 more SDET
 
 Managing the hiring and then onboarding process was a tough process but I along with another senior
 colleague were able to achieve this by setting up **well defined process, setting proper
-expectations** as well depending **heavily on documenting the system**.
+expectations** as well depending **heavily on documenting the system** so that we don't have to
+repeat things multiple times.
 
 We did lots of **pair programming** and **code review** sessions to help the new joiners become
 comfortable with the team
 
-Being the senior person on the team, I was also asked to manage these colleagues directly, This was
-a shift in my approach and mentality since while I had lot of experience mentoring and working with
-team members, I had never really done direct people management before.
+Being the most senior SDET on the team, I was also asked to manage these engineers directly in terms
+of both people as well as Technical management
+
+This was a shift in my approach and mentality since while I had lot of experience mentoring and
+working with team members, I had never really done direct people management before.
 
 I mostly managed this by setting shared vision, setting up processes and offering an empathetic ear
-during 1:1's
+during 1:1's. Also, my years of observing all the good patterns from my managers and leads really
+proved useful to me in picking up the good (and also discarding anything bad 😉)
 
-#### Becoming a manager
+#### Becoming Manager SDET
 
-Within 8 months of me directly managing a couple of engineers, I got promoted to being the **Quality
-engineering manager** of the entire logistics product group. I must admit I had my doubts about
-whether I should continue to pursue the path of **Staff engineer** or try **engineering management**
-and though the Jury is still out on what I would really like
+Within 8 months of me directly managing a couple of engineers,
 
-I feel that learning to be an Engineering manager could add more dimensions to my personality as
-well as skills.
+I got promoted to being the **Manager SDET** of the entire logistics product group.
+
+I must admit I have my doubts about whether I should continue to pursue the path of **Staff
+engineer** or try **Engineering management** and though the Jury is still out on what I would really
+like, I feel that learning to be an Engineering manager could add more dimensions to my personality
+as well as skills as a Software engineer.
 
 The key difference that I feel is that now I can take a more **active role** in shaping up the
 quality of the product by using multiple tools at my disposal all the while helping my colleagues
-excel in their interest areas.
+excel in their interest areas. This is different from being an IC wherein your sphere of influence
+is quite limited.
 
-Stay tuned for more thoughts on this topic in the coming months
+Stay tuned for more thoughts on Engineering management topic in the coming months 🤞
 
 ## Becoming a blogger 📝, Conference speaker 🗣️ and Technical course instructor 👨‍🏫
 
@@ -523,10 +568,15 @@ To my surprise, my CFP was selected and I delivered my first ever talk in-person
 Bengaluru. If interested, You can read about this process of writing a CFP on
 [Gojek tech blog](https://www.gojek.io/blog/how-i-gave-my-first-conference-talk).
 
-I had a great experience at the conference and met world renowned engineers like Angie Jones,
-Jonathan lipps, Wim Selles, Jason Huggins in person. These people are regarded as legends in Test
-automation space and I was a speaker along with them. What a feeling! 🙌🏼. I wrote a blog with my
-Appium Conf experience, If interested you can read more about it here
+I had a great experience at the conference and met world renowned engineers like
+[Angie Jones](https://angiejones.tech/), [Jonathan lipps](https://jlipps.com/),
+[Wim Selles](https://github.com/wswebcreation),
+[Jason Huggins](https://www.crunchbase.com/person/jason-huggins) in person. These people are
+regarded as legends in Test automation space and I was a speaker along with them.
+
+What a feeling!
+
+🙌🏼. I wrote a blog with my Appium Conf experience, If interested you can read more about it here
 [here](https://automationhacks.io/2019/06/16/appium-conf-2019-bengaluru-my-experience/)
 
 ### My first tutorial course: Visual validation using Applitools
@@ -560,8 +610,8 @@ After finishing this course and seeing my name live on the site
 I could not have felt more proud of myself. 💁
 
 > Learning: 💡: Most of the things that you want in life, could be achieved when you put yourself
-> into uncomfortable situations and by talking and working with other people! Don't be shy. Go and
-> put yourself out there.
+> into uncomfortable situations and by talking and working with other people! Don't be shy. Go on
+> and put yourself out there.
 
 ### Speaking at Online Automation Guild conference on Contract testing
 
@@ -633,17 +683,17 @@ It was a good journey 😄
 ## Post credits 🥳
 
 Btw, A big part of my success was really due to my **friends and family**, specially shout out to
-**my wife** who stood by me through all of these ups and downs and was a constant pillar of support.
-**You rock J!**
+**my wife and better half** who stood by me through all of these ups and downs and was a constant
+pillar of support. **You rock J!**
 
 Also, I believe I got to work under really good leads and managers, They were calm and level headed
 and gave me lots of good guidance and I honestly learned a lot by just seeing them and talking with
-them in action on a day by day basis
+them in action on a day by day basis and some awesome colleagues who taught me so much.
 
 ## So whats next for me?
 
 Flash forward and we are here. It's 2021, I just completed 10 years as a Software tester and
-automation engineer and am currently a Quality Engineering Manager
+automation engineer and am currently a Manager SDET
 
 So, Where do I see myself going next from here?
 
@@ -655,10 +705,12 @@ Even though its been 10 years for me, I still feel like a **beginner** with a hu
 understand how different technologies work and what patterns could scale products as well as teams,
 so I guess i'm just going to keep moving on in this journey.
 
-Who knows, I might even start a YouTube channel, podcast or write a book 🤷. The future is bright
-with lots of possibilities, I know for sure that its going to be exciting one.
+Who knows, I might even start a YouTube channel, Create a podcast, or maybe Write a book 🤷. The
+future is bright with lots of possibilities, I know for sure that its going to be exciting one.
 
-**The end**... Or a new **beginning** 😉!
+**The end**...
+
+... Or a new **beginning** 😉!
 
 > PS: If you read this whole post, Firstly Thank you for your patience! I hope you could gather
 > something useful out of it. Where are you in your journey? Do share your experience in the
