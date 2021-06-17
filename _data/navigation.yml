@@ -1,0 +1,15 @@
+main:
+  - title: "About Me 👨🏻‍💻"
+    url: /about/
+  - title: "Books 📓"
+    url: /books/
+  - title: "Courses 👨🏻‍🏫"
+    url: /courses/
+  - title: "Talks 🙊"
+    url: /talks/
+  - title: "Patreon 🙏🏼"
+    url: /patreon/
+  - title: "Archive 📟"
+    url: /year-archive/
+  - title: "How to learn test automation 🦾"
+    url: /learn_test_automation/
