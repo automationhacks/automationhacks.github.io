@@ -4,7 +4,6 @@ excerpt:
   "Working with XML in any test automation framework specially API is inevitable, In this post we
   see how to write tests for an API that returns XML response and how to work with XML in Python
   using popular lxml library"
-layout: post
 permalink: /2020/12/17/python-api-automation-framework-part4-working-with-xml-using-lxml
 image: /assets/images/2020/12/api_course_header_4.png
 categories:

@@ -2,7 +2,6 @@
 title: 'Basics of writing Clean code'
 author: Gaurav
 excerpt: "Key takeaways from Robert C Martin (Uncle bobs) book on clean code"
-layout: post
 permalink: /2018/11/25/basics-of-writing-clean-code/
 categories:
   - Coding

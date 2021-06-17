@@ -5,7 +5,6 @@ excerpt:
   more often and is really effective at finding bugs while teaching everyone about the wonderful art
   of testing. In this post, I share the format I personally follow and my observations about this
   technique"
-layout: post
 permalink: /2020/10/27/mob-testing-bootstrap-whole-team-quality/
 image: /assets/images/2020/10/duy-pham-Cecb0_8Hx-o-unsplash.jpg
 categories:

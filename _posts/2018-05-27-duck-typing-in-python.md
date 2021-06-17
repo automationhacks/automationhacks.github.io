@@ -1,6 +1,5 @@
 ---
 title: Duck Typing in python
-layout: post
 excerpt: "Understand what duck typing in python means with an example"
 permalink: /2018/05/27/duck-typing-in-python/
 categories:

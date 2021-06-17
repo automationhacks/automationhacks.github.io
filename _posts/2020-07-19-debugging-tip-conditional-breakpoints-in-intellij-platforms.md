@@ -4,7 +4,6 @@ author: Gaurav
 excerpt:
   "Useful debugging feature in IntelliJ based IDEs: Put a breakpoint which stops only when a certain
   condition matches."
-layout: post
 permalink: /2020/07/19/debugging-tip-conditional-breakpoints-in-intellij-platforms/
 image: /assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png
 categories:

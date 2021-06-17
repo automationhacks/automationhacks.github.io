@@ -3,7 +3,6 @@ title: "Musings on Equivalence partitioning and  boundary value analysis"
 excerpt:
   What are boundary value analysis and equivalence partitioning testing techniques? In this post we
   would understand these with an example.
-layout: post
 permalink: /2020/06/24/equivalence-partitioning-and-boundary-value-analysis/
 image: /assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg
 categories:

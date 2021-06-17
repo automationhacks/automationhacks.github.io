@@ -1,7 +1,6 @@
 ---
 title: "Vol 2: How Kotlin eased my life in a Java world"
 author: Gaurav
-layout: post
 permalink: /2019/07/12/vol-2-how-kotlin-eased-my-life-in-a-java-world/
 categories:
   - Coding

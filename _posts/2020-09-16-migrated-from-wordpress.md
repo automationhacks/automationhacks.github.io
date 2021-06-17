@@ -3,7 +3,6 @@ title: Migrated away from Wordpress
 excerpt:
   "How i moved away from Wordpress and into the world of static site generators with Jekyll and
   Github pages"
-layout: post
 permalink: /2020/09/16/migrated-away-from-wordpress/
 image: /assets/images/2020/09/wordpress_to_jekyll.png
 categories:

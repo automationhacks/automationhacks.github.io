@@ -4,7 +4,6 @@ author: Gaurav
 excerpt:
   Mobile apps should be tested not just under WiFI but under "more" realistic network conditions. In
   this post we see how we can simulate these conditions on Android and IOS native apps.
-layout: post
 permalink: /2020/07/06/testing-android-ios-apps-under-network-conditions/
 image: /assets/images/wp-content/uploads/2020/07/leon-seibert-2m71l9fa6mg-unsplash.jpg
 categories:

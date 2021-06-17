@@ -7,7 +7,6 @@ excerpt:
   Report portal is one of the new reporting solutions available. It supports multiple different test
   frameworks like TestNG, Cucumber, Pytest and many more. This post is the first in a series of
   posts on how to set up report portal effectively and leverage the best use out of it.
-layout: post
 permalink: /2020/03/02/how-to-setup-reportportal-on-a-local-docker-instance/
 image: /wp-content/uploads/2020/03/report_portal_login.png
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 7 Myths about software testing
-layout: post
 permalink: /2019/06/26/7-myths-about-software-testing/
 categories:
   - Testing

@@ -5,7 +5,6 @@ excerpt:
   Using adb and command line can simplify and ease many tasks that are otherwise performed via a UI.
   In this post, we cover how to use adb/scrcpy to perform some common workflows which are usually
   done during app testing
-layout: post
 permalink: /2020/06/11/using-adb-and-cmdline-to-ease-android-app-testing/
 image: /assets/images/wp-content/uploads/2020/06/android_phone-1.jpg
 categories:

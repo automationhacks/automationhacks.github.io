@@ -3,7 +3,7 @@ id: 759
 title: Builder design pattern in Kotlin for API automation
 date: 2020-04-23T14:23:33+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=759
 categories:
   - Uncategorized

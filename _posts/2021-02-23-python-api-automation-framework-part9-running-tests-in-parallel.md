@@ -1,7 +1,6 @@
 ---
 title: Python API test automation framework (Part 9) Running tests in parallel
 excerpt: "We explore using pytest xdist plugin to run tests in parallel for our framework"
-layout: post
 permalink: /2021/02/23/python-api-automation-framework-part9-running-tests-in-parallel
 image: /assets/images/2021/02/api_course_header_9.png
 categories:

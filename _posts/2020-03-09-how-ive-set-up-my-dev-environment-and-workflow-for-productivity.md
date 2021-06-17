@@ -4,7 +4,6 @@ author: Gaurav
 excerpt:
   Thoughts on how I have set up my dev environment on MacBook Pro and settings that could be
   modified to increase productivity and developer happiness.
-layout: post
 permalink: /2020/03/09/how-ive-set-up-my-dev-environment-and-workflow-for-productivity/
 image: /wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png
 categories:

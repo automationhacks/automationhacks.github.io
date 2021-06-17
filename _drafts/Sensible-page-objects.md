@@ -3,7 +3,7 @@ id: 748
 title: Sensible page objects
 date: 2020-04-23T14:19:07+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=748
 categories:
   - Uncategorized

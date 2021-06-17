@@ -3,7 +3,7 @@ id: 755
 title: 'Code reviews: The hidden weapon in automation engineers arsenal'
 date: 2020-04-23T14:22:20+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=755
 categories:
   - Uncategorized

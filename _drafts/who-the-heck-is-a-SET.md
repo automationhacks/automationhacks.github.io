@@ -3,7 +3,7 @@ id: 541
 title: who the heck is a SET
 date: 2020-02-27T06:39:06+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=541
 categories:
   - Uncategorized

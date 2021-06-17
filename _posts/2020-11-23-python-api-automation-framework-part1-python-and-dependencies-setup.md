@@ -3,7 +3,6 @@ title: Python API test automation framework (Part 1) Introduction, Setup and Ins
 excerpt:
   "Introduction to the course and setting up python and required dependencies for building an API
   framework"
-layout: post
 permalink: /2020/11/23/python-api-automation-framework-part1-python-and-dependencies-setup
 image: /assets/images/2020/11/api_course_header_1.png
 categories:

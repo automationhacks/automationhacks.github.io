@@ -3,7 +3,7 @@ id: 991
 title: How to write a generic wait function in Kotlin
 date: 2020-08-08T03:26:30+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=991
 categories:
   - Uncategorized

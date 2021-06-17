@@ -3,7 +3,7 @@ id: 752
 title: Cucumber anti-patterns
 date: 2020-04-23T14:20:26+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=752
 categories:
   - Uncategorized

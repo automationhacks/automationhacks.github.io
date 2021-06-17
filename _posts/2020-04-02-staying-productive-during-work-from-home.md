@@ -1,7 +1,6 @@
 ---
 title: Staying productive during work from home
 excerpt: How do I stay productive while working remotely or from home? This post is a collection of some practices that work well for me.
-layout: post
 permalink: /2020/04/02/staying-productive-during-work-from-home/
 image: /assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg
 categories:

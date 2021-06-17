@@ -1,7 +1,5 @@
 ---
 title: Using IntelliJ to speed up your dev workflow
-layout: post
-guid: http://automationhacks.blog/?p=197
 permalink: /2020/01/26/using-intellij-to-speed-up-your-dev-workflow/
 categories:
   - Coding

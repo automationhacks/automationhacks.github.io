@@ -3,7 +3,6 @@ title: 🎉 Announcement - API testing in python course live on Test automation 
 excerpt:
   "Here to announce that the course on building an API test automation framework using Python is
   finally live on Test automation university. Check it out"
-layout: post
 permalink: /2021/04/16/python-api-automation-framework-course
 image: /assets/images/2021/04/tau-course.png
 categories:

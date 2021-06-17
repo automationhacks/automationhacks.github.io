@@ -1,7 +1,6 @@
 ---
 title: Understanding reporting and logging in TestNG
 author: Gaurav
-layout: post
 permalink: /2020/01/22/understanding-reporting-and-logging-in-testng/
 image: /wp-content/uploads/2020/01/screenshot-2020-01-09-at-6.13.52-am.png
 categories:

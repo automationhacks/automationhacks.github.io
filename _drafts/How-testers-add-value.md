@@ -3,7 +3,7 @@ id: 1003
 title: How testers add value
 date: 2020-08-17T04:53:42+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=1003
 categories:
   - Uncategorized

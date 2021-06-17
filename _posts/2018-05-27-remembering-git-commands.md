@@ -1,6 +1,5 @@
 ---
 title: Remembering GIT commands
-layout: post
 permalink: /2018/05/27/remembering-git-commands/
 categories:
   - Coding

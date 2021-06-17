@@ -5,7 +5,6 @@ excerpt:
   "Writing clear and concise bug reports can greatly reduce the back and forth between different
   engineering stakeholders. We discuss on what makes a good bug report and I also provide a template
   that I use. "
-layout: post
 permalink: /2020/07/25/writing-clear-bug-reports/
 image: /assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png
 categories:

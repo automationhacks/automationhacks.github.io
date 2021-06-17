@@ -4,7 +4,6 @@ excerpt:
   "So far we've seen how to do something using a specific module in python and their syntaxes. In
   this post we explore what could be a good API automation framework structure and refactor our
   existing tests into just that."
-layout: post
 permalink: /2021/01/08/python-api-automation-framework-part7-refactoring-structure
 image: /assets/images/2021/01/api_course_header_7.png
 categories:

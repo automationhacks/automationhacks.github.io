@@ -1,7 +1,6 @@
 ---
 title: "Vim: The editor you need, but not the one you deserve"
 author: Gaurav
-layout: post
 permalink: /2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/
 categories:
   - Coding

@@ -5,7 +5,6 @@ excerpt:
   Sometime back, I tried to update my Kotlin test code using TestNG to use data providers and
   Before/After annotations and it did not work immediately. After some research I found the
   solution. Here is a post, explaining how to use these constructs well with an example.
-layout: post
 permalink: /2020/02/22/using-testng-setup-teardowns-with-data-provider-combinations/
 categories:
   - Coding

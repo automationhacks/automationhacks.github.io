@@ -1,6 +1,5 @@
 ---
 title: Testers are not the last line of defence
-layout: post
 permalink: /2019/06/24/testers-are-not-the-last-line-of-defence/
 categories:
   - Testing

@@ -3,7 +3,6 @@ title: Python API test automation framework (Part 3) Adding fluent assertions us
 excerpt:
   "Using a good assertion library can supercharge your automation framework. In this post we see how
   assertpy library could be useful and see some examples of its capabilities in an API framework"
-layout: post
 permalink: /2020/12/07/python-api-automation-framework-part3-fluent-assertions-using-assertpy
 image: /assets/images/2020/12/api_course_header_3.png
 categories:

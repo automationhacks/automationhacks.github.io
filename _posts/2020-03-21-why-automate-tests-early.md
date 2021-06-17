@@ -1,7 +1,6 @@
 ---
 title: Why automate tests early
 excerpt: A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?
-layout: post
 permalink: /2020/03/21/why-automate-tests-early/
 image: /assets/images/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg
 categories:

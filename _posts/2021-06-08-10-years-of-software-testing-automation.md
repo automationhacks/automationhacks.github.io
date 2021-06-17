@@ -4,7 +4,6 @@ excerpt:
   "I started my career as a professional Software tester and Automation engineer 10 years ago on
   this very day. This post is me reflecting on how this decade went and some of my learnings and
   experiences along the way"
-layout: post
 permalink: /2021/06/08/10-years-of-software-testing-automation
 image: /assets/images/2021/06/undraw_career_progress_ivdb.png
 categories:

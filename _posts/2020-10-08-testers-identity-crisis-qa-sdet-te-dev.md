@@ -2,7 +2,6 @@
 title: Testers identity crisis - QA/QE/AE/SDET/SET/TA? 🤷
 excerpt:
   "In the Software Industry, Testers possess different titles. Sometimes these can cause different confusions in terms of roles/scope. In this post, I share what I feel about this and what do I prefer"
-layout: post
 permalink: /2020/10/08/testers-identity-crisis/
 image: /assets/images/2020/10/emily-morter-8xAA0f9yQnE-unsplash.jpg
 categories:

@@ -1,7 +1,6 @@
 ---
 title: A Testers imposter syndrome
 excerpt: "Why do testers feel like an imposter and how to deal with it?"
-layout: post
 permalink: /2020/09/19/testers-imposter-syndrome/
 image: /assets/images/2020/09/maskedemann-YYLSt5GYbNo-unsplash.jpg
 categories:

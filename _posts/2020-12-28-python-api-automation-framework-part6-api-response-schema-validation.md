@@ -4,7 +4,6 @@ excerpt:
   "Asserting that your api’s are returning responses conforming to valid schema contracts is very
   important. With a data validation library its often quite easy to add this additional coverage. We
   explore cerberus library towards that purpose in this post"
-layout: post
 permalink: /2020/12/28/python-api-automation-framework-part6-api-response-schema-validation
 image: /assets/images/2020/12/api_course_header_6.png
 categories:

@@ -1,6 +1,5 @@
 ---
 title: "Testing: First principles"
-layout: post
 excerpt: "What are some of the first principles of testing that every tester/engineer should know of"
 permalink: /2018/10/25/testing-first-principles/
 categories:

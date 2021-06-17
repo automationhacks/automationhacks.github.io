@@ -1,6 +1,5 @@
 ---
 title: How to setup a load test via Locust
-layout: post
 permalink: /2019/07/28/how-to-setup-a-load-test-via-locust/
 categories:
   - "Test automation"

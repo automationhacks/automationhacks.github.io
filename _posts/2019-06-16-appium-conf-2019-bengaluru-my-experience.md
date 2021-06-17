@@ -1,7 +1,6 @@
 ---
 title: "Appium Conf 2019 Bengaluru : My experience"
 author: Gaurav
-layout: post
 permalink: /2019/06/16/appium-conf-2019-bengaluru-my-experience/
 categories:
   - Conferences

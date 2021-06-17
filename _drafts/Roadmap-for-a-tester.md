@@ -3,7 +3,7 @@ id: 529
 title: Roadmap for a tester
 date: 2020-04-16T03:01:18+00:00
 author: Gaurav
-layout: post
+
 permalink: /?p=529
 categories:
   - Uncategorized

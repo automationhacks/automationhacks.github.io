@@ -3,7 +3,6 @@ title: Python API test automation framework (Part 8) Adding reporting with repor
 excerpt:
   "Any framework is incomplete without a robust test results reporting setup, In this post, I
   walkthrough how to setup pytest to report portal integration for people-api tests"
-layout: post
 permalink: /2021/02/03/python-api-automation-framework-part8-adding-reporting-with-report-portal
 image: /assets/images/2021/02/api_course_header_8.png
 categories:
