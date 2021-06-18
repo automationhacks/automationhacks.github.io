@@ -12,6 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
+
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -19,9 +20,9 @@ locale: "en-US"
 
 title: "automation hacks"
 title_separator: "-"
-subtitle: "Musings about testing, automation and coding"
+subtitle: "Musings on Software engineering and Testing"
 name: "Gaurav Singh"
-description: "Blog posts on Software testing, engineering and programming"
+description: "Musings on Software engineering and Testing"
 
 url: "https://automationhacks.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -74,7 +75,7 @@ author:
   name: "Gaurav Singh"
   avatar: "assets/images/avatar/bio-photo.png"
   bio:
-    "Manager SDET 👨🏻‍💻 at Gojek, I ❤️ to build scalable test automation frameworks and teams.
+    "SDET Manager 👨🏻‍💻 at Gojek, ❤️ to build scalable test automation frameworks, tools and teams.
     Instructor at Test automation university (TAU). Conference speaker"
   location: "Bangalore, India 🇮🇳"
   links:
