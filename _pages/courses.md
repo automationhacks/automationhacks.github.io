@@ -5,6 +5,8 @@ permalink: /courses/
 
 ## Courses
 
+I'm a proud Test automation university instructor with 2 courses already live, details below:
+
 ### On [Test automation university](https://testautomationu.applitools.com/)
 
 - (2020)

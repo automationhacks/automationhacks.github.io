@@ -3,17 +3,20 @@ title: Talks 🙊
 permalink: /talks/
 ---
 
-I try to regularly share my knowledge with the test and automation community over at conference
-talks and will include links to the talk videos and slides wherever I can. Enjoy! Also in case you
-have feedback on any of these, do reach out.
+I try to regularly share my knowledge with the **Test automation** community over at conferences.
+Please find the list of past talks below
 
-Also, I have recently switched to using markdown and static site generators for all conference
-slides. You can view all of them on
-[https://automationhacks.io/slides/](https://automationhacks.io/slides/)
+> Also, 🧏🏼‍♂️ Feedback is how we all learn, if you have some on these talks, do reach out!
+
+**On Talk slides:** I have recently switched to using pure **markdown** and **Mkdocs static site
+generator** for all conference slides.
+
+You can view all of them on [https://automationhacks.io/slides/](https://automationhacks.io/slides/)
 
 ## Upcoming
 
-... 🤔
+Appium Conference | Bengaluru | September 17-18 2021 |
+[Proposal (Pending acceptance 🤞🏻)](https://confengine.com/conferences/appium-conf-2021/proposal/15501/hello-appium-setting-up-your-first-appium-tests-efficiently)
 
 ## 2020
 

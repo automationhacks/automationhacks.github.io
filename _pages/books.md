@@ -1,11 +1,13 @@
 ---
-title: Books 📚
+title: Book recommendations 📚
 permalink: /books/
 ---
 
 This page holds a collection of bookings that are simply too good to ignore and teach valuable
-concepts for a Test engineer. These will span across disciplines i.e. programming, testing, and
-management skills as we need to be a generalist to really be effective
+concepts for a Test engineer.
+
+These span across disciplines i.e. programming, testing, and management skills as I believe we need
+to be a generalist to really be effective Software engineer
 
 ## On Coding
 
