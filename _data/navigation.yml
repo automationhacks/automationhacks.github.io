@@ -1,16 +1,10 @@
 main:
   - title: "About 👨🏻‍💻"
     url: /about/
-  - title: "Books 📓"
-    url: /books/
   - title: "Courses 👨🏻‍🏫"
     url: /courses/
   - title: "Talks 🙊"
     url: /talks/
-  - title: "AMA 🗣"
-    url: /ama/
-  - title: "Patreon 🙏🏼"
-    url: /patreon/
   - title: "Archives 📟"
     url: /archives/
   - title: "Learn Test automation 🦾"
@@ -19,3 +13,9 @@ main:
     url: /posts-by-categories/
   - title: "Posts by tags"
     url: /posts-by-tags/
+  - title: "AMA 🗣"
+    url: /ama/
+  - title: "Patreon 🙏🏼"
+    url: /patreon/
+  - title: "Books 📓"
+    url: /books/
