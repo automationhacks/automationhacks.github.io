@@ -1,7 +1,7 @@
 ---
 title: Simple truths of Software Testing and Automation
 excerpt:
-
+published: false
 permalink: /2021/06/23/simple-truths-of-software-testing-and-automation
 image: /assets/images/2021/06/<>.png
 categories:
