@@ -5,14 +5,14 @@ main:
     url: /courses/
   - title: "Talks 🙊"
     url: /talks/
-  - title: "Archives 📟"
-    url: /archives/
-  - title: "Learn Test automation 🦾"
-    url: /learn/
   - title: "Posts by categories"
     url: /posts-by-categories/
   - title: "Posts by tags"
     url: /posts-by-tags/
+  - title: "Archives 📟"
+    url: /archives/
+  - title: "Learn Test automation 🦾"
+    url: /learn/
   - title: "AMA 🗣"
     url: /ama/
   - title: "Patreon 🙏🏼"
