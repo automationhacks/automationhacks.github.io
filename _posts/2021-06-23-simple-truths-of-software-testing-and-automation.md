@@ -252,3 +252,55 @@ read something else or write yet another automated test.
 
 Take an active role in the meeting, ask really good questions, this way you can ensure lot of good
 testing happens before even a single line of code is written
+
+## 18. Pair with devs more often
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">18. 3 ways to get developers to test more and better:<br><br>- Sharing: Share your AUT knowledge and tools<br>- Pairing: Ask what have you already tested? What&#39;s remaining? What is worrying you?<br>- Caring: Coach them with care.<br><br>Taken from <a href="https://twitter.com/alanpage?ref_src=twsrc%5Etfw">@alanpage</a> <a href="https://twitter.com/hashtag/testflix?src=hash&amp;ref_src=twsrc%5Etfw">#testflix</a> talk<a href="https://t.co/FTkjtp7wer">https://t.co/FTkjtp7wer</a></p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1365300798398156800?ref_src=twsrc%5Etfw">February 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I think Alan page described this quite well and I'll recommend you to check out his talk on Test
+Flix on how to encourage devs to test more and often.
+
+In short, pairing with devs is going to be the most valuable skill you'll ever learn as a test
+automation engineer. Do more of it!
+
+## 19. Trust me, it will work, you only need to test this
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">19. If the dev says: &quot;You don&#39;t need to test &quot;x&quot; aspect of the app. Is should work fine&quot; <br><br>Confirm this assumption and do test around to discover regression impacts. More often than not, You&#39;ll be surprised to know cases that were not considered.</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1365310305446756354?ref_src=twsrc%5Etfw">February 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+If you hear your devs suggest this, please ask them why they think this way and do they have any
+proof of validating this assumption
+
+Make sure you regression test every feature and never be satisfied with just testing the one change
+that was made. It is tedious but often code breaks in other integrations rather than the component
+that was changed directly
+
+## 20. Pair some more
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">20. Don&#39;t expect Dev&#39;s to become expert testers overnight, pair with them. Do dev box testing and share your mental models around testing and automation. They would also open up and share dev contexts. In the end, both amigos come out stronger engineers.</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1365310837351583753?ref_src=twsrc%5Etfw">February 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This one just speaks more towards tweet # 18, You need to become the Test coach of the team and help
+devs understand how to test, help them by building smart tools and yet again, pair more with them
+
+## 21. Test automation is a Software engineering activity
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">21. Testing and Test automation is an engineering activity, everyone on the product owns this and should do this. Don&#39;t let anyone tell you otherwise. 😉</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1365311450328096770?ref_src=twsrc%5Etfw">February 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Okay, this shouldn't really come as a surprise to you but Test automation is a pure Software
+engineering activity, don't let some unmotivated frustrated engineer tell you otherwise. Take pride
+in being a Software craftsmen and give complete care while writing your automation code.
+
+That means, you code should be clean and should be extendable and scale well
+
+Trust me, Its a craft and like Software development, you need to get better at it over time.
+
+How to get better at it, you may ask?
+
+The good news is, there are tons of resources to get better at it. If you are looking for one, Look
+no further than Test automation university that has tons of courses created by Automation experts.
+Shameless plug, I have couple of courses on it already.
+[Courses by automation hacks](https://testautomationu.applitools.com/instructors/gaurav_singh.html)
+
+## 22. Automate cases by priority and risk
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">22. Don&#39;t automate/execute your test suites from 1 to n. Identify the priority based on customer risks, Using data, find out which flows are critical and most used. Automate to mitigate those risks first and then go in a descending order</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1370649001293271042?ref_src=twsrc%5Etfw">March 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
