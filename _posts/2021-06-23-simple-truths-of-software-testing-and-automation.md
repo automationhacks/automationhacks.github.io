@@ -1,9 +1,10 @@
 ---
 title: Simple truths of Software Testing and Automation
 excerpt:
-published: false
+  "Software testing and Test automation is nuanced field. There are many common sense truths that
+  engineers should take care. This post elaborates on a twitter thread an the same topic"
 permalink: /2021/06/23/simple-truths-of-software-testing-and-automation
-image: /assets/images/2021/06/<>.png
+image: /assets/images/2021/06/undraw_people_search.png
 categories:
   - Testing
   - "Test automation"
@@ -11,25 +12,40 @@ tags:
   - "Testing"
 ---
 
+<figure class="image">
+  <img src="/assets/images/2021/06/undraw_people_search.png" alt="Lady searching with a microscope">
+  <figcaption>Source: Undraw by Katerina Limpitsouni</figcaption>
+</figure>
+
 I started a twitter thread sometime back, capturing some simple insights about Software testing and
-test automation. Most of these are boring, common sense facts about Software testing and have been
-spoken and blogged about numerous times.
+test automation.
 
-Some people liked this thread and asked to write this as a book, well they are quite short for a
-book but definitely deserve a blog post. So here we go. Let's do this.
+Most of these are boring, common sense facts about practices in Software testing and have been
+spoken and blogged about heavily.
 
-I'll post each tweet and explain or give some context to each.
+I thought I was reiterating the obvious in that thread and it sure was fun to do a mind dump of
+these common practices and tips
+
+Some people appreciated this thread and asked to write this as a book, To be honest they are quite
+short for a book but definitely deserve a blog post.
+
+So here we go. Let's do this. 💪
+
+I'll post each tweet and explain or give some additional context about each.
 
 ## 1. Early involvement
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Simple things we know to be true about Software testing and automation but often forget.<br><br>1. Involve testers right from the start of a feature and involve in the design process to get valuable feedback and better refined acceptance criterion's</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339944159658930179?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Smart testers possess lot of business context, when you involve them early, they can really help you
-find gaps in your specs, missed requirements, edge cases that were not considered earlier. You get
-all these right during planning and design phase.
+Smart testers possess lot of **business context**, when you involve them early, they can really help
+you find gaps in your specs, such as missed requirements, corner/edge cases that were not considered
+in initial design. You get all these right during planning and design phase for free.
 
-In the end the product is better off, also this reduces these missed feature tickets during actual
+In the end the product is better off, This also reduces these missed feature tickets during actual
 testing phase
+
+> 💡 Testers: Don't sulk and wait to be included if you are left out. I often find self inviting
+> yourself to these discussions leads to paving a path for future.
 
 ## 2. Shift left
 
@@ -37,23 +53,31 @@ testing phase
 
 Why should testers have all the fun?
 
-Yeah, I know some testers have a **batman, read superhero** complex, They believe they are the bruce
-wayne that will save the burning gotham city (read **product**), but this is not how real successful
-projects scale. If you believe in QA being the gatekeeper, please read [Testers are not the last
-line of defence]({% link _posts/2019-06-24-testers-are-not-the-last-line-of-defence.md %})
+No, really! ...
 
-Testing is a team sport, and dev and test are really two sides of the same coin, app that is
-released without **testing** is mostly gonna be quite bad and full of bugs, who does the testing is
-another story altogether. I'll give you a hint:
+Yeah, I know some testers have this **batman, (read superhero)** complex, They believe they are
+bruce wayne that will save the burning gotham city (read **product**) from clueless devs that ship
+untested code full of bugs,
+
+But this is not how real successful projects scale. If you believe in QA as being the gatekeeper,
+please read [Testers are not the last line of
+defence]({% link _posts/2019-06-24-testers-are-not-the-last-line-of-defence.md %})
+
+Testing is a team sport, and dev and test are really two sides of the same coin
+
+An app that is released without **testing** is mostly gonna be quite bad and full of bugs, who does
+the testing is another story altogether.
+
+I'll give you a hint:
 
 > Quality is everyone's responsibility
 
-Devs should also be comfortable with the automation code and be able to add coverage or modify as
-needed. Most rockstar devs that I know are more than interested in achieving this, you as the tester
-just need to help them out with required context
+Devs should also be comfortable with the **automation code** and be able to add coverage or modify
+as needed. Most rockstar devs that I know are more than interested in achieving this, you as the
+tester just need to help them out with required context
 
-Another side benefit of this is that Testers get more time to create robust automation, everybody
-wins!
+Another side benefit of this is that Testers get **more time** to create robust automation and,
+everybody wins this way!
 
 ## 3. Don't test automated cases manually
 
@@ -63,15 +87,19 @@ This is really simple, but often overlooked. Some exploratory testers lack confi
 and they would often repeat the same cases by hand.
 
 To me, this is just wasted effort and diminishes the value proposition of automation. We should
-strive to build robust automation and use the freed up time to test different tours or charters
+strive to build robust automation and use the freed up time to test different tours or charters.
 
 ## 4. Build automation early
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">4. Cost of test automation is amortized with every CI run, build more automation and early. You&#39;ll get more breathing space plus machines are damn good at these repetitive tasks</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339945076433199105?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I wrote about this in an earlier post, but you should strive to write some automation early and put
-it in CI, you can very quickly run this suite to gain confidence about your system. And trust me,
-Nobody, ... I mean nobody likes to run same 10 cases every 1 hour for every new dev build.
+it in CI, this way you can very quickly run this suite to gain confidence about your system.
+
+And trust me, Nobody, ...
+
+I mean nobody likes to run same 10 cases every 1 hour for every new dev build. Its much better to
+automate these and get them off your plate.
 
 [Further Read: Why you should automate tests
 early]({% link _posts/2020-03-21-why-automate-tests-early.md %})
@@ -80,22 +108,27 @@ early]({% link _posts/2020-03-21-why-automate-tests-early.md %})
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">5. Use manual testing for areas which really need it, accessibility, privacy, really hard to find bugs in untested corners, let your exploratory testers do what they do best, well explore the system. Don&#39;t make them execute repeated test scripts</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339945343153160194?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Manual exploratory testing is really valuable, it involves someone use their mind, prior product
-context to explore, slice and dice the product from multiple angles and often finds very hard to
-discover bugs. If you ask your testers to run the same scripted tests, will they take the uncommon
-sad path?
+Manual exploratory testing is really valuable, it involves someone using their mind, prior context
+about the product to explore, slice and dice the product from multiple angles and often finds very
+hard to discover bugs.
+
+If you ask your testers to run the same scripted tests, will they take the uncommon sad path?
 
 In most cases, no, so we should automate these predictable cases and unleash our testers to explore
-the product. Also exploratory testing is not monkey testing, it is a well structured methodology and
-involves use of well defined tours and charters to cover a focussed subset of the product. You can
-read more about it in [Explore it!](https://www.goodreads.com/book/show/15980494-explore-it) or
+the product.
+
+Also exploratory testing is not monkey testing, it is a well structured methodology and involves use
+of well defined tours and charters to cover a focussed subset of the product.
+
+You can read more about it in amazing books like
+[Explore it!](https://www.goodreads.com/book/show/15980494-explore-it) or
 [Exploratory software testing](https://www.amazon.in/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414)
 
 ## 6. Automate boring stuff
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">6. Please automate the boring repetitive stuff</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339945442142916609?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Quite obvious, don't repeat the same 10 smoke cases manually, automate them.
+Quite obvious, don't repeat the same `n` cases manually, automate them.
 
 Have to create some test data again and again, don't do it manually, write an automated script
 
@@ -105,20 +138,24 @@ Takes lot of time to do X, well you know what to do 😉
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">7. For your frameworks, Please start small and iterate. Keep it simple and don&#39;t do a big design upfront. To enough to get a good picture and get started but don&#39;t write a thesis.</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339945758229860357?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I've found doing big elaborate design upfront (BDUF), or writing long documents usually does not
+I've found doing big elaborate design upfront (`BDUF`), or writing long documents usually does not
 lead to good frameworks or tests. Obviously this might not hold true in every single context, but
 its better to start really small and then quickly iterate.
 
-Remember refactoring is your friend here. Do enough design to form a good high level idea but don't
-really go deep into each component.
+Remember refactoring is your friend here.
+
+Do enough design to form a good high level idea but don't really go deep into each component. Let
+the coding surface some of these low level details and then pivot appropriately.
 
 ## 8. Respect test pyramid
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">8. Write unit tests, check the integration points/contracts, Test your API endpoints, with a little bit of UI automation on top.</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339945945220280320?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This one just describes the classic Test pyramid. Its a really good idea to write the appropriate
-test at the required level. And yes, you as a test automation engineer should go deep into the
-product stack and understand how to write these tests. Don't limit yourselves to only E2E tests.
+test at the required level.
+
+And yes, you as a test automation engineer should go deep into the product stack and understand how
+to write these tests. Don't limit yourselves to only Functional E2E tests.
 
 If you want to know more about this, read
 [Test pyramid](https://martinfowler.com/bliki/TestPyramid.html),
@@ -130,15 +167,18 @@ Martin fowlers website
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">9. Don&#39;t write long tests. They will be anyways be flaky</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339946031555858432?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I don't think this needs explanation, don't write tests longer than 10 Lines of code. Even that is
-long in most contexts. Write small, focussed tests that do one thing and assert its outcomes and
-don't share any data with any other tests
+long in most contexts.
+
+Write small, focussed tests that do one thing and assert its outcomes
 
 ## 10. Build parallelization from the start
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10. Design automation with tests concurrency in mind</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1339946135868252160?ref_src=twsrc%5Etfw">December 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 As soon as you have 5 sequential tests (for a new framework), spend some time and make them run in
-parallel. It can be a bit of work but the payoffs are huge. When your suite has 10, 100, 1000, 10000
+parallel.
+
+It can be a bit of work initially but the payoffs are huge. When your suite has 10, 100, 1000, 10000
 tests, effectively designed parallel suites will win every single time.
 
 ## 11. Design smart coverage
@@ -304,3 +344,19 @@ Shameless plug, I have couple of courses on it already.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">22. Don&#39;t automate/execute your test suites from 1 to n. Identify the priority based on customer risks, Using data, find out which flows are critical and most used. Automate to mitigate those risks first and then go in a descending order</p>&mdash; Gaurav Singh (@automationhacks) <a href="https://twitter.com/automationhacks/status/1370649001293271042?ref_src=twsrc%5Etfw">March 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Last but not least, all Testing activities should always be in the order of their impact to
+customers, and look at mitigating customer risk. Going with the highest priority
+
+Some of these activities could be:
+
+- Manually testing a product via scripted tests,
+- Executing an exploratory testing tour
+- Automating a test case
+- Running automated tests
+
+## Conclusions
+
+None of these should come as a huge surprise but I hope these are useful to you and your teams.
+
+As always, Do share this with your friends or colleagues and if you have thoughts or feedback, I'd
+be more than happy to chat over at twitter or comments. Until next time. Happy Testing and coding.
