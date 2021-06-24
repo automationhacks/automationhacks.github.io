@@ -25,7 +25,7 @@ Appium Conference | Bengaluru | September 17-18 2021 |
 Selenium Conference | Bengaluru | September 11 2020 |
 [Proposal](https://confengine.com/selenium-conf-2020/proposal/13303/how-to-build-an-automation-framework-with-selenium-patterns-and-practices)
 |
-[slides](https://automationhacks.io/slides/2020/se-conf/how-to-build-an-automation-framework-with-selenium/01-introduction/)
+[slides](https://automationhacks.io/slides/2020/se-conf/how-to-build-an-automation-framework-with-selenium/01-introduction.html)
 | [Video](https://www.youtube.com/watch?v=ZZ82P3teH0w&t=52s)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ82P3teH0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
