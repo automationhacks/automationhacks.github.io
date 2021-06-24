@@ -10,6 +10,7 @@ categories:
   - "Test automation"
 tags:
   - "Testing"
+  - "Advice"
 ---
 
 <figure class="image">
@@ -20,9 +21,9 @@ tags:
 Sometime back, I started a twitter thread, capturing some musings about Software testing and test
 automation.
 
-Most of these were boring, common sense facts about Software testing practices and have been spoken
-or blogged about heavily. For me, It was fun to do a mind dump of these mental models as act of
-writing stuff done really helps me crystallize ideas
+Most of these were **boring**, **common sense** facts about Software testing practices and have been
+spoken or blogged about heavily. For me, It was fun to do a mind dump of these **mental models** as
+the act of writing stuff down really helps me crystallize ideas for myself
 
 Some people liked this thread asked if there was a blog post about this somewhere. Sadly there was
 none at that time.
