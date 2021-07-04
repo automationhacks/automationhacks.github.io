@@ -1,5 +1,5 @@
 ---
-title: career ladder for SDET
+title: Career ladder for SDET
 excerpt:
   "SDET (Or Software dev engineer in Test) is a hybrid between a SW tester and a full fledged
   Software developer. What mental model do I have when it comes to a career ladder for this role,
