@@ -5,31 +5,32 @@ categories:
   - Testing
 ---
 
-A very common title in the Software Testing space is that of a SDET (expanded as **Software
-Development Engineer in Test**) popularized by major Tech companies like Microsoft and Amazon.
+A very common title in the Test automation space is that of an SDET (expanded as **Software
+Development Engineer in Test**), Phew that took nearly 7 secs to even speak out :sweat_smile: . It
+was first popularized by major Tech companies like Microsoft and Amazon and now is quite common to
+see in job openings
 
-Some companies like Google dropped the `D` in favor of more concise title **SET** (Software engineer
-in Test) and naturally many companies followed suit.
+Some companies like Google dropped the `D` in favor of more concise title abbreviated **SET**
+(Software Engineer in Test) and naturally many companies followed suit.
 
-But just what or who exactly is an SDET?
+But just who exactly is an SDET?
 
+- What do they do?
 - What skills should they possess?
-- Are they Testers, QA?
+- Are they Testers
 - Are they Developers?
-- Are they Test automation engineers?
+- Or Are they Test automation engineers?
 
-Whats the difference between these?
-
-Junior engineers new to the field might inherit this title when they first join a company or mid
-level engineers might get this when they change jobs, thats certainly one way to acquire the title,
-but what is the role all about?
+Junior engineers new to the field might inherit this title right of the bat when they first join a
+company or mid level engineers might get this when they change jobs, thats certainly one way to
+acquire the title, but what is the role all about?
 
 Often, there is a deep confusion on what does it actually mean to be an SDET?
 
-I hear statements like, I am a Test automation engineer but would like to move to an SDET.
+I hear statements like, "I am a Test automation engineer but would like to move to an SDET".
 
 This post aims to offer some additional perspectives into activities, skills that you may consider
-improving upon as an engineer in this role or aspiring to become one
+improving upon or acquiring as an engineer already in this role or aspiring to become one
 
 I came across one of the best descriptions of the role in the book ** How Google Tests Software by
 Whittaker, James A.; Arbon, Jason; Carollo, Jeff. Pearson**
@@ -48,38 +49,52 @@ Its quite obvious that an SDET is a person who should be able to write **clean a
 code** fluently, Should be able review code whether written by a fellow SDET or SWE (Software
 engineer) and possesses sound Technical acumen
 
-What does it mean to have good Technical acumen you may ask?
+What does it mean to have good Technical acumen you may ask? 🤷
 
-Let's just say that an SDET should have a very good understanding and broad perspective of the
-System they are responsible for and its stack and the specific context that they are working on (Web
-app, mobile app, Desktop app or a distributed backend system.). Being a generalist in multiple of
-these streams is usually a plus.
+Let's just say that an SDET should have a **very good understanding and broad perspective of the
+System** they are responsible for and its stack and the specific context that they are working on
+(Web app, mobile app, Desktop app or a distributed backend system.).
+
+Being a **T-shaped engineer** or a generalist in multiple of these streams is usually a plus.
 
 Below are some activities that an SDET might typically perform on an Agile Software engineering team
 
+### Software engineering skills
+
 - Able to write clean, concise, maintainable and extensible code
-- Able to review code written by SWE or SDET's or QA's
-- Analyze gaps in Test coverage in unit or integration tests and add more coverage for feature code
-- Understands **refactoring techniques** and **design patterns** and knows when to apply them to
-  solve test automation problems
-- Understands good framework development practices and incorporates them in Automated test design
-- Able to **author Test automation frameworks from scratch** for their context, E2E Functional on
-  mobile, web, desktop, API or Non functional like Load, stress on API or apps, Security,
-  Accessibility etc
-- Builds **results monitoring and reporting** for the automation framework and uses them efficiently
-  to analyse and debug any failures
+- Able to review code or design docs written by SWE or SDET or QA and provide technical feedback
 - Writes framework that is easy to follow and encourages developers to participate in adding test
   coverage
+- Understands good framework development practices and incorporates them in Automated test or tool
+  designs
+- Analyze gaps in Test coverage in unit or integration tests and add more coverage for feature code
+- Understands **refactoring techniques** and **design patterns** and knows when to apply them to
+  solve testing problems
+- Able to **author Test automation frameworks from scratch** or significantly improve the status quo
+  of existing solutions for their context
+- Write E2E Functional cases on mobile, web, desktop, API or Non functional like Load, stress on API
+  or apps, Security, Accessibility etc
 - Able to write mocks, stubs for services
-- Thinks deeply about the system and can come up with a Testing and automation strategy
+
+### CI/CD, Reporting
+
+- Builds **results monitoring and reporting** for the automation framework and uses them efficiently
+  to analyse and debug any failures
+- Builds test infrastructure and CI/CD systems across different stacks
+
+### Testing acumen
+
+- Thinks deeply about the system and can come up with a Testing and automation strategy to mitigate
+  customer risk
 - Understands the nuts and bolts of the product and has broad context about the system that he owns
-- Participates in writing of product spec along with business person and is able to advice on how to
-  build Testing and quality into features that would be beneficial for the end customer
-- Uses customer usage pattern data to validate if the product meets its goals when used by a
+  and can steer SWE towards writing test to address missing gaps
+- Participates in writing of **product spec** along with business person and is able to advice on
+  how to build **Testing and quality** into features that would be beneficial for the end customer
+- Uses **customer usage pattern** data to validate if the product meets its goals when used by a
   consumer
 - Mentors other Junior SDET on the team
 
-How is an SDET different from a QA?
+How is an SDET different from a QA or Test engineer?
 
 Again the book offers a good summary differentiation
 
@@ -90,3 +105,7 @@ Again the book offers a good summary differentiation
 > results, and drive test execution, particularly in the late stages of a project as the push toward
 > release intensifies. TEs are product experts, quality advisers, and analyzers of risk. Many of
 > them write a lot of code; many of them write only a little.
+
+The key differentiator here is **user focus**, while there is definitely overlap with an SDET, the
+test engineer focusses a lot on User facing features, does exploratory testing and writes automated
+scripts
