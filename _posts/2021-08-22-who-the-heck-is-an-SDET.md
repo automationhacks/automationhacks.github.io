@@ -4,6 +4,7 @@ excerpt:
   "Software development engineer in Test is a popular role/title in Testing space. In this post I
   share my thoughts on what this role means and some of the skills needed to succeed in this"
 permalink: /2021/08/22/who-the-heck-is-an-SDET
+image: /assets/images/2021/08/06/science-in-hd-1WBN-JKSmKI-unsplash.jpg
 categories:
   - Testing
   - "Test automation"
@@ -12,14 +13,25 @@ tags:
   - "Advice"
 ---
 
+<figure class="image">
+    <img src="/assets/images/2021/08/science-in-hd-1WBN-JKSmKI-unsplash.jpg" alt="Man controlling a robot">
+    <figcaption>
+        Photo by <a
+            href="https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Science
+            in HD</a> on <a
+            href="https://unsplash.com/s/photos/automation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </figcaption>
+</figure>
+
 Nowadays, A very common title in the Test automation space is that of an **SDET (expanded as
 Software Development Engineer in Test)**, Phew! that took me nearly 7 secs to even verbally speak
 out the full form. 😅.
 
 Jokes apart, The role was first popularized by major Tech companies like Microsoft and Amazon and
-now is quite common to see in job openings across the world. Some companies like Google dropped the
-`D` in favor of more concise title abbreviated **SET** (Software Engineer in Test) and naturally
-many companies followed suit here as well.
+now is quite commonly seen in job openings across the world.
+
+Some companies like Google dropped the `D` in favor of more concise title abbreviated **SET**
+**(Software Engineer in Test)** and naturally many companies followed suit here as well.
 
 But just who exactly is an SDET?
 
@@ -28,8 +40,9 @@ But just who exactly is an SDET?
 - Are they Testers?
 - Are they Developers?
 
-Sometimes I hear statements like, "I am a Test automation engineer but would like to move to an SDET
-role". Indicating often, that there is a deep confusion on what does it actually mean to be an SDET?
+Sometimes I hear statements like, _"I am a Test automation engineer but would like to move to an
+SDET_ _role"_. Indicating often, that there is a deep confusion on what does it actually mean to be
+an SDET?
 
 Junior engineers new to the field might inherit this title right off the bat when they first join a
 company or mid level engineers might get this when they change jobs, thats certainly one way to
@@ -200,8 +213,8 @@ and improve the status quo.
 I had previously written couple of posts on these topics around titles and how much confusion they
 add if not being setup properly in a company, feel free to read them:
 
-- [Testers identity crisis - QA/QE/AE/SDET/SET/TA? 🤷]({% link
-  \_posts/2020-10-08-testers-identity-crisis-qa-sdet-te-dev.md% })
+- [Testers identity crisis - QA/QE/AE/SDET/SET/TA?
+  🤷]({% link _posts/2020-10-08-testers-identity-crisis-qa-sdet-te-dev.md %})
 - [The problem with titles for
   testers]({% link _posts/2020-02-29-the-problem-with-titles-for-testers.md %})
 
