@@ -54,8 +54,9 @@ This post aims to offer some additional perspectives into activities that an SDE
 that you may consider improving upon or acquiring as an engineer already in this role or aspiring to
 become one
 
-I came across one of the best descriptions of the role in the book ** How Google Tests Software by
-Whittaker, James A.; Arbon, Jason; Carollo, Jeff. Pearson**
+I came across one of the best descriptions of the role in the book:
+[**How Google Tests Software**](https://www.amazon.in/Google-Tests-Software-James-Whittaker-ebook/dp/B007MQLMF2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+by Whittaker, James A.; Arbon, Jason; Carollo, Jeff. Pearson
 
 > The Software engineer in test (SET) is also a developer role, except his focus is on testability
 > and general test infrastructure. SETs review designs and look closely at code quality and risk.
