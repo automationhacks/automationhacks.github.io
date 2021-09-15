@@ -15,8 +15,17 @@ You can view all of them on [https://automationhacks.io/slides/](https://automat
 
 ## Upcoming
 
-Appium Conference | Bengaluru | September 17-18 2021 |
-[Proposal (Pending acceptance 🤞🏻)](https://confengine.com/conferences/appium-conf-2021/proposal/15501/hello-appium-setting-up-your-first-appium-tests-efficiently)
+### Hello Appium! Setting up your First Appium Tests efficiently
+
+Appium Conference | Online | September 17-18 2021 |
+[Proposal](https://confengine.com/conferences/appium-conf-2021/proposal/15501/hello-appium-setting-up-your-first-appium-tests-efficiently)
+|
+[slides](https://automationhacks.io/slides/2021/appium-conf/hello-appium-writing-your-first-tests/00-welcome/)
+
+### Deep dive into contract testing
+
+Agile Testing Alliance Global Testing retreat (ATAGTR) | Online | December 11th 2021 | Proposal
+(Pending acceptance 🤞🏻)
 
 ## 2020
 
