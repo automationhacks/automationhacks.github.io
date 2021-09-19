@@ -9,11 +9,6 @@ I'm a proud Test automation university instructor with 2 courses already live, d
 
 ### On [Test automation university](https://testautomationu.applitools.com/)
 
-- (2020)
-  [Automated visual testing with Python](https://testautomationu.applitools.com/visual-testing-python/)
-  An excellent summary about the course was written on
-  [applitools blog](https://applitools.com/blog/test-visually-with-python-tau/) by
-  [Michael Battat](https://applitools.com/blog/author/michaelbattat/)
 - (2021) [API testing in Python](https://testautomationu.applitools.com/python-api-testing/) that
   explains how to go about building a Test automation framework for API testing using Python. There
   were a series on 9 blog posts as I was building this course. You can check them out below:
@@ -36,6 +31,12 @@ I'm a proud Test automation university instructor with 2 courses already live, d
     {% link _posts/2021-02-03-python-api-automation-framework-part8-adding-reporting-with-report-portal.md %})
   - [Python API test automation framework (Part 9) Running tests in parallel]({% link
     _posts/2021-02-23-python-api-automation-framework-part9-running-tests-in-parallel.md %})
+
+- (2020)
+  [Automated visual testing with Python](https://testautomationu.applitools.com/visual-testing-python/)
+  An excellent summary about the course was written on
+  [applitools blog](https://applitools.com/blog/test-visually-with-python-tau/) by
+  [Michael Battat](https://applitools.com/blog/author/michaelbattat/)
 
 Full instructor profile [here](https://testautomationu.applitools.com/instructors/gaurav_singh.html)
 
