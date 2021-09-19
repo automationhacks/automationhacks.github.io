@@ -15,17 +15,23 @@ You can view all of them on [https://automationhacks.io/slides/](https://automat
 
 ## Upcoming
 
+### Deep dive into contract testing
+
+Agile Testing Alliance Global Testing retreat (ATAGTR) | Online | December 11th 2021 | Proposal
+(Pending acceptance 🤞🏻)
+
+## 2021
+
 ### Hello Appium! Setting up your First Appium Tests efficiently
 
 Appium Conference | Online | September 17-18 2021 |
 [Proposal](https://confengine.com/conferences/appium-conf-2021/proposal/15501/hello-appium-setting-up-your-first-appium-tests-efficiently)
 |
 [slides](https://automationhacks.io/slides/2021/appium-conf/hello-appium-writing-your-first-tests/00-welcome/)
+|
+[Video](https://www.youtube.com/watch?v=907U1VP0RpA&list=PL9Z-JgiTsOYRCcJhDfmKAah9XmAp2b903&index=11&t=277s)
 
-### Deep dive into contract testing
-
-Agile Testing Alliance Global Testing retreat (ATAGTR) | Online | December 11th 2021 | Proposal
-(Pending acceptance 🤞🏻)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/907U1VP0RpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 2020
 
