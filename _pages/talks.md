@@ -15,10 +15,7 @@ You can view all of them on [https://automationhacks.io/slides/](https://automat
 
 ## Upcoming
 
-### Deep dive into contract testing
-
-Agile Testing Alliance Global Testing retreat (ATAGTR) | Online | December 11th 2021 | Proposal
-(Pending acceptance 🤞🏻)
+Thinking about some ideas ... 🤔 🧑‍🍳 ...
 
 ## 2021
 
