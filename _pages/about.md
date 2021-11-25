@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi there 👋🏻,
 
-I'm Gaurav Singh. I live in Bangalore, India 🇮🇳 with my wife and with my other love ...
+I'm Gaurav Singh. I live in London, United Kingdom 🇬🇧 with my wife and with my other love ...
 
 Computers 💻 what else?
 
