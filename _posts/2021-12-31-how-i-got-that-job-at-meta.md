@@ -36,13 +36,15 @@ something I always wanted to try out and this post is to share more about this
 process in the hopes that it would help others in the community in case they are
 interested.
 
-While preparing for these interviews I read through couple of excellent posts on applying and preparing for Software engineering interviews at Big Tech companies and this post in a way is inspired from these, Having got **"that"** job, this post is my way of paying the advice forward.  
+While preparing for these interviews I read through couple of excellent posts on
+applying and preparing for Software engineering interviews at Big Tech companies
+and this post in a way is inspired from these, Having got **"that"** job, this
+post is my way of paying the advice forward.
 
 I would recommend reading these excellent posts out when you have time:
 
 - [Get that job at Google by Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 - [Get that job at Facebook by Engineering @ Meta](https://www.facebook.com/notes/10158791572847200/)
-
 
 ### A word of gratitude
 
@@ -260,18 +262,69 @@ Meta has 3 rounds of coding interviews and your recruiter would usually schedule
 an initial screening interview followed by the full onsite interview loop with 2
 more coding interviews
 
-Succeeding in these coding interviews is challenging for sure, but definitely
-doable. Its a matter of practicing consistently and well. There are many sites
-and resources out their to fill lot of details on this aspect of the interview
-and I would recommend checking these resources out.
+Succeeding in these coding interviews is challenging for sure, but **definitely
+doable**. Its a matter of practicing well consistently. There are many sites and
+resources out there that provide a lot of details on this phase of the interview
+process and I would recommend checking these resources out.
 
-These rounds focus on solving 2 algorithmic problems focussed on data structures and algorithms, problem solving and communication skills within 40 minutes, leaving 5 mins for questions.
+These rounds focus on solving 2 algorithmic problems focussed on **data
+structures and algorithms, problem solving and communication skills** within 40
+minutes, leaving 5 mins for questions.
 
-> 💡 - Tip: While practicing for this round, ensure you practice talking out loud and trying to time yourself while solving these problems. Don't worry if you don't have the speed initially, as you solve more problems you'll start to recognize patterns that you could use and solve category of problems.
-> - Finally, review solved problems every week. Try and re-solve already solved problems since the forgetting curve is quite real. You can use a spaced repetition tool like Anki to even prompt same problems on a periodic basis
+> 💡 - Tips: While practicing for these rounds, ensure you **practice talking
+> out loud** and try to time yourself while solving these problems. Don't worry
+> if you don't have the speed initially, as you solve more problems you'll start
+> to recognize patterns that you could use and solve category of problems and it
+> would come.
+>
+> - Please review solved problems every week (This is very important). Try and
+>   re-solve already solved problems since the forgetting curve is quite real.
+>   You can use a spaced repetition tool like Anki to even prompt same problems
+>   on a periodic basis
+> - Practicing these interviews with a buddy is amazing since they can give you
+>   actionable feedback for improvements, you could also leverage a platform
+>   like [Pramp](https://www.pramp.com/#/)
+> - Remember you should aim to solve the problem first even if its a naive
+>   solution, **done is better than perfect**. However don't stop as soon as you
+>   have the naive solution in place since you are expected to reach an optimal
+>   solution to the problem at hand if possible to get extra points.
+
+### How to prepare for DS and Algo questions
+
+People with a computer science engineering background have mostly gone through
+these Data structures and algorithms at least once, however while working
+professionally, most people don't really remember these off the top of their
+head
+
+Depending on the amount of time you have for the interview its best to be very
+clear about these different data structures and algorithms, conceptually and
+then practice a lot of different problems while trying to use these to solve
+
+I read through few books and sites to get that theoretical base around DS and
+Algo,
+[Cracking the coding interview](https://www.amazon.co.uk/Cracking-Coding-Interview-6th-Programming/dp/0984782850/),
+[Problem Solving with Algorithms and Data Structures using Python By Brad Miller and David Ranum, Luther College](https://runestone.academy/ns/books/published//pythonds/index.html)
+and [The Interview Cake Course](https://www.interviewcake.com/table-of-contents)
+and there are many more resources mentioned in Gergely's blog as well
+[Preparing for the Systems Design and Coding Interview by Gergely Orosz](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
+
+Once done with these, I also went through sections on **Arrays, Binary Search,
+Linked list, Recursion, Graphs, Binary Trees** on
+[Leet code](https://leetcode.com/explore/) and then mostly solved Top 100
+questions asked by Facebook. Getting the premium subscription meant I could
+access the solutions to these problems
+
+I found this to be very useful for this interview loop. There are other sites
+like [Hackerrank](https://www.hackerrank.com/) that is also used by some
+companies.
+
+> Its important to solve different problem types rather than many problems of
+> the same type since you should optimize for coverage than solid depth in one
+> over the expense of others.
 
 ### Coding interview resources
 
+- [Preparing for the Systems Design and Coding Interview by Gergely Orosz](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 - [How to Succeed in Data Structures and Algorithms Interview - Pramp](https://blog.pramp.com/how-to-succeed-in-data-structures-and-algorithms-interview-2ad1a28041b6)
 - [Big O notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 - [How I got a job in 5 big tech companies in 5 days](https://medium.com/@XiaohanZeng/i-interviewed-at-five-top-companies-in-silicon-valley-in-five-days-and-luckily-got-five-job-offers-25178cf74e0f)
@@ -281,6 +334,7 @@ These rounds focus on solving 2 algorithmic problems focussed on data structures
 
 Practice sites:
 
+- [LeetCode](https://leetcode.com/explore/)
 - [InterviewBit](https://www.interviewbit.com/)
 
 ## Stage 3: System design
