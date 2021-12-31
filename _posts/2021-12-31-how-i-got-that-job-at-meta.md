@@ -30,10 +30,21 @@ tags:
 ## Sharing a good news! 🥳
 
 Hello everyone 👋, As I start to write this long post, its been more than a
-month that I took up my new job at Meta London 🇬🇧 as a Software Engineer. This
-was a **really** big move for me and my family and something I always wanted to
-try out and this post is to share more about this process in the hopes that it
-would help others in the community in case they are interested.
+month that I took up my new job at **Meta London** 🇬🇧 as a **Software
+Engineer**. This was a **really** big career decision for me and my family and
+something I always wanted to try out and this post is to share more about this
+process in the hopes that it would help others in the community in case they are
+interested.
+
+While preparing for these interviews I read through couple of excellent posts on applying and preparing for Software engineering interviews at Big Tech companies and this post in a way is inspired from these, Having got **"that"** job, this post is my way of paying the advice forward.  
+
+I would recommend reading these excellent posts out when you have time:
+
+- [Get that job at Google by Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+- [Get that job at Facebook by Engineering @ Meta](https://www.facebook.com/notes/10158791572847200/)
+
+
+### A word of gratitude
 
 But before I begin, I would really like to start with a thought of gratitude 🙌
 towards **all the people** who helped me in this long journey especially my wife
@@ -41,7 +52,7 @@ who was extremely patient as I spend long hours morning/night for months
 preparing and couple of friends without which this would really have not have
 been possible.
 
-## The right mindset
+## The right mindset going into the process
 
 As you start to read this post,
 
@@ -65,7 +76,7 @@ is really coveted and offers nice perks/salary and learning opportunity, it is a
 job and might not be the right fit for you and should definitely not take
 priority over your physical and mental wellbeing.
 
-### A note about failure
+### A note about failure 🙅‍♂️
 
 Its also really easy to take interview failures really hard and think you are
 not good enough, and I've also been a subject to multiple of these rejections,
@@ -100,13 +111,19 @@ approach these interviews.
 
 ## The Interview process
 
-If you are still here after that **"gyaan"** (loosely translated from Hindi to
-**pep talk**) 💪, I think you are ready for this sea of information with lots of
-links to resources that helped me, so let me get right to the point 👇
+If you are still here after that word of advice 💪, I think you are ready for
+this sea of information with lots of links to resources that helped me, so let
+me get right to the point 👇
 
-So Meta (previously known as facebook) as of 2021 has the below interview loop
-for Software Engineers
+Meta (previously known as facebook) as of 2021 has the below interview loop for
+Software Engineers position.
 
+> Note: There are different roles within the company, Product engineer, Quality
+> specialist, QA Engineering lead, Android/iOS/Backend dev/AI/ML engineers and
+> so on, please check with your recruiter as some of these rounds could have
+> different scope and objectives and they are in the best position to confirm.
+
+- Recruiter screening
 - 1 Coding interview (screening)
 
 Followed by a full onsite interview loop having total of 4 interviews of 45 mins
@@ -123,60 +140,140 @@ these
 
 ### Writing an effective resume
 
-Before we get into the interview loop and prep, its important to get this
-opportunity.
-
 The first step to any interview journey is to write a good resume that helps
-make your case in front of the recruiter and hiring manager.
+make your case in front of the recruiter and hiring manager. In most cases
+people will skim read it first so spending time and making your resume concise
+but still the best reflection of your skills is very important.
 
-[The Google resume by Gayle Laakmann mcdowell](https://www.amazon.co.uk/GOOGLE-RESUME-GAYLE-LAAKMANN-MCDOWELL/dp/8126538058/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
-provides lot of insightful tips and mistakes to avoid
+Luckily there are many amazing resources out their with sage advice on how to
+write effective resume.
 
-Here are some tips that i've gathered on writing a good resume
+Below are what I referenced heavily:
+
+- [The Google resume by Gayle Laakmann mcdowell](https://www.amazon.co.uk/GOOGLE-RESUME-GAYLE-LAAKMANN-MCDOWELL/dp/8126538058/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+- [Tips on good resume by Gayle from cracking the coding interview](https://www.careercup.com/resume)
+
+In general, writing a good resume is just like any other skill, you start with a
+good enough version, iterate and keep refining it till it works quite well.
 
 **Do's:** ✅
 
-- Have technical items that show you are smart and can code
-- Prefer writing a 1 page resume (if you years of experience is < 10 years),
-  1.5 - 2 pages for more experienced candidates
-- Add only the relevant positions that makes you an impressive candidate
-- Writing strong bullet points - **Accomplished X by implementing Y which led to
-  Z** **Show what you did, how you did and what were the results**
-- Projects - Please list only the relevant and recent projects
+- Mention technical items that show you are smart and can code and the impact
+  you've had in the teams that you've worked in
+- Prefer writing a **1 page resume** (if you years of experience is < 10 years)
+  and max 1.5 - 2 pages for more experienced candidates
+- Add only the relevant positions that makes you an impressive candidate for the
+  role
+- Write strong bullet points that convey impact **Accomplished X by implementing
+  Y which led to Z**, Show what you did, how you did and what were the results
+- Projects - Please list only the relevant and recent projects, the resume does
+  not have to be comprehensive work history but only bits that are relevant to
+  the position you are applying for
 - Programming languages and software
-  - Software: List only that very specific keywords, eliminate others, remember
-    anything you put on your resume is fair game during an interview.
+  - Softwares and Tools: List only that very specific keywords, eliminate
+    others, remember anything you put on your resume is fair game during an
+    interview.
   - Languages: List only the ones which you are comfortable with and not
     everything
     > Tip: 💡 You can add proficiency level around the language: Python
     > (expert), Kotlin (proficient), Java (fluent)
+- > 🔺: Remember to **tailor** your resume to the role you are applying for,
+  > i.e. ensure your resume has those aspects highlighted that the job
+  > description focusses on (obviously while being authentic to your experiences
+  > and skills). Many candidates don't do this and this is quite an underrated
+  > activity but doing this could well mean the difference between a resume
+  > reject vs getting that call from the recruiter.
 
 **Don't** ⛔
 
 - Don't include non tech hobbies as they don't matter much
-- Adding no of years to a language is a poor metric, if you started 10 years ago
-  but have used it only few times what is the no of years that you can claim
+- Adding no of years to a programming language is a poor metric, For instance,
+  if you started working with a language 10 years ago but have used it only few
+  times what is the no of years that you can claim?
 - Do not add age, marital status, nationality as this sort of personal
   information can create a legal liability for US companies
 - Remove lengthy certifications
 - Knowing only one or two languages gives the impression that you haven't
   experienced many technical problems
 
-Resources:
-
-- [Tips on good resume by Gayle from cracking the coding interview](https://www.careercup.com/resume)
-
 ## Research and apply
 
-I found this video by Jeff H Sipe
+The next phase is to find the positions that you are interested in. With Covid,
+the tech market become unusually hot and there was no shortage of roles for
+skilled candidates.
+
+There are multiple job search engines available, the most prominent being
+**LinkedIn**, Indeed etc. You can setup job alerts for the companies, locations
+and role that meet your profile and then research and applying to them.
+
+> Tip: Once you find the opening you are interested in, Try to see if there is
+> anyone in your network already working in the company and try to get a
+> referral or introduction. Getting an employee referral puts your resume at the
+> top of the priority list and has a high chance of being reviewed by the
+> recruiter and the hiring manager. LinkedIn and Twitter are good spaces to
+> build a network that you could leverage later on if needed.
+
+If you looking for a structured process to research and apply to companies, I
+found this video by Jeff H Sipe
 on[How to Research a Company for a Job Interview](https://www.youtube.com/watch?v=dXqznIrzh-s)
-to be quite useful 
+quite helpful, his YouTube channel also has excellent content on the interview
+process backed by his multiple years of experience working as a recruiter in
+Google.
 
-## Stage 2: Coding interview
+> Reflection: In my case, I had my friend and colleague from a previous company
+> who was already working in facebook and who forwarded my profile to the hiring
+> manager for the role. Post speaking with the hiring manager, I was very
+> excited by the role and the learning oppurtunity at hand and got the recruiter
+> call shortly after. This experience validated the thought of putting extra
+> effort in getting a referral if you can as it gives much better result
 
-- [CTCI walkthrough](https://drive.google.com/open?id=1moCb3xqDYhD3PYtj_3iWrmAlIM7FWm2F)
+If you however don't know anyone at the company, go ahead and apply anyway. Some
+companies do screen inbound resumes and I have also got few reachouts the same
+way.
+
+## The recruiter screening
+
+Once the recruiter is interested in your profile, they would reach out to
+schedule a discussion over phone or video conference (VC). These conversations
+are to understand your profile a bit better and see if you are a fit.
+
+As always being authentic to your experience and skills is important and your
+honest answers would help the recruiter to understand how much prep time you
+would need for the interview loop.
+
+Meta recruiters were amazing in that they give sufficient time for you to
+prepare well and share lot of guidance and prep materials. Contrary to some
+other companies, the interview process is fairly open and transparent with clear
+expectations laid out. This leaves very little room for ambiguity and is an
+excellent candidate experience.
+
+> Remember to ask lot of good questions about the role and the interview process
+> and get clarity for your specific role. Its perfectly fine to clarify the
+> scope of the interview rounds and what you can reasonably expect. Also, being
+> kind and gracious throughout the conversation can go a long way since the
+> recruiter is really on your side and its in their best interest to ensure you
+> succeed.
+
+## The Screening Coding interview
+
+Meta has 3 rounds of coding interviews and your recruiter would usually schedule
+an initial screening interview followed by the full onsite interview loop with 2
+more coding interviews
+
+Succeeding in these coding interviews is challenging for sure, but definitely
+doable. Its a matter of practicing consistently and well. There are many sites
+and resources out their to fill lot of details on this aspect of the interview
+and I would recommend checking these resources out.
+
+These rounds focus on solving 2 algorithmic problems focussed on data structures and algorithms, problem solving and communication skills within 40 minutes, leaving 5 mins for questions.
+
+> 💡 - Tip: While practicing for this round, ensure you practice talking out loud and trying to time yourself while solving these problems. Don't worry if you don't have the speed initially, as you solve more problems you'll start to recognize patterns that you could use and solve category of problems.
+> - Finally, review solved problems every week. Try and re-solve already solved problems since the forgetting curve is quite real. You can use a spaced repetition tool like Anki to even prompt same problems on a periodic basis
+
+### Coding interview resources
+
 - [How to Succeed in Data Structures and Algorithms Interview - Pramp](https://blog.pramp.com/how-to-succeed-in-data-structures-and-algorithms-interview-2ad1a28041b6)
-- [Big O](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+- [Big O notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 - [How I got a job in 5 big tech companies in 5 days](https://medium.com/@XiaohanZeng/i-interviewed-at-five-top-companies-in-silicon-valley-in-five-days-and-luckily-got-five-job-offers-25178cf74e0f)
 - [Ace the coding interview, every time](https://www.linkedin.com/pulse/20141120061048-6976444-ace-the-coding-interview-every-time/?trk=mp-reader-card)
 - [Get that job at Google ](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
