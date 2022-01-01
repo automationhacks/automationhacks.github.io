@@ -1,9 +1,9 @@
 ---
 title: How I got "that" job at Meta
 excerpt:
-  "I recently made a career switch to Meta London as a Software Engineer. This
-  post talks about my entire experience and journey, how I prepared and
-  eventually prevailed."
+  "I recently made a big career switch to Meta London as a Software Engineer.
+  This post talks about my entire experience and journey, how I prepared and
+  resources for the different aspects."
 permalink: /2021/12/31/how-i-got-that-job-at-meta
 image: /assets/images/2021/12/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 published: false
@@ -88,7 +88,7 @@ priority over your physical and mental wellbeing.
 
 Its also really easy to take interview failures really hard and think you are
 not good enough, and I've also been a subject to multiple of these rejections,
-just realize this happens with everyone, sometimes you might be underprepared,
+just realize this happens with everyone, sometimes you might be under prepared,
 or might be having an off day or just get stuck and I think its only human for
 this to happen.
 
@@ -333,7 +333,7 @@ questions asked by Facebook. Getting the premium subscription meant I could
 access the solutions to these problems
 
 I found this to be very useful for this interview loop. There are other sites
-like [Hackerrank](https://www.hackerrank.com/) that is also used by some
+like [HackerRank](https://www.hackerrank.com/) that is also used by some
 companies.
 
 > Its important to solve different problem types rather than many problems of
@@ -460,7 +460,7 @@ recommend any of these
   - 5 mins for clarifying questions
   - 10 - 12 mins to go broad and make a high level design
   - 10 mins to go deep into 2-3 components and elaborate on the design
-- For system design, we use ExcaliDraw as a standardized tool
+- For system design, we use **ExcaliDraw** as a standardized tool
 - Is the system design product design or system design
   - product design
     - mostly about API, not infra heavy
@@ -493,7 +493,7 @@ during house hold chores to really soak the different concepts)
 ### Books:
 
 - [Book: System Design Interview by Alex Xu](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/),
-- [System design - hiredintech](https://www.hiredintech.com/app#scalability-fundamentals)
+- [System design - Hired In Tech](https://www.hiredintech.com/app#scalability-fundamentals)
 - [How to Succeed in a System Design Interview - Blog at Pramp](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
 
 ## Behavioral Interview
