@@ -274,10 +274,11 @@ structures and algorithms, problem solving skills and communication and
 collaboration skills** within a span of **40 minutes**, leaving 5 mins for
 questions.
 
-Contrary to some other companies, your interviewer would very quickly introduce
-themselves and then jump into the initial problem. What area or skill the
-problem would assess is completely up to them and could be on any data structure
-or algorithm area like below
+Contrary to some other companies, where there is some time for introductions,
+your interviewer would very quickly introduce themselves and then jump into the
+initial problem. What **area** or **skill** the problem would assess is
+completely up to them and could be on any data structure or algorithm area in
+the below list
 
 ### Data structures to know
 
@@ -299,32 +300,6 @@ or algorithm area like below
 - Two pointers
 - Sorting
 - Dynamic programming (rare, but sometimes asked)
-
-### Preparation tips
-
-- While practicing for coding rounds, ensure you **practice talking out loud**,
-  this is very important skill to develop since if you hardly speak a word but
-  still solve the problem it tells your interviewer very less about how good of
-  a collaborator you are and this is something they look for.
-- Try to **time yourself while solving these problems** and develop enough speed
-  to solve the problems with optimal solution within 20 mins. Don't worry if you
-  don't have the speed initially, as you solve more problems you'll start to
-  recognize patterns that you could use and solve category of problems and
-  you'll get faster.
-- Practice daily, think of these problems as workout for your mind to ensure you
-  don't get rusty. The more you practice, the more muscle memory you'll develop
-  and the faster you would become.
-- Please review solved problems every week (This is very important). Try and
-  re-solve already solved problems since the forgetting curve is quite real. You
-  can use a spaced repetition tool like Anki to even prompt same problems on a
-  periodic basis
-- Practicing these interviews with a buddy is amazing since they can give you
-  actionable feedback for improvements, you could also leverage a platform like
-  [Pramp](https://www.pramp.com/#/)
-- Remember you should aim to solve the problem first even if its a naive
-  solution, **done is better than perfect**. However don't stop as soon as you
-  have the naive solution in place since you are expected to reach an optimal
-  solution to the problem at hand if possible to get extra points.
 
 ### How to prepare for DS and algorithm questions
 
@@ -359,6 +334,34 @@ companies.
 > the same type since you should optimize for coverage than solid depth in one
 > over the expense of others.
 
+### Additional tips to keep in mind
+
+- While practicing for coding rounds, ensure you **practice talking out loud**,
+  this is very important skill to develop since if you hardly speak a word but
+  still solve the problem it tells your interviewer very little signal about how
+  good of a collaborator you are and this is something they look for.
+- Try to **time yourself while solving these problems** and develop enough speed
+  to solve the problems with optimal solution within 20 mins. Don't worry if you
+  don't have the speed initially, as you solve more problems you'll start to
+  recognize patterns that you could use and solve category of problems and
+  you'll get faster.
+- Practice daily, think of these problems as workout for your mind to ensure you
+  don't get rusty. The more you practice, the more muscle memory you'll develop
+  and the faster you would become.
+- Please review solved problems every week (This is very important). Try and
+  re-solve already solved problems since the forgetting curve is quite real. You
+  can use a spaced repetition tool like Anki to even prompt same problems on a
+  periodic basis
+- Practicing these interviews with a buddy is amazing since they can give you
+  actionable feedback for improvements, you could also leverage a community
+  platform like [Pramp](https://www.pramp.com/#/) to do mock interviews. The
+  more you do this, the better are your chances of success since you can share
+  tips, and also for the much needed feedback
+- Remember you should aim to solve the problem first even if its a naive
+  solution, **done is better than perfect**. However don't stop as soon as you
+  have the naive solution in place since you are expected to reach an optimal
+  solution to the problem at hand if possible to get extra points.
+
 ### Coding interview resources
 
 - [Preparing for the Systems Design and Coding Interview by Gergely Orosz](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
@@ -373,18 +376,68 @@ Practice sites:
 
 - [LeetCode](https://leetcode.com/explore/)
 - [InterviewBit](https://www.interviewbit.com/)
+- [Interview cake](https://www.interviewcake.com/table-of-contents)
 
-## Stage 3: System design
+## System design Interview
 
-- [System design - hiredintech](https://www.hiredintech.com/app#scalability-fundamentals)
-- [Book: System Design Interview by Alex Xu](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/),
-  [Book link](https://www.amazon.in/System-Design-Interview-Insiders-Guide-ebook/dp/B08B3FWYBX/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
-- [Grokking the System Design Interview](https://drive.google.com/open?id=1wd-Ypa2194tCt2D7LqM0Y7jHWs2owP46),
-  [Original course on educative](https://www.educative.io/courses/grokking-the-system-design-interview)
-- [How to Succeed in a System Design Interview - Blog at Pramp](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
-- [System design primer](https://github.com/donnemartin/system-design-primer)
-- [High scalability blog](http://highscalability.com/)
+The system design interview is an interview round to assess how well do you
+understand design and architecture of systems and given a vague problem, can you
+clarify and design a high level system and then dive deep into few components.
+
+You could be asked to design any system, there are mostly commonly talked about
+systems like WhatsApp, DropBox/Google Drive, Instagram, Twitter, Type ahead
+search, Search Engine, Web crawler or it could be a niche use case. Really
+understanding all the concepts around system design is how you can excel in this
+round
+
+Depending on the role you are looking for the scope of this round can change
+thus clarifying with your recruiter is very important. For e.g. for a product
+engineer the focus might be more on how do you design the API and database
+schema for the backend system whereas for an Infra engineer the focus could be
+how well does the candidate consider different systems (Db, cache, load
+balancing, security) and other concerns
+
+### Expectations from system design round
+
+Below are the expectations from this round and performance in this gives a very
+good signal as to the target level of the candidate.
+
+- You are expected to design and build a distributed system from scratch
+- How well do you gather requirements and explore the problem first
+- How well do you do quantitative analysis, work out the scale, size of data
+  that you will be working with
+- Do you consider tradeoffs for the design choices
+- How well do you deep dive into components and details
+- How do you reason how the data is stored, secured and structured
+- Do you need too much prompting, can you lead the conversation
+
+There are some excellent resources for preparing for system design and I'd
+recommend any of these
+
+## Resources for system design
+
+### YouTube:
+
+I personally referred to videos on multiple you tube channels (often even while
+during house hold chores to really soak the different concepts)
+
+- [System Design by GKCS (Gaurav Sen)](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [System Design primer by sudoCode (Yogita Sharma)](https://www.youtube.com/watch?v=FSR1s2b-l_I&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a)
+- [System Design by scaler academy](https://www.youtube.com/watch?v=e4fh8M-F6bg&list=PLLhBy6YSIT0ANaihpjwDBSBju0qUZ82SK)
+- [System Design by Exponent](https://www.youtube.com/results?search_query=exponent+system+design)
 - [Amazon System Design Preparation (SIP)](https://www.youtube.com/watch?v=gNQ9-kgyHfo)
+
+### Blogs and Github repo:
+
+- [System design primer](https://github.com/donnemartin/system-design-primer)
+- [Grokking the System design Interview on Educative.io](https://www.educative.io/courses/grokking-the-system-design-interview)
+- [High scalability blog](http://highscalability.com/)
+
+### Books:
+
+- [Book: System Design Interview by Alex Xu](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/),
+- [System design - hiredintech](https://www.hiredintech.com/app#scalability-fundamentals)
+- [How to Succeed in a System Design Interview - Blog at Pramp](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
 
 ## Stage 4: Behavioral
 
