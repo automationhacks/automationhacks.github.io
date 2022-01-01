@@ -225,12 +225,12 @@ Google.
 > Reflection: In my case, I had my friend and colleague from a previous company
 > who was already working in facebook and who forwarded my profile to the hiring
 > manager for the role. Post speaking with the hiring manager, I was very
-> excited by the role and the learning oppurtunity at hand and got the recruiter
+> excited by the role and the learning opportunity at hand and got the recruiter
 > call shortly after. This experience validated the thought of putting extra
 > effort in getting a referral if you can as it gives much better result
 
 If you however don't know anyone at the company, go ahead and apply anyway. Some
-companies do screen inbound resumes and I have also got few reachouts the same
+companies do screen inbound resumes and I have also got few reach outs the same
 way.
 
 ## The recruiter screening
@@ -258,38 +258,75 @@ excellent candidate experience.
 
 ## The Screening Coding interview
 
-Meta has 3 rounds of coding interviews and your recruiter would usually schedule
-an initial screening interview followed by the full onsite interview loop with 2
-more coding interviews
+Meta has **3 rounds** of coding interviews. Your recruiter would usually
+schedule an initial screening interview and depending on how well you do, it
+would be followed by the full onsite interview loop having 2 more coding
+interviews
 
 Succeeding in these coding interviews is challenging for sure, but **definitely
-doable**. Its a matter of practicing well consistently. There are many sites and
-resources out there that provide a lot of details on this phase of the interview
-process and I would recommend checking these resources out.
+doable**. Its a matter of practicing well, **consistently**. There are many
+sites and resources out there that provide a lot of details on this phase of the
+interview process and I would recommend checking these resources out or you can
+see a list below this section that I found quite helpful.
 
-These rounds focus on solving 2 algorithmic problems focussed on **data
-structures and algorithms, problem solving and communication skills** within 40
-minutes, leaving 5 mins for questions.
+These rounds focus on solving 2 algorithmic style problems focussed on **data
+structures and algorithms, problem solving skills and communication and
+collaboration skills** within a span of **40 minutes**, leaving 5 mins for
+questions.
 
-> 💡 - Tips: While practicing for these rounds, ensure you **practice talking
-> out loud** and try to time yourself while solving these problems. Don't worry
-> if you don't have the speed initially, as you solve more problems you'll start
-> to recognize patterns that you could use and solve category of problems and it
-> would come.
->
-> - Please review solved problems every week (This is very important). Try and
->   re-solve already solved problems since the forgetting curve is quite real.
->   You can use a spaced repetition tool like Anki to even prompt same problems
->   on a periodic basis
-> - Practicing these interviews with a buddy is amazing since they can give you
->   actionable feedback for improvements, you could also leverage a platform
->   like [Pramp](https://www.pramp.com/#/)
-> - Remember you should aim to solve the problem first even if its a naive
->   solution, **done is better than perfect**. However don't stop as soon as you
->   have the naive solution in place since you are expected to reach an optimal
->   solution to the problem at hand if possible to get extra points.
+Contrary to some other companies, your interviewer would very quickly introduce
+themselves and then jump into the initial problem. What area or skill the
+problem would assess is completely up to them and could be on any data structure
+or algorithm area like below
 
-### How to prepare for DS and Algo questions
+### Data structures to know
+
+- Array
+- Stack
+- Queue
+- Map
+- List
+- Linked list
+- Trees (Binary Tree, Binary Search Tree, Ternary, N-ary)
+  - [Prefix tree or trie](https://www.youtube.com/watch?v=-urNrIAQnNo)
+- Graphs
+
+### Algorithm
+
+- DFS (Depth first search)
+- BFS (Breadth first search)
+- Recursion
+- Two pointers
+- Sorting
+- Dynamic programming (rare, but sometimes asked)
+
+### Preparation tips
+
+- While practicing for coding rounds, ensure you **practice talking out loud**,
+  this is very important skill to develop since if you hardly speak a word but
+  still solve the problem it tells your interviewer very less about how good of
+  a collaborator you are and this is something they look for.
+- Try to **time yourself while solving these problems** and develop enough speed
+  to solve the problems with optimal solution within 20 mins. Don't worry if you
+  don't have the speed initially, as you solve more problems you'll start to
+  recognize patterns that you could use and solve category of problems and
+  you'll get faster.
+- Practice daily, think of these problems as workout for your mind to ensure you
+  don't get rusty. The more you practice, the more muscle memory you'll develop
+  and the faster you would become.
+- Please review solved problems every week (This is very important). Try and
+  re-solve already solved problems since the forgetting curve is quite real. You
+  can use a spaced repetition tool like Anki to even prompt same problems on a
+  periodic basis
+- Practicing these interviews with a buddy is amazing since they can give you
+  actionable feedback for improvements, you could also leverage a platform like
+  [Pramp](https://www.pramp.com/#/)
+- Remember you should aim to solve the problem first even if its a naive
+  solution, **done is better than perfect**. However don't stop as soon as you
+  have the naive solution in place since you are expected to reach an optimal
+  solution to the problem at hand if possible to get extra points.
+
+### How to prepare for DS and algorithm questions
 
 People with a computer science engineering background have mostly gone through
 these Data structures and algorithms at least once, however while working
