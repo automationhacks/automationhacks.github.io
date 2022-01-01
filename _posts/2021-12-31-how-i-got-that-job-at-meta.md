@@ -31,10 +31,16 @@ tags:
 
 Hello everyone 👋, As I start to write this long post, its been more than a
 month that I took up my new job at **Meta London** 🇬🇧 as a **Software
-Engineer**. This was a **really** big career decision for me and my family and
-something I always wanted to try out and this post is to share more about this
-process in the hopes that it would help others in the community in case they are
+Engineer**.
+
+This was a **really** big career decision for me and my family and something I
+always wanted to try out and this post is to share more about this process in
+the hopes that it would help others in the community in case they are
 interested.
+
+> IMPORTANT NOTICE: The thoughts and opinions in this post are purely my own
+> based on my experience and not of my employer. Please take these with a grain
+> of salt.
 
 While preparing for these interviews I read through couple of excellent posts on
 applying and preparing for Software engineering interviews at Big Tech companies
@@ -361,6 +367,33 @@ companies.
   solution, **done is better than perfect**. However don't stop as soon as you
   have the naive solution in place since you are expected to reach an optimal
   solution to the problem at hand if possible to get extra points.
+- Ask clarification questions and check your assumptions
+- Keep good communication with your interviewer, they can steer you into correct
+  direction
+- Practice solving questions with a time limit and without executing code
+- Come up with edge cases once you write the solution, catch your bugs
+- Focus on getting working solution first, **done is better than perfect**
+- Prepare good test cases, candidates forget coming up with good edge cases
+- If you are stuck on first one, you can ask to move to the 2nd question
+- Ideally should be able finish 1st question very strongly
+- Practice solving medium problems within 20 mins for coding interview
+  - Clarify the question 1 - 2 mins
+  - Start problem solving, Discuss solutions, ask more clarifying questions (5-7
+    mins)
+    - Cover time and space complexity
+  - Go to coding (8 mins)
+  - Leave 2 mins for tests
+- Do not look up functions on internet, if you are not sure, you can say can i
+  use a placeholder and mostly interviewers are looking at thought process
+- Expected to implement the data structure
+- Onsite coding questions are same and expectations are also mostly same for all
+  the levels
+- Don't come up with too many test cases, come up with minimal length of test
+  cases
+  - Come up with 1 happy path
+  - Think more about edge cases
+- Test the cases in the end and put them in comments
+- Variable names are used to assess, simple for loops its fine.
 
 ### Coding interview resources
 
@@ -414,6 +447,30 @@ good signal as to the target level of the candidate.
 There are some excellent resources for preparing for system design and I'd
 recommend any of these
 
+### System design Interview tips
+
+- For system design, interviewer can reply to questions, but you need to lead
+  the discussion
+- Think of your interviewer as a junior engineer who you are giving an overview
+  of the system
+- Keep track of topics you want to cover so that you don't forget them and the
+  time. This is a common mistake to not manage time well
+- Clarifying ambiguity is great but you should time bound it
+  - General outline
+  - 5 mins for clarifying questions
+  - 10 - 12 mins to go broad and make a high level design
+  - 10 mins to go deep into 2-3 components and elaborate on the design
+- For system design, we use ExcaliDraw as a standardized tool
+- Is the system design product design or system design
+  - product design
+    - mostly about API, not infra heavy
+  - How will you store the data, how do you design the schema
+    - System design: Backend systems, how do you scale the backend
+    - Think about memory, availability
+- Try to have a mock interview, make sure you practice
+- Leading the interviewer means how you break it down and explain it to a junior
+  engineer, treat interviewer as a junior engineer
+
 ## Resources for system design
 
 ### YouTube:
@@ -439,9 +496,87 @@ during house hold chores to really soak the different concepts)
 - [System design - hiredintech](https://www.hiredintech.com/app#scalability-fundamentals)
 - [How to Succeed in a System Design Interview - Blog at Pramp](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
 
-## Stage 4: Behavioral
+## Behavioral Interview
 
-## Questions to ask your interviewers
+Behavioral interview is mostly to see if you would be a fit for the role at the
+company. This is a non coding/design round wherein the interviewer is more
+interested in how you work with the teams, are you a good communicator and
+collaborator, also can you verbalize your impact to the teams and products you
+have worked upon.
+
+This interview gives pretty good signal on your leadership skills, seniority and
+taste of whether you would fit in.
+
+### How to prepare for behavioral interviews
+
+- You should revisit your work history and make note of the projects you worked
+  on where you had good impact, usually you can follow the
+  [STAR](https://www.amazon.jobs/en/landing_pages/in-person-interview) format
+  (**STAR = Situation, Task, Actions, Result**)
+- Have the data ready for projects you are more proud off and be ready to talk
+  about it in detail while being authentic, remember your interviewers are
+  seasoned professionals and they can usually cross question you in case
+  something does not add up. Please don't lie or over glorify your
+  contributions. In this case, Honestly is definitely the correct policy
+- Also reflect on which project that did not go well and how did you fail and
+  what were your learnings.
+- Anything in your CV is fair game, talk about what You have done, specific
+- Make sure you lead and drive the conversation and give your answer with enough
+  detail and with data.
+- Speak about what **YOU** did and your specific contributions to the success of
+  a project, instead of saying **WE**
+- Convey key points about you responsibilities, projects that you lead,
+  initiatives that you took
+- Be concise but detailed enough to give context
+
+### Focus areas
+
+While interviewing, the interviewers want to see how well do you exhibit
+behaviors that are valuable to the team and inline with company values
+
+Meta has below
+[5 company values](https://www.facebookcareers.com/facebook-life/):
+
+- Move fast
+- Be bold
+- Be open
+- Build social value
+- Focus on Impact
+
+Towards this, your interviewers are interested in finding out:
+
+- Can you work in unstructured environment
+  ([VUCA](https://hbr.org/2014/01/what-vuca-really-means-for-you))
+- Do you exhibit a Growth mindset towards learning and working?
+- Do you have empathy towards other people on your team?
+- How good are your communication skills and how do you speak about colleagues?
+- Do you have the ability to resolve disagreements?
+- How well do you use data to solve problems?
+- Do you exhibit perseverance and how well do you deliver results?
+- Are you a self starter and motivated to make an impact?
+
+## Bonus: Questions to ask your interviewers
+
+At the end of any interview round, you get 5 minutes to ask interview questions
+from your interviewers. Remember the company is investing a lot of precious
+company time of its smart people to interview you, so make sure you ask lots of
+good questions and really understand the company, its people, culture. It should
+be what matters most to you and what care about.
+
+Do not waste this time asking questions to which you can easy find answers on
+google like company perks, technology stacks or how well did you do on the
+interview. 😉, You'll get to know that sooner or later anyway
+
+If you want a sample list of questions to ask, I found this excellent video by
+Jeff H Sipe on what questions you can ask, feel free to take this and modify as
+per your unique role and situation
+[Questions to Ask Your Interviewer - Jeff H Sipe](https://www.youtube.com/watch?v=5sjcuHD-hXc)
+
+## General questions to ask
+
+### To team members
+
+What do you like the best about your role and the company?
 
 - Can you share a bit more about your professional background and what led you
   to join this company?
@@ -452,53 +587,22 @@ during house hold chores to really soak the different concepts)
 - What projects have you enjoyed working on most? Why?
 - Who are your mentors at the company? What have you enjoyed most about working
   with them?
-
-About the position:
-
-- Why is the position open?
-- How long has the position been open?
-- How many people are interviewing?
-- Why do you think my background is a good fit?
-
-Logistics:
-
-- I see the position is located here, would it be possible to work out of
-  another location/work remote?
-- Does the job require travel?
-- What is the salary range?
-- What are the specific benefits you offer including, but not limited to
-  vacation/PTO, holidays, sick time, health, - dental, vision, 401k, tuition
-  reimbursement, free food, free gym, etc.?
-
-Process:
-
-- What is the process/what are the specific steps?
-- How long is the process?
-- How often will I hear back from you?
-- Will you be letting me know if you are out on vacation? - This one is
-  important because there is nothing worse than getting an out of office
-  response with no backup contact when you are waiting to hear back after
-  interviewing or at any step in the process.
-
-Interview:
-
-- How many interviews will be conducted?
-- What are the stages?
-- Who is the final decision maker?
-- What topics will the interviewer/s be covering during my interview
-
-Lastly:
-
-- Any questions that I did not ask that are important for me to know?
-- Questions you typically hear from other candidates?
-
-During the interview the questions will be focused on them:
-
-- I obviously looked you up on LinkedIn, but tell me about your path to this
-  role?
 - What do you like the best about your role and the company?
+- What do you look for in a team member?
+- How do you foster a collaborative team?
+- How will hiring this position help you?
+- What is a specific pain point you are facing now because this position is not
+  hired?
+- Does the team tend to work on projects together or alone?
 
-Hiring Manager:
+### To cross functional panelist
+
+- What do you like the best about your role and the company?
+- How does your team interact with the team I would be supporting?
+- How often would we be working together?
+- How does this role help your team have success?
+
+### To the Hiring Manager:
 
 - What do you like the best about your role and the company?
 - What is the biggest challenge your team is facing this year, in the upcoming
@@ -519,24 +623,48 @@ Hiring Manager:
   the next steps?
 - Any additional information you would like from me?
 
-Team Member:
+### To recruiter
 
-- What do you like the best about your role and the company?
-- What do you look for in a team member?
-- How do you foster a collaborative team?
-- How will hiring this position help you?
-- What is a specific pain point you are facing now because this position is not
-  hired?
-- Does the team tend to work on projects together or alone?
+#### About the position:
 
-Cross Functional:
+- Why is the position open?
+- How long has the position been open?
+- How many people are interviewing?
+- Why do you think my background is a good fit?
 
-- What do you like the best about your role and the company?
-- How does your team interact with the team I would be supporting?
-- How often would we be working together?
-- How does this role help your team have success?
+#### About Logistics
 
-[Questions to Ask Your Interviewer - Jeff H Sipe](https://www.youtube.com/watch?v=5sjcuHD-hXc)
+- I see the position is located here, would it be possible to work out of
+  another location/work remote?
+- Does the job require travel?
+- What is the salary range?
+- What are the specific benefits you offer including, but not limited to
+  vacation/PTO, holidays, sick time, health, - dental, vision, 401k, tuition
+  reimbursement, free food, free gym, etc.?
+
+#### About Interview process:
+
+- What is the process/what are the specific steps?
+- How long is the process?
+- How often will I hear back from you?
+- Will you be letting me know if you are out on vacation? - This one is
+  important because there is nothing worse than getting an out of office
+  response with no backup contact when you are waiting to hear back after
+  interviewing or at any step in the process.
+
+#### Interview:
+
+- How many interviews will be conducted?
+- What are the stages?
+- Who is the final decision maker?
+- What topics will the interviewer/s be covering during my interview
+
+Lastly:
+
+- Any questions that I did not ask that are important for me to know?
+- Questions you typically hear from other candidates?
+
+During the interview the questions will be focused on them:
 
 ## Conclusion
 
