@@ -4,9 +4,9 @@ excerpt:
   "I recently switched to Meta London as a Software Engineer. This post talks
   about my interview experience and journey, how I prepared and resources for
   these rounds."
-permalink: /2021/12/31/how-i-got-that-job-at-meta
-published: false
-image: /assets/images/2021/12/dima-solomin-yIT9HO8UrPA-unsplash.jpg
+permalink: /2022/01/02/how-i-got-that-job-at-meta
+published: true
+image: /assets/images/2022/01/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 categories:
   - Interviews
   - Career
@@ -19,7 +19,7 @@ tags:
 ---
 
 <figure class="image">
-    <img src="/assets/images/2021/12/dima-solomin-yIT9HO8UrPA-unsplash.jpg" alt="Man controlling a robot">
+    <img src="/assets/images/2022/01/dima-solomin-yIT9HO8UrPA-unsplash.jpg" alt="Man controlling a robot">
     <figcaption>
         Photo by <a
             href="https://unsplash.com/@solomin_d?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dima Solomin</a> on <a
@@ -68,7 +68,7 @@ Before I begin, I would really like to express gratitude 🙌 towards **all the
 people** who helped me in this long journey
 
 - Especially **my wife** who was extremely patient as I spend long hours
-  morning/night for months preparing and
+  morning/night for months preparing 
 - Couple of friends without whose support this would really not have have been
   possible.
 - All the innumerable **mentors**, **creators** who actively shared there
@@ -271,7 +271,7 @@ If you however don't know anyone at the company or people don't respond over
 social networks, 🙁 go ahead and apply anyway. Some companies do screen inbound
 resumes and I have personally also got few reach outs this way.
 
-## Step 3: The recruiter screening
+## Step 3: The recruiter screening 📱
 
 Once the recruiter is interested in your profile, they would probably reach out
 to schedule a discussion over phone or video conference (VC). These
@@ -296,7 +296,7 @@ for ambiguity and thus results in an excellent candidate experience.
 > since you should realize that the recruiter is really on your side and its in
 > their best interest to ensure you succeed.
 
-## Step 4: The first Coding interview (Screening)
+## Step 4: Coding interview (Screening and Onsite)
 
 Meta has in total **3 rounds** of coding interviews. Your recruiter would
 usually schedule an initial screening interview and depending on how well you
@@ -350,86 +350,88 @@ Depending on the amount of time you have for the interview its best to
 understand the nuances of these different data structures and algorithms,
 conceptually and then follow up with consistent practice solving problems
 
-> **Self reflection:** 💡 I read through few books and sites first to get that
-> theoretical base around DS and Algo, with books like
-> [Cracking the coding interview by Gayle Laakmann McDowell](https://www.amazon.co.uk/Cracking-Coding-Interview-6th-Programming/dp/0984782850/),
-> [Problem Solving with Algorithms and Data Structures using Python By Brad Miller and David Ranum, Luther College](https://runestone.academy/ns/books/published//pythonds/index.html)
-> and
-> [The Interview Cake Course](https://www.interviewcake.com/table-of-contents), however if you are short on time, I would 
+> **Self reflection:** 💡
+>
+> - I read through few books and sites first to get that theoretical base around
+>   DS and Algo, and read books like
+>   [Cracking the coding interview by Gayle Laakmann McDowell](https://www.amazon.co.uk/Cracking-Coding-Interview-6th-Programming/dp/0984782850/),
+>   [Problem Solving with Algorithms and Data Structures using Python By Brad Miller and David Ranum, Luther College](https://runestone.academy/ns/books/published//pythonds/index.html)
+>   and
+>   [The Interview Cake Course](https://www.interviewcake.com/table-of-contents),
+>   However if you are short on time, I would suggest spending a lot of time
+>   solving problems over at **LeetCode**
+> - I also went through sections on **Arrays, Heaps, Binary Search, Linked list,
+>   Recursion, Graphs, Binary Trees** on
+>   [Leet code](https://leetcode.com/explore/) and they are quite relevant to
+>   the coding interview questions
+> - I mostly focussed on the Top 50 questions asked by Facebook. You can filter
+>   questions by difficulty (Easy, Medium, Hard) and I'd recommend focussing a
+>   lot initially on easy and medium problems and then ramp up on Hard problems
+>   as well since they are also asked during the interviews. (You can sort these
+>   questions by frequency to ensure you practice the questions that are asked
+>   more frequently)
+> - In the end, I solved around
+>   [147 problems](https://leetcode.com/automationhacks/) in total, thus its not
+>   required for you to solve 500+ problems to get in but obviously more
+>   practice means better chances
 
-and there are many more resources mentioned in Gergely's blog as well
+There are many more books and resources that you can go through mentioned in
+this blog by Gergely's on
 [Preparing for the Systems Design and Coding Interview by Gergely Orosz](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 
-Once done with these, I also went through sections on **Arrays, Binary Search,
-Linked list, Recursion, Graphs, Binary Trees** on
-[Leet code](https://leetcode.com/explore/) and then mostly solved Top 100
-questions asked by Facebook. Getting the premium subscription meant I could
-access the solutions to these problems
+There are other sites like [HackerRank](https://www.hackerrank.com/) that is
+also used by some companies.
 
-I found this to be very useful for this interview loop. There are other sites
-like [HackerRank](https://www.hackerrank.com/) that is also used by some
-companies.
+> **Tip: Solve problems of different types** 💡 Its important to solve different
+> problem types rather than many problems of the same type since you should
+> optimize for coverage than solid depth in one area over the expense of others.
 
-> Its important to solve different problem types rather than many problems of
-> the same type since you should optimize for coverage than solid depth in one
-> over the expense of others.
+#### Additional tips to keep in mind
 
-### Additional tips to keep in mind
+- While practicing ensure you **practice talking out loud** 🗣, this is an
+  important skill to develop since it gives good signals to your interviewer
+  about how good of a collaborator you are and this is a desired skill.
+- Try to **time yourself while solving these problems** ⏰ and develop enough
+  speed to solve the problems with clean optimal solution **within 20 mins**.
+  Try to use tools like Coder pad so that you are familiar with editor
 
-- While practicing for coding rounds, ensure you **practice talking out loud**,
-  this is very important skill to develop since if you hardly speak a word but
-  still solve the problem it tells your interviewer very little signal about how
-  good of a collaborator you are and this is something they look for.
-- Try to **time yourself while solving these problems** and develop enough speed
-  to solve the problems with optimal solution within 20 mins. Don't worry if you
-  don't have the speed initially, as you solve more problems you'll start to
-  recognize patterns that you could use and solve category of problems and
-  you'll get faster.
-- Practice daily, think of these problems as workout for your mind to ensure you
-  don't get rusty. The more you practice, the more muscle memory you'll develop
-  and the faster you would become.
-- Please review solved problems every week (This is very important). Try and
-  re-solve already solved problems since the forgetting curve is quite real. You
-  can use a spaced repetition tool like Anki to even prompt same problems on a
-  periodic basis
-- Practicing these interviews with a buddy is amazing since they can give you
-  actionable feedback for improvements, you could also leverage a community
-  platform like [Pramp](https://www.pramp.com/#/) to do mock interviews. The
-  more you do this, the better are your chances of success since you can share
-  tips, and also for the much needed feedback
-- Remember you should aim to solve the problem first even if its a naive
-  solution, **done is better than perfect**. However don't stop as soon as you
+  - > Don't worry if you don't have the speed initially, as you solve more
+    > problems you'll start to recognize patterns and you'll get faster.
+  - The below time format could be used:
+    - Clarify the question (1 - 2 mins)
+    - Start problem solving, Discuss solutions, ask more clarifying questions
+      (5-7 mins)
+      - Cover time and space complexity
+    - Go to coding (8 mins)
+    - Leave 2 mins for tests
+
+- **Practice daily**, think of these problems as workout for your mind to ensure
+  you don't get rusty. I made a point to solve at least 2 problems daily and
+  this consistency really helped IMHO.
+- **Please review already solved problems every week** (Very important). since
+  without this you'll forget soon enough. You can use a
+  [spaced repetition tool](https://en.wikipedia.org/wiki/Spaced_repetition) like
+  [Anki](https://apps.ankiweb.net/) to prompt same problems on a periodic basis
+- **Practicing these interviews with a buddy** is amazing since they can give
+  you actionable feedback for improvements, you could also leverage a community
+  platform like [Pramp](https://www.pramp.com/#/) to do mock interviews and get
+  any feedback for improvement early.
+- Remember you should aim to **solve the problem first** even if its a **naive**
+  solution, **"Done is better than perfect"**. However don't stop as soon as you
   have the naive solution in place since you are expected to reach an optimal
   solution to the problem at hand if possible to get extra points.
-- Ask clarification questions and check your assumptions
-- Keep good communication with your interviewer, they can steer you into correct
-  direction
-- Practice solving questions with a time limit and without executing code
-- Come up with edge cases once you write the solution, catch your bugs
-- Focus on getting working solution first, **done is better than perfect**
-- Prepare good test cases, candidates forget coming up with good edge cases
-- If you are stuck on first one, you can ask to move to the 2nd question
-- Ideally should be able finish 1st question very strongly
-- Practice solving medium problems within 20 mins for coding interview
-  - Clarify the question 1 - 2 mins
-  - Start problem solving, Discuss solutions, ask more clarifying questions (5-7
-    mins)
-    - Cover time and space complexity
-  - Go to coding (8 mins)
-  - Leave 2 mins for tests
-- Do not look up functions on internet, if you are not sure, you can say can i
-  use a placeholder and mostly interviewers are looking at thought process
-- Expected to implement the data structure
-- Onsite coding questions are same and expectations are also mostly same for all
-  the levels
-- Don't come up with too many test cases, come up with minimal length of test
-  cases
-  - Come up with 1 happy path
-  - Think more about edge cases
-- Test the cases in the end and put them in comments
-- Variable names are used to assess, simple for loops its fine.
+  - Come up with edge cases once you write the solution, catch your bugs
+- Ask **clarification questions** and **check your assumptions** to ensure you
+  solve the correct problem.
+- Maintain good communication with your interviewer, they can steer you into
+  correct direction in case you go to the wrong direction
+- During the interview, Do not waste time looking up functions on internet, if
+  you are not sure, you can use a placeholder and mostly interviewers are
+  looking at thought process and not exact syntax
 
 ### Coding interview resources
+
+Blogs:
 
 - [Preparing for the Systems Design and Coding Interview by Gergely Orosz](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 - [How to Succeed in Data Structures and Algorithms Interview - Pramp](https://blog.pramp.com/how-to-succeed-in-data-structures-and-algorithms-interview-2ad1a28041b6)
@@ -445,72 +447,75 @@ Practice sites:
 - [InterviewBit](https://www.interviewbit.com/)
 - [Interview cake](https://www.interviewcake.com/table-of-contents)
 
-## System design Interview
+## Step 5: System design Interview
 
-The system design interview is an interview round to assess how well do you
-understand design and architecture of systems and given a vague problem, can you
-clarify and design a high level system and then dive deep into few components.
+The system design round is an interview round to assess how well do you
+**understand design and architecture of systems** and given a vague problem, can
+you clarify and design a high level system and then dive deep into few
+components.
 
-You could be asked to design any system, there are mostly commonly talked about
-systems like WhatsApp, DropBox/Google Drive, Instagram, Twitter, Type ahead
-search, Search Engine, Web crawler or it could be a niche use case. Really
-understanding all the concepts around system design is how you can excel in this
-round
+You could be asked to design any system or app, there are some commonly talked
+about systems like **WhatsApp, DropBox/Google Drive, Instagram, Twitter, Type
+ahead search, Search Engine, Web crawler** or it could also be a niche use case
+(depending on your experience level and role).
 
 Depending on the role you are looking for the scope of this round can change
-thus clarifying with your recruiter is very important. For e.g. for a product
-engineer the focus might be more on how do you design the API and database
-schema for the backend system whereas for an Infra engineer the focus could be
-how well does the candidate consider different systems (Db, cache, load
-balancing, security) and other concerns
+thus clarifying with your recruiter is very important.
 
-### Expectations from system design round
+For e.g. for a product engineer the focus might be more on how do you design the
+API and database schema for the backend system whereas for an Backend/Infra
+engineer the focus could be how well does the candidate consider different
+systems (Db, cache, load balancing, security) and other concerns
 
-Below are the expectations from this round and performance in this gives a very
-good signal as to the target level of the candidate.
+General timeline for this round:
 
-- You are expected to design and build a distributed system from scratch
-- How well do you gather requirements and explore the problem first
-- How well do you do quantitative analysis, work out the scale, size of data
+- 5 mins for clarifying questions
+- 10 - 12 mins to go broad and make a high level design
+- 10 mins to go deep into 2-3 components and elaborate on the design
+- Wrap up
+
+### Expectations from candidate 👩🏻‍💻
+
+Below are the general expectations from this round. A good performance in this
+round gives a good signal towards the target level and competency of the
+candidate.
+
+- You are expected to **design and build a distributed system** from scratch
+- How well do you **gather requirements** and **explore** the problem first
+- How well do you do **quantitative analysis**, work out the scale, size of data
   that you will be working with
-- Do you consider tradeoffs for the design choices
-- How well do you deep dive into components and details
-- How do you reason how the data is stored, secured and structured
-- Do you need too much prompting, can you lead the conversation
+- Do you **consider tradeoffs** for the design choices
+- How well do you **deep dive into components** and details
+- How do you reason **how the data is stored, secured and structured**
+- Can you drive the conversation and don't need too much prompting
 
 There are some excellent resources for preparing for system design and I'd
 recommend any of these
 
-### System design Interview tips
+### System design round tips
 
-- For system design, interviewer can reply to questions, but you need to lead
+- While the interviewer can reply to your clarifying questions, You need to lead
   the discussion
-- Think of your interviewer as a junior engineer who you are giving an overview
-  of the system
-- Keep track of topics you want to cover so that you don't forget them and the
-  time. This is a common mistake to not manage time well
-- Clarifying ambiguity is great but you should time bound it
-  - General outline
-  - 5 mins for clarifying questions
-  - 10 - 12 mins to go broad and make a high level design
-  - 10 mins to go deep into 2-3 components and elaborate on the design
-- For system design, we use **ExcaliDraw** as a standardized tool
-- Is the system design product design or system design
-  - product design
-    - mostly about API, not infra heavy
-  - How will you store the data, how do you design the schema
-    - System design: Backend systems, how do you scale the backend
-    - Think about memory, availability
-- Try to have a mock interview, make sure you practice
-- Leading the interviewer means how you break it down and explain it to a junior
-  engineer, treat interviewer as a junior engineer
+  - What does this leading the discussion mean? Think of your interviewer as a
+    junior engineer who you are giving an overview of the system
+- Keep **track of topics** you want to cover so that you don't forget them and
+  manage your time well. Don't go too deep in one area and lose points due to
+  missing out discussion on other areas. You can ask your interviewers which
+  area they are more interested in exploring
+- Consider how will you store data, how would you design the database schema,
+  how do you scale the backend, Think about tradeoffs between memory,
+  consistency vs availability
 
 ## Resources for system design
 
-### YouTube:
+I referred to lots of videos on multiple you tube channels and then practiced
+designing the systems from scratch. Also tried some mock interviews with
+friends. The feedback from these rounds was very helpful in me understanding
+gaps
 
-I personally referred to videos on multiple you tube channels (often even while
-during house hold chores to really soak the different concepts)
+Below are some good resources:
+
+### YouTube:
 
 - [System Design by GKCS (Gaurav Sen)](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
 - [System Design primer by sudoCode (Yogita Sharma)](https://www.youtube.com/watch?v=FSR1s2b-l_I&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a)
@@ -528,42 +533,47 @@ during house hold chores to really soak the different concepts)
 
 - [Book: System Design Interview by Alex Xu](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/),
 - [System design - Hired In Tech](https://www.hiredintech.com/app#scalability-fundamentals)
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.co.uk/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/)
 - [How to Succeed in a System Design Interview - Blog at Pramp](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
 
 ## Behavioral Interview
 
-Behavioral interview is mostly to see if you would be a fit for the role at the
-company. This is a non coding/design round wherein the interviewer is more
-interested in how you work with the teams, are you a good communicator and
-collaborator, also can you verbalize your impact to the teams and products you
-have worked upon.
+Behavioral round tests a candidate to see if you would be a fit for the role at
+the company. This is a **non coding/design** round wherein the interviewer is
+more interested in how you work with the teams (drive consensus, handle
+conflicts), are you a good communicator and collaborator, also can you verbalize
+your impact to the teams and products you have worked upon.
 
-This interview gives pretty good signal on your leadership skills, seniority and
+This interview gives a lot of signals on your leadership skills, seniority and
 taste of whether you would fit in.
 
 ### How to prepare for behavioral interviews
 
-- You should revisit your work history and make note of the projects you worked
-  on where you had good impact, usually you can follow the
+- You should revisit 🤔 your work history and make note of the projects you
+  worked on where you had good impact and prepare data points that you can
+  further speak to
+- You can follow the
   [STAR](https://www.amazon.jobs/en/landing_pages/in-person-interview) format
   (**STAR = Situation, Task, Actions, Result**)
-- Have the data ready for projects you are more proud off and be ready to talk
-  about it in detail while being authentic, remember your interviewers are
-  seasoned professionals and they can usually cross question you in case
-  something does not add up. Please don't lie or over glorify your
-  contributions. In this case, Honestly is definitely the correct policy
-- Also reflect on which project that did not go well and how did you fail and
-  what were your learnings.
+
+### Behavioral interview tips
+
+- Talk about projects **you are most proud off** and be ready to talk about them
+  in detail while being authentic, remember your interviewers are seasoned
+  professionals and they usually cross question you in case something does not
+  add up. Please don't lie or over glorify your contributions. In this case,
+  Honestly is definitely the correct policy
+- Also reflect on which project that **did not go well** and **how did you
+  fail** and **what were your learnings**.
 - Anything in your CV is fair game, talk about what You have done, specific
 - Make sure you lead and drive the conversation and give your answer with enough
   detail and with data.
-- Speak about what **YOU** did and your specific contributions to the success of
-  a project, instead of saying **WE**
+- Focus on what **YOU** did and your specific contributions to the success of a
+  project, instead of saying **WE**
 - Convey key points about you responsibilities, projects that you lead,
   initiatives that you took
-- Be concise but detailed enough to give context
 
-### Focus areas
+### Expectations from candidate
 
 While interviewing, the interviewers want to see how well do you exhibit
 behaviors that are valuable to the team and inline with company values
@@ -577,130 +587,56 @@ Meta has below
 - Build social value
 - Focus on Impact
 
-Towards this, your interviewers are interested in finding out:
+Your interviewers are interested in finding out below aspects and your stories
+should ideally tie towards these behaviors
 
-- Can you work in unstructured environment
+- Can you work in **unstructured environment**
   ([VUCA](https://hbr.org/2014/01/what-vuca-really-means-for-you))
-- Do you exhibit a Growth mindset towards learning and working?
-- Do you have empathy towards other people on your team?
-- How good are your communication skills and how do you speak about colleagues?
-- Do you have the ability to resolve disagreements?
-- How well do you use data to solve problems?
-- Do you exhibit perseverance and how well do you deliver results?
-- Are you a self starter and motivated to make an impact?
+- Do you exhibit a **Growth mindset** towards learning and working?
+- Do you have **empathy** towards other people on your team?
+- How good are your **communication skills** and how do you speak about
+  colleagues?
+- Do you have the ability to **resolve disagreements**?
+- How well do you **use data** to solve problems?
+- Do you **exhibit perseverance** and how well do you **deliver results**?
+- Are you a **self starter** and motivated to **make an impact**?
 
 ## Bonus: Questions to ask your interviewers
 
-At the end of any interview round, you get 5 minutes to ask interview questions
-from your interviewers. Remember the company is investing a lot of precious
-company time of its smart people to interview you, so make sure you ask lots of
-good questions and really understand the company, its people, culture. It should
-be what matters most to you and what care about.
+At the end of any interview round, You usually get 5 minutes to ask interview
+questions from your interviewers.
+
+Remember the company is investing a lot of precious company to interview you, so
+make sure you ask lots of good questions and **understand the company, its
+people, culture**. These questions should answer what matters most to you and
+what care about.
 
 Do not waste this time asking questions to which you can easy find answers on
 google like company perks, technology stacks or how well did you do on the
-interview. 😉, You'll get to know that sooner or later anyway
+interview. 😉, You'll get to know that sooner or later anyway.
 
-If you want a sample list of questions to ask, I found this excellent video by
-Jeff H Sipe on what questions you can ask, feel free to take this and modify as
-per your unique role and situation
-[Questions to Ask Your Interviewer - Jeff H Sipe](https://www.youtube.com/watch?v=5sjcuHD-hXc)
+> Tip: Research about the company and the role before interviewing so you can
+> come up with valuable questions
 
-## General questions to ask
+If you want a sample list of questions to ask, I found below excellent video by
+Jeff H Sipe, feel free to take example list and modify as per your unique role
+and situation
 
-### To team members
-
-What do you like the best about your role and the company?
-
-- Can you share a bit more about your professional background and what led you
-  to join this company?
-- What in your opinion is peculiar to X as compared to the previous jobs that
-  you have worked at?
-- How is the work life balance at X?
-- How does the company support the professional growth of the employees?
-- What projects have you enjoyed working on most? Why?
-- Who are your mentors at the company? What have you enjoyed most about working
-  with them?
-- What do you like the best about your role and the company?
-- What do you look for in a team member?
-- How do you foster a collaborative team?
-- How will hiring this position help you?
-- What is a specific pain point you are facing now because this position is not
-  hired?
-- Does the team tend to work on projects together or alone?
-
-### To cross functional panelist
-
-- What do you like the best about your role and the company?
-- How does your team interact with the team I would be supporting?
-- How often would we be working together?
-- How does this role help your team have success?
-
-### To the Hiring Manager:
-
-- What do you like the best about your role and the company?
-- What is the biggest challenge your team is facing this year, in the upcoming
-  months, etc.?
-- How can the person in this position help with this challenge?
-- What does success look like in this position? If you could break that down
-  over the first 3-6 months, the first year, and after two years?
-- How do you measure success?
-- What is the typical career path for someone in this type of position?
-- How does this role fit into the overall strategy of the organization?
-- What do you see as the core function of this role as part of the larger
-  organization?
-- Tell me about a typical day in this role?
-- _Are there any questions from my background/anything I can clarify from my
-  answers today or from my background - regarding fit for this role?_
-- What is the most important skill that you need today?
-- I have already discussed this with the Recruiter (if you have), but what are
-  the next steps?
-- Any additional information you would like from me?
-
-### To recruiter
-
-#### About the position:
-
-- Why is the position open?
-- How long has the position been open?
-- How many people are interviewing?
-- Why do you think my background is a good fit?
-
-#### About Logistics
-
-- I see the position is located here, would it be possible to work out of
-  another location/work remote?
-- Does the job require travel?
-- What is the salary range?
-- What are the specific benefits you offer including, but not limited to
-  vacation/PTO, holidays, sick time, health, - dental, vision, 401k, tuition
-  reimbursement, free food, free gym, etc.?
-
-#### About Interview process:
-
-- What is the process/what are the specific steps?
-- How long is the process?
-- How often will I hear back from you?
-- Will you be letting me know if you are out on vacation? - This one is
-  important because there is nothing worse than getting an out of office
-  response with no backup contact when you are waiting to hear back after
-  interviewing or at any step in the process.
-
-#### Interview:
-
-- How many interviews will be conducted?
-- What are the stages?
-- Who is the final decision maker?
-- What topics will the interviewer/s be covering during my interview
-
-Lastly:
-
-- Any questions that I did not ask that are important for me to know?
-- Questions you typically hear from other candidates?
-
-During the interview the questions will be focused on them:
+- [Questions to Ask Your Interviewer - Jeff H Sipe](https://www.youtube.com/watch?v=5sjcuHD-hXc)
 
 ## Conclusion
+
+Phew, ☺️ That was indeed a long post, Hopefully this post and tips helps you in
+your interview journey.
+
+In case you are looking for an opportunity at Meta, Feel free to check out
+[Meta Careers](https://www.facebookcareers.com/) and If you'll like me to
+introduce your profile, please follow
+[Meta referral request process](https://docs.google.com/document/d/e/2PACX-1vRNoEnDil-GJBgjLPCG6yg2zAK5ekbPXzcaTaRk-F0gpp8yyGoHLYDdz2u1joZV24LoYxd9dOsmr-Om/pub)
+to provide me all the details to write a good introduction/referral, I'll
+probably batch resumes and submit them when I can.
+
+All the best! 👍
 
 As always, Do share this with your friends or colleagues and if you have
 thoughts or feedback, I'd be more than happy to chat over at twitter or
