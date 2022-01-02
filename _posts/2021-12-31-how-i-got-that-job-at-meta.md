@@ -1,12 +1,11 @@
 ---
 title: How I got "that" job at Meta
 excerpt:
-  "I recently made a big career switch to Meta London as a Software Engineer.
-  This post talks about my entire experience and journey, how I prepared and
-  resources for the different aspects."
+  "I recently switched to Meta London as a Software Engineer. This post talks
+  about my interview experience and journey, how I prepared and resources for
+  these rounds."
 permalink: /2021/12/31/how-i-got-that-job-at-meta
 image: /assets/images/2021/12/dima-solomin-yIT9HO8UrPA-unsplash.jpg
-published: false
 categories:
   - Interviews
   - Career
@@ -27,121 +26,145 @@ tags:
     </figcaption>
 </figure>
 
-## Sharing a good news! 🥳
+## Sharing some good news! 🥳
 
-Hello everyone 👋, As I start to write this long post, its been more than a
-month that I took up my new job at **Meta London** 🇬🇧 as a **Software
-Engineer**.
+Hello everyone 👋,
 
-This was a **really** big career decision for me and my family and something I
-always wanted to try out and this post is to share more about this process in
-the hopes that it would help others in the community in case they are
-interested.
+As I start to write this long post, its been more than a month that I took up my
+new job at **Meta London** as a **Software Engineer**.
 
-> IMPORTANT NOTICE: The thoughts and opinions in this post are purely my own
-> based on my experience and not of my employer. Please take these with a grain
-> of salt.
+This was a **really** big career move for me and my family and something I
+always aspired to and working at that level of scale felt as the right step up
+for us.
 
-While preparing for these interviews I read through couple of excellent posts on
-applying and preparing for Software engineering interviews at Big Tech companies
-and this post in a way is inspired from these, Having got **"that"** job, this
-post is my way of paying the advice forward.
+## Motivation for this post
 
-I would recommend reading these excellent posts out when you have time:
+After updating my profile in LinkedIn and other social media, some people and
+engineers that I knew reached out to congratulate and also asked for advice on
+how can they prepare better for similar roles at BigTech and other high growth
+companies
+
+This post is my humble attempt to share more about this process from my own
+experience in the hopes that it would be valuable for the community
+
+> ️⚠️ **Disclaimer**: Opinions in this post are purely my own based on my
+> personal experience and not in any way representative of my employer. Please
+> take these with a grain of salt.
+
+While preparing for these interviews, I read through many excellent posts on
+applying and preparing for **Software engineering interviews at Big Tech**
+companies and this post's title is inspired from these, Having finally got
+**"that"** job, this post is my way of paying the advice forward.
+
+I would highly recommend reading these excellent posts when you have time:
 
 - [Get that job at Google by Steve Yegge](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 - [Get that job at Facebook by Engineering @ Meta](https://www.facebook.com/notes/10158791572847200/)
 
-### A word of gratitude
+### A word of gratitude 🙏🏼
 
-But before I begin, I would really like to start with a thought of gratitude 🙌
-towards **all the people** who helped me in this long journey especially my wife
-who was extremely patient as I spend long hours morning/night for months
-preparing and couple of friends without which this would really have not have
-been possible.
+Before I begin, I would really like to express gratitude 🙌 towards **all the
+people** who helped me in this long journey
+
+- Especially **my wife** who was extremely patient as I spend long hours
+  morning/night for months preparing and
+- Couple of friends without whose support this would really not have have been
+  possible.
+- All the innumerable **mentors**, **creators** who actively shared there
+  knowledge and experience via blogs, YouTube videos about this process which
+  benefitted me immensely (I will list many of these resources in this post)
 
 ## The right mindset going into the process
 
 As you start to read this post,
 
 - You might be having multiple thoughts about the company, the interview process
-  and whether you can even do it?
+  and whether you can even succeed through it all?
 - You might be thinking, there are thousands of applicants for any particular
-  position, Do I stand a chance?
+  position, Do **I** even stand a chance?
 
-I experienced most of these thoughts first hand and while some were motivating,
-others not so much. And before you spiral further, let me stop you right there
-and offer you a simple piece of advice.
+Let me tell you my friend, I experienced most of these thoughts first hand and
+shared these doubts and while some of these thoughts were positively motivating,
+others not so much.
 
-> Slow down, Breathe. ☺️ Take your time and don't give up! You got this!
+And before your mind spirals any further, let me stop you right there and offer
+you a simple piece of advice.
 
-These interview loops are certainly not a piece of cake 🍰 and its very easy to
-go down a rabbit hole and let this be the **only** thing that consumes
-everything in your life. But please don't.
+> Slow down, Breathe. 🧘🏼☺️!️ Take your time and don't give up! You got this!
 
-At the end of the day, while a job at one of the `#FAANG (now #MAANG)` companies
-is really coveted and offers nice perks/salary and learning opportunity, it is a
-job and might not be the right fit for you and should definitely not take
-priority over your physical and mental wellbeing.
+### Its not a zero sum game
+
+These interview loops are certainly not a piece of cake 🍰 and arguably quite
+hard, Its very easy to go down a rabbit hole and let this be the **only** thing
+that consumes everything in your life. But please don't.
+
+At the end of the day, while a job at one of these companies is really coveted
+and offers really nice perks/salary and learning opportunities, it is a job and
+might not be the right fit for you and should definitely not take priority over
+your or your loved ones physical and mental wellbeing.
 
 ### A note about failure 🙅‍♂️
 
-Its also really easy to take interview failures really hard and think you are
-not good enough, and I've also been a subject to multiple of these rejections,
-just realize this happens with everyone, sometimes you might be under prepared,
-or might be having an off day or just get stuck and I think its only human for
-this to happen.
+Its also really easy to take interview **rejections really hard** and have
+demotivating thoughts that you are not good enough, and I've also been a subject
+to some of these rejections as I interviewed at other companies,
+
+Just realize this happens to the best of us, sometimes **you might be under
+prepared,** or might be having an **off day** or unfortunately **just get
+stuck** and I think its only human for this to happen.
 
 > You must fail fast and fail better!
 
-An interview is sort of like a mirror reflection of where you are in your
-preparation journey and any failure does not mean you are not qualified but
-simply not as prepared.
+An interview however stressful is sort of like a hard mirror to look at and
+serves as a reminder of at what point of your preparation journey, you are at
+and any failures does not mean you are not qualified but simply not as prepared.
 
 I've learned that the correct mindset to approaching these interviews is to have
-that mental model that:
+the below frame of mind.
 
 - You are going to speak with some really cool and intelligent people from world
   class companies
-- figure out and collaborate on few interesting and challenging problems and
-  just take your best swing at it for 45-60 mins
-- And no matter the outcome, you'll walk away with something interesting that
-  you learn either about your own preparation levels, any gaps you need to fill
-  and get better at, learn more about the company culture and work
-- And in some cases, maybe the final offer as well. 😉
+- You have a chance to figure out and collaborate on a few interesting and
+  challenging problems and take your best stab at it for 45-60 mins
+- No matter the outcome, you'll walk away with knowledge about your own prep
+  levels, any gaps you need to fill, work on and get better at
+- Get a chance to ask questions, and learn more about the company culture and
+  work
 
-I heard
-[Gergely Orosz](https://www.linkedin.com/in/gergelyorosz/?originalSubdomain=nl)
-talk about this and many other prep tips in his YouTube Video
+I first heard about this from
+[Gergely Orosz a.k.a The pragmatic engineer](https://www.linkedin.com/in/gergelyorosz/?originalSubdomain=nl)
+in his YouTube Video
 [Confessions from a Big Tech Hiring Manager: Tips for Software Engineering Interviews](https://www.youtube.com/watch?v=vFOw_m5zNCs)
-and I must say I agree that this is the **helpful** mindset people should
-approach these interviews.
+and I must say I completely agree that this is the **helpful** mindset people
+should approach these interviews with.
 
 ## The Interview process
 
-If you are still here after that word of advice 💪, I think you are ready for
-this sea of information with lots of links to resources that helped me, so let
-me get right to the point 👇
+If you are still reading after that word of advice, You certainly want to give
+this a shot 💪, So without further adieu, Let me get right to the point 👇
 
-Meta (previously known as facebook) as of 2021 has the below interview loop for
-Software Engineers position.
+[Meta (previously known as facebook)](https://about.fb.com/news/2021/10/facebook-company-is-now-meta/)
+as of 2021 has the below interview loop for Software Engineers position.
 
-> Note: There are different roles within the company, Product engineer, Quality
-> specialist, QA Engineering lead, Android/iOS/Backend dev/AI/ML engineers and
-> so on, please check with your recruiter as some of these rounds could have
-> different scope and objectives and they are in the best position to confirm.
+> **Please Note**: 📝 There are different roles within the company, such as
+> Product/Production engineer, Quality specialist, QA Engineering
+> lead/Engineering Manager, Android/iOS/Backend/AI/ML engineers and so on,
+> please check with your recruiter as some of these rounds could have different
+> **scope and objectives** and they are in the best position to confirm.
 
-- Recruiter screening
-- 1 Coding interview (screening)
+The below largely holds true for Software Engineering Interviews
+
+- 1 Initial Recruiter screening
+- 1 Screening Coding interview
 
 Followed by a full onsite interview loop having total of 4 interviews of 45 mins
-each.
+duration each.
 
-- 2 Coding interview
+- 2 Coding interviews
 - 1 System design interview
 - 1 Behavioral interview
 
-See below sections for resources as well as tips on how to prepare for each of
+Please read below sections for resources as well as tips on how to prepare for each of
 these
 
 ## Getting shortlisted
@@ -149,7 +172,7 @@ these
 ### Writing an effective resume
 
 The first step to any interview journey is to write a good resume that helps
-make your case in front of the recruiter and hiring manager. In most cases
+in making your case in front of the recruiter and hiring manager. In most cases
 people will skim read it first so spending time and making your resume concise
 but still the best reflection of your skills is very important.
 
