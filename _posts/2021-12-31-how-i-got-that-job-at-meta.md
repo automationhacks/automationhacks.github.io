@@ -5,6 +5,7 @@ excerpt:
   about my interview experience and journey, how I prepared and resources for
   these rounds."
 permalink: /2021/12/31/how-i-got-that-job-at-meta
+published: false
 image: /assets/images/2021/12/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 categories:
   - Interviews
