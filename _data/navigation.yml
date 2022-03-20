@@ -5,6 +5,8 @@ main:
     url: /courses/
   - title: "Talks 🙊"
     url: /talks/
+  - title: "Guest posts"
+    url: /guest-posts/
   - title: "Posts by categories"
     url: /posts-by-categories/
   - title: "Posts by tags"
@@ -13,9 +15,9 @@ main:
     url: /archives/
   - title: "Learn Test automation 🦾"
     url: /learn/
-  - title: "AMA 🗣"
+  - title: "Ask me anything (AMA) 🗣"
     url: /ama/
-  - title: "Patreon 🙏🏼"
-    url: /patreon/
-  - title: "Books 📓"
+  - title: "Wanna support me? 🤝🏼"
+    url: /support/
+  - title: "Book recommendations 📓"
     url: /books/
