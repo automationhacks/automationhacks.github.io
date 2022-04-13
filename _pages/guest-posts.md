@@ -30,6 +30,7 @@ platform powered by Visual AI
 
 ### Blogs
 
+- (2022) [Hello Appium! Part 3: Writing Your First iOS Test](https://applitools.com/blog/how-to-write-appium-ios-test/)
 - (2022)
   [Hello Appium, Part 2: Writing Your First Android Test](https://applitools.com/blog/how-to-write-android-test-appium/)
 - (2021)
