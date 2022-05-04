@@ -1,6 +1,8 @@
 main:
   - title: "About 👨🏻‍💻"
     url: /about/
+  - title: "Newsletter 📰"
+    url: /newsletter/
   - title: "Courses 👨🏻‍🏫"
     url: /courses/
   - title: "Talks 🙊"
