@@ -22,7 +22,7 @@ tags:
 <figure class="image">
     <img src="assets/images/2022/05/espresso-part1.png" alt="Espresso logo and the title Hello, espresso! Part 1 Introducing you to the world of espresso automation!">
     <figcaption>
-        Photo by <a
+        Espresso logo by <a
             href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a> 
     </figcaption>
 </figure>
@@ -348,7 +348,7 @@ that you could view
 
 Hopefully this post gives you an idea on how easy it is to get started with
 espresso. Stay tuned for next post where we’ll dive into how to automate
-**DataAdapter** android controls
+**lists** with espresso
 
 As always, Do share this with your friends or colleagues and if you have
 thoughts or feedback, I’d be more than happy to chat over at twitter or
