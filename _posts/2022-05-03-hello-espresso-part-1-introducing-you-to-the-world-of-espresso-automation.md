@@ -9,12 +9,11 @@ canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-1-in
 categories:
   - android
   - espresso
-  - ui_automation
+  - ui-automation
   - mobile
 tags:
-  - "Mobile"
-  - "Testing"
-  - "Android Automation"
+  - "Mobile Testing"
+  - "Android Testing"
   - "Espresso"
   - "Software Engineering"
 ---
