@@ -5,7 +5,7 @@ excerpt: "Getting started with Android automation using Espresso"
 permalink: 2022-05-03-hello-espresso-part-1-introducing-you-to-the-world-of-espresso-automation
 published: true
 image: /assets/images/2022/05/espresso-part1.png
-canonical_url: "https://automationhacks.substack.com/p/hello-espresso-part-1-introducing?s=w"
+canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-1-introducing?s=w"
 categories:
   - android
   - espresso
