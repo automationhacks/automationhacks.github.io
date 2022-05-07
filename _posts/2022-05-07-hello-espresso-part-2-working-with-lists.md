@@ -1,7 +1,7 @@
 ---
 title: Hello, espresso! Part 2 Working with lists
 excerpt: "Learn how to automate android list controls like AdapterView and RecyclerViews using espresso"
-permalink: 2022-05-05-hello-espresso-part-2-working-with-lists
+permalink: 2022-05-07-hello-espresso-part-2-working-with-lists
 published: true 
 image: /assets/images/2022/05/espresso-part2.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-2-working-with?s=w"
