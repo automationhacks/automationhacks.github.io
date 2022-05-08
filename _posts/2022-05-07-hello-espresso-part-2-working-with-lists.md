@@ -1,8 +1,10 @@
 ---
 title: Hello, espresso! Part 2 Working with lists
-excerpt: "Learn how to automate android list controls like AdapterView and RecyclerViews using espresso"
+excerpt:
+  "Learn how to automate android list controls like AdapterView and
+  RecyclerViews using espresso"
 permalink: 2022-05-07-hello-espresso-part-2-working-with-lists
-published: true 
+published: true
 image: /assets/images/2022/05/espresso-part2.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-2-working-with?s=w"
 categories:
@@ -39,10 +41,19 @@ Let's go! 🏃🏃‍♀️
 
 Using espresso, we can scroll to or perform an action on a given item in a list
 
-This is needed since the view you are interested in may not be present on the
-screen since Android lists created with `RecyclerView` or `AdapterView` have
-only a small no of child elements created and they are recycled as you scroll.
-For these use cases `scrollTo` method won't work as that needs an existing view
+We need this since sometimes the view you are interested in may not be present
+on the screen and espresso needs to scroll to it based on some matcher.
+
+There are some nuances to this though:
+
+- Android lists are created with `RecyclerView` only a small no of child
+  elements are created and they are recycled as you scroll. For these use cases,
+  we can use `onView` with `RecyclerViewActions`
+- `AdapterView` has data backed by an Adapter, for this we use `onData` with a
+  custom matcher based on the how the adapter is designed
+
+For these use cases `scrollTo` the method won't work since that needs an
+existing view
 
 Let's see an example and walk through how we could use espresso to scroll and
 act on elements for these types of components
@@ -469,7 +480,8 @@ public class RecyclerViewSamplePracticeTest {
 
 ## Further reads
 
-You can read [Espresso lists on Android developers](https://developer.android.com/training/testing/espresso/lists)
+You can read
+[Espresso lists on Android developers](https://developer.android.com/training/testing/espresso/lists)
 
 ## Conclusion
 
