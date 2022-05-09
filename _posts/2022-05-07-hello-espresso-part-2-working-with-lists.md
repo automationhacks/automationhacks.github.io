@@ -27,9 +27,10 @@ tags:
     </figcaption>
 </figure>
 
-In the previous post, we read an introduction to espresso, and understood how to
-write a basic test flow in espresso. We also saw the structure of an espresso
-test
+In the previous post [Hello, espresso! Part 1 Introducing you to the world of espresso automation! ]({% link _posts/2022-05-03-hello-espresso-part-1-introducing-you-to-the-world-of-espresso-automation.md %})
+
+We read an introduction to espresso, and understood how to write a basic test
+flow in espresso. We also saw the structure of an espresso test
 
 In this post, we'll dive into how to automate tests and work with list like
 components using espresso. Examples of such components are `AdapterView`,
