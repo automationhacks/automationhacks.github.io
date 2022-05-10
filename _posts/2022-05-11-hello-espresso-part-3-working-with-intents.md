@@ -102,14 +102,8 @@ work with:
 ```text
 GIVEN user is on home screen
 WHEN user taps on enter phone no EditText with id: @id/edit_text_caller_number
+AND user types a valid phone no
 AND user taps on call number Button with id: id	@id/button_call_number
-THEN the dialer activity is shown with entered phone no
-```
-
-```text
-GIVEN user is on home screen
-WHEN user taps on pick number Button with id: @id/button_pick_contact
-AND user taps on call number Button with id: @id/button_call_number
 THEN the dialer activity is shown with entered phone no
 ```
 
@@ -117,9 +111,7 @@ THEN the dialer activity is shown with entered phone no
 
 ![After user tapped on call number](../assets/images/2022/05/intents-dialer.png)
 
-## Let's automate these intents
-
-### Add dependencies
+## Add required dependencies
 
 We need to add `espresso-intents` dependency to our `app/build.gradle` file as
 below, also its only compatible with espresso `2.1+` and android testing lib
@@ -132,10 +124,11 @@ androidTestImplementation 'androidx.test:rules:1.4.0'
 androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 ```
 
-### Setting up intents and permissions
+## Test to launch a dialer activity using intents and validation
 
 Below is the complete test to perform our scenario, don't worry if it does not
-make sense right now, we'll unpack this in further sections
+make sense right now, we'll unpack this in detail below, the sample is mentioned
+for completeness
 
 ```java
 @RunWith(AndroidJUnit4.class)
@@ -166,6 +159,8 @@ public class DialerActivityPracticeTest {
 }
 ```
 
+### Setting up intents and permissions
+
 - Just like `Views`, we'll use JUnit rules to setup and teardown our intents
   before and after each test. We use `IntentsTestRule` for this instead of
   `ActivityTestRule`.
@@ -184,6 +179,8 @@ public IntentsTestRule<DialerActivity> testRule = new IntentsTestRule<>(DialerAc
 @Rule
 public GrantPermissionRule grantPermissionRule = GrantPermissionRule.grant("android.permission.CALL_PHONE");
 ```
+
+### Writing core test logic
 
 With that taken care of lets write our test
 
@@ -206,18 +203,153 @@ We'll then tap the call number button
 onView(withId(R.id.button_call_number)).perform(click());
 ```
 
+### Asserting our intent was fired
+
 Great, we want to verify that our Intent was actually invoked and we can achieve
-that using `intented` method that takes an Intent matcher (either an existing
-one or our own). Referring to
-[Hamcrest Tutorial](https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki)
-is also a resource you can consider to become more comfortable with writing
-matchers
+that using `intended` method that takes an Intent matcher (either an existing
+one or our own).
+
+> You can refer to
+> [Hamcrest Tutorial](https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki)
+> understand how hamcrest matchers work since we are going to use them heavily
 
 ```java
 // Verify an intent is called with action and phone no and package
 intended(allOf(hasAction(Intent.ACTION_CALL), hasData(phoneNumber)));
 ```
 
-- If you notice, we use `allOf()` matcher, that checks that the examined object
+If you notice, we use `allOf()` matcher, that checks that the examined object
 matches **all of the specified matchers**
-- We then check that the `intent`
+
+We first check that the `intent` had the correct action by calling
+`hasAction(Intent.ACTION_CALL)`
+
+How do we know which action to assert? 🤔
+
+We can look into app source in
+[`DialerActivity`](https://github.com/automationhacks/testing-samples/blob/main/ui/espresso/IntentsBasicSample/app/src/main/java/com/example/android/testing/espresso/IntentsBasicSample/DialerActivity.java)
+to understand more details about our intent
+
+If you look at `createCallIntentFromNumber` method, you can see we create an
+intent with action `Intent.ACTION_CALL`:
+
+```java
+intentToCall.setData(Uri.parse("tel:" + number));
+```
+
+Also we see that we set a phone no as the intents data in:
+
+```java
+intentToCall.setData(Uri.parse("tel:" + number));
+```
+
+Here is the full method for reference
+
+```java
+private Intent createCallIntentFromNumber() {
+  final Intent intentToCall = new Intent(Intent.ACTION_CALL);
+  String number = mCallerNumber.getText().toString();
+  intentToCall.setData(Uri.parse("tel:" + number));
+  return intentToCall;
+}
+```
+
+Thus we also assert that our intent has the correct phone no set as data by:
+
+Preparing the phone no `Uri` earlier
+
+```java
+Uri phoneNumber = Uri.parse("tel:" + VALID_PHONE_NUMBER);
+```
+
+and then adding below line in our `allOf` matcher
+
+```java
+hasData(phoneNumber)
+```
+
+If you run this test, you'll see the Dialer Activity pop up and if you care
+about this activity then you could write some assertions on top of it.
+
+## Test only our intent without making an external activity call a.k.a Stubbing
+
+In the previous test, we saw how intents launching another activity can be
+easily validated using `intended`,
+
+However, In if we care about testing only our apps logic and no so much of a 3rd
+party apps logic (since we cannot manipulate the UI of an external activity, nor
+control the `ActivityResult` returned to the activity we are testing), then
+espresso allows us to stub intents and return a mock response as well using
+`intending`
+
+Let's see how we can do this:
+
+Below is now our updated functional test flow
+
+```text
+GIVEN user is on home screen
+WHEN user taps on pick number Button with id: @id/button_pick_contact
+AND user taps on call number Button with id: @id/button_call_number
+THEN intent call to dialer activity is stubbed
+AND we check that an intent call was made
+```
+
+We write the below test to achieve this:
+
+```java
+@RunWith(AndroidJUnit4.class)
+@LargeTest
+public class DialerActivityPracticeTest {
+  public static final String VALID_PHONE_NUMBER = "123-456-7898";
+
+  @Rule
+  public GrantPermissionRule grantPermissionRule =
+      GrantPermissionRule.grant("android.permission.CALL_PHONE");
+
+  @Rule
+  public IntentsTestRule<DialerActivity> testRule = new IntentsTestRule<>(DialerActivity.class);
+
+  /** Espresso does not stub any intents, with below method all external intents would be stubbed */
+  @Before
+  public void stubAllExternalIntents() {
+    intending(not(isInternal()))
+        .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+  }
+
+  @Test
+  public void whenPickNumber_AndTapOnCallWithStub_ThenStubbedResponseIsReturned() {
+    // To stub all intents to contacts activity to return a valid phone number
+    // we use intending() and verify if component has class name ContactsActivity
+    // then we responding with valid result
+    intending(hasComponent(hasShortClassName(".ContactsActivity")))
+        .respondWith(
+            new Instrumentation.ActivityResult(
+                Activity.RESULT_OK, ContactsActivity.createResultData(VALID_PHONE_NUMBER)));
+
+    onView(withId(R.id.button_pick_contact)).perform(click());
+    onView(withId(R.id.edit_text_caller_number)).check(matches(withText(VALID_PHONE_NUMBER)));
+  }
+}
+```
+
+Let's understand how this is achieved in our test, we add a method with below
+implementation:
+
+```java
+/** Espresso does not stub any intents, with below method all external intents would be stubbed */
+  @Before
+  public void stubAllExternalIntents() {
+    intending(not(isInternal()))
+        .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+  }
+```
+
+Let's walk through how this works:
+
+- We add a method `stubAllExternalIntents` and annotate it with `@Before` such
+  that it runs before any test method
+- We can configure espresso to return a `RESULT_OK` for any intent call by using
+  `isInternal()` which is an intent matcher that checks **if an intents package
+  is the same as the target package for the instrumentation test.**
+  - since in this case we want to stub out all intent calls to other activities
+    we can wrap this with a `not()` 
