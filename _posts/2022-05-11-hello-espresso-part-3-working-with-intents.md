@@ -268,33 +268,69 @@ and then adding below line in our `allOf` matcher
 hasData(phoneNumber)
 ```
 
+## Stubbing intent response
+
 If you run this test, you'll see the Dialer Activity pop up and if you care
 about this activity then you could write some assertions on top of it.
 
-## Test only our intent without making an external activity call a.k.a Stubbing
+Above, we saw how espresso intents can launch another activity and we can easily
+validate them using `intended`,
 
-In the previous test, we saw how intents launching another activity can be
-easily validated using `intended`,
-
-However, In if we care about testing only our apps logic and no so much of a 3rd
-party apps logic (since we cannot manipulate the UI of an external activity, nor
-control the `ActivityResult` returned to the activity we are testing), then
-espresso allows us to stub intents and return a mock response as well using
-`intending`
+However, If we only care about testing our apps logic and no so much of a 3rd
+party apps logic (since we anyways cannot manipulate the UI of an external
+activity, nor control the `ActivityResult` returned to the activity we are
+testing), then espresso allows us to stub intents and return a mock response as
+well using `intending`
 
 Let's see how we can do this:
 
-Below is now our updated functional test flow
+We add a method with below implementation:
+
+```java
+/** Espresso does not stub any intents, with below method all external intents would be stubbed */
+  @Before
+  public void stubAllExternalIntents() {
+    intending(not(isInternal()))
+        .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+  }
+```
+
+Let's understand its nuts and bolts:
+
+- We add a method `stubAllExternalIntents` and annotate it with JUnit annotation
+  `@Before` such that it runs before any test method
+- We can configure espresso to return a `RESULT_OK` for any intent call by using
+  `isInternal()` intent matcher that checks **if an intents package is the same
+  as the target package for the instrumentation test.**
+  - Since in this case we want to stub out all intent calls to other activities
+    we can wrap this with a `not()` so ensure we inverse the result of the
+    matcher
+- We let espresso know that if the intent is not internal then we just want to
+  return a `RESULT_OK` as a stubbed response by adding below:
+
+```java
+.respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+```
+
+Here `Activity.RESULT_OK` is the `resultCode` and `null` is the resultData since
+we don't want to return anything in the intent response
+
+If we rerun above test, you'll see that no dialer activity is started since the
+intent call to external activities is going to be stubbed
+
+## Test our own apps intent without making an external activity call a.k.a Stubbing response
+
+Let's see another example of stubbing using `intending` updated functional test
+flow
 
 ```text
 GIVEN user is on home screen
 WHEN user taps on pick number Button with id: @id/button_pick_contact
-AND user taps on call number Button with id: @id/button_call_number
-THEN intent call to dialer activity is stubbed
-AND we check that an intent call was made
+THEN we check that an intent call was made
+AND we verify intent response from Contacts Activity is stubbed
 ```
 
-We write the below test to achieve this:
+We can write below test to achieve this flow:
 
 ```java
 @RunWith(AndroidJUnit4.class)
@@ -308,13 +344,6 @@ public class DialerActivityPracticeTest {
 
   @Rule
   public IntentsTestRule<DialerActivity> testRule = new IntentsTestRule<>(DialerActivity.class);
-
-  /** Espresso does not stub any intents, with below method all external intents would be stubbed */
-  @Before
-  public void stubAllExternalIntents() {
-    intending(not(isInternal()))
-        .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
-  }
 
   @Test
   public void whenPickNumber_AndTapOnCallWithStub_ThenStubbedResponseIsReturned() {
@@ -332,24 +361,40 @@ public class DialerActivityPracticeTest {
 }
 ```
 
-Let's understand how this is achieved in our test, we add a method with below
-implementation:
+Let's see another example of using `intending`, we could also selectively stub
+out intent calls to a particular activity, e.g. if we wanted all calls to
+`ContactsActivity` with a code: `RESULT_OK` to return a valid phone no, we can
+do so by writing:
 
 ```java
-/** Espresso does not stub any intents, with below method all external intents would be stubbed */
-  @Before
-  public void stubAllExternalIntents() {
-    intending(not(isInternal()))
-        .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
-  }
+intending(hasComponent(hasShortClassName(".ContactsActivity")))
+        .respondWith(
+            new Instrumentation.ActivityResult(
+                Activity.RESULT_OK, ContactsActivity.createResultData(VALID_PHONE_NUMBER)));
 ```
 
-Let's walk through how this works:
+> If we want to stub calls to all classes in a package we could use: `toPackage`
+> method inside `intending`
 
-- We add a method `stubAllExternalIntents` and annotate it with `@Before` such
-  that it runs before any test method
-- We can configure espresso to return a `RESULT_OK` for any intent call by using
-  `isInternal()` which is an intent matcher that checks **if an intents package
-  is the same as the target package for the instrumentation test.**
-  - since in this case we want to stub out all intent calls to other activities
-    we can wrap this with a `not()` 
+```java
+intending(toPackage("com.android.contacts")).respondWith(result);
+```
+
+Here we use `hasComponent(hasShortClassName(".ContactsActivity"))` that matches
+any call to class `ContactsActivity` and respond with `RESULT_OK`, also we
+return `resultData` as the return value of `createResultData` method
+
+If we see impl of `createResultData` in `ContactsActivity`, we see it returns an
+empty intent with a phone no value
+
+```java
+@VisibleForTesting
+    static Intent createResultData(String phoneNumber) {
+        final Intent resultData = new Intent();
+        resultData.putExtra(KEY_PHONE_NUMBER, phoneNumber);
+        return resultData;
+    }
+```
+
+We finally tap on pick number button and verify that the `EditText` button has
+the same no as the one returned by the stubbed intent call
