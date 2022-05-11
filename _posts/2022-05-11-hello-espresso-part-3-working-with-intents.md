@@ -4,9 +4,9 @@ excerpt:
   "Learn how to automate android intents (with and without stubbing) using
   espresso"
 permalink: 2022-05-11-hello-espresso-part-3-working-with-intents
-published: false
+published: true
 image: /assets/images/2022/05/espresso-part3.png
-canonical_url: ""
+canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-3-working-with"
 categories:
   - android
   - espresso
@@ -30,9 +30,9 @@ tags:
 Things are getting pretty exciting 😁 as we work our way through learning
 espresso's API
 
-In the previous part [Hello, espresso! Part 2 Working with
+In the last part [Hello, espresso! Part 2 Working with
 lists]({% link _posts/2022-05-07-hello-espresso-part-2-working-with-lists.md %}),
-we learnt how to work with list controls (`RecyclerView`, `AdapterView`) in
+we learned how to work with list controls (`RecyclerView`, `AdapterView`) in
 espresso. Go ahead and have a read in case you missed it.
 
 ## Learning to test Intents 💪
@@ -41,15 +41,15 @@ In this post, we'll understand how to automate testing of intents using
 espresso.
 
 [`espresso-intents`](https://mvnrepository.com/artifact/androidx.test.espresso/espresso-intents)
-provides us the capabilities to validate intents for couple of important use
+provides us the capabilities to validate intents for a couple of important use
 cases:
 
 - Test whether the correct intent is invoked with valid data by our app
 - Or, even stub out the intents sent out so that we can verify only our apps
-  logic (while assuming other app that we depend upon has been tested
+  logic (while assuming other apps that we depend upon have been tested
   independently)
 
-## What is an intent?
+## What is an Android intent?
 
 In
 [developer.android.com's post about Android Intents](https://developer.android.com/reference/android/content/Intent)
@@ -91,7 +91,7 @@ Let's start by understanding the app under test
 We'll use
 [`IntentsBasicSample`](https://github.com/automationhacks/testing-samples/tree/main/ui/espresso/IntentsBasicSample)
 app, which has an `EditText` to enter a phone no and a `Button` to either call a
-number or to randomly pick a no, if the user taps on call number it launches a
+number or randomly pick a no, if the user taps on the call number button it launches a
 dialer app
 
 ![Intents basic sample home](../assets/images/2022/05/intents-home-with-no.png)
@@ -121,8 +121,8 @@ work with:
 ## Add required dependencies
 
 We need to add `espresso-intents` dependency to our `app/build.gradle` file as
-below, also its only compatible with espresso `2.1+` and android testing lib
-version `0.3+`, so we need double check their versions in our dependencies as
+below, also it's only compatible with espresso `2.1+` and android testing lib
+version `0.3+`, so we need to double-check their versions in our dependencies as
 well
 
 ```java
@@ -184,7 +184,7 @@ public class DialerActivityPracticeTest {
 
 ### Setting up intents and permissions
 
-- Just like `Views`, we'll use JUnit rules to setup and teardown our intents
+- Just like `Views`, we'll use JUnit rules to set up and tear down our intents
   before and after each test. We'll use `ActivityScenarioRule` for this
 - Since we want to automate the `DialerActivity` class, we'll pass that as the
   generic type within `<>`
@@ -195,11 +195,11 @@ public class DialerActivityPracticeTest {
       new ActivityScenarioRule<>(DialerActivity.class);
 ```
 
-- ❗️However just adding the rule is not enough and we need to setup and
-  teardown our intents before and after a test as well
+- ❗️However just adding the rule is not enough and we need to set up and
+  tear down our intents before and after a test as well
   - We use `@Before` and `@After` JUnit annotations for this purpose and call
     `init()` before our test starts to execute and `release()` after the test
-    has executed
+    has been executed
 
 > Note: If you read other blogs and even the
 > [official google guide on espresso-intents](https://developer.android.com/training/testing/espresso/intents#test-rules),
@@ -227,7 +227,7 @@ public class DialerActivityPracticeTest {
   }
 ```
 
-- We also want our test to have permissions to make a call and thus add below
+- We also want our test to have permission to make a call and thus add below
   snippet as another JUnit rule to ensure we don't get any permission errors
   during our test run
 
@@ -267,7 +267,8 @@ existing one or one that we define).
 
 > Tip: 💡 You can refer to
 > [Hamcrest Tutorial](https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki)
-> understand how hamcrest matchers work since we are going to use them heavily with espresso
+> understand how hamcrest matchers work since we are going to use them heavily
+> with espresso
 
 ```java
 // Verify an intent is called with action and phone no and package
@@ -290,10 +291,10 @@ If you look at `createCallIntentFromNumber` method, you can see we create an
 intent with action `Intent.ACTION_CALL`:
 
 ```java
-intentToCall.setData(Uri.parse("tel:" + number));
+final Intent intentToCall = new Intent(Intent.ACTION_CALL);
 ```
 
-Also we see that we set a phone no as the intents data in:
+Also, we see that we set a phone no as the intents data in:
 
 ```java
 intentToCall.setData(Uri.parse("tel:" + number));
@@ -310,7 +311,7 @@ private Intent createCallIntentFromNumber() {
 }
 ```
 
-Thus we also assert that our intent has the correct phone no set as data by:
+We also assert that our intent has the correct phone no set as data by:
 
 Preparing the phone no `Uri` earlier
 
@@ -318,7 +319,7 @@ Preparing the phone no `Uri` earlier
 Uri phoneNumber = Uri.parse("tel:" + VALID_PHONE_NUMBER);
 ```
 
-and then adding below line in our `allOf` matcher
+and then add the below line in our `allOf` matcher
 
 ```java
 hasData(phoneNumber)
@@ -326,21 +327,21 @@ hasData(phoneNumber)
 
 ## Stubbing intent response
 
-If you run this test, you'll see the Dialer Activity pop up and if you care
-about this activity then you could write some assertions on top of it.
+If you run this test, you'll see the Dialer Activity pop up
 
-Above, we saw how espresso intents can launch another activity and we can easily
-validate them using `intended`,
+In the above test, we saw how espresso intents could launch another activity and
+we can quickly validate them using `intended`,
 
-However, If we only care about testing our apps logic and no so much of a 3rd
-party apps logic (since we anyways cannot manipulate the UI of an external
-activity, nor control the `ActivityResult` returned to the activity we are
-testing), then espresso allows us to stub intents and return a mock response as
-well using `intending`
+However, If we only care about testing the logic of our app and not so much about a 3rd
+party apps logic (since we anyways
+[cannot manipulate the UI](https://stackoverflow.com/questions/24992821/how-to-use-espresso-for-testing-a-3rd-party-app)
+of external activity, nor control the `ActivityResult` returned to the
+activity we are testing), then espresso allows us to stub intents and returns a
+mock response as well using `intending`
 
 Let's see how we can do this:
 
-We add the below calls in our `@Before` annotated setup method:
+We add the below line in our `@Before` annotated setup method:
 
 ```java
 intending(not(isInternal()))
@@ -352,20 +353,23 @@ Let's understand its nuts and bolts:
 - We can configure espresso to return a `RESULT_OK` for any intent call by using
   `isInternal()` intent matcher that checks **if an intents package is the same
   as the target package for the instrumentation test.**
-  - Since in this case we want to stub out all intent calls to other activities
+  - Since in this case, we want to stub out all intent calls to other activities
     we can wrap this with a `not()` so ensure we inverse the result of the
     matcher
-- We let espresso know that if the intent is not internal then we just want to
-  return a `RESULT_OK` as a stubbed response by adding below:
+- We then ask espresso to return a `RESULT_OK` as a stubbed response by using
+  `respondWith()` and mention the result we want to return:
 
 ```java
 .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
 ```
 
-Here `Activity.RESULT_OK` is the `resultCode` and `null` is the resultData since
-we don't want to return anything in the intent response
+Here:
 
-If we rerun above test, you'll see that no dialer activity is started since the
+- `Activity.RESULT_OK` is the `resultCode` and
+- `null` is the resultData since we don't want to return anything in the intent
+  response
+
+If we rerun the above test, you'll see that no dialer activity is started since the
 intent call to external activities is going to be stubbed
 
 ## Test our own apps intent without making an external activity call a.k.a Stubbing response
@@ -380,7 +384,7 @@ THEN we check that an intent call was made
 AND we verify intent response from Contacts Activity is stubbed
 ```
 
-We can write below test to achieve this flow:
+We can write the below test to achieve this flow:
 
 ```java
 @RunWith(AndroidJUnit4.class)
@@ -425,10 +429,9 @@ public class DialerActivityPracticeTest {
 }
 ```
 
-Let's see another example of using `intending`, we could also selectively stub
-out intent calls to a particular activity, e.g. if we wanted all calls to
-`ContactsActivity` with a code: `RESULT_OK` to return a valid phone no, we can
-do so by writing:
+In this example, we show that we could also selectively stub out intent calls to
+a particular activity, e.g. if we wanted all calls to `ContactsActivity` to
+return a code: `RESULT_OK` and a valid phone no, we can do so by writing:
 
 ```java
 intending(hasComponent(hasShortClassName(".ContactsActivity")))
@@ -437,8 +440,8 @@ intending(hasComponent(hasShortClassName(".ContactsActivity")))
                 Activity.RESULT_OK, ContactsActivity.createResultData(VALID_PHONE_NUMBER)));
 ```
 
-> If we want to stub calls to all classes in a package we could use: `toPackage`
-> method inside `intending`
+> Note: If we want to stub calls to all classes in a package we could use:
+> `toPackage` method inside `intending`
 
 ```java
 intending(toPackage("com.android.contacts")).respondWith(result);
@@ -448,8 +451,8 @@ Here we use `hasComponent(hasShortClassName(".ContactsActivity"))` that matches
 any call to class `ContactsActivity` and respond with `RESULT_OK`, also we
 return `resultData` as the return value of `createResultData` method
 
-If we see impl of `createResultData` in `ContactsActivity`, we see it returns an
-empty intent with a phone no value
+If we see impl of `createResultData` in `ContactsActivity` source code, we see
+it returns an empty intent with a phone no value
 
 ```java
 @VisibleForTesting
@@ -460,8 +463,10 @@ empty intent with a phone no value
     }
 ```
 
-We finally tap on pick number button and verify that the `EditText` button has
+We finally tap on the pick number button and verify that the `EditText` button has
 the same no as the one returned by the stubbed intent call
+
+And that's how you automate intents with espresso! ✅
 
 ## Resources
 
@@ -478,10 +483,10 @@ the same no as the one returned by the stubbed intent call
 
 ## Conclusion
 
-Hopefully this post gives you an idea on how to work with intents in espresso.
-Stay tuned for next post where we’ll dive into how to automate and work with
+Hopefully, this post gives you an idea of how to work with intents in espresso.
+Stay tuned for the next post where we’ll dive into how to automate and work with
 **idling resources** with espresso
 
 As always, Do share this with your friends or colleagues and if you have
-thoughts or feedback, I’d be more than happy to chat over at twitter or
+thoughts or feedback, I’d be more than happy to chat over on Twitter or
 comments. Until next time. Happy Testing and learning.
