@@ -4,7 +4,7 @@ excerpt:
   "Make your espresso test resilient by using idling resources to handle
   synchronization when needed"
 permalink: 2022-05-12-hello-espresso-part-4-idling-resources
-published: false 
+published: false
 image: /assets/images/2022/05/espresso-part4.png
 canonical_url: ""
 categories:
@@ -51,8 +51,10 @@ and to let espresso handle these conditions, we need to register each one as an
 
 ## A word of caution 👎🏼🚫
 
-It's possible that you may look for a quick workaround with the use of either,
-however please don't:
+When trying to synchronize your tests with the app behaviors, It's possible that
+you may look for a **quick workarounds** (some of these are listed below),
+however I would encourage you to not use these and instead use Idling resources
+as that would lead to much more maintainable and reliable tests:
 
 - **Use `Thread.sleep()`** to put an artificial delay in your tests, This is a
   really bad idea since you don't in advance how much time an operation would
@@ -60,27 +62,66 @@ however please don't:
   async operation changes in the future
 - **Implement retry logic**: You may think, i'll keep a loop running that checks
   if the app is still performing async work until a timeout happens, many
-  popular E2E frameworks like Appium, Selenium do use this approach. Again, its
-  not very deterministic and can vary with device and network conditions
+  popular E2E frameworks like `Appium`, `Selenium` do use this approach. Again,
+  its not very deterministic and can vary with device and network conditions
 - **Using instances of
   [CountDownLatch](https://developer.android.com/reference/java/util/concurrent/CountDownLatch):**
   to wait until some no of operations executing on another thread are complete.
   These objects have a timeout and adds unnecessary complexity to your code
   increasing maintenance overhead
 
-> Read [Android developers guide](https://developer.android.com/training/testing/espresso/idling-resource#identify-when-needed) for some more context on this
+> Read
+> [Android developers guide](https://developer.android.com/training/testing/espresso/idling-resource#identify-when-needed)
+> for some more context on this
 
 ## When to use Idling resources
 
-What are the common use cases when we could consider using Idling resource?
+What are some of the common use cases when we could consider using Idling
+resource? Glad you asked. Below are a few of them:
 
 - Load data from internet
 - Load data from local data source
 - Establish connection with db and callbacks
-- Manage services, either system or IntentService
+- Manage services, either system or `IntentService`
 - Perform complex business logic like bitmap transformations
 
-If these operations update a UI that we want to validate, then we should register them as Idling resource
+If these operations update a UI that we want to validate, then we should
+register them as Idling resource
+
+## Let's write a test 🧑🏻‍💻
+
+By now, it's clear that by using `IdlingResource`, we essentially make our test
+wait until whatever operations an app is performing are completed, let's see a
+practical example to wrap our heads around this:
+
+### App under test
+
+We are using a sample app similar to our very first example, assume that we need to automate below scenario:
+
+```text
+GIVEN user types "some text" in EditText with id: editTextUserInput
+AND user taps on "Change text taking some time" Button (with id: changeTextBt)
+THEN app displays entered text in TextView with id: textToBeChanged
+```
+
+Below is how the app looks for each of these steps:
+
+- GIVEN user types "some text" in EditText with id: editTextUserInput
+
+![GIVEN user types "some text" in EditText with id: editTextUserInput](../assets/images/2022/05/idling-resource-1.png)
+
+- AND user taps on "Change text taking some time" Button (with id: changeTextBt)
+  - Notice: The app displays a temporary text `"Waiting for message...` as it waits for the background operation to complete
+
+![AND user taps on "Change text taking some time" Button (with id: changeTextBt)](../assets/images/2022/05/idling-resource-2.png)
+
+THEN app displays entered text in TextView with id: textToBeChanged
+
+![THEN app displays entered text in TextView with id: textToBeChanged](../assets/images/2022/05/idling-resource-3.png)
+
+And this is how the layout inspector looks for this app
+
+![Layout inspector for idling resource app](../assets/images/2022/05/idling-resource-layout-inspector.png)
 
 ## Resources
 
