@@ -4,7 +4,7 @@ excerpt:
   "Make your espresso test resilient by using idling resources to handle
   synchronization when needed"
 permalink: 2022-05-12-hello-espresso-part-4-idling-resources
-published: false
+published: true
 image: /assets/images/2022/05/espresso-part4.png
 canonical_url: ""
 categories:
@@ -19,13 +19,10 @@ tags:
   - "Software Engineering"
 ---
 
-<figure class="image">
-    <img src="assets/images/2022/05/espresso-part4.png" alt="Espresso logo and the title Hello, espresso! Part 4 Working with Idling resources 😴">
-    <figcaption>
-        Photo by <a
-            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a> 
-    </figcaption>
-</figure>
+![Espresso part 4](../assets/images/2022/05/espresso-part4.png)
+
+*Espresso logo image by
+[ProAndroidDev](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ")\*
 
 In the last part [Hello, espresso! Part 3 Working with
 intents]({% link _posts/2022-05-11-hello-espresso-part-3-working-with-intents.md %}),
@@ -96,7 +93,12 @@ practical example to wrap our heads around this:
 
 ### App under test
 
-We are using a sample app similar to our very first example, assume that we need to automate below scenario:
+We are using a sample app similar to our very first example with extra logic to
+demo Idling resource, You can find the app
+[IdlingResourceSample](https://github.com/automationhacks/testing-samples/tree/main/ui/espresso/IdlingResourceSample)
+and test case on Github
+
+Assume that we need to automate below scenario:
 
 ```text
 GIVEN user types "some text" in EditText with id: editTextUserInput
@@ -106,12 +108,13 @@ THEN app displays entered text in TextView with id: textToBeChanged
 
 Below is how the app looks for each of these steps:
 
-- GIVEN user types "some text" in EditText with id: editTextUserInput
+- GIVEN user types "some text" in `EditText` with `id: editTextUserInput`
 
 ![GIVEN user types "some text" in EditText with id: editTextUserInput](../assets/images/2022/05/idling-resource-1.png)
 
 - AND user taps on "Change text taking some time" Button (with id: changeTextBt)
-  - Notice: The app displays a temporary text `"Waiting for message...` as it waits for the background operation to complete
+  - Notice: The app displays a temporary text `"Waiting for message...` as it
+    waits for the background operation to complete
 
 ![AND user taps on "Change text taking some time" Button (with id: changeTextBt)](../assets/images/2022/05/idling-resource-2.png)
 
@@ -123,18 +126,179 @@ And this is how the layout inspector looks for this app
 
 ![Layout inspector for idling resource app](../assets/images/2022/05/idling-resource-layout-inspector.png)
 
+### The test that waits 🛑
+
+Below is the complete test for this:
+
+```java
+package com.example.android.testing.espresso.IdlingResourceSample;
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.typeText;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+
+import android.app.Activity;
+
+import androidx.test.core.app.ActivityScenario;
+import androidx.test.espresso.IdlingRegistry;
+import androidx.test.espresso.IdlingResource;
+import androidx.test.ext.junit.rules.ActivityScenarioRule;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class ChangeTextIdlingResourcePracticeTest {
+    // We create a variable to hold an idling resource instance
+    private IdlingResource mIdlingResource;
+
+    /**
+     * Before a test executes, we get idling resource from activity and register it into
+     * the IdlingRegistry
+     */
+    @Before
+    public void registerIdlingResource() {
+        // We use ActivityScenario to launch and get access to our MainActivity
+        ActivityScenario activityScenario = ActivityScenario.launch(MainActivity.class);
+
+        // activityScenario.onActivity provides a thread safe mechanism to access the activity
+        // We pass the activity as a lambda and then register it into idling registry
+        activityScenario.onActivity((ActivityScenario.ActivityAction<MainActivity>) activity -> {
+            mIdlingResource = activity.getIdlingResource();
+            IdlingRegistry.getInstance().register(mIdlingResource);
+        });
+    }
+
+    @Test
+    public void whenUserEntersTextAndTapsOnChangeText_ThenTextChangesWithADelay() {
+        // Type text in text box with type something ...
+        String text = "This is gonna take some time";
+        onView(withId(R.id.editTextUserInput)).perform(typeText(text), closeSoftKeyboard());
+
+        // Tap on "Change text taking some time" button
+        onView(withId(R.id.changeTextBt)).perform(click());
+
+        // Assert the entered text is displayed on the screen
+        onView(withId(R.id.textToBeChanged)).check(matches(withText(text)));
+
+        /* NOTE: We'll get below error if we try to run this test without idling resources
+         * androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: 'an instance of android.widget.TextView and view.getText()
+         * with or without transformation to match: is "This is gonna take some time"' doesn't match the selected view.
+           Expected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is "This is gonna take some time"
+           Got: view.getText() was "Waiting for message…"
+         */
+    }
+
+    @After
+    public void unregisterIdlingResource() {
+        /**
+         * After the test has finished, we unregister this idling resource
+         * from the IdlingRegistry
+         */
+        if (mIdlingResource != null) {
+            IdlingRegistry.getInstance().unregister(mIdlingResource);
+        }
+    }
+}
+```
+
+What's the same?
+
+If you notice the test
+`whenUserEntersTextAndTapsOnChangeText_ThenTextChangesWithADelay`, you'll see it
+is very similar to the first test that we wrote. If you need to refresh your
+memory you could read the first part
+[here]({% link _posts/../2022-05-03-hello-espresso-part-1-introducing-you-to-the-world-of-espresso-automation.md %})
+
+however if we just write that test and run using Android studio, we'll see
+espresso throw an error like below:
+
+```java
+androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: 'an instance of android.widget.TextView and view.getText()
+  * with or without transformation to match: is "This is gonna take some time"' doesn't match the selected view.
+    Expected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is "This is gonna take some time"
+    Got: view.getText() was "Waiting for message…"
+```
+
+This is of course, since this app has a logic to simulate a delay between the
+actual text being updated on the UI and while we expect our entered text to show
+up, we instead see `Waiting for message…`
+
+## Bonus: How does the app implement the delay?
+
+If you are curious on how the app is implementing this:
+
+There is a class `MessageDelayer`, that declares a `processMessage` method that
+takes a string message, instance of a callback and an idlingResource
+
+```java
+package com.example.android.testing.espresso.IdlingResourceSample;
+
+import android.os.Handler;
+import androidx.annotation.Nullable;
+import androidx.test.espresso.IdlingResource;
+
+import com.example.android.testing.espresso.IdlingResourceSample.IdlingResource.SimpleIdlingResource;
+
+/**
+ * Takes a String and returns it after a while via a callback.
+ * <p>
+ * This executes a long-running operation on a different thread that results in problems with
+ * Espresso if an {@link IdlingResource} is not implemented and registered.
+ */
+class MessageDelayer {
+
+    private static final int DELAY_MILLIS = 3000;
+
+    interface DelayerCallback {
+        void onDone(String text);
+    }
+
+    /**
+     * Takes a String and returns it after {@link #DELAY_MILLIS} via a {@link DelayerCallback}.
+     * @param message the String that will be returned via the callback
+     * @param callback used to notify the caller asynchronously
+     */
+    static void processMessage(final String message, final DelayerCallback callback,
+            @Nullable final SimpleIdlingResource idlingResource) {
+        // The IdlingResource is null in production.
+        if (idlingResource != null) {
+            idlingResource.setIdleState(false);
+        }
+
+        // Delay the execution, return message via callback.
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (callback != null) {
+                    callback.onDone(message);
+                    if (idlingResource != null) {
+                        idlingResource.setIdleState(true);
+                    }
+                }
+            }
+        }, DELAY_MILLIS);
+    }
+}
+```
+
 ## Resources
 
 - You can find the app and test code for this post on Github:
-  - [App](https://github.com/automationhacks/testing-samples/tree/main/ui/espresso/IntentsBasicSample)
-  - [Test code](https://github.com/automationhacks/testing-samples/blob/main/ui/espresso/IntentsBasicSample/app/src/sharedTest/java/com/example/android/testing/espresso/IntentsBasicSample/DialerActivityPracticeTest.java)
+  - [App](https://github.com/automationhacks/testing-samples/tree/main/ui/espresso/IdlingResourceSample)
+  - [Test code](https://github.com/automationhacks/testing-samples/blob/main/ui/espresso/IdlingResourceSample/app/src/androidTest/java/com/example/android/testing/espresso/IdlingResourceSample/ChangeTextIdlingResourcePracticeTest.java)
 - Please read
-  [espresso-intents](https://developer.android.com/training/testing/espresso/intents)
-  that talks about how to work with intents on Android developers
-- Refer to original source code on
-  [testing-samples](https://github.com/android/testing-samples)
-  - [IntentsBasicSample](https://github.com/android/testing-samples/tree/main/ui/espresso/IntentsBasicSample)
-  - [IntentsAdvancedSample](https://github.com/android/testing-samples/tree/main/ui/espresso/IntentsAdvancedSample)
+  [espresso idling resource](https://developer.android.com/training/testing/espresso/idling-resource)
+  that talks about how to work with idling resources on Android developers
 
 ## Conclusion
 
