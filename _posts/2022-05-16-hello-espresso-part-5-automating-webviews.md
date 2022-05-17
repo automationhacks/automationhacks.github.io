@@ -173,20 +173,43 @@ Once you tap on inspect it should bring up Chrome developer tools window and you
 can go to **Elements** tab and then use the inspect button to look at the
 HTML/CSS structure of the web page
 
-![](../assets/images/2022/05/webview-chrome-debug-1st-page.png)
+![Chrome dev tools showing the webview and its associated DOM for home page](../assets/images/2022/05/webview-chrome-debug-1st-page.png)
+
+Figure: Chrome dev tools showing the webview and its associated DOM for home
+page
 
 Once you enter some text and tap on "Change text and submit" button, you'll see
 a screen like below
 
-![](../assets/images/2022/05/webview-chrome-debug-2nd-page.png)
+![Chrome dev tools showing the 2nd web page after user taps on "Change text and Submit"](../assets/images/2022/05/webview-chrome-debug-2nd-page.png)
 
-### Enabling JavaScript (JS) Execution on the app
+Figure: Chrome dev tools showing the 2nd web page after user taps on "Change
+text and Submit"
 
-- We need to add few lines in our apps source code to enable the JS, Please
-  ensure you add line:
-  `WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);`, this method was
-  also added in Android Kit kat thus we add annotation like
-  `@RequiresApi(api = Build.VERSION_CODES.KITKAT)` to our `onCreate` method
+### Enabling Chrome debugging + JavaScript (JS) Execution on the app
+
+We need to add few lines in our apps source code to enable chrome debugging
+
+Please ensure you add line:
+`WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);`
+
+This method was also added in Android Kit kat thus we add annotation like
+`@RequiresApi(api = Build.VERSION_CODES.KITKAT)` to our `onCreate` method as
+well
+
+We also add additional logic to enable JS execution
+
+```java
+mWebView.getSettings().setJavaScriptEnabled(true);
+mWebView.loadUrl(urlFromIntent(getIntent()));
+mWebView.requestFocus();
+mWebView.setWebViewClient(new WebViewClient() {
+    @Override
+    public boolean shouldOverrideUrlLoading(WebView view, String url) {
+        return false;
+    }
+});
+```
 
 The complete method looks like below:
 
@@ -222,6 +245,9 @@ The complete method looks like below:
         return !TextUtils.isEmpty(url) ? url : WEB_FORM_URL;
     }
 ```
+
+If you are not familiar with how to find web locators, search for "locators
+xpath" or "locators css" and you should be able to find tons of resources
 
 ## Resources 📘
 
