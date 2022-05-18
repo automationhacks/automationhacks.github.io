@@ -33,50 +33,55 @@ and have a read in case you missed it.
 ## Automating Hybrid apps with WebViews
 
 Switching gears to a different topic now, many android apps expose certain
-business logic in WebViews (a.k.a a mobile browser) within Native apps
+business logic in `WebViews` within Native apps. You can think of it as a mobile
+browser like chrome/firefox that is able to render web pages.
 
 Its quite important to cover the interaction your native app has with these Web
-components to ensure there are no missed regressions
+components to ensure there are no missed regressions in your app releases.
 
 Some common examples when an app might have a WebView are:
 
-- A help or support page for your business that needs to be dynamic and change
-  whenever a new page/option is added
+- There may be help or support pages for your business that needs to be dynamic
+  and change whenever a new page/option is added
 - Or pages to host marketing content is launched
 - Or even lengthy terms and conditions for a new feature
 
 Having a WebView is great since its much faster to make changes and roll out web
-app changes to production
+app changes to production and developers are not restricted with Google play
+store approvals and roll outs
 
-## What to cover and what not? 🤔
+## What tests to cover and what not? 🤔
 
-Espresso framework provides a library `espresso-web` which provides an "espresso
-like" interface over **Selenium WebDriver** API
+Espresso framework provides a library `espresso-web` that provides an "espresso
+like" API interface over
+[**Selenium WebDriver**](https://www.selenium.dev/documentation/webdriver/) API
 
-When should you write an espresso web test? ✅
+### When should you write an espresso web test? ✅
 
 If your app has user journeys between native app and webview, and you want to
 make sure these **interactions** work then it surely makes sense to cover this
 as part of an Espresso test
 
-When you should not? ❌
+### When you should not? ❌
 
 However, if you only want to **verify the `WebView` content or functionality**
-without any native interaction chceks, then its much better to write an
+without any native interaction checks, then its much better to write an
 **automated Web Test** instead using Selenium WebDriver or equivalent library as
 that would be much faster and easier to write, maintain and run
 
 ## How does this work?
 
-Espresso web uses a Javascript bridge to interact with the WebDriver framework
-and uses **atoms** which are considered equivalent to `ViewMatcher` and
-`ViewAction`, espresso web wraps these atoms with `Web` and `Web.WebInteraction`
-classes that makes writing an Espresso web test feel similar to writing a test
-for a native app
+- Espresso web uses a **Javascript bridge** to interact with the WebDriver
+  framework and uses
+  [**atoms**](https://github.com/SeleniumHQ/selenium/wiki/Automation-Atoms)
+- You can consider atoms as equivalent to `ViewMatcher` and `ViewAction` classes
+- Espresso web wraps these atoms with `Web` and `Web.WebInteraction` classes
+  that makes writing an Espresso web test feel similar to writing a test for a
+  native app
 
-As a general flow, we might use `findElement()` or `getElement()` methods with
-certain locators to find an element and then perform an action or assertion on
-top
+we use `findElement()` or `getElement()` methods with certain locators (like
+**ID, XPATH, CSS, CLASS NAME** etc) to find an element and then perform an
+action or assertion on top of it
 
 ## Writing your first Web test
 
@@ -112,7 +117,7 @@ ext {
 ### Understanding app under test
 
 Let's understand the app flows that we would be automating before we jump into
-code
+the code
 
 ```text
 Feature: Test WebView inside Native app using espresso
@@ -129,6 +134,8 @@ Scenario: When user enters text and taps on Change text
   THEN the web page redirects to another page with a label displaying the entered test
 ```
 
+Below screens show the app for above scenarios:
+
 ![WHEN the user enters a text in textbox](../assets/images/2022/05/webview-1.png)
 
 Figure: WHEN the user enters a text in textbox
@@ -143,34 +150,38 @@ entered test
 Figure: THEN the web page redirects to another page with a label displaying the
 entered test
 
-### Finding locators
+### Finding locators using Chrome debug tools
 
-If you try to use the "Layout Inspector", then you'll be dissapointed to see
-that it does not show the DOM (Document object model) tree to allow us to find
-the desired locator, it only shows the containing WebView
+If you try to use the Android studio **"Layout Inspector"**, then you'll be
+disappointed to see that it does not show the Component tree like native apps to
+enable us to find the desired locator, it only shows the containing WebView
 
 ![WebView layout inspector](../assets/images/2022/05/webview-layout-inspector.png)
 
 Figure: Trying to use layout inspector
 
-We thus need to use
-[Chrome remote debugging tool](https://developer.chrome.com/docs/devtools/remote-debugging/)
-to inspect our app. You can follow the detailed steps in this blog to understand
-this fully.
+So, whats the solution?
 
-However in short, you need to connect your device or emulator, ensure developer
-options are enabled, and verify that USB debugging is enabled and the connected
-laptop trusts your android device
+We need to use
+[Chrome remote debugging tool](https://developer.chrome.com/docs/devtools/remote-debugging/)
+to inspect our app.
+
+Follow below steps:
+
+- Connect your device or emulator via USB
+- Ensure developer options are enabled
+- Verify that USB debugging is enabled and the connected laptop trusts your
+  android device
 
 Once done, you can type `chrome://inspect` in your chrome browser tab and this
-would open chrome debugging tools like below, and then tap on **Inspect**
+would open chrome debugging tools like below, Tap on **Inspect** button
 
 ![Chrome inspect devices screen](../assets/images/2022/05/webview-chrome-inspect-screen.png)
 
 Figure: Chrome inspect devices screen
 
-Once you tap on inspect it should bring up Chrome developer tools window and you
-can go to **Elements** tab and then use the inspect button to look at the
+Once you tap on inspect it should bring up **Chrome developer tools** window and
+you can go to **Elements** tab and then use the inspect button to look at the
 HTML/CSS structure of the web page
 
 ![Chrome dev tools showing the webview and its associated DOM for home page](../assets/images/2022/05/webview-chrome-debug-1st-page.png)
@@ -188,14 +199,16 @@ text and Submit"
 
 ### Enabling Chrome debugging + JavaScript (JS) Execution on the app
 
-We need to add few lines in our apps source code to enable chrome debugging
+We need to add few lines in our apps source code to enable chrome debugging.
 
-Please ensure you add line:
-`WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);`
+Please ensure you add the line:
+`WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);` in your
+**MainActivity**, this would enable Chrome debug tools to inspect your WebView
+only for **debug** versions of the app
 
-This method was also added in Android Kit kat thus we add annotation like
-`@RequiresApi(api = Build.VERSION_CODES.KITKAT)` to our `onCreate` method as
-well
+This method was also added in **Android Kit kat** thus we need to add an
+annotation like `@RequiresApi(api = Build.VERSION_CODES.KITKAT)` to our
+`onCreate` method as well
 
 We also add additional logic to enable JS execution
 
@@ -246,8 +259,183 @@ The complete method looks like below:
     }
 ```
 
-If you are not familiar with how to find web locators, search for "locators
-xpath" or "locators css" and you should be able to find tons of resources
+If you are not familiar with how to find web locators, search with keywords
+"locators xpath" or "locators css" in google and you should be able to find tons
+of resources. You could refer to
+[Selenium Tips: Better Locators in Selenium](https://saucelabs.com/blog/selenium-tips-better-locators-in-selenium)
+post from Sauce Labs as a starter
+
+### The test
+
+The complete test looks like below:
+
+```java
+package com.example.android.testing.espresso.web.BasicSample;
+
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.web.assertion.WebViewAssertions.webMatches;
+import static androidx.test.espresso.web.sugar.Web.onWebView;
+import static androidx.test.espresso.web.webdriver.DriverAtoms.clearElement;
+import static androidx.test.espresso.web.webdriver.DriverAtoms.findElement;
+import static androidx.test.espresso.web.webdriver.DriverAtoms.getText;
+import static androidx.test.espresso.web.webdriver.DriverAtoms.webClick;
+import static androidx.test.espresso.web.webdriver.DriverAtoms.webKeys;
+import static org.hamcrest.Matchers.containsString;
+
+import androidx.test.espresso.web.webdriver.Locator;
+import androidx.test.ext.junit.rules.ActivityScenarioRule;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class WebViewPracticeTest {
+    // Launch activity with ActivityScenarioRule
+    @Rule
+    public ActivityScenarioRule<WebViewActivity> mActivityScenarioRule = new ActivityScenarioRule<>(WebViewActivity.class);
+
+    @Before
+    public void enableJSOnWebView() {
+        // We enable Javascript execution on the webview
+        onWebView().forceJavascriptEnabled();
+    }
+
+    @Test
+    public void whenUserEntersText_AndTapsOnChangeTextAndSubmit_ThenTextIsChangedInANewPage() {
+        String text = "Peekaboo";
+        // We start our test by finding the WebView we want to work with
+        onWebView(withId(R.id.web_view))
+                // Find the text box using id
+                .withElement(findElement(Locator.ID, "text_input"))
+                // Clear any existing text to ensure predictable result
+                .perform(clearElement())
+                // Type text
+                .perform(webKeys(text))
+                // Find submit button
+                .withElement(findElement(Locator.ID, "submitBtn"))
+                // Click on submit button
+                .perform(webClick())
+                // Find the element where the changed text is displayed
+                .withElement(findElement(Locator.ID, "response"))
+                // Verify the text for the element has our initially entered text
+                .check(webMatches(getText(), containsString(text)));
+    }
+
+    /**
+     * This test repeats steps as above, it just clicks on change text button and verifies the
+     * result text is updated on the same page
+     */
+    @Test
+    public void whenUserEntersText_AndTapsOnChange_ThenTextIsChangedInANewPage() {
+        String text = "Peekaboo";
+        onWebView(withId(R.id.web_view))
+                .withElement(findElement(Locator.ID, "text_input"))
+                .perform(clearElement())
+                .perform(webKeys(text))
+                .withElement(findElement(Locator.ID, "changeTextBtn"))
+                .perform(webClick())
+                .withElement(findElement(Locator.ID, "message"))
+                .check(webMatches(getText(), containsString(text)));
+    }
+}
+```
+
+Let's unpack this and understand in more detail
+
+We start by launching our Activity using `ActivityScenarioRule` and specify it
+as a JUnit rule
+
+```java
+// Launch activity with ActivityScenarioRule
+@Rule
+public ActivityScenarioRule<WebViewActivity> mActivityScenarioRule = new ActivityScenarioRule<>(WebViewActivity.class);
+```
+
+Since we are using JS to drive the browser, we need to enable it on the WebView,
+thus we add a method to run before any test
+
+```java
+@Before
+public void enableJSOnWebView() {
+    // We enable Javascript execution on the webview
+    onWebView().forceJavascriptEnabled();
+}
+```
+
+Next, we want to start writing our espresso test, inside a test method, we start
+by writing below
+
+> If we had a single WebView on the activity then we could skip adding the
+> `withId()` method, this method returns a `WebInteraction` object that exposes
+> the API to drive our browser
+
+```java
+// We start our test by finding the WebView we want to work with
+onWebView(withId(R.id.web_view))
+```
+
+Next, we want to be able to find our text box
+
+- We do so by using `withElement()` method that takes an
+  `Atom<ElementReference>` as input to find a the element,
+- We use `findElement()` that takes first argument as the Locator strategy and
+  we can choose either of the below locator strategies, followed by the actual
+  locator, since we have `id` available for these elements by looking in the DOM
+  tree in Chrome debug tools, we mention `text_input`
+
+```java
+CLASS_NAME("className"),
+CSS_SELECTOR("css"),
+ID("id"),
+LINK_TEXT("linkText"),
+NAME("name"),
+PARTIAL_LINK_TEXT("partialLinkText"),
+TAG_NAME("tagName"),
+XPATH("xpath");
+```
+
+```java
+// Find the text box using id
+.withElement(findElement(Locator.ID, "text_input"))
+```
+
+We want to make sure we clear any existing text from the text box and type a
+desired text, we do so using `clearElement()` and `webKeys(text)` method:
+
+```java
+// Clear any existing text to ensure predictable result
+.perform(clearElement())
+// Type text
+.perform(webKeys(text))
+```
+
+We then use similar methods to find the button and click on it
+
+```java
+// Find submit button
+.withElement(findElement(Locator.ID, "submitBtn"))
+// Click on submit button
+.perform(webClick())
+```
+
+And finally, we check that the label has the desired text that we entered by
+adding:
+
+```java
+// Find the element where the changed text is displayed
+.withElement(findElement(Locator.ID, "response"))
+// Verify the text for the element has our initially entered text
+.check(webMatches(getText(), containsString(text)));
+```
+
+> If you notice, most of the methods have a similar structure to native app
+> espresso tests, just that the methods have "web" prefix, you could use this
+> tip to quickly find the relevant methods using Android studio
+
+We can then easily write the 2nd test using similar commands (see the above)
 
 ## Resources 📘
 
@@ -267,3 +455,7 @@ work with **WebViews** with espresso
 As always, Do share this with your friends or colleagues and if you have
 thoughts or feedback, I’d be more than happy to chat over on Twitter or
 comments. Until next time. Happy Testing and learning.
+
+```
+
+```
