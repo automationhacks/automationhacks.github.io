@@ -2,10 +2,10 @@
 title: Hello, espresso! Part 5 Automating WebViews 🕸️🌎
 excerpt:
   "Learn how to automate WebViews in hybrid android apps using espresso-web"
-permalink: 2022-05-16-hello-espresso-part-5-automating-webviews
-published: false
+permalink: 2022-05-19-hello-espresso-part-5-automating-webviews
+published: true
 image: /assets/images/2022/05/espresso-part5.png
-canonical_url: ""
+canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-5-automating?sd=fs"
 categories:
   - Android
   - Espresso
@@ -138,17 +138,17 @@ Below screens show the app for above scenarios:
 
 ![WHEN the user enters a text in textbox](../assets/images/2022/05/webview-1.png)
 
-Figure: WHEN the user enters a text in textbox
+Above Figure: WHEN the user enters a text in textbox
 
 ![THEN the label displays the entered test](../assets/images/2022/05/webview-2.png)
 
-Figure: AND the user taps on "Change Text" button THEN the label displays the
-entered test
+Above Figure: AND the user taps on "Change Text" button THEN the label displays
+the entered test
 
 ![THEN the web page redirects to another page with a label displaying the entered test](../assets/images/2022/05/webview-3.png)
 
-Figure: THEN the web page redirects to another page with a label displaying the
-entered test
+Above Figure: THEN the web page redirects to another page with a label
+displaying the entered test
 
 ### Finding locators using Chrome debug tools
 
@@ -158,7 +158,7 @@ enable us to find the desired locator, it only shows the containing WebView
 
 ![WebView layout inspector](../assets/images/2022/05/webview-layout-inspector.png)
 
-Figure: Trying to use layout inspector
+Above Figure: Trying to use layout inspector
 
 So, whats the solution?
 
@@ -178,7 +178,7 @@ would open chrome debugging tools like below, Tap on **Inspect** button
 
 ![Chrome inspect devices screen](../assets/images/2022/05/webview-chrome-inspect-screen.png)
 
-Figure: Chrome inspect devices screen
+Above Figure: Chrome inspect devices screen
 
 Once you tap on inspect it should bring up **Chrome developer tools** window and
 you can go to **Elements** tab and then use the inspect button to look at the
@@ -186,20 +186,20 @@ HTML/CSS structure of the web page
 
 ![Chrome dev tools showing the webview and its associated DOM for home page](../assets/images/2022/05/webview-chrome-debug-1st-page.png)
 
-Figure: Chrome dev tools showing the webview and its associated DOM for home
-page
+Above Figure: Chrome dev tools showing the webview and its associated DOM for
+home page
 
 Once you enter some text and tap on "Change text and submit" button, you'll see
 a screen like below
 
 ![Chrome dev tools showing the 2nd web page after user taps on "Change text and Submit"](../assets/images/2022/05/webview-chrome-debug-2nd-page.png)
 
-Figure: Chrome dev tools showing the 2nd web page after user taps on "Change
-text and Submit"
+Above Figure: Chrome dev tools showing the 2nd web page after user taps on
+"Change text and Submit"
 
 ### Enabling Chrome debugging + JavaScript (JS) Execution on the app
 
-We need to add few lines in our apps source code to enable chrome debugging.
+We need to add few lines in our app source code to enable chrome debugging.
 
 Please ensure you add the line:
 `WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);` in your
@@ -224,7 +224,7 @@ mWebView.setWebViewClient(new WebViewClient() {
 });
 ```
 
-The complete method looks like below:
+Below you can see the complete `onCreate()` method
 
 ```java
 // setWebContentsDebuggingEnabled requires KITKAT version+, thus adding @RequiresApi annotation
@@ -259,15 +259,17 @@ The complete method looks like below:
     }
 ```
 
-If you are not familiar with how to find web locators, search with keywords
+If you are not familiar with how to find **web locators**, search with keywords
 "locators xpath" or "locators css" in google and you should be able to find tons
-of resources. You could refer to
+of resources.
+
+Alternatively, You could refer to
 [Selenium Tips: Better Locators in Selenium](https://saucelabs.com/blog/selenium-tips-better-locators-in-selenium)
 post from Sauce Labs as a starter
 
-### The test
+### Let's write our test
 
-The complete test looks like below:
+You can see the complete test below:
 
 ```java
 package com.example.android.testing.espresso.web.BasicSample;
@@ -354,8 +356,9 @@ as a JUnit rule
 public ActivityScenarioRule<WebViewActivity> mActivityScenarioRule = new ActivityScenarioRule<>(WebViewActivity.class);
 ```
 
-Since we are using JS to drive the browser, we need to enable it on the WebView,
-thus we add a method to run before any test
+Since we are using Javascript to drive the browser, we need to enable it on the
+WebView, To do so, we'll add a method to run before any test and annotate it
+with `@Before`
 
 ```java
 @Before
@@ -365,12 +368,13 @@ public void enableJSOnWebView() {
 }
 ```
 
-Next, we want to start writing our espresso test, inside a test method, we start
-by writing below
+To start our web test, we first specify the `WebView` we want to work with using
+the `onWebView()` method
 
 > If we had a single WebView on the activity then we could skip adding the
-> `withId()` method, this method returns a `WebInteraction` object that exposes
-> the API to drive our browser
+> `withId()` method (Here we keep it to be specific), this method returns a
+> `WebInteraction` object that exposes the Web API actions to drive our
+> `WebView`
 
 ```java
 // We start our test by finding the WebView we want to work with
@@ -380,11 +384,13 @@ onWebView(withId(R.id.web_view))
 Next, we want to be able to find our text box
 
 - We do so by using `withElement()` method that takes an
-  `Atom<ElementReference>` as input to find a the element,
-- We use `findElement()` that takes first argument as the Locator strategy and
-  we can choose either of the below locator strategies, followed by the actual
-  locator, since we have `id` available for these elements by looking in the DOM
-  tree in Chrome debug tools, we mention `text_input`
+  `Atom<ElementReference>` as input to find an element,
+- We use `findElement()` that takes first argument as the Locator, followed by
+  the actual locator
+  - In our test we have an `id` available for these elements by looking in the
+    DOM tree in Chrome debug tools, we mention `text_input`
+
+We could use any of the below locators to identify our elements:
 
 ```java
 CLASS_NAME("className"),
@@ -396,6 +402,8 @@ PARTIAL_LINK_TEXT("partialLinkText"),
 TAG_NAME("tagName"),
 XPATH("xpath");
 ```
+
+The full statement looks like below:
 
 ```java
 // Find the text box using id
@@ -412,7 +420,7 @@ desired text, we do so using `clearElement()` and `webKeys(text)` method:
 .perform(webKeys(text))
 ```
 
-We then use similar methods to find the button and click on it
+We then use similar methods to find the button element and perform a click on it
 
 ```java
 // Find submit button
@@ -432,14 +440,20 @@ adding:
 ```
 
 > If you notice, most of the methods have a similar structure to native app
-> espresso tests, just that the methods have "web" prefix, you could use this
-> tip to quickly find the relevant methods using Android studio
+> espresso actions and assertions, most of our methods have "web" prefix, you
+> could use this intuition to find the relevant methods using Android studio for
+> your specific test cases
 
 We can then easily write the 2nd test using similar commands (see the above)
 
+If we run both these tests, we should see them launch our activity and drive our
+`WebView` similar to a native app. Hopefully you understand the general
+structure well enough to go ahead and write your own tests.
+
 ## Resources 📘
 
-- You can find the app and test code for this post on Github:
+- You can find the app and test code for this post on Github under
+  `automationhacks/testing-samples`:
   - [App](https://github.com/automationhacks/testing-samples/tree/main/ui/espresso/WebBasicSample)
   - [Test code](https://github.com/automationhacks/testing-samples/blob/main/ui/espresso/WebBasicSample/app/src/androidTest/java/com/example/android/testing/espresso/web/BasicSample/WebViewPracticeTest.java)
 - Please read
@@ -448,7 +462,7 @@ We can then easily write the 2nd test using similar commands (see the above)
 
 ## Conclusion ✅
 
-Hopefully, this post gives you an idea of how to work with Idling resources in
+Hopefully, this post gives you an idea of how to work with `WebViews` in
 espresso. Stay tuned for the next post where we’ll dive into how to automate and
 work with **WebViews** with espresso
 
