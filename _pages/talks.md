@@ -9,13 +9,19 @@ Please find the list of past talks below
 > Also, 🧏🏼‍♂️ Feedback is how we all learn, if you have some on these talks, do reach out!
 
 **On Talk slides:** I have recently switched to using pure **markdown** and **Mkdocs static site
-generator** for all conference slides.
+generator** for some conference slides.
 
 You can view all of them on [https://automationhacks.io/slides/](https://automationhacks.io/slides/)
 
-## Upcoming
+## Upcoming Talks
 
-Thinking about some ideas ... 🤔 🧑‍🍳 ...
+- (July 2022) I'll be giving a
+[90-minute tutorial on Android Espresso](https://confengine.com/conferences/selenium-conf-2022/proposal/16690/hello-espresso-start-with-android-gray-box-automation)
+at [Selenium Conf 2022 Online](https://2022.seleniumconf.in/).
+- (Oct 2022) 15 minute talk on Kotlin for Test Automation at [Test Flix 2022](https://www.thetesttribe.com/testflix-2022/)
+- (Nov 2022) 45 minute talk on [Espresso Android automation](https://oredev.org/sessions/hello-espresso-start-with-android-gray-box-automation) at [Oredev](https://oredev.org/?gclid=Cj0KCQjw54iXBhCXARIsADWpsG-DEzx62e1wT_QZ8V-dApR8ix7-UrFX7PERWgPqMwdMYJwGmbTuCv8aAqN1EALw_wcB), Sweden
+
+...
 
 ## 2021
 
