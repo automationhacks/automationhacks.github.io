@@ -85,7 +85,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/automationhacks"
-
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC-KAka-3EgsbF1kekh_uYJw/featured"
 # Site Footer
 footer:
   links:
@@ -95,6 +97,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/automationhacks"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC-KAka-3EgsbF1kekh_uYJw/featured"
 
 # Reading Files
 include:

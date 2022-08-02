@@ -5,7 +5,7 @@ permalink: /newsletter/
 
 I write a newsletter on topics around Software Testing, Test Automation and
 Software Engineering that you can subscribe by visiting either:
-[newsletter.automationhacks.io](newsletter.automationhacks.io)
+[newsletter.automationhacks.io](https://newsletter.automationhacks.io/)
 
 Or hitting the subscribe button with your email.
 
