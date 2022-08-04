@@ -469,7 +469,3 @@ work with **WebViews** with espresso
 As always, Do share this with your friends or colleagues and if you have
 thoughts or feedback, I’d be more than happy to chat over on Twitter or
 comments. Until next time. Happy Testing and learning.
-
-```
-
-```
