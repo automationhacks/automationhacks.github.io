@@ -2,9 +2,9 @@
 title: Hello, espresso! Recipe 1 Find adjacent elements 🎭
 excerpt: "Learn how to find a non unique element using a unique sibling element with espresso"
 permalink: 2022-08-11-hello-espresso-recipes-1-find-adjacent-elements
-published: false
+published: true
 image: /assets/images/2022/08/espresso-recipe-1.png
-canonical_url: ""
+canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-recipe-1-find-adjacent"
 categories:
   - Android
   - Espresso
