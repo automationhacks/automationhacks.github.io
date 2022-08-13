@@ -7,14 +7,16 @@ permalink: /courses/
 
 I'm a proud Test automation university instructor with 2 courses already live, details below:
 
-You could see my full instructor profile [here](https://testautomationu.applitools.com/instructors/gaurav_singh.html)
+You could see my full instructor profile
+[here](https://testautomationu.applitools.com/instructors/gaurav_singh.html)
 
 ### On [Test automation university](https://testautomationu.applitools.com/)
 
 #### (2021) [API testing in Python](https://testautomationu.applitools.com/python-api-testing/)
 
-This course teaches you on how to approach and go about building a Test automation framework for API testing using
-Python. I wrote this series of 9 blog posts as I was building this course. You can check them out below:
+This course teaches you on how to approach and go about building a Test automation framework for API
+testing using Python. I wrote this series of 9 blog posts as I was building this course. You can
+check them out below:
 
 - [Python API test automation framework (Part 1) Introduction, Setup and Installation ]({% link
   _posts/2020-11-23-python-api-automation-framework-part1-python-and-dependencies-setup.md %})
@@ -37,6 +39,7 @@ Python. I wrote this series of 9 blog posts as I was building this course. You c
 
 #### (2020) [Automated visual testing with Python](https://testautomationu.applitools.com/visual-testing-python/)
 
-This course explains how to use Applitools for visual validation using the Python SDK, You may also benefit by reading
-the excellent summary about the course on [applitools blog](https://applitools.com/blog/test-visually-with-python-tau/)
-by [Michael Battat](https://applitools.com/blog/author/michaelbattat/) before diving deeper
+This course explains how to use Applitools for visual validation using the Python SDK, You may also
+benefit by reading the excellent summary about the course on
+[applitools blog](https://applitools.com/blog/test-visually-with-python-tau/) by
+[Michael Battat](https://applitools.com/blog/author/michaelbattat/) before diving deeper
