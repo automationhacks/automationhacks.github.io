@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale: "en-US"
 
-title: "automation hacks"
+title: "Automation Hacks"
 title_separator: "-"
 subtitle: "Musings on Software engineering, Test Automation and Testing"
 name: "Gaurav Singh"
@@ -29,7 +29,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "automationhacks/automationhacks.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "assets/images/logo/site-logo.png"
-masthead_title: "automation hacks"
+masthead_title: "Automation Hacks"
 breadcrumbs: false
 words_per_minute: 200
 
