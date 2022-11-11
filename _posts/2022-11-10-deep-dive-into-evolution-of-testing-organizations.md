@@ -62,6 +62,8 @@ Let me expand on these in the context of some of the companies that I’ve worke
 
 ### A dedicated system test team
 
+![](assets/images/2022/11/testing-setup-1-system-test-team.png)
+
 When I started my career way back in 2011 at Accenture as a Software Engineering Analyst, I was part of a dedicated
 system test team.
 
@@ -129,6 +131,8 @@ chase organizational metrics.
   very well designed and thus brittle.
 
 ### Yet another dedicated Testing team
+
+![](assets/images/2022/11/testing-setup-2-test-and-automation.png)
 
 Fast forward 3 years, It's 2014, and I joined Aricent as a Senior Engineer - Testing and started working on a client
 project for Itron in their analytics team. The analytics group was rewriting their analytics dashboards from being
@@ -243,6 +247,8 @@ US Devs were mostly focused on Unit testing and did not bother much with writing
 
 ## Embedded QA + SDET and communities of practice
 
+![](assets/images/2022/11/testing-setup-3-embedded-qa-and-sdet.png)
+
 After a wonderful year and a half at Planview, I switched to Gojek Bangalore in 2018 and joined their Logistics team as
 a Product Engineer - QA.
 
@@ -325,6 +331,8 @@ a rallying cry that was previously missing.
   testing as well.
 
 ## An Automation Platform team
+
+![](assets/images/2022/11/testing-setup-4-platform-team.png)
 
 After close to 4 years at Gojek, I made a big career move and joined Meta in their London office within their Test
 Automation group for WhatsApp. This group was responsible for building testing infrastructure and services for client
