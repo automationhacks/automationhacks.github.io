@@ -15,10 +15,21 @@ You can view all of them on [https://automationhacks.io/slides/](https://automat
 
 ## Upcoming Talks
 
-- (Oct 2022) 15 minute talk on Kotlin for Test Automation at
-  [Test Flix 2022](https://www.thetesttribe.com/testflix-2022/)
+... 🤔
 
 ## 2022
+
+### Kotlin for Test automation
+
+Test Flix | Online | Oct 2022 |
+[Proposal](https://www.thetesttribe.com/testflix-2022-gaurav-singh/)
+|
+[slides](https://docs.google.com/presentation/d/e/2PACX-1vRRLUYtO2rmfOBoYDV5IZZEgClf5EwYVelT6ssunzF74uvMi3pcax0Mhz8XeAtOiynUxqBhGWoSqE9_/pub?start=false&loop=false&delayms=3000)
+| [Video](https://www.youtube.com/watch?v=RIvdsJzF0Yk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RIvdsJzF0Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Hello Espresso! Start with Android gray box automation
 
 Selenium Conference | Online | July 29-30 2022 |
 [Proposal](https://confengine.com/conferences/selenium-conf-2022/proposal/16690/hello-espresso-start-with-android-gray-box-automation)
