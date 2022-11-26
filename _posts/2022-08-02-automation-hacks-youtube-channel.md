@@ -33,7 +33,7 @@ Of course, it's named **"automation hacks"** 🧑🏻‍💻
 Excited to check it out?
 
 Head on over to 
-[automation hacks](https://www.youtube.com/channel/UC-KAka-3EgsbF1kekh_uYJw)
+[@automationhacks](https://youtube.com/@automationhacks)
 
 ## First series on Espresso
 

@@ -74,7 +74,7 @@ analytics:
 author:
   name: "Gaurav Singh"
   avatar: "assets/images/avatar/bio-photo.png"
-  bio: "Software Engineer at Meta ♾️, I’m really passionate about Software Testing, Test Automation {Tooling, Frameworks, Infrastructure}, and scaling teams."
+  bio: "Senior Software Engineer at Meta ♾️, I’m really passionate about Software Testing, Test Automation {Tooling, Frameworks, Infrastructure}, and scaling teams."
   location: "UK 🇬🇧"
   links:
     - label: "Twitter"
@@ -85,7 +85,7 @@ author:
       url: "https://github.com/automationhacks"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UC-KAka-3EgsbF1kekh_uYJw/featured"
+      url: "https://youtube.com/@automationhacks"
 # Site Footer
 footer:
   links:
