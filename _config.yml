@@ -74,11 +74,14 @@ analytics:
 author:
   name: "Gaurav Singh"
   avatar: "assets/images/avatar/bio-photo.png"
-  bio: "Senior Software Engineer at Meta ♾️, I’m really passionate about Software Testing, Test Automation {Tooling, Frameworks, Infrastructure}, and scaling teams."
-  location: "UK 🇬🇧"
+  bio: "Software Engineer, I’m passionate about Software Testing, Test Automation {Tooling, Frameworks, Infrastructure}, and scaling teams."
+  location: "India 🇮🇳"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/automationhacks/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-linkedin-in"
       url: "https://twitter.com/automationhacks"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
