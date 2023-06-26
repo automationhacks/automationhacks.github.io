@@ -1,5 +1,5 @@
 ---
-title: "Engineering practices 🧑‍💻 @ Meta: #1 Unblock yourself first"
+title: "Engineering practices @ Meta: #1 Unblock yourself first"
 excerpt: "In this post we discuss the practice of doing your research first to unblock yourself and asking questions"
 permalink: 2023-06-26-meta-engineering-practices-unblock-yourself-first
 published: true
