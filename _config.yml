@@ -81,7 +81,7 @@ author:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/automationhacks/"
     - label: "Twitter"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/automationhacks"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -92,6 +92,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/automationhacks/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/automationhacks"
