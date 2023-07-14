@@ -1,27 +1,38 @@
-<meta charset="utf-8">
+<meta charset="utf-8" />
 
-{% include seo.html %}
-
-{% unless site.atom_feed.hide %}
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
-  type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% include seo.html %} {% unless site.atom_feed.hide %}
+<link
+  href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
+  type="application/atom+xml"
+  rel="alternate"
+  title="{{ site.title }} Feed"
+/>
 {% endunless %}
 
 <!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.documentElement.className =
+    document.documentElement.className.replace(/\bno-js\b/g, "") + " js ";
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="shortcut icon" type="image/png" href="/assets/images/favicons/favicon.png">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 <link
-href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-rel="stylesheet">
+  rel="shortcut icon"
+  type="image/png"
+  href="/assets/images/favicons/favicon.png"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
+/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+  rel="stylesheet"
+/>
 
 <!--[if IE]>
   <style>
@@ -38,8 +49,6 @@ rel="stylesheet">
   </style>
 <![endif]-->
 
-{% if site.head_scripts %}
-{% for script in site.head_scripts %}
+{% if site.head_scripts %} {% for script in site.head_scripts %}
 <script src="{{ script | relative_url }}"></script>
-{% endfor %}
-{% endif %}
+{% endfor %} {% endif %}
