@@ -8,17 +8,21 @@ permalink: /about/
 
 Hi there 👋🏻,
 
-I'm Gaurav Singh. I live in United Kingdom 🇬🇧 with my wife and with my other
+I'm Gaurav Singh. I live in India 🇮🇳 with my wife and with my other
 love ...
 
 Computers 💻 what else?
 
-I like to think of myself as a Technology enthusiast and geek. My first PC ran
+I like to think of myself as a Technology enthusiast and a big geek.
+
+My first home PC ran
 on a **Intel 80386 CPU with just 80 MB Storage and 1 MB RAM** 🤯 running
 [**Windows 3.1**](https://en.wikipedia.org/wiki/Windows_3.1x) and the earliest
-programming language I remember fumbling with was
+programming language I remember fumbling with at school was
 [**BASIC**](https://en.wikipedia.org/wiki/BASIC) so I guess I grew up around
-computers right off the bat
+computers and games right off the bat
+
+## All things testing
 
 Over the years, I have been **Testing** and **Automating** a lot of Web apps,
 Mobile Apps (Android/IOS) and Backend systems (API, Distributed systems) in
@@ -26,9 +30,9 @@ different domains and companies of different sizes ranging from large
 enterprises, mid sized product companies and hyper growth startups
 
 I consider myself a fairly experienced **Tester** but more broadly as a
-generalist Software engineer and have spent a significant amount of time writing
-automation frameworks and utilities with any programming language that makes
-sense (I don't differentiate but admittedly I'm a big Python and Kotlin fan)
+**generalist Software engineer** (T shaped individual if you say) and have spent a significant amount of time writing
+Test automation frameworks, tools and infrastructure with any programming language that makes
+sense (I don't differentiate but self admittedly I have a bias towards Python and Kotlin)
 
 My work and experience have made me quite _opinionated_ on how _good testing
 should happen_ and I do **NOT** believe a tester is a sole person responsible
@@ -41,26 +45,26 @@ Below is a short list of some personal principles and values:
 - One of my core principles in life is to **Have strong opinions weakly held**
   ,healthy debate and discussion are **very** valuable to me to learn and grow
   together. I believe the best ideas should stand on the shoulder of data and
-  experience and in the end should win instead of who the loudest voice in the
+  experience and in the end should win regardless of who the loudest or senior most voice in the
   room is.
 - I also like to follow the
   [**reasonable person principle**](https://www.cs.cmu.edu/~weigand/staff/) and
   am always keen to listen and understand all viewpoints for something under
-  discussion before coming to my own conclusions.
+  discussion before drawing my own conclusions.
 - I believe in
   [**Trust, but verify**](https://www.forbes.com/sites/frankarmstrong/2019/10/21/trust-but-verify/?sh=43ec8e135873)
   and like to give people a lot of upfront benefit of the doubt but believe over
   the long term trust is largely **earned** through **actions and behavior** and
-  I do not look at just the surface but try to dive deeper.
+  I do not look at *just* the surface but try to dive deeper.
 - I believe the **best way to learn something is to teach it** and thus I try to
-  be active in the Software engineering community and share as well as learn
+  be active in the Software engineering and Testing community and share as well as learn
   from others. You may find value in going through some of the
   [courses](courses.md) i've created and [talks](talks.md) that i've delivered.
 
 ## Why do you blog?
 
 My reasons are **mostly selfish**. I needed a repository of solutions to common
-Test automation problems and also a way to keep track of my journey through the
+Testing and Test automation problems and also a way to keep track of my journey through the
 world of Software engineering.
 
 This blog is a way for me to hold on to all these experiences and sort of leave
