@@ -1,46 +1,47 @@
 ---
-title: How to do logging integration with logback and testng in report portal
-excerpt: "How to push logs into report portal using logback in a Kotlin/TestNG/Gradle project"
+title: How to do logging integration with logback and testng in ReportPortal
+excerpt: "How to push logs into ReportPortal using logback in a Kotlin/TestNG/Gradle project"
 permalink: /2020/09/25/logging-integration-with-logback-testng-in-report-portal/
 image: /assets/images/2020/09/rp_logback_images.png
 categories:
   - "Test automation"
   - Testing
 tags:
-  - Reporting
+  - "Reporting"
+  - "ReportPortal"
 ---
 
-![Report portal logback main image](/assets/images/2020/09/rp_logback_images.png)
+![ReportPortal logback main image](/assets/images/2020/09/rp_logback_images.png)
 
-Image Attribution: [Report portal logo](https://twitter.com/reportportal_io),
+Image Attribution: [ReportPortal logo](https://twitter.com/reportportal_io),
 [logback logo](http://logback.qos.ch/),
 [Gradle logo - wikipedia](https://en.wikipedia.org/wiki/Gradle#/media/File:Gradle_logo.png)
 
 Hi there, friend 👋,
 
-Report portal is a quite unique open-source reporting solution available and seamlessly integrates
+ReportPortal is a quite unique open-source reporting solution available and seamlessly integrates
 with the test runner of youR choice
 
-I've been using Report portal in my current company and have quite recently started looking into its
+I've been using ReportPortal in my current company and have quite recently started looking into its
 features in more detail.
 
-If you new to Report portal and want to get started with setting up a basic instance on docker and
+If you new to ReportPortal and want to get started with setting up a basic instance on docker and
 play around then you might find my earlier post on this topic useful
 
 Check out: [How to setup ReportPortal on a local docker
 instance]({% link _posts/2020-03-02-how-to-setup-reportportal-on-a-local-docker-instance.md %})
 
-Once you have setup Report portal, and have started pushing some test runs into it, you would want
-to get more detail about the test execution. While report portal will display the stack trace for a
+Once you have setup ReportPortal, and have started pushing some test runs into it, you would want
+to get more detail about the test execution. While ReportPortal will display the stack trace for a
 failed assertion, it won't really give you all the console logs of the sequence of action that
 happened above
 
 As a simple example, let's say an API request fails wit a 500 and you have written an assertion on
-the response code, while Report portal will let you know about the mismatch, it won't give you the
+the response code, while ReportPortal will let you know about the mismatch, it won't give you the
 API request ,etc even though that might have been printed into the console with a TestNG
 `Reporter.log()` message
 
-So how do we push logs into Report portal? Let's see how to set this up.
+So how do we push logs into ReportPortal? Let's see how to set this up.
 
 ## Setup logging using logback
 
@@ -70,9 +71,9 @@ compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
 testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 ```
 
-## Add Report portal listener to you tests job
+## Add ReportPortal listener to you tests job
 
-While you must have added this (if you followed my last post), ensure that report portal listener is
+While you must have added this (if you followed my last post), ensure that ReportPortal listener is
 added in your `test` gradle job, Below is an example, where we have `runTests` gradle test task,
 where we have added the listener classes path
 
@@ -106,7 +107,7 @@ This has 3 appenders defined
 - (Optional) FILE which uses RollingFileAppender from logback to write logs to a physical file and
   then rotates these in a daily basis so that every new day, you would get a new log file while also
   keeping a history of max 30 days
-- ReportPortalAppender which pushes logs to the Report portal
+- ReportPortalAppender which pushes logs to the ReportPortal
 
 To understand how logback works in detail, refer to this excellent guide on
 [Baeldung](https://www.baeldung.com/logback)
@@ -122,7 +123,7 @@ class LogbackTests {
     private val logger: Logger = LoggerFactory.getLogger(this::class.java)
 
     // This test can be flaky and non deterministic
-    // Done on purpose to see variation in report portal history
+    // Done on purpose to see variation in ReportPortal history
     @Test
     fun simpleLoggingTest() {
         logger.info("Example log from ${this::class.java.simpleName}")
@@ -163,16 +164,16 @@ fun differentLogLevelsTest() {
 }
 ```
 
-Once you run this test you would see logs show up in report portal under the log message section,
+Once you run this test you would see logs show up in ReportPortal under the log message section,
 you can also filter between the level of detail that you need for your logs using the slider control
 given
 
-![Report portal launches](/assets/images/2020/09/rp_results.png)
-![Report portal logs](/assets/images/2020/09/rp_logs.png)
+![ReportPortal launches](/assets/images/2020/09/rp_results.png)
+![ReportPortal logs](/assets/images/2020/09/rp_logs.png)
 
 ## Summary
 
-In this post, we learned how can we enhance our reporting in Report portal by adding logback as a
+In this post, we learned how can we enhance our reporting in ReportPortal by adding logback as a
 logging framework of choice.
 
 If you found this post useful, Do share it with a friend or colleague. Until next time. Happy
@@ -184,6 +185,6 @@ Here are some further links that you can refer to:
 
 - You can find the entire sample project on my Github under
   [grasp-reporting](https://github.com/automationhacks/grasp-reporting) repo
-- [Details about how the listeners in report portal (agent-java-testNG)](https://github.com/reportportal/agent-java-testNG)
+- [Details about how the listeners in ReportPortal (agent-java-testNG)](https://github.com/reportportal/agent-java-testNG)
 - [Read about Test framework integration on
-  [report portal docs](https://reportportal.io/docs/Test-Framework-Integration)
+  [ReportPortal docs](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)

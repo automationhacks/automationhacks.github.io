@@ -1,8 +1,8 @@
 ---
-title: Python API test automation framework (Part 8) Adding reporting with report portal
+title: Python API test automation framework (Part 8) Adding reporting with ReportPortal
 excerpt:
   "Any framework is incomplete without a robust test results reporting setup, In this post, I
-  walkthrough how to setup pytest to report portal integration for people-api tests"
+  walkthrough how to setup pytest to ReportPortal integration for people-api tests"
 permalink: /2021/02/03/python-api-automation-framework-part8-adding-reporting-with-report-portal
 image: /assets/images/2021/02/api_course_header_8.png
 categories:
@@ -20,7 +20,7 @@ Logos in header image sources:
 [JSON](https://en.wikipedia.org/wiki/JSON),
 [HTTP](https://commons.wikimedia.org/wiki/File:HTTP_logo.svg),
 [Cerberus](https://docs.python-cerberus.org/en/stable/_static/cerberus.png)
-[Report portal](https://reportportal.io/)
+[ReportPortal](https://reportportal.io/)
 
 This is the eighth post in a series on how to build an API framework using python.
 
@@ -56,12 +56,12 @@ However, Should we really invest our valuable time in reinventing the wheel? Pro
 least, if we can avoid it 😉)
 
 The test results reporting space has some great tools and libraries already available that get the
-job done however, of late one of my absolute favorites is the report portal because of the ton of
+job done however, of late one of my absolute favorites is the ReportPortal because of the ton of
 features it packs out of the box
 
 In this post, We will see how to integrate it into our framework that we’ve been building so far:
 
-## Setup report portal using docker
+## Setup ReportPortal using docker
 
 I had previously written a blog on setting up a local ReportPortal instance on Docker and
 demonstrated a basic Java test on Gradle for reporting. You can read that post here:
@@ -88,7 +88,7 @@ docker ps -a
 ```
 
 Once done you should be able to open up the local site at http://localhost:8080/ui/ with default id
-and password in report portals website (at the time of writing this blog the credentials are user:
+and password in ReportPortals website (at the time of writing this blog the credentials are user:
 `superadmin`, password: `erebus`)
 
 (🙏🏼 : Please change this in any production instance that you wish to use in your organizations
@@ -137,10 +137,10 @@ docker-compose -p reportportal up -d
 
 You can even quit docker for mac and restart it once again.
 
-This workaround is from a Github issue on the report portal website. You can see more details
+This workaround is from a Github issue on the ReportPortal website. You can see more details
 [here](https://github.com/reportportal/reportportal/issues/500#issuecomment-430941820?). I even
 started a thread on the
-[Report portal slack channel](https://reportportal.slack.com/archives/C2GTJTTNH/p1611587152043900)
+[ReportPortal slack channel](https://reportportal.slack.com/archives/C2GTJTTNH/p1611587152043900)
 that you can follow for further discussions.
 
 Note: If the above steps still result in elastic search restarting, you can manually reset docker by
@@ -151,18 +151,16 @@ going to troubleshoot and click on Clean / Purge data and Reset to factory defau
 ## Integrate with pytest
 
 Let’s understand how we can integrate our test suite (run using pytest) to report results directly
-into report portal
+into ReportPortal
 
-> You can find more details about different types of test framework integrations
->
-> - Supported by report portal
->   [here](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)
-> - Complete documentation for the pytest plugin
+> You can find more details about different types of test framework integrations supported by ReportPortal [here](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)
+
+> Also, see the complete documentation for the pytest plugin
 >   [here](https://github.com/reportportal/agent-python-pytest)
 
-### Step 1: Create a project in report portal and update pytest.ini file
+### Step 1: Create a project in ReportPortal and update pytest.ini file
 
-It is recommended to create a new project in report portal where you want to report test results to:
+It is recommended to create a new project in ReportPortal where you want to report test results to:
 
 Tap on user profile settings
 
@@ -190,7 +188,7 @@ At a minimum, ensure you have the below properties present in the pytest.ini fil
 
 ```python
 rp_uuid = 28e75c0f-2b29-49a1-9e2e-c45c9650dff0 (unique id of the project)
-rp_endpoint = http://localhost:8080 (where report portal is hosted)
+rp_endpoint = http://localhost:8080 (where ReportPortal is hosted)
 rp_project = people-tests (name of the project)
 rp_launch = people-tests (what the launch will be called)
 ```
@@ -220,7 +218,7 @@ pipenv install pytest-reportportal
 ```
 
 We will add a **logger** method in the module scoped **conftest.py** file, which would be used in
-all the test methods to send different types of logs to report portal’s elasticsearch database.
+all the test methods to send different types of logs to ReportPortal’s elasticsearch database.
 
 tests/conftest.py
 
@@ -234,10 +232,10 @@ def logger(request):
    logger = logging.getLogger(__name__)
    logger.setLevel(logging.DEBUG)
 
-   # Create a handler for Report Portal if the service has been
+   # Create a handler for ReportPortal if the service has been
    # configured and started.
    if hasattr(request.node.config, 'py_test_service'):
-       # Import Report Portal logger and handler to the test module.
+       # Import ReportPortal logger and handler to the test module.
        logging.setLoggerClass(RPLogger)
        rp_handler = RPLogHandler(request.node.config.py_test_service)
 
@@ -248,7 +246,7 @@ def logger(request):
    else:
        rp_handler = logging.StreamHandler(sys.stdout)
 
-   # Set INFO level for Report Portal handler.
+   # Set INFO level for ReportPortal handler.
    rp_handler.setLevel(logging.INFO)
    return logger
 ```
@@ -283,7 +281,7 @@ Test on hitting People GET API, we get a user named kent in the list of people
 """
 ```
 
-Report portal pytest plugin updates all method docstrings as an actual test case description
+ReportPortal pytest plugin updates all method docstrings as an actual test case description
 
 Also, once the status code check passes, we can log the message via the below line:
 
@@ -293,7 +291,7 @@ logger.info("User successfully read")
 
 ### Step 4: Execute tests
 
-Execute the below command to push logs to report portal. Notice that you would need to add
+Execute the below command to push logs to ReportPortal. Notice that you would need to add
 --reportportal flag
 
 ```zsh
@@ -303,9 +301,9 @@ python -m pytest ./tests --reportportal
 Don’t forget to ensure the people-api and covid-tracker services are up, Refer to Post 2 and Post 4,
 In case you need a refresher on how to start these on the local machine.
 
-### Step 5: Analysis in report portal
+### Step 5: Analysis in ReportPortal
 
-Once run, let’s see how the results would look like in report portal
+Once run, let’s see how the results would look like in ReportPortal
 
 Below you can see the overall results for the test run. Notice the `rp_launch_attributes` and
 `rp_launch_description` are displayed on the UI.

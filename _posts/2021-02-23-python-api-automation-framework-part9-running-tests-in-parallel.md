@@ -18,7 +18,7 @@ Logos in header image sources:
 [JSON](https://en.wikipedia.org/wiki/JSON),
 [HTTP](https://commons.wikimedia.org/wiki/File:HTTP_logo.svg),
 [Cerberus](https://docs.python-cerberus.org/en/stable/_static/cerberus.png)
-[Report portal](https://reportportal.io/)
+[ReportPortal](https://reportportal.io/)
 
 This is the ninth and final 👋 post in our series on how to build an API framework using python.
 
@@ -38,7 +38,7 @@ You can read previous parts below:
   _posts/2020-12-28-python-api-automation-framework-part6-api-response-schema-validation.md %})
 - [Python API test automation framework (Part 7) Refactoring structure](
   {% link _posts/2021-01-08-python-api-automation-framework-part7-refactoring-structure.md%})
-- [Python API test automation framework (Part 8) Adding reporting with report portal](
+- [Python API test automation framework (Part 8) Adding reporting with ReportPortal](
   {% link _posts/2021-02-03-python-api-automation-framework-part8-adding-reporting-with-report-portal.md %})
 
 ---

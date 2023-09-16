@@ -6,8 +6,9 @@ image: /wp-content/uploads/2020/01/screenshot-2020-01-09-at-6.13.52-am.png
 categories:
   - "Test automation"
 tags:
-  - TestNG
-  - Reporting
+  - "TestNG"
+  - "Reporting"
+  - "ReportPortal"
 ---
 TestNG is a popular test framework that needs no introduction in the JVM (Java virtual machine) ecosystem and can be used for automating your tests regardless of their size. For example: Large (functional) or medium/small level tests (Integration/Unit). It is a highly customizable framework and provides great flexibility around how you want to structure your tests and run them.
 
