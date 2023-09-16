@@ -155,8 +155,8 @@ into report portal
 
 > You can find more details about different types of test framework integrations
 >
-> - Supported by report portal supports
->   [here](https://reportportal.io/docs/Test-Framework-Integration)
+> - Supported by report portal
+>   [here](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)
 > - Complete documentation for the pytest plugin
 >   [here](https://github.com/reportportal/agent-python-pytest)
 
