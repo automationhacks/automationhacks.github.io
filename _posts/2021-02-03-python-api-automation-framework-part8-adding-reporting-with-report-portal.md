@@ -10,6 +10,7 @@ categories:
   - Testing
 tags:
   - Python
+  - "ReportPortal"
 ---
 
 ![Python and requests and header](/assets/images/2021/02/api_course_header_8.png)
@@ -156,7 +157,7 @@ into ReportPortal
 > You can find more details about different types of test framework integrations supported by ReportPortal [here](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)
 
 > Also, see the complete documentation for the pytest plugin
->   [here](https://github.com/reportportal/agent-python-pytest)
+> [here](https://github.com/reportportal/agent-python-pytest)
 
 ### Step 1: Create a project in ReportPortal and update pytest.ini file
 

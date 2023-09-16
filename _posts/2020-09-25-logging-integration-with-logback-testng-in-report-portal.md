@@ -186,5 +186,5 @@ Here are some further links that you can refer to:
 - You can find the entire sample project on my Github under
   [grasp-reporting](https://github.com/automationhacks/grasp-reporting) repo
 - [Details about how the listeners in ReportPortal (agent-java-testNG)](https://github.com/reportportal/agent-java-testNG)
-- [Read about Test framework integration on
+- Read about Test framework integration on
   [ReportPortal docs](https://reportportal.io/docs/log-data-in-reportportal/test-framework-integration/)

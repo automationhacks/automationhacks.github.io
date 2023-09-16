@@ -15,7 +15,6 @@ tags:
   - "Reporting"
   - "ReportPortal"
 
-
 ---
 
 ReportPortal is one of the new reporting solutions available. It supports multiple different test
