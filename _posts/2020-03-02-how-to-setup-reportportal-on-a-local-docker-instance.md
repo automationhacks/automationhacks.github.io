@@ -30,9 +30,7 @@ can find it
 <a href="https://github.com/gaurav-singh/grasp-reporting" target="_blank" rel="noopener">here</a>
 and would also have the code snippets in GitHub gists.
 
-The instructions that I am describing here can also be found on
-<a href="https://reportportal.io/docs/Deploy-with-Docker" target="_blank" rel="noopener">report
-portal docs</a>
+The instructions that I am describing here can also be found on [report portal docs for mac](https://reportportal.io/docs/installation-steps/DeployWithDockerOnLinuxMac/) or [windows](https://reportportal.io/docs/installation-steps/DeployWithDockerOnWindows/)
 
 - As a pre-requisite, you should
   <a href="https://www.jetbrains.com/help/idea/getting-started-with-gradle.html" target="_blank" rel="noopener">set
@@ -183,7 +181,6 @@ In case you found this post useful. Do share it with your friends or colleagues.
 There are many resources already available about the Report portal. Check them out.
 
 - [Report portal website](http://reportportal.io/)  
-  <a href="https://www.youtube.com/c/ReportPortalCommunity" target="_blank" rel="noopener">YouTube</a>  
-  <a href="https://github.com/reportportal/reportportal" target="_blank" rel="noopener">GitHub</a>  
-  <a href="http://reportportal.io/docs/Installation-steps" target="_blank" rel="noopener">Installation
-  steps</a>
+- [YouTube](https://www.youtube.com/@ReportPortal)  
+- [GitHub](https://github.com/reportportal/reportportal)  
+- [Installation steps](https://reportportal.io/docs/category/installation-steps)
