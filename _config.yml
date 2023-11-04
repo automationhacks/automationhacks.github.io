@@ -20,9 +20,9 @@ locale: "en-US"
 
 title: "Automation Hacks"
 title_separator: "-"
-subtitle: "Elevate your code. Improve your testing!"
+subtitle: "Helping you elevate your software testing and automation!"
 name: "Gaurav Singh"
-description: "Elevate your code. Improve your testing!"
+description: "Helping you elevate your software testing and automation!"
 
 url: "https://automationhacks.io"
 baseurl: # the subpath of your site, e.g. "/blog"
