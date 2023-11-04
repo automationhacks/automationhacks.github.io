@@ -76,14 +76,6 @@ and this blog is a way for me express and share it with the larger community.
 Hopefully, this is useful, relevant or at least interesting to other people as
 well.
 
-## What does the logo mean?
-
-Testing and Automation to me is often exploring a network of
-**Connected/overlapping** **components/concerns** within a specific **context**
-and this symbol represents the same to me.
-
-<img src="/assets/images/logo/site-logo.png" alt="Automation hacks logo" width="200"/>
-
 ## Are these cross posted?
 
 Yes, some of these blogs are cross posted on below, This original site will be
