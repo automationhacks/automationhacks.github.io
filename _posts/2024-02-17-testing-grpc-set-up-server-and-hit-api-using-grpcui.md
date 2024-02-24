@@ -3,7 +3,7 @@ title: "Testing gRPC #1: Set up a gRPC server and make an API call via gRPC UI"
 excerpt: "We explore: What is gRPC, its basic nuts and bolts, how to setup a server and explore APIs via a web UI"
 permalink: 2024-02-17-testing-grpc-set-up-server-and-hit-api-using-grpcui
 published: true
-image: /assets/images/2024/02/testing-grpc-1.png
+image: /assets/images/2024/02/testing-grpc-2.png
 canonical_url: "https://newsletter.automationhacks.io/p/testing-grpc-1-set-up-a-grpc-server"
 categories:
   - Software Engineering
