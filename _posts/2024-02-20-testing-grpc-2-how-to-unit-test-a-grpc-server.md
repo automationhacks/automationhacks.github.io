@@ -1,6 +1,6 @@
 ---
 title: "Testing gRPC #2: How to unit test a gRPC server"
-excerpt: "We explore: How a service method is implemented, how the basic anatomy of a server unit test, understand GrpcCleanupRule, InProcessServer and InProcessChannel. So much fun! Let’s go ⚡"
+excerpt: "How is a service method implemented, What is the basic anatomy of a server unit test, grasp GrpcCleanupRule, InProcessServer and InProcessChannel. Let’s go ⚡"
 permalink: 2024-02-20-testing-grpc-2-how-to-unit-test-a-grpc-server
 published: true
 image: /assets/images/2024/02/testing-grpc-2.png
