@@ -29,7 +29,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "automationhacks/automationhacks.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "assets/images/logo/site-logo.png"
-masthead_title: "Automation Hacks"
+masthead_title: "automation hacks"
 breadcrumbs: false
 words_per_minute: 200
 
