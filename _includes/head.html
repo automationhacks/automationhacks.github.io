@@ -1,6 +1,7 @@
 <meta charset="utf-8" />
 
-{% include seo.html %} {% unless site.atom_feed.hide %}
+{% include adsense.html %} {% include seo.html %} {% unless site.atom_feed.hide
+%}
 <link
   href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
   type="application/atom+xml"
