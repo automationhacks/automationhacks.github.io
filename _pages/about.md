@@ -55,7 +55,7 @@ Below is a short list of some personal principles and values:
   [**Trust, but verify**](https://www.forbes.com/sites/frankarmstrong/2019/10/21/trust-but-verify/?sh=43ec8e135873)
   and like to give people a lot of upfront benefit of the doubt but believe over
   the long term trust is largely **earned** through **actions and behavior** and
-  I do not look at *just* the surface but try to dive deeper.
+  I do not look at _just_ the surface but try to dive deeper.
 - I believe the **best way to learn something is to teach it** and thus I try to
   be active in the Software engineering and Testing community and share as well as learn
   from others. You may find value in going through some of the

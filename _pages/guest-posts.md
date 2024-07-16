@@ -1,5 +1,5 @@
 ---
-title: Guest posts ✍🏻
+title: Guest posts
 permalink: /guest-posts/
 categories:
   - "Guest posts"

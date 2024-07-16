@@ -1,5 +1,5 @@
 ---
-title: Newsletter 📰
+title: Newsletter 
 permalink: /newsletter/
 ---
 

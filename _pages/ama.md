@@ -1,5 +1,5 @@
 ---
-title: AMA 🗣
+title: AMA
 permalink: /ama/
 ---
 

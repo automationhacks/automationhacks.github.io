@@ -1,5 +1,5 @@
 ---
-title: Wanna support me? 🤝
+title: Wanna support me? 
 permalink: /support/
 ---
 

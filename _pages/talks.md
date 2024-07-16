@@ -1,5 +1,5 @@
 ---
-title: Talks 🙊
+title: Talks
 permalink: /talks/
 ---
 
@@ -9,13 +9,24 @@ of past talks below
 > Also, 🧏🏼‍♂️ Feedback is how we all learn, if you have some on these talks, do reach out!
 
 **On Talk slides:** I have recently switched to using pure **markdown** and **Mkdocs static site generator** for some
-conference slides.
+conference slides. You can view all of them on [here](https://automationhacks.io/slides/)
 
-You can view all of them on [https://automationhacks.io/slides/](https://automationhacks.io/slides/)
+## 2024
 
-## Upcoming Talks
+### Mastering gRPC Testing: Write automated tests like a Pro
 
-... 🤔
+TribeQonf | In person | July 2024 |
+[Proposal](https://www.thetesttribe.com/tribeqonf/gaurav-s/#ttt-key-takeaways)
+|
+[slides](https://docs.google.com/presentation/d/e/2PACX-1vTpW84YaOPWIauhb4Iv7j1kv_iNR-PE_okDygXjgxmLs6qNd_tPPsJEvoAYsRmUTW5iG4LxxPG9-Nwv/pub?start=false&loop=true&delayms=10000&slide=id.p1)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTpW84YaOPWIauhb4Iv7j1kv_iNR-PE_okDygXjgxmLs6qNd_tPPsJEvoAYsRmUTW5iG4LxxPG9-Nwv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Salesforce Testing Guy Podcast - Software Testing Skills vs Designations
+
+[Video](https://www.youtube.com/watch?v=DjPXx6Ea9wU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DjPXx6Ea9wU?si=3o8hzE04ZQgw5SCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2022
 

@@ -1,5 +1,5 @@
 ---
-title: Book recommendations 📚
+title: Book recommendations
 permalink: /books/
 ---
 
