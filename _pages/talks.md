@@ -24,7 +24,7 @@ TribeQonf | In person | July 2024 |
 
 ### Salesforce Testing Guy Podcast - Software Testing Skills vs Designations
 
-Salesforce Testing Guy Podcast | In person | April 2024 |
+Salesforce Testing Guy Podcast | Online | March 2024 |
 [Video](https://www.youtube.com/watch?v=DjPXx6Ea9wU)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DjPXx6Ea9wU?si=3o8hzE04ZQgw5SCy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
