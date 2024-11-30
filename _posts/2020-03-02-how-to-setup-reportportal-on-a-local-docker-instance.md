@@ -11,9 +11,12 @@ permalink: /2020/03/02/how-to-setup-reportportal-on-a-local-docker-instance/
 image: /wp-content/uploads/2020/03/report_portal_login.png
 categories:
   - "Test automation"
+  - "ReportPortal"
+  - "Test observability"
 tags:
   - "Reporting"
   - "ReportPortal"
+  - "Test observability"
 
 ---
 
@@ -116,7 +119,7 @@ Below is the basic configuration to set up the required agent and listener via g
 
 {% gist 4c58cb3c7054af57f4c52400368bfc3d %}
 
-## Explanation:
+## Explanation
 
 - Ln 10 &#8211; 13 sets up the maven repository for ReportPortal on the bintray site
 - Ln 15 &#8211; 21 sets up an overridden task of type `Test` with logic to print all output on the
@@ -145,7 +148,7 @@ Now, let's run the suite. Execute below command:
 
 Once the suite executes, we can observe the failure in the ReportPortal as a launch
 
-### Launches:
+### Launches
 
 Every unique test run is called a launch in the ReportPortal.
 
@@ -178,7 +181,7 @@ In future posts, we would see
 
 In case you found this post useful. Do share it with your friends or colleagues.
 
-### References:
+### References
 
 There are many resources already available about the ReportPortal. Check them out.
 

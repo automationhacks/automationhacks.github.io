@@ -6,9 +6,12 @@ image: /assets/images/2020/09/rp_logback_images.png
 categories:
   - "Test automation"
   - Testing
+  - "ReportPortal"
+  - "Test observability"
 tags:
   - "Reporting"
   - "ReportPortal"
+  - "Test observability"
 ---
 
 ![ReportPortal logback main image](/assets/images/2020/09/rp_logback_images.png)
