@@ -130,7 +130,7 @@ Once Gradle downloads all the dependencies
 
 Search for `reportportal.properties`
 
-and replace the `rp.api.key=&lt;your_api_value>` copied in step 10 of previous section
+and replace the `rp.api.key=<your_api_value>` copied in step 10 of previous section
 
 Required gradle dependencies are already set up in the build.gradle
 
