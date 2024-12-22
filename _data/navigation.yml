@@ -15,11 +15,5 @@ main:
     url: /posts-by-tags/
   - title: "Archives 📟"
     url: /archives/
-  - title: "Learn Test automation 🦾"
-    url: /learn/
-  - title: "Ask me anything (AMA) 🗣"
-    url: /ama/
-  - title: "Wanna support me? 🤝🏼"
-    url: /support/
   - title: "Book recommendations 📓"
     url: /books/
