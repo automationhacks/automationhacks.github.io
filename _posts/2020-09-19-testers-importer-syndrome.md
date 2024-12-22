@@ -4,10 +4,10 @@ excerpt: "Why do testers feel like an imposter and how to deal with it?"
 permalink: /2020/09/19/testers-imposter-syndrome/
 image: /assets/images/2020/09/maskedemann-YYLSt5GYbNo-unsplash.jpg
 categories:
-  - "Software Testing"
-  - "Career advice"
+  - "QA"
 tags:
-  - "Imposter syndrome"
+  - "Career growth"
+  - "Advice"
 ---
 
 ![Photo by maskedemann on Unsplash](/assets/images/2020/09/maskedemann-YYLSt5GYbNo-unsplash.jpg)

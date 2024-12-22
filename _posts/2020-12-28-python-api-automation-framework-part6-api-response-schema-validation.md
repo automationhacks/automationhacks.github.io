@@ -7,9 +7,6 @@ excerpt:
 permalink: /2020/12/28/python-api-automation-framework-part6-api-response-schema-validation
 image: /assets/images/2020/12/api_course_header_6.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
 tags:
   - "Python"

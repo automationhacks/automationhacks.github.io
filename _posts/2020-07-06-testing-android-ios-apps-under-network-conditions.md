@@ -7,10 +7,8 @@ excerpt:
 permalink: /2020/07/06/testing-android-ios-apps-under-network-conditions/
 image: /assets/images/wp-content/uploads/2020/07/leon-seibert-2m71l9fa6mg-unsplash.jpg
 categories:
-  - "Software Testing"
   - "Mobile testing"
 tags:
-  - "Mobile testing"
   - "Android"
   - "iOS"
 ---

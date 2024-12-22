@@ -6,8 +6,7 @@ excerpt:
 permalink: /2020/06/24/equivalence-partitioning-and-boundary-value-analysis/
 image: /assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg
 categories:
-  - "Software Testing"
-  - "Testing techniques"
+  - "QA"
 tags:
   - "Testing fundamentals"
 ---

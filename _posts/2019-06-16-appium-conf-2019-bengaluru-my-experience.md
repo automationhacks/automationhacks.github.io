@@ -4,10 +4,9 @@ author: Gaurav
 permalink: /2019/06/16/appium-conf-2019-bengaluru-my-experience/
 categories:
   - "Conferences"
-  - "Appium"
 tags:
-  - "AppiumConf"
-  - "Mobile"
+  - "Appium"
+  - "Mobile testing"
 ---
 
 _My Experience as a first time speaker in a test automation conference and the awesome talks and

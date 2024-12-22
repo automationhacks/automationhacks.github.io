@@ -7,15 +7,11 @@ published: true
 image: /assets/images/2022/07/se-conf-speaker-card.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-selenium-conf-2022"
 categories:
-  - "Software Testing"
-  - "Android"
-  - "Espresso"
-  - "UI Automation" 
+  - "QA"
   - "Mobile testing"
   - "Conferences"
 tags:
-  - "Mobile Testing"
-  - "Android Testing"
+  - "Android"
   - "Espresso"
 ---
 

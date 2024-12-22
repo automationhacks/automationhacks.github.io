@@ -2,10 +2,10 @@
 title: Testers are not the last line of defence
 permalink: /2019/06/24/testers-are-not-the-last-line-of-defence/
 categories:
-  - "Software testing"
+  - "Testing"
   - "QA"
 tags:
-  - "Testing Antipatterns"
+  - "Opinion"
 ---
 
 Thoughts on why testers need to think beyond their role and evolve to become quality coaches for the

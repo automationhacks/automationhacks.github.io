@@ -8,12 +8,11 @@ excerpt:
 permalink: /2020/02/29/the-problem-with-titles-for-testers/
 image: /wp-content/uploads/2020/02/activities_that_a_tester_does-1.png
 categories:
-  - "Software Testing"
+  - "Testing"
   - "QA"
-  - "Career advice"
+  - "Career growth"
 tags:
-  - "Rant"
-  - "Antipatterns"
+  - "Opinion"
 ---
 
 Why focussing on titles is an anti-pattern that should stop in the Testing world.

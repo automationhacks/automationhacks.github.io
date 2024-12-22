@@ -6,16 +6,10 @@ published: true
 image: /assets/images/2024/11/report-portal-chart.png
 canonical_url: "https://newsletter.automationhacks.io/p/inside-test-observability-how-to-setup-report-portal-dashboards-using-attributes"
 categories:
-  - Software Testing
-  - QA
-  - SDET
-  - Test observability 
-  - ReportPortal
+  - "Test observability"
 tags:
-  - "Software Testing"
   - "SDET"
   - "QA"
-  - "Test observability"
   - "ReportPortal"
 ---
 

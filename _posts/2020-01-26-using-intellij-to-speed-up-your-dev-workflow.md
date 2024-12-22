@@ -3,9 +3,8 @@ title: Using IntelliJ to speed up your dev workflow
 permalink: /2020/01/26/using-intellij-to-speed-up-your-dev-workflow/
 categories:
   - "Coding"
-  - "Productivity"
 tags:
-  - "hacks"
+  - "IDE"
 ---
 
 _Give your development experience superpowers!_

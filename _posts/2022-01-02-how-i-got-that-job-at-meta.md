@@ -9,9 +9,8 @@ published: true
 image: /assets/images/2022/01/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 categories:
   - "Interviews"
-  - "Career advice"
 tags:
-  - "Interviews"
+  - "Career growth"
   - "Software Engineering"
 ---
 

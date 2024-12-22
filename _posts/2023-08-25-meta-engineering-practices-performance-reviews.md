@@ -7,7 +7,7 @@ published: true
 image: /assets/images/2023/08/glen-carrie-ra4vJwxnvAo-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-8-performance"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

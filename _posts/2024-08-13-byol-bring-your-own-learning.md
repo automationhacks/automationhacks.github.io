@@ -6,11 +6,10 @@ published: true
 image: /assets/images/2024/08/byol-bring-your-own-learning.png
 canonical_url: "https://newsletter.automationhacks.io/p/byol-bring-your-own-learning"
 categories:
-  - "Software Engineering"
-  - "Career advice"
-  - "Growth mindset"
+  - "Career growth"
 tags:
-  - "Career advice"
+  - "Software Engineering"
+  - "Growth mindset"
 ---
 
 <figure class="image">

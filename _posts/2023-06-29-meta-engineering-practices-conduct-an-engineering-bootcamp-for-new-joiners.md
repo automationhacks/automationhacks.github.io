@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/06/thisisengineering-raeng-uyfohHiTxho-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-3-conduct"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/07/undraw_Collaboration_re_vyau.png
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-5-a-culture?sd=pf"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

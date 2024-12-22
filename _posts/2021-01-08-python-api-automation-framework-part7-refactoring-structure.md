@@ -7,9 +7,6 @@ excerpt:
 permalink: /2021/01/08/python-api-automation-framework-part7-refactoring-structure
 image: /assets/images/2021/01/api_course_header_7.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
 tags:
   - "Python"

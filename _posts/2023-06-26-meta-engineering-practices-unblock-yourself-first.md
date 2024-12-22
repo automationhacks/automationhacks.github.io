@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/06/scott-graham-OQMZwNd3ThU-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-unblock"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

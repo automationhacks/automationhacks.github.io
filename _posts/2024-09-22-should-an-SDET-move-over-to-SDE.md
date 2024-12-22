@@ -6,14 +6,9 @@ published: true
 image: /assets/images/2024/09/SDET-to-SDE.png
 canonical_url: "https://newsletter.automationhacks.io/p/blog-should-an-sdet-move-over-to"
 categories:
-  - "Software Testing"
-  - "Software Engineering"
-  - "Career advice"
   - "SDET"
 tags:
-  - "SDET"
-  - "Career advice"
-  - "QA"
+  - "Career growth"
 ---
 
 <figure class="image">

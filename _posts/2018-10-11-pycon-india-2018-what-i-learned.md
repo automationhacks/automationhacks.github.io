@@ -4,7 +4,6 @@ excerpt: "I attended my first pycon in 2018 in hyderabad. Here are my key learni
 permalink: /2018/10/11/pycon-india-2018-what-i-learned/
 categories:
   - "Conferences"
-  - "Python"
 tags:
   - "Python"
 ---

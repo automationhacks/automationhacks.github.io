@@ -7,11 +7,9 @@ excerpt:
 permalink: /2020/07/19/debugging-tip-conditional-breakpoints-in-intellij-platforms/
 image: /assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png
 categories:
-  - "Coding"
   - "Productivity"
 tags:
-  - "ide"
-  - "hacks"
+  - "IDE"
 ---
 
 ![Conditional breakpoints](/assets/images/wp-content/uploads/2020/07/conditional_breakpoint.png)

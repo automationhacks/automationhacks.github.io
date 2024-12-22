@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/07/firmbee-com-jrh5lAq-mIs-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-7-focus?sd=pf"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

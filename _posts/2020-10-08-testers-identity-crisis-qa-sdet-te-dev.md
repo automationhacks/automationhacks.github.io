@@ -5,11 +5,10 @@ excerpt:
 permalink: /2020/10/08/testers-identity-crisis/
 image: /assets/images/2020/10/emily-morter-8xAA0f9yQnE-unsplash.jpg
 categories:
-  - "Software Testing" 
   - "QA"
   - "SDET"
 tags:
-  - "Antipatterns"
+  - "Opinion"
 ---
 
 ![Question mark](/assets/images/2020/10/emily-morter-8xAA0f9yQnE-unsplash.jpg)

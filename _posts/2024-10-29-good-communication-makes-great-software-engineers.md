@@ -6,10 +6,9 @@ published: true
 image: /assets/images/2024/10/good-communication-makes-a-great-software-engineer.png
 canonical_url: "https://newsletter.automationhacks.io/p/good-communication-makes-great-software-engineers"
 categories:
-  - Career Advice
-  - Communication
+  - "Soft skills"
 tags:
-  - "Career Advice"
+  - "Career growth"
   - "Communication"
 ---
 

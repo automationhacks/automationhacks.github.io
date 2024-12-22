@@ -8,10 +8,8 @@ excerpt:
 permalink: /2020/06/11/using-adb-and-cmdline-to-ease-android-app-testing/
 image: /assets/images/wp-content/uploads/2020/06/android_phone-1.jpg
 categories:
-  - "Software Testing"
   - "Mobile testing"
 tags:
-  - "Mobile testing"
   - "Android"
   - "Adb"
 ---

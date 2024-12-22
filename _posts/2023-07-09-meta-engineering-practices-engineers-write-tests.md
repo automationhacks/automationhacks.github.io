@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/07/christina-wocintechchat-com-7VmGD9XkYOU-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-4-engineers"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

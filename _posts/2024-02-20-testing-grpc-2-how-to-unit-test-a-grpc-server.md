@@ -6,13 +6,10 @@ published: true
 image: /assets/images/2024/02/testing-grpc-2.png
 canonical_url: "https://newsletter.automationhacks.io/p/testing-grpc-2-how-to-unit-test-a"
 categories:
-  - "Software Engineering"
-  - "Software Testing"
-  - "gRPC"
   - "Backend automation"
 tags:
   - "Software Engineering"
-  - "Software Testing"
+  - "Testing"
   - "gRPC"
 ---
 

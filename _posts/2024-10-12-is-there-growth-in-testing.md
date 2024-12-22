@@ -7,12 +7,10 @@ published: true
 image: /assets/images/2024/10/is-there-growth-in-testing.png
 canonical_url: "https://newsletter.automationhacks.io/p/is-there-growth-in-testing"
 categories:
-  - "Software Testing"
   - "QA"
   - "SDET"
-  - "Career advice"
 tags:
-  - "Career Advice"
+  - "Career growth"
   - "Growth mindset"
 ---
 

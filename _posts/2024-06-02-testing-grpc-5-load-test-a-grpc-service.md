@@ -6,13 +6,10 @@ published: true
 image: /assets/images/2024/06/testing-grpc-5.jpeg
 canonical_url: "https://newsletter.automationhacks.io/p/testing-grpc-5-load-test-a-grpc-service"
 categories:
-  - "Software Engineering"
-  - "Software Testing"
-  - "gRPC"
   - "Backend automation"
 tags:
   - "Software Engineering"
-  - "Software Testing"
+  - "Load Testing"
   - "gRPC"
 ---
 

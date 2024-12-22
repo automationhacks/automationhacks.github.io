@@ -10,12 +10,9 @@ excerpt:
 permalink: /2020/03/02/how-to-setup-reportportal-on-a-local-docker-instance/
 image: /wp-content/uploads/2020/03/report_portal_login.png
 categories:
-  - "Test frameworks"
-  - "ReportPortal"
   - "Test observability"
 tags:
   - "ReportPortal"
-  - "Test observability"
 
 ---
 

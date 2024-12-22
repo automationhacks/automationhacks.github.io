@@ -7,14 +7,10 @@ published: true
 image: /assets/images/2022/05/espresso-part1.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-1-introducing?s=w"
 categories:
-  - "Software Testing"
-  - "Android"
-  - "Espresso"
-  - "UI Automation" 
+  - "QA"
   - "Mobile testing"
 tags:
-  - "Mobile Testing"
-  - "Android Testing"
+  - "Android"
   - "Espresso"
 ---
 

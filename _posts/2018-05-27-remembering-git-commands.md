@@ -2,8 +2,7 @@
 title: Remembering GIT commands
 permalink: /2018/05/27/remembering-git-commands/
 categories:
-  - "Coding"
-  - "Version control"
+  - "VCS"
 tags:
   - "git"
 ---

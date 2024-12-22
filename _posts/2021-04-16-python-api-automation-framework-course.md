@@ -6,9 +6,6 @@ excerpt:
 permalink: /2021/04/16/python-api-automation-framework-course
 image: /assets/images/2021/04/tau-course.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
 tags:
   - "Python"

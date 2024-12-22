@@ -3,10 +3,9 @@ title: Advice from a test journeyman
 excerpt: "In this post, I want to share some of my mental models as a test journeyman with the hope that it gives some insight to people who are a bit new to the field around what behaviors can help them in their journey."
 permalink: /2019/12/07/advice-from-a-test-journeyman/
 categories:
-  - "Software Testing"
-  - "Career advice"
+  - "Career growth"
 tags:
-  - "Career advice"
+  - "Growth mindset"
 ---
 
 ![](/assets/images/wp-content/uploads/2019/12/johann-siemens-epy0gbjzzzu-unsplash.jpg)

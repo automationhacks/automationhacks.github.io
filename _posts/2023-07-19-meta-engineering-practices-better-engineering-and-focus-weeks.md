@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/07/brett-jordan-Ng5tDxfpuzI-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-6-better"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

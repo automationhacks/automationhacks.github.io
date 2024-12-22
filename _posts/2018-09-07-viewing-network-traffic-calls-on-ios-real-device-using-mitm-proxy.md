@@ -2,7 +2,6 @@
 title: Viewing network traffic calls on IOS real device using MITM Proxy
 permalink: /2018/09/07/viewing-network-traffic-calls-on-ios-real-device-using-mitm-proxy/
 categories:
-  - "Test tooling"
   - "Mobile testing"
 tags:
   - "mitm proxy"

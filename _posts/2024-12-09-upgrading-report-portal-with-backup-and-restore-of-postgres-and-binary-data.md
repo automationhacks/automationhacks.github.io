@@ -6,16 +6,9 @@ published: true
 image: assets/images/2024/12/chris-yates-iqELIpzpARI-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/upgrading-report-portal-with-backup-restore-of-postgres-and-binary-data"
 categories:
-  - Software Testing
-  - QA
-  - SDET
-  - Test observability 
-  - ReportPortal
-tags:
-  - "Software Testing"
-  - "SDET"
-  - "QA"
   - "Test observability"
+tags:
+  - "QA"
   - "ReportPortal"
 ---
 

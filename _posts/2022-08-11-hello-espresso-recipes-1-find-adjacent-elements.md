@@ -6,14 +6,10 @@ published: true
 image: /assets/images/2022/08/espresso-recipe-1.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-recipe-1-find-adjacent"
 categories:
-  - "Software Testing"
-  - "Android"
-  - "Espresso"
-  - "UI Automation" 
   - "Mobile testing"
 tags:
   - "Mobile Testing"
-  - "Android Testing"
+  - "Android"
   - "Espresso"
 ---
 

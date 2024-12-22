@@ -8,8 +8,6 @@ permalink: /2020/07/12/how-to-manage-your-python-virtualenvs-with-pipenv/
 image: /assets/images/wp-content/uploads/2020/07/python_plus_pipenv.png
 categories:
   - "Coding"
-  - "Python"
-  - "Programming languages"
 tags:
   - "Python"
   - "virtualenvs"

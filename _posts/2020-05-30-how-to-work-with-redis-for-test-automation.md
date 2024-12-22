@@ -3,7 +3,6 @@ title: How to work with redis for test automation
 excerpt: Redis is a powerful in-memory data store that could be used for a variety of test automation use cases. In this post, we setup a redis server on an ubuntu VM and see how we can use redis-cli and a simple Kotlin class to interact with our server.
 permalink: /2020/05/30/how-to-work-with-redis-for-test-automation/
 categories:
-  - "Test tooling"
   - "Backend automation"
 tags:
   - "Redis"

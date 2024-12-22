@@ -6,11 +6,9 @@ published: true
 image: /assets/images/2023/02/human-skills-to-win-software-testing.png
 canonical_url: "https://newsletter.automationhacks.io/p/human-skills-to-win-in-software-testing?sd=pf"
 categories:
-  - "Software Testing"
-tags:
-  - "Software Testing"
   - "Soft skills"
-  - "Career advice"
+tags:
+  - "Career growth"
 ---
 
 <figure class="image">

@@ -7,7 +7,6 @@ categories:
   - "Load testing"
 tags:
   - "Python"
-  - "Load testing"
 
 ---
 

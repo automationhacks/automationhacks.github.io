@@ -5,6 +5,7 @@ permalink: /2020/04/02/staying-productive-during-work-from-home/
 image: /assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg
 categories:
   - "Productivity"
+tags:
   - "Advice"
 ---
 

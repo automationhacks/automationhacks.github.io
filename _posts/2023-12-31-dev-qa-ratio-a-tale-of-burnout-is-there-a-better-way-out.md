@@ -7,12 +7,11 @@ image: /assets/images/2023/12/dev-tester-ratio.jpeg
 canonical_url: "https://newsletter.automationhacks.io/p/dev-qa-ratio-a-tale-of-burnout-is"
 categories:
   - "Leadership"
-  - "QA"
-  - "SDET"
-  - "Career advice"
 tags:
   - "Software Engineering"
-  - "Career advice"
+  - "Career growth"
+  - "QA"
+  - "SDET"
 ---
 
 <figure class="image">

@@ -8,9 +8,9 @@ permalink: /2020/03/09/how-ive-set-up-my-dev-environment-and-workflow-for-produc
 image: /wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png
 categories:
   - "Productivity"
-  - "Coding"
 tags:
-  - "hacks"
+  - "IDE"
+  - "Coding"
 ---
 
 _This post shows how I prefer to set up my dev environment on Mac OS and settings and workflows that

@@ -6,11 +6,8 @@ published: true
 image: /assets/images/2024/09/product-vs-platform.png
 canonical_url: "https://newsletter.automationhacks.io/p/balancing-product-vs-platform-engineering"
 categories:
-  - "Software Engineering"
-  - "Career advice"
   - "SDET"
 tags:
-  - "SDET"
   - "Platform Engineering"
 ---
 

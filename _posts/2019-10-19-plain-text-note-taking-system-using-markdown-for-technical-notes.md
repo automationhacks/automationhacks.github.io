@@ -5,7 +5,7 @@ permalink: /2019/10/19/plain-text-note-taking-system-using-markdown-for-technica
 categories:
   - "Productivity"
 tags:
-  - "Career advice"
+  - "Career growth"
 ---
 
 Hello there,

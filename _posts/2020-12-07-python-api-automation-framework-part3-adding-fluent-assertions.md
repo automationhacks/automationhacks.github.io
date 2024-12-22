@@ -6,9 +6,6 @@ excerpt:
 permalink: /2020/12/07/python-api-automation-framework-part3-fluent-assertions-using-assertpy
 image: /assets/images/2020/12/api_course_header_3.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
 tags:
   - "Python"

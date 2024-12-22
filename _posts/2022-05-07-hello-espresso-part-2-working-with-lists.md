@@ -8,14 +8,10 @@ published: true
 image: /assets/images/2022/05/espresso-part2.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-2-working-with?s=w"
 categories:
-  - "Software Testing"
-  - "Android"
-  - "Espresso"
-  - "UI Automation" 
+  - "QA"
   - "Mobile testing"
 tags:
-  - "Mobile Testing"
-  - "Android Testing"
+  - "Android"
   - "Espresso"
 ---
 

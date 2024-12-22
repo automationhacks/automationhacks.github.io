@@ -6,15 +6,11 @@ excerpt:
 permalink: /2021/02/03/python-api-automation-framework-part8-adding-reporting-with-report-portal
 image: /assets/images/2021/02/api_course_header_8.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
-  - "Test observability"
-  - "ReportPortal"
 tags:
   - "Python"
   - "API testing"
+  - "ReportPortal"
 ---
 
 ![Python and requests and header](/assets/images/2021/02/api_course_header_8.png)

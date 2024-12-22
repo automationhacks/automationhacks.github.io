@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2023/06/prateek-katyal-6jYnKXVxOjc-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-2-software"
 categories:
-  - "Meta Engineering culture"
+  - "Engineering culture"
 tags:
   - "Meta"
   - "Software Engineering"

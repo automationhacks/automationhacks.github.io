@@ -3,7 +3,6 @@ title: How to do reverse lookup enum constant by value in Kotlin
 permalink: /2019/12/11/how-to-do-reverse-lookup-enum-constant-by-value-in-kotlin/
 categories:
   - "Coding"
-  - "Programming languages"
 tags:
   - "Kotlin"
 ---

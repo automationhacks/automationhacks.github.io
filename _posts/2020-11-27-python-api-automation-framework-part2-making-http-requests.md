@@ -6,9 +6,6 @@ excerpt:
 permalink: /2020/11/27/python-api-automation-framework-part2-making-http-requests
 image: /assets/images/2020/11/api_course_header_2.png
 categories:
-  - "Software Testing"
-  - "Python"
-  - "Programming langauges"
   - "Backend automation"
 tags:
   - "Python"

@@ -3,7 +3,6 @@ title: "Vol 1: How Kotlin eased my life in a Java world"
 permalink: /2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/
 categories:
   - "Coding"
-  - "Programming languages"
 tags:
   - "Kotlin"
   - "Clean code"

@@ -3,8 +3,8 @@ title: Working with TestNG data providers in Kotlin
 excerpt: "Data providers are not new, they are a cool feature in TestNG, in this post, we see how to implement these in Kotlin language"
 permalink: /2019/09/17/working-with-testng-data-providers-in-kotlin/
 categories:
+  - "Test runner"
   - "Coding"
-  - "Test frameworks"
 tags:
   - "Kotlin"
   - "TestNG"

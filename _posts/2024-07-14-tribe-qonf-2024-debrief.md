@@ -6,10 +6,9 @@ published: true
 image: /assets/images/2024/07/tribe-qonf-2024.png
 canonical_url: "https://newsletter.automationhacks.io/p/tribeqonf-2024-debrief"
 categories:
-  - "QA"
   - "Conferences"
 tags:
-  - "Conferences"
+  - "Growth mindset"
 ---
 
 <figure class="image">

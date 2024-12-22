@@ -5,7 +5,6 @@ excerpt: |
 permalink: /2020/03/08/mobile-app-testing-checklist/
 image: /assets/images/wp-content/uploads/2020/03/page1.png
 categories:
-  - "Software Testing"
   - "Mobile testing"
 tags:
   - "Checklist"

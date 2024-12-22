@@ -6,11 +6,9 @@ excerpt:
 permalink: /2021/08/22/who-the-heck-is-an-SDET
 image: /assets/images/2021/08/06/science-in-hd-1WBN-JKSmKI-unsplash.jpg
 categories:
-  - "Software Testing"
   - "SDET"
-  - "Career advice"
 tags:
-  - "Career advice"
+  - "Career growth"
 ---
 
 <figure class="image">
