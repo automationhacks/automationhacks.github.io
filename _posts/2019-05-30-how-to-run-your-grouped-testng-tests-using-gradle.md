@@ -3,7 +3,7 @@ title: How to run your grouped testNG tests using Gradle
 author: Gaurav
 permalink: /2019/05/30/how-to-run-your-grouped-testng-tests-using-gradle/
 categories:
-  - "Test runners"
+  - "Test runner"
 tags:
   - "TestNG"
   - "Gradle"
