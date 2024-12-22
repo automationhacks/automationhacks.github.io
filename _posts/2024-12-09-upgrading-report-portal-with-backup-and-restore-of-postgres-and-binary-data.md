@@ -51,7 +51,7 @@ Let’s go 🏃
 
 ## Backup postgres
 
-ReportPortal keeps most of the data in a Postgres instance including launches, filters, widgets, and dashboards. To backup Postgres, we can execute the `[pg_dump](https://www.postgresql.org/docs/current/app-pgdump.html)` command inside the docker container. This generates an SQL file with all the information needed to restore data after the upgrade.
+ReportPortal keeps most of the data in a Postgres instance including launches, filters, widgets, and dashboards. To backup Postgres, we can execute the [pg_dump](https://www.postgresql.org/docs/current/app-pgdump.html) command inside the docker container. This generates an SQL file with all the information needed to restore data after the upgrade.
 
 ```zsh
 DB_USER=rpuser
@@ -69,7 +69,7 @@ Explanation:
 * `pg_dump -U $DB_USER -d $DB_NAME`: This command initiates a PostgreSQL dump, specifying the username and database name.
 * `> reportportal_db_backup.sql`: Redirects the output sql to a file named `reportportal_docker_db_backup.sql.`
 
-⚡Tip: This command may take time if the database has lots of data. Please be patient as that completes. **Do not exit out early**as you may have incomplete backup. Once this is completed, it would be a good idea to make a copy of this file by executing something like this:
+> ⚡ Tip: This command may take time if the database has lots of data. Please be patient as that completes. **Do not exit out early**as you may have incomplete backup. Once this is completed, it would be a good idea to make a copy of this file by executing something like this:
 
 ```zsh
 cp reportportal_docker_db_backup.sql YYYY_MM_DD_reportportal_docker_db_backup.sql
@@ -98,7 +98,7 @@ Explanation:
 
 ## Remove all containers
 
-We will now use docker-compose to**bring down** all existing containers. If any container is already running when you try to upgrade it, you must stop and manually remove it (using `docker stop &lt;container_name> && docker rm &lt;container_name>`)
+We will now use docker-compose to**bring down** all existing containers. If any container is already running when you try to upgrade it, you must stop and manually remove it (using `docker stop <container_name> && docker rm <container_name>`)
 
 This can be a tedious process to do one by one, as there could be dependencies between containers. Docker Compose simplifies this process for us
 
@@ -253,7 +253,7 @@ Explanation
 2. `psql` is the [PostgreSQL command-line tool](https://www.postgresql.org/docs/current/app-psql.html). It connects to the database and executes SQL commands.
     4. `-U $DB_USER`: Specifies the database username (rpuser).
     5. `-d $DB_NAME`: Specifies the database name to connect to (reportportal).
-    6. `&lt; reportportal_docker_db_backup.sql`: Redirects the contents of the SQL backup file (`reportportal_docker_db_backup.sql`) as input to psql. This restores the database from the backup file.
+    6. `< reportportal_docker_db_backup.sql`: Redirects the contents of the SQL backup file (`reportportal_docker_db_backup.sql`) as input to psql. This restores the database from the backup file.
 3. Redirect Output with `> upgrade_db.log 2>&1`
     7. `>`: Redirects the standard output of the command (success messages, etc.) to a file called `upgrade_db.log`.
     8. `2>&1`: Redirects the standard error (error messages) to the same file (upgrade_db.log) as the standard output. This captures all logs (success and errors) into a single file.
