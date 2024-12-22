@@ -6,8 +6,9 @@ published: true
 image: assets/images/2024/12/sdet-roadmap.png
 canonical_url: "https://newsletter.automationhacks.io/p/sdet-roadmap"
 categories:
-  - Career Advice
-  - SDET
+  - "Roadmap"
+  - "Career Advice"
+  - "SDET"
 tags:
   - "SDET"
 ---

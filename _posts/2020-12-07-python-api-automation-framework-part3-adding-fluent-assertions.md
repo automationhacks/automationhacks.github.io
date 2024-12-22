@@ -6,10 +6,13 @@ excerpt:
 permalink: /2020/12/07/python-api-automation-framework-part3-fluent-assertions-using-assertpy
 image: /assets/images/2020/12/api_course_header_3.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
 tags:
-  - Python
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2020/12/api_course_header_3.png)
@@ -85,8 +88,8 @@ that we have been looking at:
         "lname": "Easter",
         "person_id": 3,
         "timestamp": "2020-12-01T16:50:36.843706"
-	}
-	...
+ }
+ ...
 ]
 ```
 

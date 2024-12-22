@@ -6,11 +6,10 @@ excerpt:
 permalink: /2021/06/23/simple-truths-of-software-testing-and-automation
 image: /assets/images/2021/06/undraw_people_search.png
 categories:
-  - Testing
-  - "Test automation"
+  - "Software Testing"
+  - "Career advice"
 tags:
-  - "Testing"
-  - "Advice"
+  - "Career advice"
 ---
 
 <figure class="image">
@@ -124,7 +123,7 @@ so we should rather automate these predictable cases and unleash our testers to 
 > Note: Exploratory testing is not random testing with no aim, it is well structured and involves
 > use of well defined **tours or charters** to cover a meaningful subset of the product. You can
 > read more about it in amazing books like
-> [Explore it! by Elisabeth Hendrickson ](https://www.goodreads.com/book/show/15980494-explore-it)
+> [Explore it! by Elisabeth Hendrickson](https://www.goodreads.com/book/show/15980494-explore-it)
 > or
 > [Exploratory software testing by James Whittaker](https://www.amazon.in/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414)
 

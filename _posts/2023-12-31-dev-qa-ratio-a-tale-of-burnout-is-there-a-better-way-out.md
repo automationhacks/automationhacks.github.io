@@ -6,13 +6,13 @@ published: true
 image: /assets/images/2023/12/dev-tester-ratio.jpeg
 canonical_url: "https://newsletter.automationhacks.io/p/dev-qa-ratio-a-tale-of-burnout-is"
 categories:
-  - Test leadership
-  - QA
-  - Software Engineering
+  - "Leadership"
+  - "QA"
+  - "SDET"
+  - "Career advice"
 tags:
   - "Software Engineering"
-  - "QA"
-  - "Software Testing"
+  - "Career advice"
 ---
 
 <figure class="image">
@@ -175,7 +175,7 @@ If you think about it, at a basic level. This is a classic demand and supply pro
 - **Demand:** Product/Dev Need X hours of your testing time on a feature to make it something production-ready
 - **Supply:** Tester’s time, experience/expertise, energy and creativity, etc
 
-### Solution 1: Increase supply 🚰 → i.e. Reduce the ratio.
+### Solution 1: Increase supply 🚰 → i.e. Reduce the ratio
 
 One way to solve the problem is of course reduce the ratio
 
@@ -250,7 +250,7 @@ They have written the source code. They obviously know how to code and given tim
 
 The limiting factors are really time and incentives.
 
-If a Dev is incentivized to ship code faster and move on to the next one. They might be inclined to do just **“good enough” ** testing. If the culture incentives high-quality release and proper time in the project timelines for testing and bug fixing. Then there is still hope. Leadership really needs to be spot on and care deeply about quality.
+If a Dev is incentivized to ship code faster and move on to the next one. They might be inclined to do just **“good enough”** testing. If the culture incentives high-quality release and proper time in the project timelines for testing and bug fixing. Then there is still hope. Leadership really needs to be spot on and care deeply about quality.
 
 So, In the previous hypothetical scenario with a 4:1 ratio staffed team with 16 Dev and 4 Testers, instead of 4 people doing Integration/E2E testing.
 

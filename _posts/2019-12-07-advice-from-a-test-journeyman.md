@@ -3,7 +3,10 @@ title: Advice from a test journeyman
 excerpt: "In this post, I want to share some of my mental models as a test journeyman with the hope that it gives some insight to people who are a bit new to the field around what behaviors can help them in their journey."
 permalink: /2019/12/07/advice-from-a-test-journeyman/
 categories:
-  - Testing
+  - "Software Testing"
+  - "Career advice"
+tags:
+  - "Career advice"
 ---
 
 ![](/assets/images/wp-content/uploads/2019/12/johann-siemens-epy0gbjzzzu-unsplash.jpg)
@@ -22,13 +25,13 @@ In this post, I want to share some of my mental models as a test journeyman with
 
 ## #1 Keep learning
 
-This is the most important lesson that I have realized. Unlike many other fields, Software is an ever-evolving field and that means to be really effective as a tester you should first and foremost be prepared to **be a constant learner. **
+This is the most important lesson that I have realized. Unlike many other fields, Software is an ever-evolving field and that means to be really effective as a tester you should first and foremost be prepared to **be a constant learner.**
 
 Consider the below questions:
 
-  * How can you find deviations in the app if you do not understand how the system itself works?
-  * How would you know the system does not work if you do not understand the components and technologies behind them?
-  * How can you truly ease your work if you do not know the tools of the trade to automate the tedious and monotonous parts of testing?
+* How can you find deviations in the app if you do not understand how the system itself works?
+* How would you know the system does not work if you do not understand the components and technologies behind them?
+* How can you truly ease your work if you do not know the tools of the trade to automate the tedious and monotonous parts of testing?
 
 Learning is **never a finite point** and as you grow in your career you would find that there is an opportunity to learn something new in even the most mundane of tasks if you are willing to **observe** and **optimize**
 
@@ -39,7 +42,7 @@ The good news is you **do NOT need** to know everything, take it slow and start 
     <p lang="en" dir="ltr">
       "Just in time learning (JITL)" is probably one of the most underrated skill we need to develop as a software engineer.
     </p>
-    
+
     <p>
       I've realized, It's okay to NOT know everything about a topic but just enough to contribute well, and know what are the next steps to take.
     </p>
@@ -50,8 +53,8 @@ The good news is you **do NOT need** to know everything, take it slow and start 
   </blockquote>
   
   <p>
-    </div> 
-    
+    </div>
+
     <p>
       There are many ways you can learn, you just have to understand how your brain works and figure out what works for you.
     </p>

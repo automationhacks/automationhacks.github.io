@@ -6,18 +6,17 @@ published: true
 image: /assets/images/2023/07/brett-jordan-Ng5tDxfpuzI-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-6-better"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
+  - "Software Engineering"
 ---
 
 Meta encourages engineers to spend time on work that improves engineering efficiency and also take time to huddle for a week to focus on creative problem solving.
 
 <figure class="image">
     <img src="assets/images/2023/07/brett-jordan-Ng5tDxfpuzI-unsplash.jpg" alt="The word focus written on a set of wooden logs">
-    <figcaption> Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Brett Jordan</a> on <a href="https://unsplash.com/photos/Ng5tDxfpuzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+    <figcaption> Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Brett Jordan</a> on <a href="https://unsplash.com/photos/Ng5tDxfpuzI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
 </figure>
 

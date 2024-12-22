@@ -4,8 +4,10 @@ excerpt: A post on why test automation early and in parallel to the development 
 permalink: /2020/03/21/why-automate-tests-early/
 image: /assets/images/wp-content/uploads/2020/03/chris-liverani-hujdz6cjeam-unsplash.jpg
 categories:
-  - Testing
+  - "Software Testing"
   - "Test automation"
+  - "Advice"
+  - "QA"
 ---
 A post on why test automation early and in parallel to the development cycle can help you scale faster and give better and quickly repeatable confidence over your feature ship. And why is there even a need for this in the first place?
 
@@ -23,10 +25,10 @@ In an uncertain product development environment often things move fast and featu
 
 One of the classic arguments on why to **NOT** automate tests **early** in such an environment is that:
 
-  * It's _way_ easier to write and modify these test cases in a test management tool manually as the specs change around us and adjust to these changes or worst still, let's not write any tests for now and use spreadsheets or docs to track.
-  * You might also say, that since the specs are not completely frozen, any automation code that I may write <span style="text-decoration:underline;"><em>might</em></span> get thrown away at the end of the day.
-  * Developing the basic framework code to enable writing these tests or the actual tests will take a lot of time which we don't have now.
-  * We will be stuck with maintenance early on before the feature is really baked.
+* It's _way_ easier to write and modify these test cases in a test management tool manually as the specs change around us and adjust to these changes or worst still, let's not write any tests for now and use spreadsheets or docs to track.
+* You might also say, that since the specs are not completely frozen, any automation code that I may write <span style="text-decoration:underline;"><em>might</em></span> get thrown away at the end of the day.
+* Developing the basic framework code to enable writing these tests or the actual tests will take a lot of time which we don't have now.
+* We will be stuck with maintenance early on before the feature is really baked.
 
 Fair enough.
 
@@ -102,17 +104,17 @@ While the devs are writing the code to develop a feature, You can author initial
 
 Use all available resources at hand to come up with a good test plan:
 
-  * Use the features spec doc
-  * Talk to the product managers and business team to understand the implications of the feature
-  * Identify what areas pose the most risk
-  * Identify the priority of cases to test first
-  * Do not bother to write all the cases at this stage, you will come to understand the feature better when you test and would be able to add more detail.
-  * Ensure all the major cases and risk areas are identified. Get these cases reviewed by dev and PM to ensure you are not missing anything.
+* Use the features spec doc
+* Talk to the product managers and business team to understand the implications of the feature
+* Identify what areas pose the most risk
+* Identify the priority of cases to test first
+* Do not bother to write all the cases at this stage, you will come to understand the feature better when you test and would be able to add more detail.
+* Ensure all the major cases and risk areas are identified. Get these cases reviewed by dev and PM to ensure you are not missing anything.
 
 ## Be part of code review
 
-  * Once the coding is done, ensure you take a look at the checked-in code in the merge request and ask probing questions on the test coverage
-  * Suggest any missing cases that could be covered at a lower level (Unit/Integration level) for the devs to add and most importantly _ensure they get added._
+* Once the coding is done, ensure you take a look at the checked-in code in the merge request and ask probing questions on the test coverage
+* Suggest any missing cases that could be covered at a lower level (Unit/Integration level) for the devs to add and most importantly _ensure they get added._
 
 <blockquote class="wp-block-quote">
   <p>
@@ -124,10 +126,10 @@ Use all available resources at hand to come up with a good test plan:
 
 We all know that developing UI automation cases for web or mobile is a challenging task and sometimes an exercise in frustration as you have figure out:
 
-  * If appropriate identifiers are built-in
-  * Figure out an appropriate wait strategy
-  * Run the cases multiple times to ensure that they are reliable.
-  * Additionally, cross-browser or mobile device fragmentation is also a concern
+* If appropriate identifiers are built-in
+* Figure out an appropriate wait strategy
+* Run the cases multiple times to ensure that they are reliable.
+* Additionally, cross-browser or mobile device fragmentation is also a concern
 
 Developing stable automation in the appropriate timeline might not always be realistic.
 
@@ -175,10 +177,10 @@ There would be a requirement to modify this automation as features change or spe
 
 If you are a single tester on an agile team then the only real option you have at success is to ensure **more bandwidth&nbsp;**and some ways of doing that are:
 
-  * Bring in developers to also write some of this functional automation,_ For this purpose, it's a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
-  * Augment a couple of dedicated testers to share this load and ensure the team can deliver on time.
+* Bring in developers to also write some of this functional automation,_ For this purpose, it's a good idea to have **your tests as part of the dev repo if possible** in order to reduce the barriers to contribution.
+* Augment a couple of dedicated testers to share this load and ensure the team can deliver on time.
 
-## Conclusion:
+## Conclusion
 
 To conclude, automating early has lots of benefits and is an ideal to strive for in your team. This is not an easy path and requires a mindset shift for many people but can surely add a lot of agility and better quality culture in the team.
 

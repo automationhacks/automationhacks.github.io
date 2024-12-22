@@ -6,10 +6,13 @@ excerpt:
 permalink: /2020/12/25/python-api-automation-framework-part5-working-with-json
 image: /assets/images/2020/12/api_course_header_5.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
 tags:
-  - Python
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2020/12/api_course_header_5.png)

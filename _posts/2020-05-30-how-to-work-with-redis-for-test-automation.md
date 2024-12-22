@@ -3,11 +3,13 @@ title: How to work with redis for test automation
 excerpt: Redis is a powerful in-memory data store that could be used for a variety of test automation use cases. In this post, we setup a redis server on an ubuntu VM and see how we can use redis-cli and a simple Kotlin class to interact with our server.
 permalink: /2020/05/30/how-to-work-with-redis-for-test-automation/
 categories:
-  - "Test automation"
+  - "Test tooling"
+  - "Backend automation"
+tags:
+  - "Redis"
 ---
 
 ![Redis - Wikipedia](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)
-
 
 <a rel="noopener" href="https://redis.io/" target="_blank">Redis</a> is an in-memory data structure store which can be used as a database cache and supports different <a rel="noopener" href="https://redis.io/topics/data-types-intro" target="_blank">data types</a>, most notably a simple key, value pair (aka dict), lists, etc.
 
@@ -19,12 +21,12 @@ In this post, we would see how to set up redis on an existing Ubuntu VM and how 
 
 ## Installation and setup of redis server on an Ubuntu VM
 
-### Pre-requisites:
+### Pre-requisites
 
-  * Ensure you have ubuntu already setup on your machine or have a VM created.
-  * SSH into the VM or open terminal app
-  * Execute `sudo su`to elevate your permissions to root
-  * Ensure you have the <a rel="noopener" href="https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/" target="_blank">GCC compiler</a> <span style="color:var(--color-text);">already installed, if not, follow the below steps to set it up.</span>
+* Ensure you have ubuntu already setup on your machine or have a VM created.
+* SSH into the VM or open terminal app
+* Execute `sudo su`to elevate your permissions to root
+* Ensure you have the <a rel="noopener" href="https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/" target="_blank">GCC compiler</a> <span style="color:var(--color-text);">already installed, if not, follow the below steps to set it up.</span>
 
 <pre class="wp-block-syntaxhighlighter-code">sudo apt update
 sudo apt install build-essential
@@ -107,8 +109,7 @@ In below class, we create a class `RedisHandler` which accepts a host and port (
 
 Simple Kotlin file with an abstraction over jedis (JVM support library for redis)
 
-
-And that's a wrap 🥳. Hopefully you would find creative use cases to use redis augment your automated tests. If you found this useful, do share with a friend or colleague. Until next time. Happy testing and automating! 
+And that's a wrap 🥳. Hopefully you would find creative use cases to use redis augment your automated tests. If you found this useful, do share with a friend or colleague. Until next time. Happy testing and automating!
 
 ## Related articles
 

@@ -6,16 +6,9 @@ published: true
 image: /assets/images/2024/07/tribe-qonf-2024.png
 canonical_url: "https://newsletter.automationhacks.io/p/tribeqonf-2024-debrief"
 categories:
-  - Software Engineering
-  - Software Testing
-  - Test Automation
-  - QA
-  - Conferences
-tags:
-  - "Software Engineering"
-  - "Software Testing"
-  - "Test Automation"
   - "QA"
+  - "Conferences"
+tags:
   - "Conferences"
 ---
 

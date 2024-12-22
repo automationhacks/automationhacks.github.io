@@ -6,10 +6,13 @@ excerpt:
 permalink: /2020/11/23/python-api-automation-framework-part1-python-and-dependencies-setup
 image: /assets/images/2020/11/api_course_header_1.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
 tags:
-  - Python
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2020/11/api_course_header_1.png)

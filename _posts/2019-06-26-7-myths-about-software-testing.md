@@ -2,7 +2,9 @@
 title: 7 Myths about software testing
 permalink: /2019/06/26/7-myths-about-software-testing/
 categories:
-  - Testing
+  - "Software testing"
+tags:
+  - "Antipatterns"
 ---
 
 _Common misconceptions about testing and the people who perform it._
@@ -205,7 +207,7 @@ As a tester. There is really nothing wrong in getting code access to the app tha
 day in and out to get an insider perspective of how it really works. Or giving comments on PRs. It
 is acts like this that help bridge the gap between dev and test. You might not understand each and
 every component but you might be surprised by the value you can bring to the table with
-your **systems thinking mindset **and ability to see impacts beyond the immediate code,
+your **systems thinking mindset**and ability to see impacts beyond the immediate code,
 Often times a dev deep in his act of creation misses basic or edge conditions which are often better
 captured as a unit/integration test.
 

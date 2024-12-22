@@ -2,9 +2,11 @@
 title: "Vol 1: How Kotlin eased my life in a Java world"
 permalink: /2019/06/16/vol-1-how-kotlin-eased-my-life-in-a-java-world/
 categories:
-  - Coding
+  - "Coding"
+  - "Programming languages"
 tags:
-  - Kotlin
+  - "Kotlin"
+  - "Clean code"
 ---
 
 Part 1 of a series of posts on why coding in kotlin makes so much sense over java.
@@ -172,7 +174,7 @@ How do we do this?
 Essentially what we can do is define a new property on String class like
 `val String.lastWord&nbsp;: String` and then define a get() which returns us the required value.
 
-<pre class="wp-block-preformatted">val String.lastWord : String<br /><br />get() {<br />    return this.split("")[1]<br />}</pre>
+<pre class="wp-block-preformatted">val String.lastWord : String<br /><br />get() {<br />    return this.split[""](1)<br />}</pre>
 
 We can use this just like a normal property with a clean syntax like `"John Doe".lastWord`
 

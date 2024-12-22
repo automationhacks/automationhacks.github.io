@@ -3,6 +3,9 @@ title: How to do reverse lookup enum constant by value in Kotlin
 permalink: /2019/12/11/how-to-do-reverse-lookup-enum-constant-by-value-in-kotlin/
 categories:
   - "Coding"
+  - "Programming languages"
+tags:
+  - "Kotlin"
 ---
 
 This is a neat trick I discovered recently
@@ -28,7 +31,7 @@ Let's understand this with an example
 In the above example, we have defined an enum class called `Mouses`which has all different mouses
 and a short brand name for each.
 
-If we want to get the **enum constant** value which has the **value = &#8220;logi&#8221; **then we
+If we want to get the **enum constant** value which has the **value = &#8220;logi&#8221;**then we
 can write a simple `foreach` loop in kotlin to iterate over all the values and if the desired value
 is found (Ln 17 &#8211; 21) then assign it to the temporary enum variable (Ln 15)
 

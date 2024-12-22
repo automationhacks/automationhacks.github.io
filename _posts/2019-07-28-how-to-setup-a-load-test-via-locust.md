@@ -2,9 +2,11 @@
 title: How to setup a load test via Locust
 permalink: /2019/07/28/how-to-setup-a-load-test-via-locust/
 categories:
-  - "Test automation"
+  - "Test frameworks"
+  - "Non functional"
+  - "Load testing"
 tags:
-  - Python
+  - "Python"
   - "Load testing"
 
 ---
@@ -140,7 +142,7 @@ curl -X GET 'http://localhost:1080/users'
 
 Awesome! So with this we have a mock server setup and ready to be automated.
 
-## Swarming this API with locust:
+## Swarming this API with locust
 
 Locust is a distributed load testing tool and uses light weight processes for concurrent user load.
 Plus the tests are coded in python which gives us a great deal of flexibility while authoring them.

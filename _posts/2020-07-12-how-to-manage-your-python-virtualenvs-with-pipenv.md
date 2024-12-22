@@ -7,9 +7,12 @@ excerpt:
 permalink: /2020/07/12/how-to-manage-your-python-virtualenvs-with-pipenv/
 image: /assets/images/wp-content/uploads/2020/07/python_plus_pipenv.png
 categories:
-  - Coding
+  - "Coding"
+  - "Python"
+  - "Programming languages"
 tags:
-  - Python
+  - "Python"
+  - "virtualenvs"
 ---
 
 ![Python and pipenv](/assets/images/wp-content/uploads/2020/07/python_plus_pipenv-1.png)
@@ -43,7 +46,7 @@ In python, the packaging story has had lots of options. Just take a look
 if you want to understand what all options are available.
 
 A tried and tested approach to quickly create a reproducible env for you app has been to use
-**virtualenv **module and install all the modules required using **pip **and then capture them with
+**virtualenv**module and install all the modules required using **pip**and then capture them with
 pinned dependencies versions using **requirements.txt**
 
 Below is a sample requirements.txt file with pinned dependencies
@@ -66,7 +69,7 @@ Let's say I use **Python 3.8** for my personal projects and want to use `request
 1.2.0.
 
 But at work, we as a team have still have not shifted to the latest version and are using **Python
-3.5 ** with another version of `requests = 1.0.2` (example)
+3.5** with another version of `requests = 1.0.2` (example)
 
 Supporting this workflow is possible by creating two different **virtualenvs** with different python
 versions and I can quickly activate the required environment for use. It's also quite trivial to

@@ -4,7 +4,8 @@ excerpt: How do I stay productive while working remotely or from home? This post
 permalink: /2020/04/02/staying-productive-during-work-from-home/
 image: /assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg
 categories:
-  - Productivity
+  - "Productivity"
+  - "Advice"
 ---
 
 ![](/assets/images/wp-content/uploads/2020/04/andrew-neel-cckf4tshauw-unsplash.jpg)
@@ -109,8 +110,8 @@ Many of these practices are something that you can use even if not working remot
 
 There are a ton of resources from other folks around this top. Feel free to browse them at your convenience. If this helped you feel free to share with other folks/colleagues.
 
-  * A cool post on some of the [WFH best practices](https://blog.gojekengineering.com/gojeks-best-practices-to-work-from-home-beta-83132cbeef62) written by Gojek's Co-CEO Kevin.
-  * <a href="https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f" target="_blank" rel="noopener">Remote work wiki by notion</a>
+* A cool post on some of the [WFH best practices](https://blog.gojekengineering.com/gojeks-best-practices-to-work-from-home-beta-83132cbeef62) written by Gojek's Co-CEO Kevin.
+* <a href="https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f" target="_blank" rel="noopener">Remote work wiki by notion</a>
 
 Also, I made a video on this topic for <a href="https://testproject.io/" target="_blank" rel="noopener">TestProject</a>. Check it out below:
 

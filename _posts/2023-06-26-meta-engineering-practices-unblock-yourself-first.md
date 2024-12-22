@@ -6,12 +6,10 @@ published: true
 image: /assets/images/2023/06/scott-graham-OQMZwNd3ThU-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-unblock"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
-  - "Test automation"
+  - "Software Engineering"
 ---
 
 A series of posts on sensible software engineering practices @ Meta. In this post we discuss the practice of doing your research first to unblock yourself and asking questions.
@@ -22,7 +20,7 @@ A series of posts on sensible software engineering practices @ Meta. In this pos
         Photo by <a
             href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a>
 on <a
-            href="https://unsplash.com/photos/OQMZwNd3ThU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+            href="https://unsplash.com/photos/OQMZwNd3ThU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
 </figure>
 

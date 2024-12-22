@@ -6,10 +6,11 @@ published: true
 image: /assets/images/2023/02/human-skills-to-win-software-testing.png
 canonical_url: "https://newsletter.automationhacks.io/p/human-skills-to-win-in-software-testing?sd=pf"
 categories:
-  - Testing
+  - "Software Testing"
 tags:
-  - "Testing"
-  - "Human skills"
+  - "Software Testing"
+  - "Soft skills"
+  - "Career advice"
 ---
 
 <figure class="image">
@@ -19,8 +20,6 @@ tags:
             href="https://automationhacks.io/">Created by Automation Hacks</a>
     </figcaption>
 </figure>
-
-# Human skills to win in Software Testing
 
 Hey there, 👋
 
@@ -214,4 +213,4 @@ Did I miss anything here?
 
 Let me know will ya? I would love to hear your thoughts in comments
 
-Thanks for the time you spent reading this 🙌. If you found this post helpful, please share it with your friends and follow me (**@automationhacks**) for more such insights in Software **Testing** and **Automation**. Until next time, Happy Testing 🕵🏻 and Learning! 🌱 | [Newsletter](https://newsletter.automationhacks.io/) | [YouTube](https://www.youtube.com/@automationhacks) | [Blog](https://automationhacks.io/) | [LinkedIn](https://www.linkedin.com/in/automationhacks/) | [Twitter](https://twitter.com/automationhacks). 
+Thanks for the time you spent reading this 🙌. If you found this post helpful, please share it with your friends and follow me (**@automationhacks**) for more such insights in Software **Testing** and **Automation**. Until next time, Happy Testing 🕵🏻 and Learning! 🌱 | [Newsletter](https://newsletter.automationhacks.io/) | [YouTube](https://www.youtube.com/@automationhacks) | [Blog](https://automationhacks.io/) | [LinkedIn](https://www.linkedin.com/in/automationhacks/) | [Twitter](https://twitter.com/automationhacks).

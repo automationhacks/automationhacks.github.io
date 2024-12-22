@@ -3,7 +3,9 @@ title: Plain text note taking system using markdown for technical notes
 guid: http://automationhacks.blog/?p=322
 permalink: /2019/10/19/plain-text-note-taking-system-using-markdown-for-technical-notes/
 categories:
-  - Productivity
+  - "Productivity"
+tags:
+  - "Career advice"
 ---
 
 Hello there,

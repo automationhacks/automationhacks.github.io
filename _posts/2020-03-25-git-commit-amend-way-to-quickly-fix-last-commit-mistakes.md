@@ -5,9 +5,10 @@ excerpt: A quick post on how git amend command can help you fix and change your 
 permalink: /2020/03/25/git-commit-amend-way-to-quickly-fix-last-commit-mistakes/
 image: /assets/images/wp-content/uploads/2020/03/jelleke-vanooteghem-kabtmcdcabk-unsplash.jpg
 categories:
-  - Coding
+  - "Coding"
+  - "Version control"
 tags:
-  - Git
+  - "git"
 ---
 A quick post on how git amend command can help you fix and change your last commit if you want to add something more or have made a mistake.
 
@@ -64,7 +65,7 @@ If you want to even change the message, Just add `-m <msg>` to this command
 
 <pre class="wp-block-preformatted">git <span class="hljs-keyword">commit</span> <span class="hljs-comment">--amend -m "an updated commit message"</span></pre>
 
-## Conclusion:
+## Conclusion
 
 Use **git amend** if you have made a mistake and fix your last commit. Note, This changes your last commit and it would not be recoverable.
 

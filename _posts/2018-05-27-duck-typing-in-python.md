@@ -3,9 +3,10 @@ title: Duck Typing in python
 excerpt: "Understand what duck typing in python means with an example"
 permalink: /2018/05/27/duck-typing-in-python/
 categories:
-  - Coding
+  - "Coding"
+  - "Programming languages"
 tags:
-  - Python
+  - "Python"
 ---
 
 > Quite simply put, Duck typing gives a programmer the ability to not worry about the type of a

@@ -8,7 +8,11 @@ excerpt:
 permalink: /2020/07/25/writing-clear-bug-reports/
 image: /assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png
 categories:
-  - Testing
+  - "Software Testing"
+  - "QA"
+  - "Testing fundamentals"
+tags:
+  - "Bug reporting"
 ---
 
 ![Created by Katerina Limpitsouni on unDraw.io](/assets/images/wp-content/uploads/2020/07/undraw_bug_fixing_oc7a.png)

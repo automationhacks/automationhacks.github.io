@@ -3,8 +3,10 @@ title: "Appium Conf 2019 Bengaluru : My experience"
 author: Gaurav
 permalink: /2019/06/16/appium-conf-2019-bengaluru-my-experience/
 categories:
-  - Conferences
+  - "Conferences"
+  - "Appium"
 tags:
+  - "AppiumConf"
   - "Mobile"
 ---
 
@@ -199,7 +201,7 @@ Justin shared how he build an app crawler to walk through an app and figure out 
 localized properly. To beat that it is all open source and available on
 [GitHub](https://github.com/isonic1/Appium-Native-Crawler)
 
-#### [Diego Molina ](https://github.com/diemol)— [Building a Mobile Testing Infrastructure: What I Learned](https://confengine.com/appium-conf-2019/proposal/9248/building-a-mobile-testing-infrastructure-what-i-learned)
+#### [Diego Molina](https://github.com/diemol)— [Building a Mobile Testing Infrastructure: What I Learned](https://confengine.com/appium-conf-2019/proposal/9248/building-a-mobile-testing-infrastructure-what-i-learned)
 
 I had listened to an earlier test talks podcast episode in which
 [diego spoke about Zalenium](https://www.joecolantonio.com/testtalks/208-selenium-grid-zalenium-diego-molina/)

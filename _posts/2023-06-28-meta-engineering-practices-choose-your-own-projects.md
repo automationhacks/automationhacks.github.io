@@ -6,12 +6,10 @@ published: true
 image: /assets/images/2023/06/prateek-katyal-6jYnKXVxOjc-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-2-software"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
-  - "Test automation"
+  - "Software Engineering"
 ---
 
 How software engineers at meta have a lot of autonomy in choosing what they work on
@@ -22,7 +20,7 @@ How software engineers at meta have a lot of autonomy in choosing what they work
         Photo by <a
             href="https://unsplash.com/de/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Prateek Katyal</a>
 on <a
-            href="https://unsplash.com/photos/6jYnKXVxOjc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+            href="https://unsplash.com/photos/6jYnKXVxOjc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
 </figure>
 
@@ -32,10 +30,9 @@ When you onboard to any new team, you initially follow the onboarding process of
 
 You get started with some starter tasks. Initially, they are small in size, something that you can reasonably expect to finish in a day or two and they incrementally keep on increasing in complexity from a few days to weeks and possibly even multi-month projects
 
-
 ### You own your projects 🫵🏼
 
-As you move on from task to task, and after you finish your first month in the team, you are expected to find a project that is appropriate to your specific level and scope. 
+As you move on from task to task, and after you finish your first month in the team, you are expected to find a project that is appropriate to your specific level and scope.
 
 This is quite a departure from working in a typical start-up environment where say a lot of problem space identification and scope definition may be done by product managers, business, or engineering leaders.
 
@@ -49,12 +46,11 @@ In the absence of that strong leadership, You as the software engineer have to t
 
 I'll caveat this by saying that this comes from my biased opinion of having worked in a horizontal platform team. Your mileage may vary on a product team tasked with shipping features to the customers, but this is what I've heard other senior engineers also say is the norm.
 
-
 ### What about n00bs? 🤔
 
 Now, As I understand, Software engineers who are earlier in their engineering careers or just new to a domain/team also struggle with this problem since they don't necessarily have the big picture right at the start to find a project that makes sense.
 
-In such cases, the advice I've found myself giving is to speak with members of the team, understand their pain points, and find out what if fixed may make life easier for them or the end users. 
+In such cases, the advice I've found myself giving is to speak with members of the team, understand their pain points, and find out what if fixed may make life easier for them or the end users.
 
 Choosing to work on a solution to that problem while ensuring it is somewhat of a priority and can contribute towards making a meaningful impact is usually a good strategy.
 

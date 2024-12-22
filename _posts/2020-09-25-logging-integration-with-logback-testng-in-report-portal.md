@@ -4,8 +4,7 @@ excerpt: "How to push logs into ReportPortal using logback in a Kotlin/TestNG/Gr
 permalink: /2020/09/25/logging-integration-with-logback-testng-in-report-portal/
 image: /assets/images/2020/09/rp_logback_images.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
   - "ReportPortal"
   - "Test observability"
 tags:

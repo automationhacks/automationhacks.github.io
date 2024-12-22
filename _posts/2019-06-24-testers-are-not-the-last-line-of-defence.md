@@ -2,7 +2,10 @@
 title: Testers are not the last line of defence
 permalink: /2019/06/24/testers-are-not-the-last-line-of-defence/
 categories:
-  - Testing
+  - "Software testing"
+  - "QA"
+tags:
+  - "Testing Antipatterns"
 ---
 
 Thoughts on why testers need to think beyond their role and evolve to become quality coaches for the
@@ -29,7 +32,7 @@ allow me to explain why this is just a bad idea.
 Throughout my career i have seen the same thing play out numerous times often with bad consequences
 for product quality.
 
-## Bug ping pong/ Dysfunctional loop:
+## Bug ping pong/ Dysfunctional loop
 
 Does the below scenario sound familiar in any way?
 
@@ -60,7 +63,7 @@ I have lost count of how many times, I have seen this happen.
 Do you see any problems with this? At first glance you might see this as **business as usual**
 however there are deep problems with this.
 
-## Testing anti patterns:
+## Testing anti patterns
 
 This most often than not results in below anti patterns:
 
@@ -91,7 +94,7 @@ We can certainly take action on below:
 
 In a utopian world.
 
-## Test stops acting as a gatekeeper:
+## Test stops acting as a gatekeeper
 
 Testers gets involved from the beginning of product design asking critical questions and also
 encouraging entire team to **start thinking** on below lines:
@@ -105,7 +108,7 @@ encouraging entire team to **start thinking** on below lines:
 - Are we building the **product right**? Or are we **building the right product**? (Subtle but
   important)
 
-## Coach developers into the art of testing:
+## Coach developers into the art of testing
 
 Testers coaches developers into wearing the testing hat and help them to get into the habit of
 thinking about breaking something that they themselves made by **pairing, being part of code
@@ -123,7 +126,7 @@ tests.
 Testers sits as part of code reviews and inquire into the test coverage or even give pointers into
 what conditions are missed so that they can be automated or tested at the correct layer.
 
-## Analyze customer data to learn usage patterns:
+## Analyze customer data to learn usage patterns
 
 Testers looks into the customer usage patterns along with UX/PM/Devs to understand and validate if
 the created feature actually had the desired impact or not.

@@ -2,10 +2,10 @@
 title: Viewing network traffic calls on IOS real device using MITM Proxy
 permalink: /2018/09/07/viewing-network-traffic-calls-on-ios-real-device-using-mitm-proxy/
 categories:
-  - Testing
+  - "Test tooling"
+  - "Mobile testing"
 tags:
-  - Mobile
-  - Proxy
+  - "mitm proxy"
 ---
 
 ### Getting Started
@@ -18,9 +18,9 @@ do not have such a feature in Xcode. So what is the solution. Enter
 powerful HTTPS proxy which can be used for multiple use cases. Today lets see how we can use it to
 capture traffic on an IOS real device.
 
-### Lets setup&nbsp;MITM
+### Lets setup MITM
 
-### Installing and starting MITM proxy on&nbsp;mac
+### Installing and starting MITM proxy on mac
 
 - Install MITM using homebrew `brew install mitmproxy`
 - Run mitm proxy by typing `mitmproxy` in terminal
@@ -28,7 +28,7 @@ capture traffic on an IOS real device.
   Alternatively you can also get the IP address by navigating to
   `System Preferences > Network > Wifi > Advanced > IPV4`
 
-### Setting up IOS real device to pass traffic via&nbsp;proxy
+### Setting up IOS real device to pass traffic via proxy
 
 - Open `Settings > Wifi > <your_wifi_name> > Tap on Configure proxy under HTTP proxy`
 - Select `manual` and enter the mac machines IP address in Server and default port as `8080`. For
@@ -49,7 +49,7 @@ capture traffic on an IOS real device.
 
 ![About certificate trust settings](/assets/images/wp-content/uploads/2018/09/3c118-1jcqnjz0dp9t6geffwxixxw.png)
 
-### How to see&nbsp;logs
+### How to see logs
 
 - Once MITM is running in terminal you would start seeing network calls having all requests,
   response and header info captured.
@@ -57,9 +57,9 @@ capture traffic on an IOS real device.
 
 > _Tip: If you want to see calls made by your apps with a specific pattern in the URL type_
 > `<strong><em>f</em></strong>` _and then enter a pattern, this would filter out all other captured
-> network&nbsp;calls._
+> network calls._
 
-- To see all available commands, press&nbsp;`?` to see a summary of available commands.
+- To see all available commands, press `?` to see a summary of available commands.
 
 That’s it. Enjoy! Do revert in case you have any specific questions on this and lets figure them out
 together

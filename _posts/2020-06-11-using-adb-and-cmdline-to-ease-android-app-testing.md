@@ -8,9 +8,12 @@ excerpt:
 permalink: /2020/06/11/using-adb-and-cmdline-to-ease-android-app-testing/
 image: /assets/images/wp-content/uploads/2020/06/android_phone-1.jpg
 categories:
-  - Testing
+  - "Software Testing"
+  - "Mobile testing"
 tags:
-  - Mobile
+  - "Mobile testing"
+  - "Android"
+  - "Adb"
 ---
 
 ![Android phone](/assets/images/wp-content/uploads/2020/06/android_phone.jpg)
@@ -163,7 +166,7 @@ To directly take the screenshot and copy to your local machine execute below:
 
 <pre class="wp-block-code"><code>adb exec-out screencap -p &gt; &lt;file_name&gt;.png</code></pre>
 
-### Recording a video:
+### Recording a video
 
 To record a video we can use `screenrecord` command with adb
 
@@ -218,7 +221,7 @@ command.
 
 <pre class="wp-block-code"><code>adb -s &lt;emulator_or_real_device_id&gt; logcat -b crash &gt; &lt;file_to_which_you_want_to_write&gt;</code></pre>
 
-## Conclusion:
+## Conclusion
 
 Challenge yourself to use more of command line utils and you would realize there is immense value
 and comfort in using them.

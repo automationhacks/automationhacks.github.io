@@ -6,10 +6,11 @@ published: true
 image: /assets/images/2022/11/undraw_Engineering_team_a7n2.png
 canonical_url: "https://newsletter.automationhacks.io/p/deep-dive-into-evolution-of-testing"
 categories:
-  - Testing
+  - "Software Testing"
+  - "QA"
+  - "Leadership"
 tags:
-  - "Testing"
-  - "Teams"
+  - "Teams building"
 ---
 
 <figure class="image">

@@ -8,7 +8,12 @@ excerpt:
 permalink: /2020/02/29/the-problem-with-titles-for-testers/
 image: /wp-content/uploads/2020/02/activities_that_a_tester_does-1.png
 categories:
-  - Testing
+  - "Software Testing"
+  - "QA"
+  - "Career advice"
+tags:
+  - "Rant"
+  - "Antipatterns"
 ---
 
 Why focussing on titles is an anti-pattern that should stop in the Testing world.
@@ -118,15 +123,15 @@ Broadly a person with tester role does the following.
 - **Risk analysis and Data** &#8211; Assesses risk, Uses data and telemetry to assess:
   - if the product is _built as per spec_?
   - but more importantly, _are we building the right product for our users?_
-- **User advocate &#8211; **Tester **tries** to think like a user, Thinks of user journey flows, 
+- **User advocate &#8211;**Tester **tries** to think like a user, Thinks of user journey flows,
   Questions the product on whether it does meet the user's need.
 - **Coaching and Mentoring** &#8211; Coaches the team (Dev/PM and other testers) on testing
   practices/mindset, Whole team quality, Encourages retrospection to improve the team over time.
-- **Planning/Strategy &#8211; **Figures out the appropriate test strategy and the correct tools and
+- **Planning/Strategy &#8211;**Figures out the appropriate test strategy and the correct tools and
   ensures it happens (by any team member (Dev/PM/Sales) regardless of roles)
 - **Coding** &#8211; Automates **essential** tests (when required), Writes and maintains frameworks,
   Reviews pull requests (Dev/Test automation) and suggests or make changes
-- **Communication and Collaboration **&#8211; Acts as a bridge between Dev, Business/PMs, and other
+- **Communication and Collaboration**&#8211; Acts as a bridge between Dev, Business/PMs, and other
   stakeholders and provides information and insights around the state of quality in a product
 
 ## Conclusion

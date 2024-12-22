@@ -2,9 +2,10 @@
 title: Remembering GIT commands
 permalink: /2018/05/27/remembering-git-commands/
 categories:
-  - Coding
+  - "Coding"
+  - "Version control"
 tags:
-  - Git
+  - "git"
 ---
 
 GIT is one of the most popular SCM tools being used these days, and even though there are lot of UI

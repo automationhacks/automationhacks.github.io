@@ -6,11 +6,15 @@ excerpt:
 permalink: /2021/02/03/python-api-automation-framework-part8-adding-reporting-with-report-portal
 image: /assets/images/2021/02/api_course_header_8.png
 categories:
-  - "Test automation"
-  - Testing
-tags:
-  - Python
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
+  - "Test observability"
   - "ReportPortal"
+tags:
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2021/02/api_course_header_8.png)
@@ -88,14 +92,14 @@ Once the above command finishes, verify if all the containers are spun up by exe
 docker ps -a
 ```
 
-Once done you should be able to open up the local site at http://localhost:8080/ui/ with default id
+Once done you should be able to open up the local site at <http://localhost:8080/ui/> with default id
 and password in ReportPortals website (at the time of writing this blog the credentials are user:
 `superadmin`, password: `erebus`)
 
 (🙏🏼 : Please change this in any production instance that you wish to use in your organizations
 unless you want those pesky hackers to have access to your projects test results)
 
-## Bug workaround: elastic search keeps on restarting:
+## Bug workaround: elastic search keeps on restarting
 
 You might notice that once you log in, you get pop-ups like “An error occurred” and your session is
 terminated.

@@ -6,18 +6,17 @@ published: true
 image: /assets/images/2023/07/firmbee-com-jrh5lAq-mIs-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-7-focus?sd=pf"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
+  - "Software Engineering"
 ---
 
 Meta-engineering culture is driven by obsessing over the impact and the use of data to support and inform decisions. This is a core engineering value and leads to some unique outcomes.
 
 <figure class="image">
     <img src="assets/images/2023/07/firmbee-com-jrh5lAq-mIs-unsplash.jpg" alt="person holding white Samsung Galaxy Tab">
-    <figcaption> Photo by <a href="https://unsplash.com/@firmbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Firmbee.com</a> on <a href="https://unsplash.com/photos/jrh5lAq-mIs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+    <figcaption> Photo by <a href="https://unsplash.com/@firmbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Firmbee.com</a> on <a href="https://unsplash.com/photos/jrh5lAq-mIs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
 </figure>
 

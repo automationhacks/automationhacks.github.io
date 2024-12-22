@@ -6,14 +6,13 @@ published: true
 image: /assets/images/2024/03/testing-grpc-4.png
 canonical_url: "https://newsletter.automationhacks.io/p/testing-grpc-4-how-to-e2e-test-a-grpc-service"
 categories:
-  - Software Engineering
-  - Software Testing
-  - Test Automation
-  - gRPC
+  - "Software Engineering"
+  - "Software Testing"
+  - "gRPC"
+  - "Backend automation"
 tags:
   - "Software Engineering"
   - "Software Testing"
-  - "Test Automation"
   - "gRPC"
 ---
 

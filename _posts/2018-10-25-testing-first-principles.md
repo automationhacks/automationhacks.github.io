@@ -3,7 +3,8 @@ title: "Testing: First principles"
 excerpt: "What are some of the first principles of testing that every tester/engineer should know of"
 permalink: /2018/10/25/testing-first-principles/
 categories:
-  - Testing
+  - "Software Testing"
+  - "QA"
 ---
 
 ![Wikimedia Commons](/assets/images/wp-content/uploads/2018/10/39f67-0xev6ecbq4wvei1u4.jpg)
@@ -35,7 +36,7 @@ different _thinking hats_ and **explore** the functionality from different conte
 > Always be curious and never trust when a developer says something will “work” just fine and needs
 > not to be tested **_🤔_**
 
-#### Know your product and its customers.
+#### Know your product and its customers
 
 As a person working in quality, common expectation from us is to typically wear your customers shoes
 and understand user journeys that they will take while using the product.

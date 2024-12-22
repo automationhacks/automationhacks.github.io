@@ -6,7 +6,10 @@ excerpt:
 permalink: /2020/06/24/equivalence-partitioning-and-boundary-value-analysis/
 image: /assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg
 categories:
-  - Testing
+  - "Software Testing"
+  - "Testing techniques"
+tags:
+  - "Testing fundamentals"
 ---
 
 ![](/assets/images/wp-content/uploads/2020/06/efe-kurnaz-rncpixixooy-unsplash.jpg)
@@ -105,7 +108,7 @@ coverage instead of trying to run for every possible value under the sun.
 If you found this post useful to you. Feel free to share it with a friend or colleague. Until next
 time. Happy testing! 👨🏻‍💻
 
-## References:
+## References
 
 If you want to read a bit more about these, below are some good resources.
 

@@ -1,16 +1,16 @@
 ---
-title: "BYOL: bring your own learning ⚡️"
+title: "⚡ BYOL: bring your own learning"
 excerpt: "A post on how self-learning on your own time can bring you compounding effects in your engineering career that your day job just might not!"
 permalink: 2024-08-13-byol-bring-your-own-learning
 published: true
 image: /assets/images/2024/08/byol-bring-your-own-learning.png
 canonical_url: "https://newsletter.automationhacks.io/p/byol-bring-your-own-learning"
 categories:
-  - Software Engineering
-  - Career Advice
-tags:
   - "Software Engineering"
-  - "Advice"
+  - "Career advice"
+  - "Growth mindset"
+tags:
+  - "Career advice"
 ---
 
 <figure class="image">

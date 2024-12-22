@@ -6,18 +6,17 @@ published: true
 image: /assets/images/2023/07/undraw_Collaboration_re_vyau.png
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-5-a-culture?sd=pf"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
+  - "Software Engineering"
 ---
 
 How engineers and leaders at meta promote an "Open" culture of transparency through Weekly Q&A, Bring your own coffee (BYOC), Office hours and sharing context over workplace posts
 
 <figure class="image">
     <img src="assets/images/2023/07/undraw_Collaboration_re_vyau.png" alt="Conversation between different people on a document">
-    <figcaption> Illustration by <a href="https://twitter.com/ninaLimpi"> Katerina Limpitsouni</a> on <a href="https://undraw.co/">Undraw</a> 
+    <figcaption> Illustration by <a href="https://twitter.com/ninaLimpi"> Katerina Limpitsouni</a> on <a href="https://undraw.co/">Undraw</a>
     </figcaption>
 </figure>
 
@@ -49,7 +48,7 @@ Usually, teams would open up fixed time slots per week as office hours during wh
 
 Meta being a truly global company has in my opinion a a good written and async communication culture. Engineers, leaders, and cross-functional partners (like business, and design) regularly write about either the projects they are working on, features built and roadmaps along with insights on any shipped impact.
 
-Established teams with fixed charters also write a **Quarterly lookback** post summarizing all the items shipped in the past quarter and their impact on business or team metrics and a look-ahead** post** with details on plans for upcoming quarters. I imagine this contributes to increased transparency across the org wherein anyone could follow and read these posts on their own time and understand how the plans of a sister or related team could impact their roadmaps.
+Established teams with fixed charters also write a **Quarterly lookback** post summarizing all the items shipped in the past quarter and their impact on business or team metrics and a look-ahead**post** with details on plans for upcoming quarters. I imagine this contributes to increased transparency across the org wherein anyone could follow and read these posts on their own time and understand how the plans of a sister or related team could impact their roadmaps.
 
 If alignment is needed, then it's easy to ping the author and have a conversation around those as well.
 

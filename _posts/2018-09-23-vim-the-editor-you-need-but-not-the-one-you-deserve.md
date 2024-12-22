@@ -3,7 +3,9 @@ title: "Vim: The editor you need, but not the one you deserve"
 author: Gaurav
 permalink: /2018/09/23/vim-the-editor-you-need-but-not-the-one-you-deserve/
 categories:
-  - Coding
+  - "Coding"
+tags:
+  - "vim"
 ---
 
 Hi there! So apart from the obvious reference to the Dark knight trilogy, I think this is quote in a
@@ -15,7 +17,7 @@ tell you **it does all that is promised and more in all the blogs** you might ha
 
 ---
 
-### What is vim and why should you&nbsp;care?
+### What is vim and why should you care?
 
 If you have never heard of vim, you can check out
 <a href="https://www.vim.org/" target="_blank">vim.org</a> but essentially it is a text editor like
@@ -89,7 +91,7 @@ Every key stroke moves the cursor one character at a time.
 As you start, practice using these commands and after a few weeks these would become muscle memory
 for you.
 
-### Moving even faster&nbsp;😉
+### Moving even faster 😉
 
 You might be thinking thats good but do i need to always press 20 followed by some `hjkl` command to
 move to some place where i want to edit? How would i even know how many chars to end of the word
@@ -121,7 +123,7 @@ def foo(name, age):
     print("My age is" + age)
 ```
 
-Move cursor to def and then try pressing `w` a few times and then repeat same thing with `W`&nbsp;,
+Move cursor to def and then try pressing `w` a few times and then repeat same thing with `W` ,
 did you see any difference? `w` would go to start of each word, even taking into account the comma
 or brackets in between, however `W` would exclude symbols and just be concerned with the actual
 words.
@@ -130,7 +132,7 @@ Once you master this, moving around code is so much easier.
 
 ---
 
-### Lets Insert some&nbsp;texts
+### Lets Insert some texts
 
 So once you are able to move around in a file, the next natural thing to do is to insert some text
 right? Go ahead and play around a little with getting into and out of insert mode using `i` and
@@ -162,14 +164,14 @@ current line O - opens a new line before current line
 > Example: If you want to enter a char after current cursor you press `a` however `A` lets you
 > insert at end of the line. Sweet right?
 
-### Editing:
+### Editing
 
 So as coders, most of the times we need to either rename a variable or function name rather than
 just inserting text right?
 
 Lets see how we can do editing using vim.
 
-#### Copy Paste (Ctrl + C/ Ctrl +&nbsp;V):
+#### Copy Paste (Ctrl + C/ Ctrl + V)
 
 Below is vims way of doing copy or paste. However usually if you want to copy something you need to
 **select it first**. So to do that `Visual mode` comes really handy. Essentially you just need to go
@@ -178,7 +180,7 @@ commands `hjkl` or `wWbBeE` and then just press `y`
 
 y - yank a.k.a copy Y - yank current line p - paste (after the cursor) P - paste (before the cursor)
 
-#### **Cut (Ctrl +&nbsp;X)**
+#### **Cut (Ctrl + X)**
 
 Thats great, so you can copy and paste now, but if you want to delete some word or line? Use below
 commands.
@@ -198,14 +200,14 @@ Finally every one makes mistakes, programmers even more so. We go through multip
 refactoring the code before we are happy so what if you deleted some thing by mistake. Don’t worry,
 just press `u` to **UNDO** your last action.
 
-#### Insert or&nbsp;change:
+#### Insert or change
 
 If you want to just edit a single char or sentence, use below.
 
 r - replace single character R - replace all following characters (Enter insert mode, instead of
 insert it basically modifies what even is present)
 
-### Saving files/Exiting:
+### Saving files/Exiting
 
 So till now you have been able to move in a file, able to insert or cut/paste texts and so on… How
 do you make sure your work is saved? 😉
@@ -214,9 +216,9 @@ do you make sure your work is saved? 😉
 quit, if there are changes since last write we would get an error. To override this error and still
 quit without saving, type :q! (with exclamation)
 
-> Tip: Commands can always be combined so to quit the file with also write changes use&nbsp;`:wq!`
+> Tip: Commands can always be combined so to quit the file with also write changes use `:wq!`
 
-### Vim with other editors/IDE’s:
+### Vim with other editors/IDE’s
 
 This might hurt the vim purists out there a little, but i like most coders out there use popular
 IDEs for their development workflows like IntelliJ for Java or Pycharm/Vscode for python. So how

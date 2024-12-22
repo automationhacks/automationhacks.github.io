@@ -8,9 +8,11 @@ published: true
 image: /assets/images/2022/05/espresso-part3.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-3-working-with"
 categories:
-  - Android
-  - Espresso
+  - "Software Testing"
+  - "Android"
+  - "Espresso"
   - "UI Automation" 
+  - "Mobile testing"
 tags:
   - "Mobile Testing"
   - "Android Testing"
@@ -21,7 +23,7 @@ tags:
     <img src="assets/images/2022/05/espresso-part3.png" alt="Espresso logo and the title Hello, espresso! Part 3 Working with intents">
     <figcaption>
         Photo by <a
-            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a> 
+            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a>
     </figcaption>
 </figure>
 
@@ -102,7 +104,7 @@ The below scenarios are possible
 GIVEN user is on home screen
 WHEN user taps on enter phone no EditText with id: @id/edit_text_caller_number
 AND user types a valid phone no
-AND user taps on call number Button with id: id	@id/button_call_number
+AND user taps on call number Button with id: id @id/button_call_number
 THEN the dialer activity is shown with entered phone no
 ```
 

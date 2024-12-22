@@ -7,10 +7,13 @@ excerpt:
 permalink: /2020/12/17/python-api-automation-framework-part4-working-with-xml-using-lxml
 image: /assets/images/2020/12/api_course_header_4.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
 tags:
-  - Python
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2020/12/api_course_header_4.png)

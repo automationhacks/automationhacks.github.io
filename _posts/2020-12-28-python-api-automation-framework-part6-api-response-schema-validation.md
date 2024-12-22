@@ -7,10 +7,13 @@ excerpt:
 permalink: /2020/12/28/python-api-automation-framework-part6-api-response-schema-validation
 image: /assets/images/2020/12/api_course_header_6.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Python"
+  - "Programming langauges"
+  - "Backend automation"
 tags:
-  - Python
+  - "Python"
+  - "API testing"
 ---
 
 ![Python and requests and header](/assets/images/2020/12/api_course_header_6.png)
@@ -65,10 +68,10 @@ Below is the structure we get when we hit the read API
 
 ```json
 {
-	"fname": "Doug",
-	"lname": "Farrell",
-	"person_id": 1,
-	"timestamp": "2020-12-01T16:50:36.842997"
+ "fname": "Doug",
+ "lname": "Farrell",
+ "person_id": 1,
+ "timestamp": "2020-12-01T16:50:36.842997"
 }
 ```
 

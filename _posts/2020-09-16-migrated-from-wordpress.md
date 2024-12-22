@@ -6,7 +6,7 @@ excerpt:
 permalink: /2020/09/16/migrated-away-from-wordpress/
 image: /assets/images/2020/09/wordpress_to_jekyll.png
 categories:
-  - Coding
+  - Blogging
 ---
 
 ![Wordpress to Jekyll](/assets/images/2020/09/wordpress_to_jekyll.png)

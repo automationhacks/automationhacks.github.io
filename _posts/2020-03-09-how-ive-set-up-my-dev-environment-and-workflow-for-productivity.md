@@ -7,7 +7,10 @@ excerpt:
 permalink: /2020/03/09/how-ive-set-up-my-dev-environment-and-workflow-for-productivity/
 image: /wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png
 categories:
-  - Productivity
+  - "Productivity"
+  - "Coding"
+tags:
+  - "hacks"
 ---
 
 _This post shows how I prefer to set up my dev environment on Mac OS and settings and workflows that
@@ -46,7 +49,7 @@ To do a favor to my eyes, I like to have the resolution set to 1440 X 900. At th
 honestly, the fonts are way more readable and you can appreciate the OS UI's or icons a bit more
 than usual. 😉
 
-#### How to setup:
+#### How to setup
 
 1. Go to System preferences
 2. Select Displays
@@ -64,7 +67,7 @@ makes it easier on the eyes.
 I like to have the Custom schedule selected and ensure, its always On. It's so much more comfortable
 to see the screen for extended periods with this setting and is truly a lifesaver.
 
-#### How to setup:
+#### How to setup
 
 1. Go to System preferences
 2. Select Displays
@@ -94,7 +97,7 @@ There are a couple of distinct benefits IMHO:
 2. Most of the dark themes have annoyingly bad color choices and sometimes cause the eye to hurt
    more than a sane light theme.
 
-#### How to setup:
+#### How to setup
 
 1. Go to System preferences
 2. General
@@ -154,7 +157,6 @@ Well, you might ask what about my Caps Lock operation. Turns out, I rarely use i
 having _all caps in your sentences might just make you appear a much nicer person on the web_. 😉
 
 ![modifier keys](/assets/images/wp-content/uploads/2019/10/screenshot-2019-10-29-at-5.43.18-pm.png)
-
 
 ## iTerm
 
@@ -224,13 +226,13 @@ Better still, this allows for better posture while working than the bent neck.
   <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
     <p lang="en" dir="ltr">
       Office desk setup! <a href="https://t.co/DFyYtLCsqZ">pic.twitter.com/DFyYtLCsqZ</a>
-    </p>&mdash; Gaurav Singh (@automationhacks) 
-    
+    </p>&mdash; Gaurav Singh (@automationhacks)
+
     <a href="https://twitter.com/automationhacks/status/1222374221893881856?ref_src=twsrc%5Etfw">January 29, 2020</a>
   </blockquote>
 </div>
 
-## Vimium:
+## Vimium
 
 Another browser extension that I use a lot is vimium, this basically adds VIM command superpowers to
 my workflow, allowing me to select different controls on the browser without touching the trackpad
@@ -239,7 +241,7 @@ or mouse and using keyboard shortcuts and commands to drive the browser.
 It saves me a lot of time. If interested. Check it out
 <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en" target="_blank" rel="noopener">here</a>
 
-## Pomodoro:
+## Pomodoro
 
 One of my recent revelations about how I work more effectively is the use of focussed time blocks
 interleaved with regular breaks.
@@ -265,7 +267,7 @@ instead of zoning from one to another without a plan.
 >   <a class="qa_165865 oncl_a" href="https://www.brainyquote.com/authors/lewis-carroll-quotes">Lewis Carroll</a>
 > </p>
 
-## Conclusion:
+## Conclusion
 
 Putting all the customizations that I use on a day to day basis might really need multiple posts.
 

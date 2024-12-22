@@ -8,13 +8,10 @@ permalink: /2022/01/02/how-i-got-that-job-at-meta
 published: true
 image: /assets/images/2022/01/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 categories:
-  - Interviews
-  - Career
+  - "Interviews"
+  - "Career advice"
 tags:
-  - "Testing"
-  - "Advice"
-  - "Career"
-  - "Interview"
+  - "Interviews"
   - "Software Engineering"
 ---
 
@@ -68,7 +65,7 @@ Before I begin, I would really like to express gratitude 🙌 towards **all the
 people** who helped me in this long journey
 
 - Especially **my wife** who was extremely patient as I spend long hours
-  morning/night for months preparing 
+  morning/night for months preparing
 - Couple of friends without whose support this would really not have have been
   possible.
 - All the innumerable **mentors**, **creators** who actively shared there
@@ -438,7 +435,7 @@ Blogs:
 - [Big O notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 - [How I got a job in 5 big tech companies in 5 days](https://medium.com/@XiaohanZeng/i-interviewed-at-five-top-companies-in-silicon-valley-in-five-days-and-luckily-got-five-job-offers-25178cf74e0f)
 - [Ace the coding interview, every time](https://www.linkedin.com/pulse/20141120061048-6976444-ace-the-coding-interview-every-time/?trk=mp-reader-card)
-- [Get that job at Google ](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+- [Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 - [Get that job at Facebook](https://www.facebook.com/notes/10158791572847200/)
 
 Practice sites:
@@ -515,7 +512,7 @@ gaps
 
 Below are some good resources:
 
-### YouTube:
+### YouTube
 
 - [System Design by GKCS (Gaurav Sen)](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
 - [System Design primer by sudoCode (Yogita Sharma)](https://www.youtube.com/watch?v=FSR1s2b-l_I&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a)
@@ -523,13 +520,13 @@ Below are some good resources:
 - [System Design by Exponent](https://www.youtube.com/results?search_query=exponent+system+design)
 - [Amazon System Design Preparation (SIP)](https://www.youtube.com/watch?v=gNQ9-kgyHfo)
 
-### Blogs and Github repo:
+### Blogs and Github repo
 
 - [System design primer](https://github.com/donnemartin/system-design-primer)
 - [Grokking the System design Interview on Educative.io](https://www.educative.io/courses/grokking-the-system-design-interview)
 - [High scalability blog](http://highscalability.com/)
 
-### Books:
+### Books
 
 - [Book: System Design Interview by Alex Xu](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/),
 - [System design - Hired In Tech](https://www.hiredintech.com/app#scalability-fundamentals)

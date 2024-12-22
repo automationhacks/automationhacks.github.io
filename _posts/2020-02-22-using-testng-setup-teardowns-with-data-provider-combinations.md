@@ -7,10 +7,10 @@ excerpt:
   solution. Here is a post, explaining how to use these constructs well with an example.
 permalink: /2020/02/22/using-testng-setup-teardowns-with-data-provider-combinations/
 categories:
-  - Coding
-  - "Test automation"
+  - "Coding"
+  - "Test frameworks"
 tags:
-  - TestNG
+  - "TestNG"
 ---
 
 <p class="has-drop-cap">
@@ -76,11 +76,10 @@ If we run the test then it would work fine.
 
 ![](/assets/images/wp-content/uploads/2020/02/testwithdataprovider.png)
 
-
 However, we already knew that data providers are awesome and can be used from this previous
 [post](https://automationhacks.blog/2019/09/17/working-with-testng-data-providers-in-kotlin/)
 
-## Let's expand the problem:
+## Let's expand the problem
 
 Now that the booking creation test looks fine. What if we want to test the cancellation flow? i.e.
 
@@ -166,7 +165,7 @@ the test method to before method as well**.
 fun givenBookingIsCreated(vehicleType: VehicleType)
 ```
 
-## Let's fix this:
+## Let's fix this
 
 I have replaced the parameter with an **Object[]&nbsp;**which can be represented as
 **Array<Any>&nbsp;**in kotlin, additionally, we need to extract the param that we care about and
@@ -180,7 +179,7 @@ This is what I was looking for. All tests passed. Time for some well-deserved co
 
 ![](/assets/images/wp-content/uploads/2020/02/final_test_run.png)
 
-## Key takeaways:
+## Key takeaways
 
 - With following this approach of combining **Before/After** annotations with Data provider values,
   we can keep our test method code leaner

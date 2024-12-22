@@ -6,13 +6,11 @@ published: true
 image: /assets/images/2023/10/key-components-for-delightful-test-automation.png
 canonical_url: "https://newsletter.automationhacks.io/p/how-whatsapp-tests-software"
 categories:
-  - Engineering practices
-  - Test automation
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
   - "WhatsApp"
+  - "Software Engineering"
 ---
 
 <figure class="image">
@@ -46,7 +44,7 @@ For mobile frameworks, Automated tests were written at all the layers of the tes
 
 - Unit tests: [JUnit](https://junit.org/junit5/), [Roboelectric](https://robolectric.org/)
 - UI tests: [Espresso](https://developer.android.com/training/testing/espresso)
-- Screenshot tests: [Screenshot tests for ](https://github.com/facebook/screenshot-tests-for-android)Android ([read more about this here 🔗](https://facebook.github.io/screenshot-tests-for-android/))
+- Screenshot tests: [Screenshot tests for](https://github.com/facebook/screenshot-tests-for-android)Android ([read more about this here 🔗](https://facebook.github.io/screenshot-tests-for-android/))
 - E2E tests: [Jest-based](https://jestjs.io/) internal E2E testing framework
 
 ### iOS
@@ -83,13 +81,13 @@ WhatsApp relied on a lot of Internal meta infrastructure for its device testing 
 - Android: [Gradle](https://gradle.org/), iOS: [Xcode](https://developer.apple.com/documentation/xcode/build-system)
 - [Buck2](https://github.com/facebook/buck2)
 
-### Test Reporting:
+### Test Reporting
 
 - Internal logging infrastructure
 - Test monitoring in [scuba](https://research.facebook.com/publications/scuba-diving-into-data-at-facebook/)
 - Internal reporting infrastructure
 
-### CI:
+### CI
 
 - Internal CI (read a [blog about it here](https://engineering.fb.com/2017/08/31/web/rapid-release-at-massive-scale/))
 
@@ -100,7 +98,7 @@ WhatsApp relied on a lot of Internal meta infrastructure for its device testing 
 - Monkey testing with [Sapienz](https://engineering.fb.com/2018/05/02/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/)
 - Static analysis with [Infer](https://github.com/facebook/infer)
 
-  As I collected this list, I realized Meta (formerly Facebook) is a company with an awesome engineering culture and they publish blogs about a lot of their internal tools to open sources and talk about it. If you want to get other ideas on their testing approaches, I suggest following [DevInfra blogs](https://engineering.fb.com/category/developer-tools/) and checking out the GitHub[ project](https://github.com/facebook)s for further insights into how to maybe adopt some of these in your own teams.
+  As I collected this list, I realized Meta (formerly Facebook) is a company with an awesome engineering culture and they publish blogs about a lot of their internal tools to open sources and talk about it. If you want to get other ideas on their testing approaches, I suggest following [DevInfra blogs](https://engineering.fb.com/category/developer-tools/) and checking out the GitHub[project](https://github.com/facebook)s for further insights into how to maybe adopt some of these in your own teams.
 
 ## A buffet of tools/frameworks 🧑‍🍳
 

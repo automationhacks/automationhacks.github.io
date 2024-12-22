@@ -6,9 +6,11 @@ published: true
 image: /assets/images/2022/08/espresso-recipe-1.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-recipe-1-find-adjacent"
 categories:
-  - Android
-  - Espresso
-  - "UI Automation"
+  - "Software Testing"
+  - "Android"
+  - "Espresso"
+  - "UI Automation" 
+  - "Mobile testing"
 tags:
   - "Mobile Testing"
   - "Android Testing"
@@ -19,7 +21,7 @@ tags:
     <img src="assets/images/2022/08/espresso-recipe-1.png" alt="Espresso logo and the title Hello, espresso! Recipe # 1 Find adjacent elements">
     <figcaption>
         Espresso logo image by <a
-            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a> 
+            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F600%2F1*Z2iFvuo4pMsK-aYhPkiGWA.png&imgrefurl=https%3A%2F%2Fproandroiddev.com%2Ftesting-android-ui-with-pleasure-e7d795308821&tbnid=2m9PR31uA1zqGM&vet=12ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ..i&docid=cWI2R5HvetOtGM&w=600&h=692&q=espresso%20android&ved=2ahUKEwjtm9SLnMT3AhVE8IUKHREuDVUQMygAegUIARCpAQ">Pro Android Dev</a>
     </figcaption>
 </figure>
 

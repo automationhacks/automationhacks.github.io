@@ -8,9 +8,8 @@ published: true
 image: /assets/images/2022/08/automation-hacks-you-tube.png
 canonical_url: "https://newsletter.automationhacks.io/p/-announcing-automation-hacks-youtube"
 categories:
-  - Announcements
+  - "Milestones"
 tags:
-  - "Announcements"
   - "YouTube"
 ---
 
@@ -32,7 +31,7 @@ Of course, it's named **"automation hacks"** 🧑🏻‍💻
 
 Excited to check it out?
 
-Head on over to 
+Head on over to
 [@automationhacks](https://youtube.com/@automationhacks)
 
 ## First series on Espresso

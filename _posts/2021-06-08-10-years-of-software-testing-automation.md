@@ -7,11 +7,10 @@ excerpt:
 permalink: /2021/06/08/10-years-of-software-testing-automation
 image: /assets/images/2021/06/undraw_career_progress_ivdb.png
 categories:
-  - "Test automation"
-  - Testing
+  - "Software Testing"
+  - "Career Advice"
 tags:
-  - "Experience"
-  - "Advice"
+  - "Career Advice"
 ---
 
 ![Career progress](/assets/images/2021/06/undraw_career_progress_ivdb.png)

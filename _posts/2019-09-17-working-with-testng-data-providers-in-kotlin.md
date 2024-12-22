@@ -3,11 +3,11 @@ title: Working with TestNG data providers in Kotlin
 excerpt: "Data providers are not new, they are a cool feature in TestNG, in this post, we see how to implement these in Kotlin language"
 permalink: /2019/09/17/working-with-testng-data-providers-in-kotlin/
 categories:
-  - Coding
-  - "Test automation"
+  - "Coding"
+  - "Test frameworks"
 tags:
-  - Kotlin
-  - TestNG
+  - "Kotlin"
+  - "TestNG"
 ---
 
 ![](/assets/images/wp-content/uploads/2019/09/juan-gomez-kt-wa0gdfq8-unsplash.jpg)
@@ -30,7 +30,7 @@ When I switched to using Kotlin to write my tests in, I decided to use TestNG as
 choice. However, the implementation of data providers was a tricky problem in the beginning.
 Hopefully this post saves you that time.
 
-## A simple problem with data providers:
+## A simple problem with data providers
 
 Let's assume that you want to write tests for a simple method `add()`in a `Calculator` class which
 takes 2 nos, adds them up and verifies the result is equal to an expected value.
@@ -146,7 +146,7 @@ and thus it needs to be `<NameOfTheClass>::class`
 
 With this, we can organize our data providers in desired files.
 
-## Sequential is so boring. Let's parallelize:
+## Sequential is so boring. Let's parallelize
 
 With all the above examples, TestNG would execute all the generated test methods in a single thread
 and depending on how much time each method takes, this can greatly increase your test execution

@@ -3,9 +3,13 @@ title: Finding out package and activity name via adb for appium automation
 excerpt: A post on how to use adb and aapt tools in android sdk to figure out the package and activity names for use in Appium desired capabilities.
 permalink: /2020/04/24/finding-out-package-and-activity-name-via-adb-for-appium-automation/
 Categories:
-  - Testing
+  - "Software Testing"
+  - "Appium"
+  - "Mobile testing"
 tags:
-  - Mobile
+  - "Mobile testing"
+  - "Android"
+  - "Adb"
 ---
 
  ![Android head image by Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/1280px-Android_robot_head.svg.png)
@@ -22,8 +26,8 @@ Let's see how.
 
 ## Ensure adb is set up and on path
 
-  * Ensure android SDK is installed and already in your path. It automatically gets installed if you <a href="https://developer.android.com/studio" target="_blank" rel="noopener">download Android studio</a>
-  * Add below entry in your `.zshrc` or `.bashrc` file followed by `source <file_name>` if you are on the mac otherwise add these in your windows system environment variables to allow all the common CLI to be available without having to type the fully qualified path every time
+* Ensure android SDK is installed and already in your path. It automatically gets installed if you <a href="https://developer.android.com/studio" target="_blank" rel="noopener">download Android studio</a>
+* Add below entry in your `.zshrc` or `.bashrc` file followed by `source <file_name>` if you are on the mac otherwise add these in your windows system environment variables to allow all the common CLI to be available without having to type the fully qualified path every time
 
 <pre class="wp-block-preformatted"># Android specific env vars
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -33,8 +37,8 @@ export PATH=$ANDROID_HOME/tools/bin:$PATH</pre>
 
 ## Get app package name
 
-  * Open the app on a real device connected via USB (with USB debugging on) or on an android emulator
-  * Execute below:
+* Open the app on a real device connected via USB (with USB debugging on) or on an android emulator
+* Execute below:
 
 <pre class="wp-block-preformatted">adb shell dumpsys window windows | grep -i "mCurrentFocus"</pre>
 

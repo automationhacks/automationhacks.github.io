@@ -3,9 +3,10 @@ title: "Pycon India 2018: What i learned?"
 excerpt: "I attended my first pycon in 2018 in hyderabad. Here are my key learnings from the different talks" 
 permalink: /2018/10/11/pycon-india-2018-what-i-learned/
 categories:
-  - Conferences
+  - "Conferences"
+  - "Python"
 tags:
-  - Python
+  - "Python"
 ---
 
 ![Pycon india website](/assets/images/wp-content/uploads/2018/10/24e58-0qa2jeiwzh_ivzp25.png)
@@ -20,7 +21,7 @@ and around the python ecosystem.
 
 ---
 
-### Day 1:
+### Day 1
 
 There were many excellent talks to choose from and I did attend most of them.
 
@@ -102,7 +103,7 @@ to be taken from this. What stood out for me was two basic ideas:
 
 ---
 
-### Day 2:
+### Day 2
 
 <a href="https://in.pycon.org/cfp/2018/proposals/testing-micro-services-made-easy~axm3b/" title="Testing micro-services made easy" target="_blank"><strong>Testing
 micro-services made easy</strong></a>  
@@ -173,7 +174,7 @@ for python with Guidos step down and also what values we can imbibe and follow t
 evolves further. Her slides are now made public on
 <a href="https://speakerdeck.com/willingc/the-future-of-python" target="_blank">speakerdeck</a>
 
-### Lightning talks&nbsp;⛈:
+### Lightning talks&nbsp;⛈
 
 These are usually the best part of any conferences since you get to know so many new ideas as
 quickly as possible.

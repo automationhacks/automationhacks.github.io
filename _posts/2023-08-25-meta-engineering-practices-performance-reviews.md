@@ -7,16 +7,15 @@ published: true
 image: /assets/images/2023/08/glen-carrie-ra4vJwxnvAo-unsplash.jpg
 canonical_url: "https://newsletter.automationhacks.io/p/engineering-practices-meta-8-performance"
 categories:
-  - Engineering practices
+  - "Meta Engineering culture"
 tags:
-  - "Meta Engineering"
-  - "Software Engineering"
   - "Meta"
+  - "Software Engineering"
 ---
 
 <figure class="image">
     <img src="assets/images/2023/08/glen-carrie-ra4vJwxnvAo-unsplash.jpg" alt="A person with a binocular with facebook logo inside a computer monitor">
-    <figcaption> Photo by <a href="https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Glen Carrie</a> on <a href="https://unsplash.com/photos/ra4vJwxnvAo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+    <figcaption> Photo by <a href="https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Glen Carrie</a> on <a href="https://unsplash.com/photos/ra4vJwxnvAo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
 </figure>
 
@@ -27,7 +26,6 @@ tags:
 Yay, no errors, warnings, or alerts!
 
 Conversion time: 0.569 seconds.
-
 
 Using this Markdown file:
 
@@ -86,7 +84,7 @@ This is the most important axis for an engineer and essentially answers the ques
 
 As you can imagine this is standard bread-and-butter stuff for engineers.
 
-Any engineer worth their salt would want their work to amount to some degree of positive impact on business or engineering goals. Notice the axis clearly calls out **Impact **as the focus area, so engineers who make an impact with their projects are usually rewarded rather than esoteric engineering pursuits. You also need to know how to actually paint your projects in a favorable light with the right metrics and communication around it.
+Any engineer worth their salt would want their work to amount to some degree of positive impact on business or engineering goals. Notice the axis clearly calls out **Impact**as the focus area, so engineers who make an impact with their projects are usually rewarded rather than esoteric engineering pursuits. You also need to know how to actually paint your projects in a favorable light with the right metrics and communication around it.
 
 Meta Leadership recognizes some projects have a long poll so partial progress toward milestones is also rewarded.
 
