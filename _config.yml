@@ -30,7 +30,7 @@ repository: "automationhacks/automationhacks.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "assets/images/logo/site-logo.png"
 masthead_title: "automation hacks"
-breadcrumbs: false
+breadcrumbs: true
 words_per_minute: 200
 
 comments:
