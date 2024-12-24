@@ -8,7 +8,7 @@ excerpt:
 permalink: /2020/02/29/the-problem-with-titles-for-testers/
 image: /wp-content/uploads/2020/02/activities_that_a_tester_does-1.png
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Career growth"
   - "Opinion"

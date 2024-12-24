@@ -7,7 +7,7 @@ published: true
 image: /assets/images/2022/05/espresso-part5.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-5-automating?sd=fs"
 categories:
-  - "QA"
+  - "Test Automation"
   - "Mobile testing"
 tags:
   - "Android"

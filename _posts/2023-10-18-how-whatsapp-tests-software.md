@@ -7,7 +7,7 @@ image: /assets/images/2023/10/key-components-for-delightful-test-automation.png
 canonical_url: "https://newsletter.automationhacks.io/p/how-whatsapp-tests-software"
 categories:
   - "Engineering culture"
-  - "QA"
+  - "Software Testing"
 tags:
   - "Meta"
   - "Software Engineering"

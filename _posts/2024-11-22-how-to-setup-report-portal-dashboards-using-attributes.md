@@ -8,8 +8,6 @@ canonical_url: "https://newsletter.automationhacks.io/p/inside-test-observabilit
 categories:
   - "Test observability"
 tags:
-  - "SDET"
-  - "QA"
   - "ReportPortal"
 ---
 

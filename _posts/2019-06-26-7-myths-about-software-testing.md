@@ -2,7 +2,7 @@
 title: 7 Myths about software testing
 permalink: /2019/06/26/7-myths-about-software-testing/
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Opinion"
 ---

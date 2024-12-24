@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2024/09/terminology-misses-in-software-testing.png
 canonical_url: "https://newsletter.automationhacks.io/p/common-terminology-misses-in-software"
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Opinion"
 ---

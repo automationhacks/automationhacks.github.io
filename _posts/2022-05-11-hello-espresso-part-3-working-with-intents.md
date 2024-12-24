@@ -8,7 +8,7 @@ published: true
 image: /assets/images/2022/05/espresso-part3.png
 canonical_url: "https://newsletter.automationhacks.io/p/hello-espresso-part-3-working-with"
 categories:
-  - "QA"
+  - "Test Automation"
   - "Mobile testing"
 tags:
   - "Android"

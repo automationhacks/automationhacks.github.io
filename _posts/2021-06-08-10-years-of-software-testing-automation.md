@@ -7,7 +7,7 @@ excerpt:
 permalink: /2021/06/08/10-years-of-software-testing-automation
 image: /assets/images/2021/06/undraw_career_progress_ivdb.png
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Career growth"
 ---

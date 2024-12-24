@@ -5,7 +5,7 @@ excerpt:
 permalink: /2020/10/08/testers-identity-crisis/
 image: /assets/images/2020/10/emily-morter-8xAA0f9yQnE-unsplash.jpg
 categories:
-  - "QA"
+  - "Software Testing"
   - "SDET"
 tags:
   - "Opinion"

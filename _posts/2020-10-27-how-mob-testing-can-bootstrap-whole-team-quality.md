@@ -8,7 +8,7 @@ excerpt:
 permalink: /2020/10/27/mob-testing-bootstrap-whole-team-quality/
 image: /assets/images/2020/10/duy-pham-Cecb0_8Hx-o-unsplash.jpg
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Mob testing"
   - "Testing fundamentals"

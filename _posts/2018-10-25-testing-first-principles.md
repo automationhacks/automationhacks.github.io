@@ -3,7 +3,7 @@ title: "Testing: First principles"
 excerpt: "What are some of the first principles of testing that every tester/engineer should know of"
 permalink: /2018/10/25/testing-first-principles/
 categories:
-  - "QA"
+  - "Software Testing"
 ---
 
 ![Wikimedia Commons](/assets/images/wp-content/uploads/2018/10/39f67-0xev6ecbq4wvei1u4.jpg)

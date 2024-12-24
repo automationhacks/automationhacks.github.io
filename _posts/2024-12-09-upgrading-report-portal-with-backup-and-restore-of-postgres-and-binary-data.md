@@ -8,7 +8,6 @@ canonical_url: "https://newsletter.automationhacks.io/p/upgrading-report-portal-
 categories:
   - "Test observability"
 tags:
-  - "QA"
   - "ReportPortal"
 ---
 

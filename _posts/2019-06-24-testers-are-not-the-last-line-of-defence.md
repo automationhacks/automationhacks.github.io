@@ -2,7 +2,7 @@
 title: Testers are not the last line of defence
 permalink: /2019/06/24/testers-are-not-the-last-line-of-defence/
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Opinion"
 ---

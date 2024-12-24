@@ -6,7 +6,7 @@ published: true
 image: /assets/images/2024/02/grow-as-a-tester.png
 canonical_url: "https://newsletter.automationhacks.io/p/what-i-wish-i-knew-about-software-testing"
 categories:
-  - "QA"
+  - "Software Testing"
 tags:
   - "Career growth"
 ---
