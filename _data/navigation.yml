@@ -1,9 +1,7 @@
 main:
-  - title: "About 👨🏻‍💻"
-    url: /about/
-  - title: "Categories"
+  - title: "Categories 🔖"
     url: /categories/
-  - title: "Tags"
+  - title: "Tags 🏷️"
     url: /tags/
   - title: "Archives 📟"
     url: /archives/
@@ -13,7 +11,9 @@ main:
     url: /courses/
   - title: "Talks 🙊"
     url: /talks/
-  - title: "Guest posts"
+  - title: "Guest posts 🥷"
     url: /guest-posts/
   - title: "Book recommendations 📓"
     url: /books/
+  - title: "About 👨🏻‍💻"
+    url: /about/
