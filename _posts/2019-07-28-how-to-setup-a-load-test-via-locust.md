@@ -2,7 +2,6 @@
 title: How to setup a load test via Locust
 permalink: /2019/07/28/how-to-setup-a-load-test-via-locust/
 categories:
-  - "Test frameworks"
   - "Backend automation"
 tags:
   - "Python"

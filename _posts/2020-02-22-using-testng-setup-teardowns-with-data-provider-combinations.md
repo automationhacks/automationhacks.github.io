@@ -7,7 +7,7 @@ excerpt:
   solution. Here is a post, explaining how to use these constructs well with an example.
 permalink: /2020/02/22/using-testng-setup-teardowns-with-data-provider-combinations/
 categories:
-  - "Test frameworks"
+  - "Test runner"
 tags:
   - "TestNG"
 ---
