@@ -1,6 +1,6 @@
 ---
-title: Categories 
+title: Topics
 layout: categories
 permalink: /categories/
-entries_layout: list
+entries_layout: grid 
 ---

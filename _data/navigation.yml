@@ -1,5 +1,5 @@
 main:
-  - title: "Categories 🔖"
+  - title: "Topics 🔖"
     url: /categories/
   - title: "Tags 🏷️"
     url: /tags/
@@ -17,3 +17,25 @@ main:
     url: /books/
   - title: "About 👨🏻‍💻"
     url: /about/
+
+docs:
+  - title: See other posts by
+    children:
+      - title: "Topics 🔖"
+        url: /categories/
+      - title: "Tags 🏷️"
+        url: /tags/
+      - title: "Archives 📟"
+        url: /archives/
+  - title: Community
+    children:
+      - title: "Newsletter 📰"
+        url: /newsletter/
+      - title: "Courses 👨🏻‍🏫"
+        url: /courses/
+      - title: "Talks 🙊"
+        url: /talks/
+      - title: "Guest posts 🥷"
+        url: /guest-posts/
+      - title: "Book recommendations 📓"
+        url: /books/

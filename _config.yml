@@ -233,12 +233,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
       toc: true
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: ""
@@ -246,6 +249,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
+      classes: wide
+      toc: true
+      sidebar:
+        nav: "docs"
 
   # collections
   # _foo

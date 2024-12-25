@@ -3,14 +3,6 @@ title: Talks
 permalink: /talks/
 ---
 
-I try to regularly share my knowledge with the **Test automation** community over at conferences. Please find the list
-of past talks below
-
-> Also, 🧏🏼‍♂️ Feedback is how we all learn, if you have some on these talks, do reach out!
-
-**On Talk slides:** I have recently switched to using pure **markdown** and **Mkdocs static site generator** for some
-conference slides. You can view all of them on [here](https://automationhacks.io/slides/)
-
 ## 2024
 
 ### Mastering gRPC Testing: Write automated tests like a Pro
