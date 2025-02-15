@@ -4,9 +4,11 @@ layout: page
 permalink: /contact/
 ---
 
-👋🏼 Hi, This is Gaurav, I publish insights about software testig and automation at [Automation hacks newsletter](https://newsletter.automationhacks.io/) and create helpful videos that teach you deep testing stuff at [@automationhacks YouTube channel](https://www.youtube.com/@automationhacks)
+👋🏼 Hi, This is Gaurav, I publish regular insights about software testig and automation at [automation hacks newsletter](https://newsletter.automationhacks.io/) and create videos that teach you deep testing stuff at [@automationhacks youtube channel](https://www.youtube.com/@automationhacks)
 
-<iframe src="https://automationhacks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://automationhacks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white; max-width: 100%;" frameborder="0" scrolling="no"></iframe>
+</div>
 
 ## 🚀 Connect with me
 
