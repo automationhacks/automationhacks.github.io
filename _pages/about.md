@@ -4,8 +4,6 @@ layout: page
 permalink: /about/
 ---
 
-<img src="../assets/images/avatar/bio-photo.png" alt="Image of Gaurav Singh" width=500>
-
 Hi there 👋🏻,
 
 I'm Gaurav Singh. I live in India 🇮🇳 with my wife and with my other
