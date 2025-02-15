@@ -1,4 +1,6 @@
 main:
+  - title: "Contact 📥"
+    url: /contact/
   - title: "Topics 🔖"
     url: /categories/
   - title: "Tags 🏷️"
@@ -11,15 +13,21 @@ main:
     url: /courses/
   - title: "Talks 🙊"
     url: /talks/
-  - title: "Guest posts 🥷"
-    url: /guest-posts/
+  - title: "Guest blogs 🥷"
+    url: /guest-blogs/
   - title: "Book recommendations 📓"
     url: /books/
   - title: "About 👨🏻‍💻"
     url: /about/
 
 docs:
-  - title: See other posts by
+  - title: "Contact"
+    children:
+      - title: "Contact 📥"
+        url: /contact/
+      - title: "About me 👨🏻‍💻"
+        url: /about/
+  - title: Read blogs by
     children:
       - title: "Topics 🔖"
         url: /categories/
@@ -35,7 +43,7 @@ docs:
         url: /courses/
       - title: "Talks 🙊"
         url: /talks/
-      - title: "Guest posts 🥷"
-        url: /guest-posts/
+      - title: "Guest blogs 🥷"
+        url: /guest-blogs/
       - title: "Book recommendations 📓"
         url: /books/

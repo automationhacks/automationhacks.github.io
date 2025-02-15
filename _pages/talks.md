@@ -3,6 +3,13 @@ title: Talks
 permalink: /talks/
 ---
 
+## 2025
+
+### Podcast: Simply Automate With Siddharth: How to get a Job in Meta | How to get hired in Meta | Meta Interview process | Meta layoffs & Salary
+
+Simply Automate With Siddharth | Online | Jan 2025 |
+[Video](https://youtu.be/oavvaHazL-w?si=aOzTf5v21pM6Xfj4)
+
 ## 2024
 
 ### Mastering gRPC Testing: Write automated tests like a Pro
