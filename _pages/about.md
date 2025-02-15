@@ -86,12 +86,4 @@ You may also find value in subscribing to my [newsletter](newsletter.md)
 
 ## How can I contact you
 
-Please feel free to drop in your thoughts via any of the below channels:
-
-- [✏️ Blog](https://automationhacks.io/)
-- [🐦 Twitter](https://twitter.com/automationhacks)
-- [🗣 LinkedIn](https://www.linkedin.com/in/automationhacks/)
-- [😺 GitHub](https://github.com/automationhacks)
-- [Stack overflow](https://stackoverflow.com/users/5336432/gaurav-singh)
-
-<a href="https://stackoverflow.com/users/5336432/gaurav-singh"><img src="https://stackoverflow.com/users/flair/5336432.png?theme=clean" width="208" height="58" alt="profile for Gaurav Singh at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Gaurav Singh at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+Checkout our [contact](contact.md) page
