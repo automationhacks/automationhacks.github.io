@@ -4,7 +4,7 @@ layout: page
 permalink: /contact/
 ---
 
-👋🏼 Hi, This is Gaurav!
+Hi, Welcome. This is Gaurav! 👋🏼
 
 Author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks youtube channel](https://www.youtube.com/@automationhacks)
 
