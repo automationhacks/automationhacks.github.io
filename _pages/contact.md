@@ -6,9 +6,7 @@ permalink: /contact/
 
 👋🏼 Hi, This is Gaurav!
 
-🏊🏻‍♀️️ Dive into **software testing** depths with a Principal engineer and read [automation hacks newsletter 📥](https://newsletter.automationhacks.io/), and see insightful ✨ videos [@automationhacks youtube channel](https://www.youtube.com/@automationhacks) 📽️ that will help you level 🆙 by teaching you a tool, tip, technique or pattern 🚀 that you can directly **apply at work** and create value as a **testing rockstar** 🎸.
-
-Strictly **pragmatic no fluff engineering topics** only.
+Author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks youtube channel](https://www.youtube.com/@automationhacks)
 
 <div style="display: flex; justify-content: center;">
   <iframe src="https://automationhacks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white; max-width: 100%;" frameborder="0" scrolling="no"></iframe>
