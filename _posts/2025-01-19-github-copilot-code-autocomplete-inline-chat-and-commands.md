@@ -208,7 +208,7 @@ Prefer videos?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/el9uvujY7uY?si=y-BKXr_dYVzrMZAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In the next edition, we will explore **Github Copilot multi file edits**
+In the next edition, we will explore [**Github Copilot multi file edits**]({% link _posts/2025-01-31-github-copilot-edits-multiple-files-and-enhance-coding-workflow.md%})
 
 Subscribe to the [newsletter](https://newsletter.automationhacks.io/) and [YouTube channel (@automationhacks)](https://www.youtube.com/@automationhacks) for more ⚡**insights** into **software testing** and **automation,** or connect on [topmate](https://topmate.io/automationhacks/) for a personalized 1:1 session.
 
