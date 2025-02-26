@@ -4,7 +4,7 @@ excerpt: "Get into a true pair programming workflow where Copilot takes on the d
 permalink: 2025-01-31-github-copilot-edits-multiple-files-and-enhance-coding-workflow
 published: true
 image: assets/images/2025/01/copilot-edits.png
-canonical_url: "https://newsletter.automationhacks.io/p/ai-for-testing-2-code-assistance-inline-chat-and-chat-commands"
+canonical_url: "https://newsletter.automationhacks.io/p/copilot-edits-edit-multiple-files"
 categories:
   - "AI"
 tags:
