@@ -18,7 +18,7 @@ If you need guidance or mentoring on software testing, test automation, or need 
 
 If you have an **awesome product, tool, or service** that can **empower engineering teams**, I’d love to explore a potential collaboration! I can help share it with the world through my **YouTube channel** and **newsletter**.  
 
-📩 Feel free to reach out via **DM** on [LinkedIn](https://www.linkedin.com/in/automationhacks/) or [X](https://x.com/automationhacks), or drop me an email at `automationhacks@gmail.com`.  
+📩 Feel free to reach out via **DM** on [LinkedIn](https://www.linkedin.com/in/automationhacks/) or [X](https://x.com/automationhacks), or drop me an email at `automationhacks@gmail.com`
 
 💡 **Bonus points** if your product helps solve a **testing** challenge!  
 
