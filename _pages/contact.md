@@ -6,7 +6,7 @@ permalink: /contact/
 
 Hi, Welcome to the blog.
 
-This is Gaurav! 👋🏼 author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks YouTube channel](https://www.youtube.com/@automationhacks) where my mission is to **help elevate your software testing and automation**
+This is Gaurav! 👋🏼 author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks YouTube channel](https://www.youtube.com/@automationhacks) where my mission is to **help you elevate your software testing and automation**
 
 ## 🚀 Looking for a mentor? 🚀
 
