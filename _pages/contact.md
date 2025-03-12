@@ -4,19 +4,30 @@ layout: page
 permalink: /contact/
 ---
 
-Hi, Welcome. This is Gaurav! 👋🏼
+Hi, Welcome to the blog.
 
-Author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks youtube channel](https://www.youtube.com/@automationhacks)
+This is Gaurav! 👋🏼 author of the [automation hacks newsletter 📥](https://newsletter.automationhacks.io/) and [@automationhacks YouTube channel](https://www.youtube.com/@automationhacks) where my mission is to **help elevate your software testing and automation**
 
-<div style="display: flex; justify-content: center;">
-  <iframe src="https://automationhacks.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white; max-width: 100%;" frameborder="0" scrolling="no"></iframe>
-</div>
-
-## 🚀 Connect with me
+## 🚀 Looking for a mentor? 🚀
 
 If you need guidance or mentoring on software testing, test automation, or need a **staff+ engineer's** help to **navigate your career path** in software engineering, then I may be able to help, let's talk:
 
 ➡️ [**Book a 1:1 session on Topmate**](https://topmate.io/automationhacks/)
+
+## Looking to Showcase Your Product? 🚀  
+
+If you have an **awesome product, tool, or service** that can **empower engineering teams**, I’d love to explore a potential collaboration! I can help share it with the world through my **YouTube channel** and **newsletter**.  
+
+📩 Feel free to reach out via **DM** on [LinkedIn](https://www.linkedin.com/in/automationhacks/) or [X](https://x.com/automationhacks), or drop me an email at `automationhacks@gmail.com`.  
+
+💡 **Bonus points** if your product helps solve a **testing** challenge!  
+
+### 🔥 Here’s what I did for [Educative](https://www.educative.io/?aff=x4QL)  
+
+- 📹 Featured in a [YouTube video](https://youtu.be/CVJKmI2GukA?t=474)  
+- 📰 Highlighted in my [newsletter](https://newsletter.automationhacks.io/p/how-to-run-llms-locally-with-ollama) in 2025  
+
+Let’s collaborate and bring your innovation to a wider audience! 🚀  
 
 ## 📺 Follow/DM me
 
