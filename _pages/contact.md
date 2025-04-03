@@ -41,4 +41,3 @@ Please don't hesitate to ask any questions or share any thoughts you may have (i
 - 🎓 [**Stack Overflow**](https://stackoverflow.com/users/5336432/gaurav-singh)  
 - 🔗 [**LinkedIn**](https://www.linkedin.com/in/automationhacks/) Gaurav Singh  
 - 🅧 [**X**](https://x.com/automationhacks) automationhacks
-- 🦋 [**BlueSky**](https://bsky.app/profile/automationhacks.bsky.social) automationhacks.bsky.social

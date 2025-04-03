@@ -404,4 +404,4 @@ Let’s conclude on the workflow we learned today
 
 Thanks for the time you spent reading this 🙌. If you found this post helpful, please subscribe to the [newsletter](https://newsletter.automationhacks.io/) and follow my YouTube channel (@automationhacks) for more insights into software testing and automation. Until next time 👋, Happy Testing 🕵🏻 and Learning! 🌱
 
-[Substack](https://newsletter.automationhacks.io/) | [YouTube](https://www.youtube.com/@automationhacks) | [Blog](https://automationhacks.io/) | [LinkedIn](https://www.linkedin.com/in/automationhacks/) | [X](https://twitter.com/automationhacks) | [BlueSky](https://bsky.app/profile/automationhacks.bsky.social)
+[Substack](https://newsletter.automationhacks.io/) | [YouTube](https://www.youtube.com/@automationhacks) | [Blog](https://automationhacks.io/) | [LinkedIn](https://www.linkedin.com/in/automationhacks/) | [X](https://twitter.com/automationhacks)
