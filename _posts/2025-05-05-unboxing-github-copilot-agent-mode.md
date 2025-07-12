@@ -103,9 +103,7 @@ You can:
 2. `at the rate @`to chat with extensions
 3. Use a `forward slash (/)`to use commands
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](/assets/images/2025/05/0-welcome-to-agent-mode.png "image_tooltip")
+![Github copilot welcome page](/assets/images/2025/05/0-welcome-to-agent-mode.png)
 
 Let’s ask Copilot Agent mode to build a feature in the [test-infra](https://github.com/automationhacks/test-infra) codebase.
 
@@ -117,40 +115,38 @@ Let’s set up a session
 
 We’ll copy and paste the below prompt in the chat window
 
-```
-    As a Java programmer, I want you to implement a developer productivity feature.
+```text
+As a Java programmer, I want you to implement a developer productivity feature.
 
-    I want you to be able to connect to the report portal instance running on localhost:8080 on this machine and figure out the reason for a failing test from the stack trace, and then suggest a fix for this in the tests under `src/test/java/io/automationhacks/testinfra/reqres` package. 
+I want you to be able to connect to the report portal instance running on localhost:8080 on this machine and figure out the reason for a failing test from the stack trace, and then suggest a fix for this in the tests under `src/test/java/io/automationhacks/testinfra/reqres` package. 
 
-    This should be built in a scalable manner such that this auto-analysis can run on every test suite run or at a scheduled time.
+This should be built in a scalable manner such that this auto-analysis can run on every test suite run or at a scheduled time.
 
-    The report portal has an MCP server here:
-    https://github.com/reportportal/reportportal-mcp-server
+The report portal has an MCP server here:
+https://github.com/reportportal/reportportal-mcp-server
 
-    API docs can be found here
-    https://developers.reportportal.io/api-docs/service-api/get-test-items
+API docs can be found here
+https://developers.reportportal.io/api-docs/service-api/get-test-items
 ```
 
 And select **Agent** from the drop-down to indicate you want to use **Agent mode**
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image2.png "image_tooltip")
+![Select Agent mode](../assets/images/2025/05/1-select-agent-mode.png)
 
 I additionally want Copilot to have a set of rules while working on the problem.
 
 I created a <code>[custom_instructions.md](https://github.com/automationhacks/test-infra/blob/failure_auto_fixes/custom_instructions.md)</code> file and attached it to the context
 
-```
-    # Instructions
+```markdown
+# Instructions
 
-    ## Rules
+## Rules
 
-    - After making a change, update the ai_changes/changelog.md file with what change was made with a timestamp to make it easy to follow
-    - Keep the code clean, modular, and extensible for future changes
-    - Prepare a plan before executing and document that in a ai_changes/plan.md file. Also, capture the prompt that was provided by the developer to trigger that change
-    - Don't hallucinate or make up stuff.
-    - Always check your work before completing the task
+- After making a change, update the ai_changes/changelog.md file with what change was made with a timestamp to make it easy to follow
+- Keep the code clean, modular, and extensible for future changes
+- Prepare a plan before executing and document that in a ai_changes/plan.md file. Also, capture the prompt that was provided by the developer to trigger that change
+- Don't hallucinate or make up stuff.
+- Always check your work before completing the task
 ```
 
 ### 📃 Planning
@@ -172,9 +168,7 @@ You can decide to pause and refine your prompts or give additional instructions 
 
 You can review changes made at each phase by clicking on the file and seeing how many lines were added or removed. For exampl,e **ReportPortalClient.java +69 -1**indicates 69 lines added and 1 removed
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image3.png "image_tooltip")
+![Agent mode planning and execution](../assets/images/2025/05/2-initial-planning-execution.png)
 
 ### 🛠️ Checking and fixing compilation issues
 
@@ -185,9 +179,7 @@ It did a couple of interesting things in this phase
 1. It reads existing files to determine if the required libraries are present
 2. After finishing the initial implementation, it also checks the written code to verify if there were any problems. If it detects a compilation error, it makes fixes and repeats this till the code compilation or building works fine.
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image4.png "image_tooltip")
+![Checking its work and tool call](../assets/images/2025/05/3-checking-its-work.png)
 
 ### 📈 Drives improvements
 
@@ -195,29 +187,23 @@ It’s already impressive that it could reach this stage without any user interv
 
 Here, Copilot makes additional improvements by centralizing config management with a properties file and a utility class to provide getters. This is usually a good idea and something I would have done at this stage as well. It again did a round of checks and summarized all the changes it made.
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image5.png "image_tooltip")
+![Agent mode improves its works](../assets/images/2025/05/4-improves-its-work.png)
 
 ### 🧪 Testing
 
 Now was the moment of truth; things looked good on a high level. I asked it to run the tests and see if the solution works.
 
-```
-    Please follow the readme instructions to run all regression tests on the terminal and validate if the above solution works, to suggest fixes when a test fails
+```text
+Please follow the readme instructions to run all regression tests on the terminal and validate if the above solution works, to suggest fixes when a test fails
 ```
 
 Copilot prompted me to run a gradle command to run the tests 🤩
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image6.png "image_tooltip")
+![Runs tests](../assets/images/2025/05/5-running-tests.png)
 
 Sadly, most of the tests failed, and also the implemented code did not work for checking stack trace failures in ReportPortal 🤔
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image7.png "image_tooltip")
+![Tests failed](../assets/images/2025/05/6-tests-failed.png)
 
 ### 🤿 Debugging
 
@@ -230,9 +216,7 @@ It correctly identified that:
 
 It correctly spotted that the project name was not updated correctly in its created properties file and modified it, ran tests again
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image8.png "image_tooltip")
+![Log analysis and debugging](../assets/images/2025/05/7-debugging-and-fixing-tests.png)
 
 ### A bunch of wrong turns
 
@@ -241,15 +225,11 @@ At this time, Copilot made many unnecessary changes to the test files, such as:
 1. Removing ReportPortal annotation code that was required.
 2. Modifying the team names to something else
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image9.png "image_tooltip")
+![Some unnecessary changes](../assets/images/2025/05/8-some-unnecessary-changes.png)
 
 It also hallucinated certain values that were not present in the enum constants, leading to build failures
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image10.png "image_tooltip")
+![Hallucinations](../assets/images/2025/05/9-hallucination.png)
 
 I discarded these changes since they did not make sense
 
@@ -257,19 +237,15 @@ I discarded these changes since they did not make sense
 
 I went a couple of rounds with this flow before realizing that Copilot is not able to figure out the real issue. I visited the ReqRes site and saw that they had introduced a new API key header with a rate limit of 100 requests per day. No wonder the tests were broken due to 401
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image11.png "image_tooltip")
+![Reqres API key](../assets/images/2025/05/10-reqres-api-key.png)
 
 I tested one method after adding the header and then provided this context to Copilot to do further refactoring for me.
 
-```
-    Looks like the reason why ReqRes tests were failing were because the site has introduced an API key on their site. I requested one and added it to testRegisterSuccessful. Could you apply this change to other tests and run them to verify the 1st issue is resolved and then focus on the 2nd part of the problem wherein report portal API returns us a 4XX error
+```text
+Looks like the reason why ReqRes tests were failing were because the site has introduced an API key on their site. I requested one and added it to testRegisterSuccessful. Could you apply this change to other tests and run them to verify the 1st issue is resolved and then focus on the 2nd part of the problem wherein report portal API returns us a 4XX error
 ```
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image12.png "image_tooltip")
+![Apply changes to multiple tests](../assets/images/2025/05/11-apply-changes-to-multiple-tests.png)
 
 I continued with the cycle multiple times, and it took some time for Agent mode to correctly refactor all the tests to add the new header.
 
@@ -305,7 +281,7 @@ I was able to fix the build failure quite easily and realised an earlier impleme
 
 Below is the commit log and the commits that I made to fix the build problems. It’s funny, but as a developer, coding the solution yourself helps you understand it deeply and grasp its structure much better. When you are reviewing code, you tend to prefer speed over quality at each step, and also do not have a good mental model of classes, methods, and their relationship
 
-```
+```markdown
 - Update AutoTestAnalyzer to get list of failed test items directly and not query JsonNode
 - Fixed a bug wherein `/api/v1` was being added unnecessarily
 - Fixed ReportPortalClient urls
@@ -314,7 +290,7 @@ Below is the commit log and the commits that I made to fix the build problems. I
 
 [Commit 1](https://github.com/automationhacks/test-infra/commit/4bccbbd146d8db9885c33193756c2a90a07b72fd)
 
-```
+```markdown
 - Add model classes for Report Portal test item response and refactor AutoTestAnalyzer to utilize new structure
 - Pull stack trace from failing tests description itself
 - Updated loggers to log requests
@@ -322,13 +298,11 @@ Below is the commit log and the commits that I made to fix the build problems. I
 
 [Commit 2](https://github.com/automationhacks/test-infra/commit/b0f920567e1cfcc0156aac77bc867e90e3abfa52)
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image13.png "image_tooltip")
+![Good old software engineering](../assets/images/2025/05/12-good-old-software-engineering.png)
 
 I ran the failing test and saw that I could finish the loop till the point where I was able to identify a failing test, and then the analyzer returned a result
 
-```
+```zsh
 May 04, 2025 9:56:00 PM io.automationhacks.testinfra.TestAnalysisListener onExecutionFinish
 INFO: Test execution finished. Starting test analysis...
 May 04, 2025 9:56:00 PM io.automationhacks.testinfra.AutoTestAnalyzer analyzeFailingTests
@@ -344,23 +318,19 @@ Suggestion: Assertion failed: 1 expectation failed.. Review the assertion condit
 
 At this point, I felt confident that the flow would work to hand back control to Agent mode.
 
-```
-    I have made changes in ReportPortalClient and AutoTestAnalyzer to be able to pull the error stack trace. I want you to now focus on StackTraceAnalyzer such that it can detect a failure pattern and then provide a suggestion via an LLM or an Agent mode
+```markdown
+I have made changes in ReportPortalClient and AutoTestAnalyzer to be able to pull the error stack trace. I want you to now focus on StackTraceAnalyzer such that it can detect a failure pattern and then provide a suggestion via an LLM or an Agent mode
 ```
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image14.png "image_tooltip")
+![LLM based analyser](../assets/images/2025/05/13-llm-based-analyzer.png)
 
 I could now see that Agent mode smartly did manual analysis on a failing test and then added a fallback using an LLM call to OpenAI GPT 3.5. It also went ahead and added tests for the analyzer.
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/image15.png "image_tooltip")
+![Logic for LLM based analyzer](../assets/images/2025/05/14-code-for-llm-based-analyzer.png)
 
 To be honest, this feature seems quite close to completion, and if I were to continue down the path. I feel like this could be added as an operational feature in ReportPortal for teams, of course, after the code is cleaned up and polished.
 
-You could follow all the commits [here](https://github.com/automationhacks/test-infra/commit/f4f3ceac2d2733387578d781be36dfbf01940ed2) on GitHub
+You could follow all the commits on [GitHub](https://github.com/automationhacks/test-infra/commit/f4f3ceac2d2733387578d781be36dfbf01940ed2) on GitHub
 
 ## Conclusion
 
