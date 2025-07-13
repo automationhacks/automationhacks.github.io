@@ -8,7 +8,7 @@ permalink: /2022/01/02/how-i-got-that-job-at-meta
 published: true
 image: /assets/images/2022/01/dima-solomin-yIT9HO8UrPA-unsplash.jpg
 categories:
-  - "Interviews"
+  - "Interviewing"
 tags:
   - "Career growth"
   - "Software Engineering"
