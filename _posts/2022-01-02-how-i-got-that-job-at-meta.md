@@ -12,6 +12,7 @@ categories:
 tags:
   - "Career growth"
   - "Software Engineering"
+  - "BigTech"
 ---
 
 <figure class="image">
